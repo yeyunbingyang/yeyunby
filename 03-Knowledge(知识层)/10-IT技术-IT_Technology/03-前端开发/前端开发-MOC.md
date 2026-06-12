@@ -46,6 +46,8 @@ summary: "前端开发子域地图，覆盖 HTML/CSS/JS 基础、主流框架、
 - **React**：Hooks（useState/useEffect/useMemo）、Fiber 架构、Redux/Zustand
 - 路由（Vue Router / React Router）
 
+![[Pasted image 20260524185308.png]]
+
 ### 工程化工具链
 - Vite 构建与 HMR 原理
 - ESLint / Prettier 代码规范

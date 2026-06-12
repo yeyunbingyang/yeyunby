@@ -4,7 +4,7 @@ domain: IT_Technology
 tags: [MOC, IT技术]
 status: 稳定
 created: 2026-05-07
-updated: 2026-05-11
+updated: 2026-05-27
 summary: "IT技术领域地图，覆盖运维云原生(7大模块~60篇)、后端、前端、网络、AI工程与自动化"
 ---
 
@@ -21,9 +21,14 @@ summary: "IT技术领域地图，覆盖运维云原生(7大模块~60篇)、后�
 | [[前端开发-MOC\|03 前端开发]] | — | HTML/CSS/JS、Vue/React、工程化、性能优化 |
 | [[网络安全-MOC\|04 网络与安全]] | — | TCP/IP、TLS/HTTPS、DNS、防火墙、安全攻防 |
 | [[AI工程-MOC\|05 AI 工程]] | — | Prompt工程、RAG、Agent框架、模型部署 |
-| [[自动化-MOC\|06 自动化工具链]] | — | Shell/Python脚本、Ansible、Terraform、任务调度 |
+|| [[自动化-MOC\|06 自动化工具链]] | — | Bat/PowerShell脚本、文件处理、桌面RPA、Web自动化 |
+|| [[通用技术工具-MOC\|07 通用技术工具]] | — | Git版本控制、IDE技巧、终端工具等跨域通用技能 |
 
 > **运维云原生** 是当前主要建设域，7 大模块已建，约 60 篇笔记覆盖从裸机 Linux 到 K8s 编排的完整链路。详见 [[运维云原生-MOC]]。
+
+## 基础概念
+
+- [[字符编码详解]] — ANSI/UTF-8/UTF-16编码区别、转换规则与避坑指南
 
 ---
 

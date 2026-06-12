@@ -15,13 +15,13 @@ summary: "待办事项集中管理入口，每条任务直接链接到对应笔�
 
 ## 进行中
 
-- [ ] 示例：完善 IT_Technology-MOC 子主题内容 → [[IT_Technology-MOC]]
+- [ ] 示例：完善 IT_Technology-MOC 子主题内容 → [[IT技术-MOC]]
 
 ---
 
 ## 本周计划
 
-- [ ] 示例：建立第一条知识笔记 → [[IT_Technology-MOC]]
+- [ ] 示例：建立第一条知识笔记 → [[IT技术-MOC]]
 
 ---
 
