@@ -107,51 +107,51 @@ Python 最主要的缺点是**执行效率低**（解释型语言的通病），
 
 进入下载页面后，有些 Python 版本并没有提供 Windows 和 macOS 系统的安装程序，只提供了源代码的压缩文件，对于熟悉 Linux 系统的小伙伴，我们可以通过源代码构建安装；对于使用 Windows 或 macOS 系统的小伙伴，我们还是**强烈建议**使用安装程序。例如，你想安装 Python 3.10，选择 Python 3.10.10 或 Python 3.10.11 就能找到 Windows 或 macOS 系统的安装包，而其他版本可能只有源代码，如下图所示。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982386-3f27e70d-0383-4dbd-9025-add242452e7d.png)
+![[Pasted image 20260612233234.png]]
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741094519112-811898a3-1ba9-4c51-b3bb-60edc5e55b6d.png)
+![[Pasted image 20260612233238.png]]
 
 #### Windows环境
 
 下面我们以 Windows 11为例，讲解如何在 Windows 操作系统上安装 Python 环境。双击运行从官网下载的安装程序，会打开一个安装向导，如下图所示。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982452-53407603-4422-4c08-b9ae-0348d58c12ba.png)
+![[Pasted image 20260612233243.png]]
 
 首先，一定要记得勾选“Add python.exe to PATH”选项，它会帮助我们将 Python 解释器添加到 Windows 系统的 PATH 环境变量中（不理解没关系，勾上就对了）；其次，“Use admin privileges when installing py.exe”是为了在安装过程中获得管理员权限，建议勾选。然后，我们选择“Customize Installation”，使用自定义安装的模式，这是专业人士的选择，而你就（假装）是那个专业人士，不建议使用“Install Now”（默认安装）。
 
 接下来，安装向导会提示你勾选需要的“Optional Features”（可选特性），这里咱们可以直接全选。值得一提的是其中的第2项，它是 Python 的包管理工具 pip，可以帮助我们安装三方库和三方工具，所以一定要记得勾选它，然后点击“Next”进入下一环节。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982525-f37f69a9-e585-4800-9f6f-f28a2c8da1ad.png)
+![[Pasted image 20260612233248.png]]
 
 接下来是对“Advanced Options”（高级选项）的选择，这里我们建议大家只勾选“Add Python to environment variables”和“Precompile standard library”这两个选项，前者会帮助我们自动配置好环境变量，后者会预编译标准库（生成`.pyc`文件），这样在使用时就无需临时编译了。还是那句话，不理解没关系，勾上就对了。下面的“Customize install location”（自定义安装路径）**强烈建议**修改为自定义的路径，这个路径中不应该包含中文、空格或其他特殊字符，注意这一点会为你将来减少很多不必要的麻烦。设置完成后，点击“Install”开始安装。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982605-6915d286-3ea2-4ce3-93f0-53b6b9f56a8b.png)
+![[Pasted image 20260612233256.png]]
 
 安装成功会出现如下图所示的画面，安装成功的关键词是“successful”，如果安装失败，这里的单词会变成“failed”。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982721-b4da99b6-dabe-45ef-a0da-5c52455a8a04.png)
+![[Pasted image 20260612233301.png]]
 
 安装完成后可以打开 Windows 的“命令行提示符”或 PowerShell，然后输入`python --version`或`python -V`来检查安装是否成功，这个命令是查看 Python 解释器的版本号。如果看到如下所示的画面，那么恭喜你，Python 环境已经安装成功了。这里我们建议再检查一下 Python 的包管理工具 pip 是否可用，对应的命令是`pip --version`或`pip -V`。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982782-6bbc424a-511b-4c82-beed-6ea78e297ec0.png)
+![[Pasted image 20260612233306.png]]
 
 **说明**：如果安装过程报错或提示安装失败，很有可能是你的 Windows 系统缺失了一些动态链接库文件或缺少必要的构建工具导致的。可以在[微软官网](https://visualstudio.microsoft.com/zh-hans/downloads/)下载“Visual Studio 2022 生成工具”进行修复，如下图所示。如果不方便在微软官网下载的，也可以使用下面的百度云盘链接来获取修复工具，链接: [https://pan.baidu.com/s/1iNDnU5UVdDX5sKFqsiDg5Q](https://pan.baidu.com/s/1iNDnU5UVdDX5sKFqsiDg5Q) 提取码: cjs3。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982848-d50a0e00-7768-4ffd-8238-92e2298f709a.png)
+![[Pasted image 20260612233313.png]]
 
 上面下载的“Visual Studio 2022 生成工具”需要联网才能运行，运行后会出现如下图所示的画面，大家可以参考下图勾选对应的选项进行修复。修复过程需要联网下载对应的软件包，这个过程可能会比较耗时间，修复成功后可能会要求重启你的操作系统。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982918-6c0086a9-ffe1-4cb5-87c4-0293a613200f.png)
+![[Pasted image 20260612233318.png]]
 
 #### macOS环境
 
 macOS 安装 Python 环境相较于 Windows 系统更为简单，我们从官方下载的安装包是一个`pkg`文件，双击运行之后不断的点击“继续”就安装成功了，几乎不用做任何的设置和勾选，如下图所示。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331982990-f3da11a5-4232-44e1-af53-f7d0b0188930.png)
+![[Pasted image 20260612233322.png]]
 
 安装完成后，可以在 macOS 的“终端”工具中输入`python3 --version`命令来检查是否安装成功，注意这里的命令是`python3`不是`python`！！！然后我们再检查一下包管理工具，输入命令`pip3 --version`，如下图所示。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741331983061-98fbaba6-c082-49ee-b68f-7a9626907bc2.png)
+![[Pasted image 20260612233327.png]]
 
 #### 其他安装方式
 
@@ -161,21 +161,149 @@ macOS 安装 Python 环境相较于 Windows 系统更为简单，我们从官方
 
 ### 安装开发工具-Pycharm
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741094804268-1700259a-0cd7-4a16-853f-325d4e919f8d.png)
+![[Pasted image 20260612233334.png]]
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741094825082-6919a020-167e-4e8b-9778-8f0e9a0efde1.png)
+![[Pasted image 20260612233339.png]]
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741094841057-11ca9083-c28b-4c4d-a340-4a00026d09d1.png)
+![[Pasted image 20260612233343.png]]
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741094868665-aa2de704-a119-4fa4-9333-ef54316c6993.png)
+![[Pasted image 20260612233348.png]]
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741094886082-bcc79d37-1e12-434c-8571-3336a85c36c4.png)
+![[Pasted image 20260612233353.png]]
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741095375169-b41fdc14-31bd-444c-941a-6a7d27a96ad3.png)
+![[Pasted image 20260612233359.png]]
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741095384159-2fa5af61-634a-4a8b-9b2f-eefa13668e94.png)
+![[Pasted image 20260612233404.png]]
 
-![](https://cdn.nlark.com/yuque/0/2025/png/40487410/1741095433614-c451bcf7-a5c6-4275-8fe4-087fab3ba208.png)
+![[Pasted image 20260612233409.png]]
+
+
+PyCharm设置
+
+###### 创建新项目
+
+**点击 New Project 创建新项目。**
+
+![[Pasted image 20260612233417.png]]
+
+**设置项目名称，项目路径，解释器类型，Python版本。**
+
+注意：不同的pycharm版本，看到的界面会略有不同
+
+![[Pasted image 20260612233421.png]]
+
+解释器类型说明：
+
+Project venv:
+
+当前项目的虚拟环境，python版本可以在右侧小箭头下拉选择，在当前项目内安装的包只会在项目内有效，在项目目录下会有一个.venv目录。
+
+Base Conda:
+
+Anaconda环境，Anaconda是一个集成了大量python包的python环境，如果选择这个需要先在电脑内安装Anaconda。
+
+Custom environment：
+
+自定义环境，可以：
+
+generate new新建虚拟环境（选择本机已安装的python或下载新的python作为BasePython）
+
+generate new表示为新项目基于你所选择虚拟环境中的python作为Base python生成一个虚拟环境，生成后放在其项目文件夹下的venv中，使用venv作为解释器。这里所选择的虚拟环境中已安装的第三方库并不会出现在新生成的项目下的venv中，可以说只是将已安装的虚拟环境下的python复制了一份到项目下的venv中，所有需要使用的第三方库都需要重新安装。它可以脱离系统安装的python独立运行，它对于自身venv的修改也只影响它自身。当然它的基础虚拟环境是基于Base python进行建立的,所以使用conda在其Basepython中安装第三官方库对这里新建的项目环境没有影响
+
+Select existing选择已配置好的虚拟环境
+
+Select existing表示选择已安装的虚拟环境作为自己的编译器，并不会在项目文件夹下产生项目本身的venv，所选择的虚拟环境中的所有已安装的第三方包都可以使用，而不用重新安装。
+
+**一个Python项目创建成功。**
+
+![[Pasted image 20260612233428.png]]
+
+###### 主题设置
+
+**打开设置面板**
+
+![[Pasted image 20260612233432.png]]
+
+**进入Appearance&Behavior->Appearance，修改主题**
+
+![[Pasted image 20260612233439.png]]
+
+###### 字体设置
+
+**进入Editor->Font设置字体**
+
+![[Pasted image 20260612233444.png]]
+
+
+###### 快捷键设置
+
+**在Keymap下可对快捷键进行设置。**
+
+![[Pasted image 20260612233458.png]]
+
+**常用快捷键：**
+
+### 第一个Python程序
+
+#### Python程序运行方式
+
+有多种方式执行Python程序，以下是常见的三种方式：
+
+**交互式命令行模式**
+
+**脚本模式**
+
+**集成开发环境（IDE）模式**
+
+#### 交互式命令行模式
+
+**同时按下 Win键 和 R ，并输入 cmd ，进入命令提示符。**
+
+**在命令提示符中输入python，进入Python交互模式。**
+
+**输入print(“hello”)，按下回车，控制台会打印hello。**
+
+![[Pasted image 20260612233504.png]]
+
+#### 脚本模式
+
+**在 E:\Hello 路径下新建一个文件，将其重命名为 hello.py 。**
+
+**双击此文件，选择使用记事本打开，在其中写入print(“hello”)，并保存。**
+
+**在资源管理器上方输入 cmd 并回车，就会打开命令提示符并进入当前路径。或先打开命令提示符，再输入E: && cd Hello进入 E:\Hello 路径。**
+
+![[Pasted image 20260612233508.png]]
+
+**在命令提示符中输入python hello.py执行程序。**
+
+![[Pasted image 20260612233512.png]]
+
+#### IDE模式
+
+使用IDE运行Python程序，也是日后我们最常用的方式。
+
+**在python-2025项目下创建一个新的目录chapter02**
+
+![[Pasted image 20260612233522.png]]
+
+**在chapter02目录下创建一个Python程序文件，输入**
+
+```python
+print("hello world")
+```
+![[Pasted image 20260612233527.png]]
+
+![[Pasted image 20260612233533.png]]
+
+**Pycharm工作区空白处右键，单击 Run‘01_Hello_World’。**
+
+![[Pasted image 20260612233538.png]]
+
+**可以在下方控制台看到程序执行结果，打印出了 hello world 。**
+
+![[Pasted image 20260612233543.png]]
+
 
 ### 总结
 
@@ -186,3 +314,5 @@ macOS 安装 Python 环境相较于 Windows 系统更为简单，我们从官方
 2. 要使用 Python语言，首先得安装 Python 环境，也就是运行 Python 程序所需的 Python 解释器。
 
 3. Windows 系统可以在命令提示符或 PowerShell 中输入`python --version`检查 Python 环境是否安装成功；macOS 系统可以在终端中输入`python3 --version`进行检查。
+
+

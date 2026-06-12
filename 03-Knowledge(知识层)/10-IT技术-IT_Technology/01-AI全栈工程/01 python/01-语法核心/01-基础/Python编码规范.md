@@ -27,15 +27,16 @@ PEP 8 中有关行长的指南并非不可逾越的红线，有些小组将最�
 Python可以在某些时候同一行中可以使用多条语句，语句之间使用分号(;)分割，
 
 但并不是所有情况都可以，所以不推荐这种写法。以下是一个简单的实例：
+```python
+import sys;print(sys.path) #没有问题
 
- import sys;print(sys.path) #没有问题  
- ​  
- '''  
- import sys  
- for i in sys.path:  
-     print(i) #没有问题  
- '''  
- import sys;for i in sys.path:;print(i) # 报错
+'''
+import sys
+for i in sys.path:
+    print(i) #没有问题
+'''
+import sys;for i in sys.path:;print(i) # 报错
+```
 
 #### 分号
 
