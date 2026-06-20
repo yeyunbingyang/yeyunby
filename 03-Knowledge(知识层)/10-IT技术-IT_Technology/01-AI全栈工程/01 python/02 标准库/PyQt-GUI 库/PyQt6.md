@@ -1,1 +1,0 @@
-https://maicss.com/pyqt/v6/

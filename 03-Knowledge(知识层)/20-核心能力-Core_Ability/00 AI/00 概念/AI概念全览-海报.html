@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 概念全览 · 海报</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif; background: #0f0f1a; color: #e0e0e8; line-height: 1.6; }
+
+/* Header */
+.hero { background: linear-gradient(135deg, #1a1a3e 0%, #0d0d2b 50%, #1a0a2e 100%); padding: 60px 40px 50px; text-align: center; border-bottom: 3px solid #6c5ce7; position: relative; overflow: hidden; }
+.hero::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(ellipse at 30% 50%, rgba(108,92,231,0.08) 0%, transparent 60%), radial-gradient(ellipse at 70% 30%, rgba(0,206,201,0.06) 0%, transparent 60%); }
+.hero h1 { font-size: 2.8em; font-weight: 900; background: linear-gradient(135deg, #a29bfe, #6c5ce7, #00cec9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; position: relative; margin-bottom: 10px; }
+.hero .subtitle { font-size: 1.1em; color: #8888aa; position: relative; }
+.hero .badge-row { margin-top: 20px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; position: relative; }
+.hero .badge { background: rgba(108,92,231,0.15); border: 1px solid rgba(108,92,231,0.3); border-radius: 20px; padding: 5px 16px; font-size: 0.85em; color: #a29bfe; }
+
+/* Container */
+.container { max-width: 1100px; margin: 0 auto; padding: 40px 30px; }
+
+/* Section */
+.section { margin-bottom: 50px; }
+.section-title { font-size: 1.6em; font-weight: 800; margin-bottom: 20px; padding-bottom: 8px; border-bottom: 2px solid; display: flex; align-items: center; gap: 10px; }
+.section-title .num { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; font-size: 0.7em; font-weight: 900; }
+.section-title .icon { font-size: 1.3em; }
+
+/* Cards grid */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 20px 22px; transition: transform 0.2s, box-shadow 0.2s; position: relative; overflow: hidden; }
+.card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; border-radius: 12px 0 0 12px; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
+.card .name { font-size: 1.15em; font-weight: 700; margin-bottom: 6px; }
+.card .def { font-size: 0.88em; color: #9999b0; margin-bottom: 10px; line-height: 1.5; }
+.card .timeline { display: flex; flex-wrap: wrap; gap: 6px; }
+.card .tl-item { background: rgba(255,255,255,0.06); border-radius: 6px; padding: 3px 10px; font-size: 0.75em; color: #aaa; white-space: nowrap; }
+
+/* Color themes */
+.s1 .section-title { color: #6c5ce7; border-color: #6c5ce7; }
+.s1 .num { background: rgba(108,92,231,0.2); color: #a29bfe; }
+.s1 .card::before { background: #6c5ce7; }
+
+.s2 .section-title { color: #00cec9; border-color: #00cec9; }
+.s2 .num { background: rgba(0,206,201,0.2); color: #00cec9; }
+.s2 .card::before { background: #00cec9; }
+
+.s3 .section-title { color: #fdcb6e; border-color: #fdcb6e; }
+.s3 .num { background: rgba(253,203,110,0.2); color: #fdcb6e; }
+.s3 .card::before { background: #fdcb6e; }
+
+.s4 .section-title { color: #e17055; border-color: #e17055; }
+.s4 .num { background: rgba(225,112,85,0.2); color: #e17055; }
+.s4 .card::before { background: #e17055; }
+
+.s5 .section-title { color: #74b9ff; border-color: #74b9ff; }
+.s5 .num { background: rgba(116,185,255,0.2); color: #74b9ff; }
+.s5 .card::before { background: #74b9ff; }
+
+.s6 .section-title { color: #55efc4; border-color: #55efc4; }
+.s6 .num { background: rgba(85,239,196,0.2); color: #55efc4; }
+.s6 .card::before { background: #55efc4; }
+
+.s7 .section-title { color: #fd79a8; border-color: #fd79a8; }
+.s7 .num { background: rgba(253,121,168,0.2); color: #fd79a8; }
+.s7 .card::before { background: #fd79a8; }
+
+.s8 .section-title { color: #a29bfe; border-color: #a29bfe; }
+.s8 .num { background: rgba(162,155,254,0.2); color: #a29bfe; }
+.s8 .card::before { background: #a29bfe; }
+
+/* Footer */
+.footer { text-align: center; padding: 40px 20px 60px; color: #555; font-size: 0.8em; border-top: 1px solid rgba(255,255,255,0.06); margin-top: 20px; }
+.footer a { color: #6c5ce7; text-decoration: none; }
+
+/* Print */
+@media print {
+  body { background: white; color: #333; }
+  .hero { background: #f0f0ff; padding: 30px 20px; border-bottom: 2px solid #6c5ce7; }
+  .hero h1 { -webkit-text-fill-color: #6c5ce7; background: none; }
+  .card { background: #fafafa; border: 1px solid #ddd; break-inside: avoid; }
+  .section-title { color: #333 !important; border-color: #333 !important; }
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>AI 概念全览</h1>
+  <p class="subtitle">从基础概念到大模型、Agent、AIGC —— 一份图看懂 AI 核心概念</p>
+  <div class="badge-row">
+    <span class="badge">8 大主题</span>
+    <span class="badge">40+ 核心概念</span>
+    <span class="badge">83 词速查</span>
+    <span class="badge">含来源+发展历程</span>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- Section 1: 基础概念 -->
+<div class="section s1">
+  <div class="section-title"><span class="num">一</span>基础概念 · AI / ML / DL</div>
+  <div class="cards">
+    <div class="card">
+      <div class="name">AI · 人工智能</div>
+      <div class="def">让机器模拟人类智能——让电脑像人一样思考和做事</div>
+      <div class="timeline"><span class="tl-item">1956 达特茅斯会议</span><span class="tl-item">2012 DL爆发</span><span class="tl-item">2022 ChatGPT</span></div>
+    </div>
+    <div class="card">
+      <div class="name">ML · 机器学习</div>
+      <div class="def">不写规则，从数据中学习——给电脑一万张猫图，它自己学会认猫</div>
+      <div class="timeline"><span class="tl-item">1959 Samuel提出</span><span class="tl-item">1995 SVM</span><span class="tl-item">2012 DL革命</span></div>
+    </div>
+    <div class="card">
+      <div class="name">DL · 深度学习</div>
+      <div class="def">多层神经网络处理复杂模式——ML升级版，网络更深更强</div>
+      <div class="timeline"><span class="tl-item">1986 BP</span><span class="tl-item">2012 AlexNet</span><span class="tl-item">2017 Transformer</span></div>
+    </div>
+    <div class="card">
+      <div class="name">强化学习</div>
+      <div class="def">通过奖励和惩罚试错——训狗：做对了给零食，做错了不理</div>
+      <div class="timeline"><span class="tl-item">1950s 动态规划</span><span class="tl-item">2013 DQN</span><span class="tl-item">2016 AlphaGo</span><span class="tl-item">2022 RLHF</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 2: LLM -->
+<div class="section s2">
+  <div class="section-title"><span class="num">二</span>大语言模型 · LLM</div>
+  <div class="cards">
+    <div class="card">
+      <div class="name">Token</div>
+      <div class="def">LLM处理文本的最小单位——文字的"积木块"，一个汉字约1个token</div>
+      <div class="timeline"><span class="tl-item">1990s n-gram</span><span class="tl-item">2016 BPE</span><span class="tl-item">2023 Tiktoken</span></div>
+    </div>
+    <div class="card">
+      <div class="name">LLM · 大语言模型</div>
+      <div class="def">海量文本训练的超大神经网络——读了几十亿篇文章学会"说话"</div>
+      <div class="timeline"><span class="tl-item">2017 Transformer</span><span class="tl-item">2020 GPT-3</span><span class="tl-item">2022 ChatGPT</span><span class="tl-item">2023 GPT-4</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Transformer</div>
+      <div class="def">现代LLM基础架构——注意力机制：读句子时知道哪些词最重要</div>
+      <div class="timeline"><span class="tl-item">2017提出</span><span class="tl-item">2018 BERT/GPT</span><span class="tl-item">至今统治AI</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Embedding</div>
+      <div class="def">把文字映射为数学向量——"猫"和"狗"离得近，和"汽车"离得远</div>
+      <div class="timeline"><span class="tl-item">2013 Word2Vec</span><span class="tl-item">2019 BERT</span><span class="tl-item">2022 ada-002</span></div>
+    </div>
+    <div class="card">
+      <div class="name">上下文窗口</div>
+      <div class="def">模型一次能"看到"的最大token数——超过就忘了开头</div>
+      <div class="timeline"><span class="tl-item">2018 512</span><span class="tl-item">2023 128K</span><span class="tl-item">2025 1M</span></div>
+    </div>
+    <div class="card">
+      <div class="name">幻觉</div>
+      <div class="def">模型自信地编造不存在的事实——说得很肯定，但全是编的</div>
+      <div class="timeline"><span class="tl-item">一直存在</span><span class="tl-item">2023系统研究</span><span class="tl-item">RAG缓解</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 3: Prompt -->
+<div class="section s3">
+  <div class="section-title"><span class="num">三</span>Prompt 工程</div>
+  <div class="cards">
+    <div class="card">
+      <div class="name">Prompt</div>
+      <div class="def">发给模型的输入文本——就是你问它的那句话</div>
+      <div class="timeline"><span class="tl-item">2018 GPT-1</span><span class="tl-item">2020 in-context</span><span class="tl-item">2023 工程化</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Few-shot</div>
+      <div class="def">给几个例子让模型照做——"hello->你好，world->世界"</div>
+      <div class="timeline"><span class="tl-item">2020 GPT-3</span><span class="tl-item">2023 LLM标配</span></div>
+    </div>
+    <div class="card">
+      <div class="name">CoT · 思维链</div>
+      <div class="def">让模型"一步步思考"再回答——中间多推几步，正确率暴增</div>
+      <div class="timeline"><span class="tl-item">2022提出</span><span class="tl-item">2024 o1推理</span><span class="tl-item">2025 标配</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Function Calling</div>
+      <div class="def">模型不说答案，说"调这个函数，参数填这些"</div>
+      <div class="timeline"><span class="tl-item">2023.06 OpenAI</span><span class="tl-item">2024 MCP标准化</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 4: Agent -->
+<div class="section s4">
+  <div class="section-title"><span class="num">四</span>Agent · 智能体</div>
+  <div class="cards">
+    <div class="card">
+      <div class="name">Agent</div>
+      <div class="def">LLM+规划+工具+记忆=自主AI——有脑子、会动手、能记事的AI</div>
+      <div class="timeline"><span class="tl-item">2022 ReAct</span><span class="tl-item">2023 AutoGPT</span><span class="tl-item">2024 Claude Code</span><span class="tl-item">2025 元年</span></div>
+    </div>
+    <div class="card">
+      <div class="name">ReAct</div>
+      <div class="def">思考->行动->观察循环——边想边做，做一步看一步</div>
+      <div class="timeline"><span class="tl-item">2022提出</span><span class="tl-item">2023 Agent标配</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Multi-Agent</div>
+      <div class="def">多个Agent分工协作——公司团队，各司其职，消息互通</div>
+      <div class="timeline"><span class="tl-item">2023 CAMEL</span><span class="tl-item">2024 CrewAI</span><span class="tl-item">2025 生产化</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 5: 知识增强 -->
+<div class="section s5">
+  <div class="section-title"><span class="num">五</span>知识增强 · RAG & MCP</div>
+  <div class="cards">
+    <div class="card">
+      <div class="name">RAG</div>
+      <div class="def">先搜索相关资料再回答——开卷考试，把相关内容贴在问题前再问</div>
+      <div class="timeline"><span class="tl-item">2020提出</span><span class="tl-item">2023标配</span><span class="tl-item">2024 Graph RAG</span><span class="tl-item">2025 Agentic</span></div>
+    </div>
+    <div class="card">
+      <div class="name">向量数据库</div>
+      <div class="def">按"意思相近"搜而不是"关键词匹配"——语义搜索</div>
+      <div class="timeline"><span class="tl-item">2017 FAISS</span><span class="tl-item">2021 Pinecone</span><span class="tl-item">2023 Chroma</span></div>
+    </div>
+    <div class="card">
+      <div class="name">MCP</div>
+      <div class="def">AI与工具的标准通信协议——USB-C接口，统一AI调工具的方式</div>
+      <div class="timeline"><span class="tl-item">2024.11提出</span><span class="tl-item">2025社区响应</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Rerank</div>
+      <div class="def">搜索结果二次精排——搜出10个，精选最相关的3个</div>
+      <div class="timeline"><span class="tl-item">2019提出</span><span class="tl-item">2023 Cohere标配</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 6: 模型部署 -->
+<div class="section s6">
+  <div class="section-title"><span class="num">六</span>模型部署 · 量化 & 微调</div>
+  <div class="cards">
+    <div class="card">
+      <div class="name">量化</div>
+      <div class="def">降低参数精度减体积加速——32位压到4位，瘦8倍，聪明度掉5%</div>
+      <div class="timeline"><span class="tl-item">2022 GGML</span><span class="tl-item">2023 GGUF/GPTQ</span><span class="tl-item">2024 4bit标准</span></div>
+    </div>
+    <div class="card">
+      <div class="name">LoRA</div>
+      <div class="def">只训练极小部分参数——换发型不需要整容，消费级GPU也能微调</div>
+      <div class="timeline"><span class="tl-item">2021提出</span><span class="tl-item">2023 QLoRA</span><span class="tl-item">2024 标配</span></div>
+    </div>
+    <div class="card">
+      <div class="name">微调</div>
+      <div class="def">在特定数据上继续训练——法学生去律所实习</div>
+      <div class="timeline"><span class="tl-item">2018 ULMFiT</span><span class="tl-item">2022 RLHF</span><span class="tl-item">2025 蒸馏</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Ollama</div>
+      <div class="def">一键本地运行LLM——docker run一个ChatGPT</div>
+      <div class="timeline"><span class="tl-item">2023.06发布</span><span class="tl-item">2024主流</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 7: AIGC -->
+<div class="section s7">
+  <div class="section-title"><span class="num">七</span>AIGC · 生成式 AI</div>
+  <div class="cards">
+    <div class="card">
+      <div class="name">Diffusion Model</div>
+      <div class="def">学会去噪——从噪点中还原内容，驱动图像/视频/音频生成</div>
+      <div class="timeline"><span class="tl-item">2015提出</span><span class="tl-item">2020 DDPM</span><span class="tl-item">2022 SD/DALL-E</span><span class="tl-item">2024 Sora</span></div>
+    </div>
+    <div class="card">
+      <div class="name">GAN</div>
+      <div class="def">两个网络对抗博弈——造假钞的和验钞员互相较劲</div>
+      <div class="timeline"><span class="tl-item">2014提出</span><span class="tl-item">2018 StyleGAN</span><span class="tl-item">2022被超越</span></div>
+    </div>
+    <div class="card">
+      <div class="name">CLIP</div>
+      <div class="def">图文共用向量空间——"翻译官"把文字变成图片模型能理解的指令</div>
+      <div class="timeline"><span class="tl-item">2021 OpenAI</span><span class="tl-item">2022 标配</span><span class="tl-item">2025 标准组件</span></div>
+    </div>
+    <div class="card">
+      <div class="name">五大模态</div>
+      <div class="def">文生文 · 文生图 · 文生视频 · 文生音乐 · 文生代码 —— AI生成一切</div>
+      <div class="timeline"><span class="tl-item">2022 爆发</span><span class="tl-item">2024 成熟</span><span class="tl-item">2025 实时</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 8: 名词陷阱 -->
+<div class="section s8">
+  <div class="section-title"><span class="num">八</span>名词陷阱 · 拆穿滤镜</div>
+  <div class="cards">
+    <div class="card">
+      <div class="name">Skill = 函数 + Markdown说明书</div>
+      <div class="def">让LLM知道什么时候调哪个函数——没有魔法，就是封装</div>
+      <div class="timeline"><span class="tl-item">2023 出现</span><span class="tl-item">2024 普及</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Chain = A输出变B输入</div>
+      <div class="def">管道符换皮——把多个LLM调用串起来</div>
+      <div class="timeline"><span class="tl-item">2022 LangChain</span><span class="tl-item">2025 进化Agent</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Memory = 数组存历史+向量检索</div>
+      <div class="def">跨会话保持上下文——把聊天记录存起来下次翻</div>
+      <div class="timeline"><span class="tl-item">2023 MemGPT</span><span class="tl-item">2024 标配</span></div>
+    </div>
+    <div class="card">
+      <div class="name">Planning = 让LLM列步骤</div>
+      <div class="def">结构化任务分解——把大任务拆成小步骤</div>
+      <div class="timeline"><span class="tl-item">2023提出</span><span class="tl-item">2024 o1</span><span class="tl-item">2025标配</span></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>AI 概念全览 · 知识海报 &nbsp;|&nbsp; 来源：OpenAI / Anthropic / 学术论文 &nbsp;|&nbsp; 配套笔记：<a href="AI概念全览.md">AI概念全览.md</a></p>
+  <p style="margin-top:6px">生成日期：2026-06-15 &nbsp;|&nbsp; 8 大主题 · 40+ 核心概念 · 83 词速查索引</p>
+</div>
+
+</body>
+</html>

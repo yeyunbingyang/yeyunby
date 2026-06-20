@@ -44,10 +44,11 @@ summary: "AI工���子域地图，覆盖模型调用、Prompt工程、RAG�
 - 评估指标（RAGAS / TruLens）
 
 ### Agent 框架
-- 工具调用（Function Calling / Tool Use）
-- 规划模式（ReAct / Plan-and-Execute / Reflection）
-- 记忆管理（短期/长期/语义记忆）
-- 多 Agent 协作（LangGraph / AutoGen / CrewAI）
+- 工具调用（Function Calling / Tool Use） → [[Agent工具调用机制]]
+- 规划模式（ReAct / Plan-and-Execute / Reflection） → [[ReAct推理与行动模式]] | [[Agent规划与任务分解]]
+- 记忆管理（短期/长期/语义记忆） → [[Agent记忆系统设计]]
+- 多 Agent 协作（LangGraph / AutoGen / CrewAI） → [[多Agent协作模式]] | [[多Agent框架对比]]
+- Agent 架构全景 → [[Agent架构全景]]
 - 工具链：LangChain / LlamaIndex
 
 ### 模型调用与 API

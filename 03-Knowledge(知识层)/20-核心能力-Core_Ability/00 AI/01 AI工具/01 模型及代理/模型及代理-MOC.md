@@ -1,0 +1,50 @@
+---
+title: 模型及代理 MOC
+domain: Core_Ability
+tags: [MOC, AI, 模型, 代理]
+status: 稳定
+created: 2026-06-16
+updated: 2026-06-16
+source: ""
+related: ["AI概念全览", "Claude Code 快速入门", "AI工程-MOC"]
+summary: "AI 模型选型与代理路由导航——覆盖主流模型对比、CC Switch 管理器、9router 路由工具及模型切换策略"
+---
+
+# 模型及代理 MOC
+
+> 选模型、配代理、省 Token 的一站式入口。
+
+## 子主题
+
+### 模型认知
+- [[20.00.01.01.03-主流模型对比]] — GPT-5 / Claude 4 / Gemini / DeepSeek / Qwen 等主流模型能力与定价速查
+- [[20.00.01.01.05-模型路由策略]] — 什么任务用什么模型，如何配置高/中/低三档
+
+### 工具与配置
+- [[20.00.01.01.02-CC-Switch-模型管理器]] — Claude Code 的多模型切换中枢，一站式管理 API Key 与 Base URL
+- [[20.00.01.01.01-9router-快速入门手册]] — 免费 AI 路由器，自动 fallback 节省 20-40% Token
+
+## 速查：模型与代理工具关系
+
+```
+用户需求
+   │
+   ├─→ CC Switch（模型管理器）
+   │      ├─ 高档：Claude Opus 4 / GPT-5
+   │      ├─ 中档：Claude Sonnet 4 / DeepSeek-V3
+   │      └─ 低档：Claude Haiku / Qwen-Plus
+   │
+   └─→ 9router（代理路由器）
+          ├─ RTK 节省 Token
+          ├─ 自动 fallback 到免费模型
+          └─ 对接 40+ 厂商 / 100+ 模型
+```
+
+## 本域笔记
+
+```dataview
+TABLE summary, status, updated
+FROM "KnowledgeBase/03-Knowledge/20-核心能力-Core_Ability/00 AI/01 AI工具/01 模型及代理"
+WHERE file.name != "模型及代理-MOC"
+SORT updated DESC
+```

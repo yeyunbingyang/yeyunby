@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9282e459a4fc7c53",
+        "id": "8ec5ca2faf8442f3",
         "type": "tabs",
         "children": [
           {
-            "id": "641408a8b6fd2579",
+            "id": "a357d8d8386e6449",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/01-基础/基础.md",
+                "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.01-基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基础"
-            }
-          },
-          {
-            "id": "554678d62fa909cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/01 初始Python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01 初始Python"
+              "title": "10.02.01.01.01.01-基础"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/01 初始Python.md",
+                "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.01-基础.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "01 初始Python 的大纲"
+              "title": "10.02.01.01.01.01-基础 的大纲"
             }
           }
         ],
@@ -198,92 +183,54 @@
       "bases:新建数据库": false
     }
   },
-  "floating": {
-    "id": "5b9832031f9d5d85",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ffa176342f5288fc",
-        "type": "window",
-        "children": [
-          {
-            "id": "91dc6562bf51dfb3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c138511cacddcee0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/01-基础/基础_merged.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "基础_merged"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 112,
-        "y": 117,
-        "width": 1138,
-        "height": 680,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "554678d62fa909cd",
+  "active": "a357d8d8386e6449",
   "lastOpenFiles": [
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/01-基础/基础_merged.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/01 初始Python.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/02 初识Python与环境安装.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233543.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233538.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233533.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233527.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233522.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233516.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233512.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233508.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233504.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/附件/Pasted image 20260612233458.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/00-初识Python与环境安装/快速入门.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/01-基础/基础.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/08 面向对象/类和对象.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/01-基础/基础知识.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/尚硅谷大模型技术之Python1.0.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/02 标准库/re-正则表达式/re模块_merged.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/02 标准库/文件处理及IO操作/1.文件读写和异常处理.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/06 异常处理/异常处理_merged.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/02 标准库/文件处理及IO操作/文件操作.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/09 高级语法/Python高级语法.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/_merge_cleanup.ps1",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/09 高级语法",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/04  流程控制/01 分支结构-条件判断.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/04  流程控制/附件",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/03-运算符与表达式/运算符与表达式.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/02-变量-数据类型及字面量/变量-数据类型及字面量.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/01-基础/Python编码规范.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/02-变量-数据类型及字面量/附件",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/代码库/综合案例-客户管理系统.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/02 标准库/re-正则表达式/正则表达式.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/02 标准库/socket-套接字/网络编程.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/02 标准库/threading-并发编程/进程与线程.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/07 函数与模块/模块与包.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/06 异常处理/错误和异常.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/08 面向对象/案例-愤怒的小鸟.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/08 面向对象/三大特性.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/01-语法核心/04 流程控制",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/assets",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/1867801925714788113.tmp",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/~$谷大模型技术之Python1.0.docx",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/~WRL0001.tmp",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/01-AI全栈工程/01 python/~WRD0000.tmp",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "文件索引.base",
+    "MOC知识地图.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/00 概念/20.00.00.03-提示词.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/00 概念/20.00.00.02-AI相关概念.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/00 概念/AI相关概念.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.01-基础.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/10.02.01.01.05.01.01-序列.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/10.02.01.01.05.01.05-range对象.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/10.02.01.01.05.01.04-字符串String.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/10.02.01.01.05.01.02-列表List.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/02-变量-数据类型及字面量/10.02.01.01.02.01-变量-数据类型及字面量.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.03-总结.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.02-Python编码规范.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/03 文件处理及IO操作/10.02.01.02.03.06-5.python-docx-操作Word和PowerPoint文件.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/03 文件处理及IO操作/10.02.01.02.03.05-4.读写Excel文件.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/03 文件处理及IO操作/10.02.01.02.03.02-1.文件读写和异常处理.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/03 文件处理及IO操作/10.02.01.02.03.01-Pillow-图像处理.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/02 系统操作-os_sys/10.02.01.02.02.01-os.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/02 系统操作-os_sys/02 sys.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/09 高级语法/10.02.01.01.09.01-Python高级语法.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/08 面向对象/10.02.01.01.08.01-面向对象.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/06 异常处理/10.02.01.01.06.01-异常处理.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/03 字符串String.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/02 元组Tuple.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/03-运算符与表达式/运算符与表达式.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/code03_ORM.py~",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/__pycache__/main.cpython-311.pyc",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/main.py",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/__init__.py",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/__init__.py",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/AI掘金头条/pyrightconfig.json",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/AI掘金头条/tests/behavior.http~",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/pyrightconfig.json",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/AI掘金头条/pyrightconfig.json.tmp.30064.a35a292dd6f2",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619162417.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619155014.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619154949.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619154240.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619153349.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619153218.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619153153.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619144441.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619144425.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619144235.png",
     "未命名.canvas"
   ]
 }

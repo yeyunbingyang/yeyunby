@@ -30,7 +30,7 @@ summary: "面向桌面端的自动化工具链，覆盖桌面RPA、文件批处�
 ## 关键知识点
 
 ### 脚本基础（Bat / PowerShell）
-- [[Bat脚本详解]] — Windows 批处理，双击即执行，适合快速文件批量处理、系统配置
+- [[10.06.01-Bat脚本详解]] — Windows 批处理，双击即执行，适合快速文件批量处理、系统配置
 - PowerShell 脚本基础 — 对象管道、COM 互操作、比 Bat 更强的字符串与结构化数据处理
 - 错误处理（try-catch / $LASTEXITCODE vs %ERRORLEVEL%）
 - 定时触发（schtasks 注册计划任务 → 无人值守执行的入口）

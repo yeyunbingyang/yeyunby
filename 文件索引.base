@@ -1,0 +1,33 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.ext == "md"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.basename
+      - file.ext
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.basename: 374
+  - type: table
+    name: 视图
+    filters:
+      and:
+        - file.ext == "md"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: ASC

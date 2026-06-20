@@ -31,7 +31,7 @@ summary: "GitHub 优质开源项目收集，31 个项目覆盖 Agent 引擎/配�
 | [[gemini-cli]] | 104.6k | Google 官方 Gemini CLI |
 | [[gstack]] | 103.0k | Garry Tan 的 Claude Code 配置 |
 | [[codex]] | 85.8k | OpenAI 官方 Codex CLI |
-| [[opencli]] | 22.7k | 网站→CLI 桥接，AI Agent 浏览器操控 |
+| [[04-Resources(资源层)/00 Github优质项目/09-浏览器与网站自动化/opencli]] | 22.7k | 网站→CLI 桥接，AI Agent 浏览器操控 |
 | [[awesome-design-md]] | 84.3k | 73 品牌 DESIGN.md 合集 |
 | [[autoresearch]] | 83.5k | Karpathy 自主 AI 研究 |
 | [[ui-ux-pro-max-skill]] | 82.9k | AI 设计智能 Skill |
@@ -94,7 +94,7 @@ summary: "GitHub 优质开源项目收集，31 个项目覆盖 Agent 引擎/配�
 - [[ui-tars-desktop]] — 多模态 GUI Agent
 
 ### 浏览器与网站自动化
-- [[opencli]] — 网站→CLI + Agent 浏览器操控
+- [[04-Resources(资源层)/00 Github优质项目/09-浏览器与网站自动化/opencli]] — 网站→CLI + Agent 浏览器操控
 
 ### 参考
 - [[system-prompts]] — 系统提示词全收集
