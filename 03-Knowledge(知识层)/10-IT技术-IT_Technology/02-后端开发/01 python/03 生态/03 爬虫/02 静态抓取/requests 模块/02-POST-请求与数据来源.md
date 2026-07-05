@@ -1,0 +1,356 @@
+---
+title: requests POST 请求与数据来源
+domain: IT_Technology
+tags:
+  - Python
+  - 爬虫
+  - requests
+status: 草稿
+created: 2026-06-14
+updated: 2026-06-14
+source: 尚硅谷大模型技术之Python V1.0
+related:
+  - "[[01-核心请求与响应]]"
+  - "[[03-Cookie与Session]]"
+  - "[[Python-MOC]]"
+summary: POST 请求的关键不是代码怎么写，而是 data 字典每个字段的值从哪来——五种来源从固定值照抄到 JS 逆向层层递进，配合金山翻译 OOP 实战掌握完整分析链路
+---
+
+# requests POST 请求与数据来源
+
+## 一句话结论
+
+> POST 请求的代码只需一行 `requests.post(url, data=dict)`，真正的难度在于 data 字典中每个字段从哪里来——五种来源从「固定值照抄」到「逆向 JS 算法」，层层递进。
+
+---
+
+## 一、POST 请求基本用法
+
+### 方法签名
+
+```python
+requests.post(url, data=None, headers=None, **kwargs)
+```
+
+- `data`：POST 请求体，接收**字典**（最常用）或字符串
+- 其余参数（`headers`、`cookies`、`timeout`、`proxies`）与 `requests.get()` 完全一致
+
+### 什么时候用 POST
+
+| 场景 | 请求方式 | 原因 |
+|------|---------|------|
+| 搜索、浏览、翻页 | GET | 参数在 URL Query String 中 |
+| 登录、注册 | POST | 表单数据量大、涉及密码等敏感信息 |
+| 翻译 | POST | 需提交文本内容，长度可能超过 URL 限制 |
+| JSON 接口 | POST | 接口设计为 POST |
+
+### Content-Type
+
+```python
+# 默认：application/x-www-form-urlencoded（表单格式）
+requests.post(url, data={"key": "value"})
+
+# JSON 格式
+requests.post(url, json={"key": "value"})
+# 等价于：
+requests.post(url, data=json.dumps({"key": "value"}),
+              headers={"Content-Type": "application/json"})
+```
+
+---
+
+## 二、实战：金山翻译 — OOP 封装
+
+### 2.1 抓包分析
+
+1. 打开 `https://www.iciba.com/` → F12 → Network
+2. 在搜索框输入单词（页面不会整体刷新——Ajax 请求）
+3. 筛选 **XHR** 类型 → 找到 POST 请求 `/index.php?c=trans&m=fy`
+4. 查看 **Payload**：
+
+| 字段 | 值 | 含义 |
+|------|-----|------|
+| `f` | `auto` | 源语言（自动检测）|
+| `t` | `auto` | 目标语言 |
+| `w` | `dictionary` | 要翻译的文本 |
+
+5. 查看 **Response**：
+
+```json
+{
+    "status": 0,
+    "content": {
+        "from": "en",
+        "out": "词典",
+        "word_mean": ["n. 词典；字典"]
+    }
+}
+```
+
+> 注意：英译中时结果在 `content.out`，中译英时在 `content.word_mean[0]`——JSON 结构不统一，需 `try/except` 处理。
+
+### 2.2 OOP 封装实现
+
+```python
+import requests
+
+class ICIBATranslator:
+    """金山词霸翻译器"""
+
+    API_URL = (
+        "https://ifanyi.iciba.com/index.php"
+        "?c=trans&m=fy&client=6&auth_user=key_xxx"
+    )
+
+    def __init__(self):
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0.0.0 Safari/537.36"
+            ),
+            "Content-Type": "application/x-www-form-urlencoded",
+        })
+
+    def _build_data(self, word):
+        return {
+            "f": "auto",    # 固定值
+            "t": "auto",    # 固定值
+            "w": word,      # 输入值
+        }
+
+    def _parse_response(self, result):
+        content = result.get("content", {})
+        if "out" in content and content["out"]:
+            return content["out"]
+        word_mean = content.get("word_mean", [])
+        if word_mean:
+            return word_mean[0]
+        return "翻译失败：未找到结果"
+
+    def translate(self, word):
+        data = self._build_data(word)
+        try:
+            resp = self.session.post(self.API_URL, data=data, timeout=5)
+            resp.raise_for_status()
+            result = resp.json()
+            return self._parse_response(result)
+        except requests.exceptions.Timeout:
+            return "翻译失败：请求超时"
+        except requests.exceptions.RequestException as e:
+            return f"翻译失败：{e}"
+        except ValueError:
+            return "翻译失败：响应不是有效的 JSON"
+
+# 使用
+translator = ICIBATranslator()
+print(translator.translate("dictionary"))   # 词典
+print(translator.translate("爬虫"))          # crawler
+```
+
+---
+
+## 三、POST 数据的五种来源
+
+> **核心问题**：data 字典中每个字段的**值**从哪里来？
+
+### 快速判定流程
+
+```
+拿到 POST 请求的 data 字典 → 对每个字段逐一排查
+    ↓
+该字段多次抓包值不变？→ 来源一：固定值
+    ↓
+该字段值随用户输入同步变化？→ 来源二：输入值
+    ↓
+F5 刷新后值变化，但在 HTML 源码中搜得到？→ 来源三：HTML 提取
+    ↓
+该值出现在其他某个请求的响应中？→ 来源四：前置请求提取
+    ↓
+都找不到，字段名是 sign/token/hash 之类？→ 来源五：JS 动态生成
+```
+
+---
+
+### 来源一：固定值
+
+**特征**：同一字段在不同时间、不同参数的多次请求中，值始终不变。
+
+**判定**：抓 3-5 次包，每次改变输入，对比 Form Data 中除输入字段外的所有字段。
+
+**示例**：
+
+```
+金山翻译：f=auto, t=auto — 三次都是 auto → 固定值
+GitHub 登录：webauthn-support=supported, commit=Sign in — 从不变化 → 固定值
+```
+
+**代码**：直接硬编码
+
+```python
+data = {
+    "f": "auto",
+    "t": "auto",
+    "webauthn-support": "supported",
+    "commit": "Sign in",
+}
+```
+
+---
+
+### 来源二：输入值
+
+**特征**：字段值和用户输入的内容完全一致。修改输入后重新抓包，该字段同步变化。
+
+**判定**：换一个不同的输入 → 抓包对比 → 变化的字段就是输入值。
+
+**示例**：
+
+```
+金山翻译：输入 "hello" → w=hello；输入 "world" → w=world
+百度搜索：输入 "python" → wd=python；输入 "java" → wd=java
+```
+
+**代码**：用变量替代
+
+```python
+keyword = input("请输入搜索词: ")
+data = {"w": keyword, "f": "auto", "t": "auto"}
+```
+
+---
+
+### 来源三：从 HTML 页面中提取
+
+**特征**：值每次刷新页面都会变化，但在 HTML 源码中能找到（通常在 `<input type="hidden">` 或 `<meta>` 标签中）。
+
+**判定**：记录动态值 → F5 刷新 → Elements 面板 `Ctrl+F` 搜索该值 → 能找到就是来源三。
+
+**示例：GitHub 登录页的 `authenticity_token`**
+
+```html
+<input type="hidden" name="authenticity_token" value="0An0hBxq...随机值">
+```
+
+```python
+import re
+
+login_page = requests.get("https://github.com/login")
+token = re.search(
+    r'name="authenticity_token"\s+value="([^"]+)"',
+    login_page.text
+).group(1)
+
+data = {"authenticity_token": token, "login": "user"}
+```
+
+**使用 BeautifulSoup（更健壮）**：
+
+```python
+from bs4 import BeautifulSoup
+
+soup = BeautifulSoup(login_page.text, "html.parser")
+token = soup.find("input", {"name": "authenticity_token"})["value"]
+```
+
+---
+
+### 来源四：从其他请求的响应中提取
+
+**特征**：值不在 HTML 源码中，但能在另一个请求的响应中找到。存在请求依赖关系：必须先发 A 请求 → 从 A 的响应中取值 → 再发 B 请求。
+
+**判定**：
+
+1. 在 Network 面板中梳理请求的**时间顺序**
+2. 按时间线逐个查看每个请求的 Response
+3. 如果动态值在某前置请求的响应体中出现 → 来源四
+
+**示例**：
+
+```
+时间线：
+  1. POST /api/getTicket  →  Response: {"code": 0, "data": {"ticket": "abc-123"}}
+  2. POST /api/login      →  Request:  {"ticket": "abc-123", "username": "xxx"}
+```
+
+```python
+session = requests.Session()
+
+# 步骤 1：前置请求
+ticket_resp = session.get("https://example.com/api/getTicket")
+ticket = ticket_resp.json()["data"]["ticket"]
+
+# 步骤 2：用提取的值发送目标请求
+login_data = {"ticket": ticket, "username": "admin", "password": "123456"}
+login_resp = session.post("https://example.com/api/login", data=login_data)
+```
+
+---
+
+### 来源五：客户端 JS 动态生成（最难）
+
+**特征**：以上四种方式均找不到来源；字段名通常为 `sign`、`token`、`ts`、`hash`、`nonce`；值看起来像密文（MD5 十六进制、Base64 等）。
+
+**判定**：在所有请求响应和 HTML 中都搜不到该字段的值 → JS 动态生成。
+
+**示例：百度翻译的 `sign` 参数**
+
+```
+sign: 123456.789012  → 每次请求都不同
+在 HTML 中找不到、其他请求响应中也找不到 → JS 动态生成
+```
+
+**逆向思路**：
+
+1. DevTools `Ctrl+Shift+F` 搜索 `sign` → 定位生成 JS 文件
+2. 阅读算法 → Python 复现 或 execjs 直接调用
+
+```python
+# 方式 A：Python 复现算法
+import hashlib
+
+def generate_sign(query, gtk):
+    raw = query + gtk + "secret_salt"
+    return hashlib.md5(raw.encode()).hexdigest()
+
+# 方式 B：execjs 直接调用 JS（避免复现错误）
+import execjs
+
+with open("sign_generator.js", "r", encoding="utf-8") as f:
+    ctx = execjs.compile(f.read())
+sign = ctx.call("generateSign", query, token)
+```
+
+---
+
+### 五种来源对比总表
+
+| #   | 来源      | 难度   | 判定特征            | 获取方式                  | 典型字段名                         |
+| --- | ------- | ---- | --------------- | --------------------- | ----------------------------- |
+| 1   | 固定值     | ⭐    | 多次抓包值不变         | 照抄                    | `f`, `t`, `commit`            |
+| 2   | 输入值     | ⭐    | 随用户输入变化         | 变量替代                  | `w`, `q`, `keyword`           |
+| 3   | HTML 提取 | ⭐⭐   | 刷新后变化，HTML 中能找到 | GET 页面 → 正则/BS4       | `token`, `authenticity_token` |
+| 4   | 其他请求响应  | ⭐⭐⭐  | 在某前置请求的响应中      | 先发前置请求                | `ticket`, `session_id`        |
+| 5   | JS 动态生成 | ⭐⭐⭐⭐ | 以上都找不到，字段像密文    | 逆向 JS → Python/execjs | `sign`, `hash`, `nonce`       |
+
+## 关键概念
+
+- **Form Data vs JSON**：`data=` 发表单（`application/x-www-form-urlencoded`），`json=` 发 JSON（`application/json`）
+- **Ajax/XHR**：页面不刷新、后台异步发请求，DevTools 筛选 XHR 类型定位
+- **authenticity_token**：Rails 框架的 CSRF 防护 token，每次加载页面由服务端生成，提交时必须回传
+- **JS 逆向**：来源五的核心技能——定位 JS 文件 → 阅读算法 → Python 复现或 execjs 调用
+
+## 可行动建议
+
+- 抓包后先列出 data 所有字段，逐一走判定流程标注来源
+- 固定值和输入值直接解决——大部分简单接口不需要逆向
+- 来源三用正则快速验证，不确定时切到 BeautifulSoup
+- 来源四的关键是梳理请求时间线，不要遗漏前置请求
+- 来源五是最后手段——先用 `Ctrl+Shift+F` 搜索，不要急着逆向
+
+## 延伸与关联
+
+- [[01-核心请求与响应]] — GET 请求、headers、params、timeout、proxies
+- [[03-Cookie与Session]] — Session 自动管理 Cookie + GitHub 登录实战（涉及来源三）
+- [[Python-MOC]] — Python 知识体系总导航

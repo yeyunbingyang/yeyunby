@@ -14,7 +14,7 @@ Git 是所有技术方向的基础工具——前端、后端、运维、AI 工�
 ## 概念与基础
 
 - [[03-Knowledge(知识层)/10-IT技术-IT_Technology/00-通用技术工具/Git版本控制/GIT]] — DevOps 体系下的 Git 完整课程笔记（安装、基本使用、分支管理）
-- [[10.00.03.02-Git工作流]] — Git Flow / GitHub Flow / GitLab Flow 对比，按团队规模选型，分支保护规范
+- [[02-Git工作流]] — Git Flow / GitHub Flow / GitLab Flow 对比，按团队规模选型，分支保护规范
 
 ## 日常高频操作
 

@@ -1,0 +1,297 @@
+---
+title: Codex 使用指南
+domain: Core_Ability
+tags: [AI, Agent, Codex, 指南, 工具]
+status: 稳定
+created: 2026-06-16
+updated: 2026-06-16
+source: "Codex 官方文档; 本地实际配置抓取; openai/codex GitHub 仓库"
+related: ["Claude Code 快速入门", "模型路由策略", "主流模型对比", "CC Switch 模型管理器", "9router 快速入门手册"]
+summary: "Codex 是 OpenAI 官方的终端 AI Agent，由 GPT-5 驱动，支持桌面端 GUI 和 CLI 两种形态——核心能力包括 Skills 技能系统、Plugins 插件、MCP 工具、自动化与 Thread 线程管理，本地配置可接入任意模型（如通过 9router 走 DeepSeek V4 Flash）"
+---
+
+# Codex 使用指南
+
+> OpenAI 官方 AI Agent——CLI 终端 + 桌面 GUI 双形态，GPT-5 驱动。
+
+## 一句话结论
+
+Codex 是 OpenAI 对标 Claude Code 的终端 AI Agent。核心差异：**桌面端 GUI + CLI 双形态**、Skills/Plugins/MCP 三层扩展体系、Automations 后台自动化、Thread 分线协作。本地可接入任意模型——你当前的配置就是 DeepSeek V4 Flash 经 9router 代理运行。
+
+## Codex vs Claude Code 快速对比
+
+| | Codex | Claude Code |
+|------|-------|------------|
+| **开发商** | OpenAI (GPT-5 驱动) | Anthropic (Claude 4 驱动) |
+| **形态** | 桌面 GUI + CLI | 纯终端 CLI |
+| **底层模型** | 可替换 (你用 DeepSeek V4 Flash) | Claude 官方 + CC Switch 替换 |
+| **扩展系统** | Skills + Plugins + MCP 三层 | Skills + MCP + Hooks |
+| **后台自动化** | Automations (定时/监控) | Hooks (条件触发) |
+| **多线程** | Thread 分线/归档/Pin | Sub-agent 派生 |
+| **沙箱** | 本地沙箱 (你的是 elevated Windows) | 无内置沙箱 |
+| **开源** | ✅ Apache 2.0 (CLI) | ❌ 闭源 |
+| **语言** | Rust CLI + TypeScript 桌面 | TypeScript |
+
+## 你的当前配置
+
+从 `~/.codex/config.toml` 抓取的实际运行环境：
+
+```toml
+model_provider = "custom"
+model = "deepseek-v4-flash"
+sandbox_mode = "workspace-write"
+
+[model_providers.custom]
+name = "deepseek"
+base_url = "http://127.0.0.1:15721/v1"        # 经 9router 代理
+
+[windows]
+sandbox = "elevated"                            # Windows 提权沙箱
+
+[sandbox_workspace_write]
+network_access = true                           # 允许网络访问
+
+[projects.'x:\kms\yeyunby']
+trust_level = "trusted"
+```
+
+**已安装的 Skills (9 个):**
+- `imagegen` — AI 图片生成 (DALL-E / 本地模型)
+- `openai-docs` — OpenAI 官方文档查询
+- `plugin-creator` / `skill-creator` / `skill-installer` — 扩展管理工具链
+- `cli-creator` — 从 API 文档/OpenAPI 规范自动生成 CLI
+- `figma` — Figma 设计稿 → 代码
+- `pdf` — PDF 读写
+- `playwright` — 浏览器自动化
+
+**已安装的 Plugins (5 个):**
+- `documents` — Word / Google Docs 文档创建与编辑
+- `spreadsheets` — Excel / Google Sheets 表格
+- `presentations` — PowerPoint / Google Slides 幻灯片
+- `browser-use` — 浏览器操控
+- `chrome` — Chrome 原生集成
+
+**MCP Server:**
+- `node_repl` — 持久化 Node.js 运行时，支持 Playwright 浏览器自动化
+
+## 安装与启动
+
+### Codex CLI（终端）
+
+```bash
+# npm 全局安装
+npm install -g @openai/codex
+
+# 或从 GitHub
+git clone https://github.com/openai/codex
+cd codex && cargo build --release
+```
+
+### Codex Desktop（桌面 GUI）
+
+从 [codex.ai](https://codex.ai) 下载安装包。Windows/macOS 双平台支持。桌面端提供：
+- 可视化会话管理（Thread 列表 / 归档 / Pin）
+- 文件树 + 编辑器预览
+- Automations 管理面板
+- 图片 / 截图直接拖入对话
+
+### 首次启动
+
+```bash
+codex                     # 启动 CLI
+# 或双击桌面图标启动 GUI
+```
+
+首次运行引导：
+1. 登录 OpenAI 账号（或配置自定义 API）
+2. 选择模型（默认 GPT-5，你可改 deepseek-v4-flash）
+3. 信任项目目录
+
+## 核心概念
+
+### Skills（技能）— 按需加载的能力包
+
+```
+~/.codex/skills/
+├── .system/              # 系统级 Skills（内置）
+│   ├── imagegen/
+│   ├── skill-creator/
+│   └── ...
+├── cli-creator/          # 用户安装的 Skills
+├── figma/
+└── ...
+```
+
+每个 Skill 结构：
+```
+skill-name/
+├── SKILL.md          # 必需：指令用 Markdown
+├── scripts/          # 可选：辅助脚本 (Python/Bash/Node)
+├── references/       # 可选：按需加载的长文档
+└── assets/           # 可选：模板或输出
+```
+
+Skill 根据 `SKILL.md` 中的 `description` 自动触发，无需手动调用。
+
+### Plugins（插件）— Skills + MCP + 应用的打包
+
+```
+~/.codex/plugins/cache/
+├── openai-primary-runtime/   # Documents / Spreadsheets / Presentations
+└── openai-bundled/           # browser-use / chrome
+```
+
+Plugin 本质是 Skills、MCP Server、Apps 的打包集合，通过 marketplace 分发。
+
+### MCP（模型上下文协议）— 外部工具连接
+
+```toml
+[mcp_servers.node_repl]
+type = "stdio"
+command = 'node_repl.exe'      # 持久化 Node.js 运行时
+```
+
+MCP 让 Codex 能调用外部工具（数据库、浏览器、API）。你的 `node_repl` MCP 提供了 Playwright 浏览器自动化和 Node.js 脚本执行能力。
+
+### Threads（线程）— 会话分线管理
+
+Codex 支持多线程协作：
+- **创建线程** — 每个任务一个独立线程，上下文隔离
+- **Pin / 归档** — 重要线程置顶，完成的归档
+- **Fork 线程** — 从当前对话分叉出新线程
+- **Handoff** — 将线程转交给另一个 Agent 或协作者
+
+### Automations（自动化）— 定时与监控
+
+后台自动化任务，无需人工触发：
+- 定时任务（每天/每周/每月）
+- 条件触发（文件变化 / Git 提交 / 外部事件）
+- 监控与提醒
+
+## 日常使用流程
+
+### 标准工作流
+
+```
+1. 打开项目 → codex（或桌面端进入项目目录）
+2. 描述需求 → "帮我写一个 xxx 功能"
+3. Codex 读取代码 → 规划 → 执行 → 验证
+4. 审查变更 → 检查 diff，确认无误
+5. Git 提交 → "帮我提交这些改动"
+6. 继续或结束 → 开新线程或 /clear
+```
+
+### 关键命令
+
+| 操作 | CLI | 桌面 GUI |
+|------|-----|---------|
+| 启动 | `codex` | 双击图标 |
+| 换模型 | 修改 `config.toml` | 设置面板 |
+| 清空对话 | `/clear` 或 Ctrl+L | 新会话按钮 |
+| 查看线程 | `/threads` | 侧边栏 Thread 列表 |
+| 创建线程 | `/thread new` | + 按钮 |
+| 自动化管理 | `/automations` | Automations 面板 |
+| Git 提交 | "帮我提交" | 一键 Commit |
+| 安装 Skill | "帮我安装 xxx Skill" | Skill 市场 |
+
+### 文件引用
+
+```
+@文件路径     → 精准注入到上下文
+拖拽文件      → 桌面端直接拖入
+@文件夹       → 注入整个目录内容
+Ctrl+V 图片   → 多模态分析（桌面端）
+```
+
+## 扩展生态
+
+### Skill 市场
+
+社区 Skill 来源：
+- **官方内置** — `.system/` 下的 Skills 开箱即用
+- **Awesome Codex Skills** — [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) (11.8k Stars)
+- **Skill 安装器** — 从任意 GitHub 仓库安装
+
+```bash
+# 安装社区 Skill
+codex skill install github.com/ComposioHQ/awesome-codex-skills --path meeting-notes-and-actions
+```
+
+### 创建自己的 Skill
+
+使用 `skill-creator` Skill（你已安装）：
+
+> "帮我创建一个自动备份知识库的 Skill"
+
+Codex 会自动生成标准 Skill 结构（SKILL.md + scripts + references）。
+
+### Plugin 市场
+
+已接入的 marketplace：
+- `openai-bundled` — 官方内置插件（browser-use, chrome）
+- `openai-primary-runtime` — 办公套件（Documents, Spreadsheets, Presentations）
+
+## 与你的工具链联动
+
+### Codex + 9router
+
+当前架构：
+```
+Codex → http://127.0.0.1:15721/v1 (9router) → DeepSeek V4 Flash API
+                                              ├─ RTK 压缩 (节省 20-40%)
+                                              └─ 自动 fallback
+```
+
+如需切换模型，修改 `config.toml` 的 `base_url` 和 `model` 即可。9router 会自动路由。
+
+### Codex + Obsidian 知识库
+
+当前项目 `X:\KMS\yeyunby` 已是 Trusted Project：
+- Codex 可直接读写所有 `.md` 笔记
+- 了解 AGENTS.md 中的仓库规范（6 层架构、Frontmatter 标准、命名规则）
+- 可批量创建/更新/归档笔记，维护 MOC 和 Dataview 查询
+
+### Codex + Git
+
+```bash
+# Codex 可直接操作 Git
+"帮我创建分支 codex/new-feature"
+"提交这些改动，写清楚 commit message"
+"推到远程仓库"
+```
+
+你当前的 Git 工作不必离开 Codex 对话。
+
+## 最佳实践
+
+1. **一个 Thread 一个任务** — 避免上下文污染，任务完成就开新 Thread
+2. **Pin 长期 Thread** — 像这个知识库维护 Thread，Pin 住随时回来
+3. **善用 Skills** — 重复工作流固化为 Skill（你有 skill-creator 已装）
+4. **信任项目目录** — 只在 `trusted` 项目里用 YOLO 模式
+5. **Git 兜底** — 实验性操作前提交，随时可回滚
+6. **模型分层** — 日常用 DeepSeek V4 Flash 足够，复杂架构切 GPT-5
+
+## 速查表
+
+| 场景 | 操作 |
+|------|------|
+| 启动 Codex | `codex` 或桌面图标 |
+| 当前模型 | `codex config get model` |
+| 换模型 | 编辑 `~/.codex/config.toml` |
+| 清空对话 | `/clear` 或 Ctrl+L |
+| 新线程 | `/thread new` |
+| Pin 线程 | 右键 → Pin |
+| 安装 Skill | "帮我安装 xxx" |
+| 创建 Skill | "帮我创建一个 xxx 的 Skill" |
+| 查看配置 | `codex config list` |
+| 项目信任 | `codex trust` |
+
+---
+
+## 关联
+
+- [[Claude Code 快速入门]] — CC 与 Codex 对比参考
+- [[01-AI概念全览]] — Agent / Skill / MCP 等核心概念
+- [[03-主流模型对比]] — 模型能力与定价速查
+- [[04-模型路由策略]] — Codex 多模型切换策略
+- [[01-9router-快速入门手册]] — Codex 底层的模型代理

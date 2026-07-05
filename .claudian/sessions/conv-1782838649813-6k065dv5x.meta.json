@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782838649813-6k065dv5x",
+  "providerId": "claude",
+  "title": "重写C盘空间管理通用方案",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782838649814,
+  "updatedAt": 1782838822879,
+  "lastResponseAt": 1782838822879,
+  "sessionId": "eda7ad80-7254-4686-8806-568bb76f1cbe",
+  "providerState": {
+    "providerSessionId": "eda7ad80-7254-4686-8806-568bb76f1cbe"
+  },
+  "currentNote": "03-Knowledge(知识层)/20-核心能力-Core_Ability/06-计算机应用/02-Windows系统使用/02 系统配置与优化/C盘空间管理解决方案.md",
+  "usage": {
+    "model": "sonnet[1m]",
+    "inputTokens": 233,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 59904,
+    "contextWindow": 1000000,
+    "contextTokens": 60137,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}

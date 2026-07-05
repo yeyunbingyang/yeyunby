@@ -1,0 +1,313 @@
+---
+title: PyMySQL
+domain: IT_Technology
+tags: [Python, MySQL, 数据库, PyMySQL]
+status: 稳定
+created: 2026-06-10
+updated: 2026-06-10
+source: ""
+related: [[01-mysqlclient]], [[mysql-connector-python对比]]
+summary: "PyMySQL 是 Python 连接 MySQL 的纯 Python 实现驱动，核心操作遵循七步标准流程（连接→游标→SQL→执行→提交→关闭），增删改必须显式 commit，查询用 fetchone/fetchall 取结果，参数化查询防 SQL 注入"
+---
+
+# PyMySQL
+
+## 一句话结论
+
+> PyMySQL 是纯 Python 实现的 MySQL 客户端库，无需编译 C 扩展即可通过标准 DB-API 2.0 接口操作 MySQL；增删改操作**必须显式 commit**，否则数据不会落盘，这是最常见的坑。
+
+## 核心内容
+
+### 1. 安装
+
+```powershell
+pip install pymysql
+```
+
+卸载：
+
+```powershell
+pip uninstall pymysql
+```
+
+PyCharm 中通过 `File → Settings → Project → Python Interpreter → + → 搜索 pymysql → Install Package` 完成安装。
+
+### 2. 七步标准流程（PyMySQL 七步走）
+
+无论增删改查，都遵循这七个步骤。核心区别仅在于第 6 步：查无需 commit，增删改必须 commit。
+
+| 步骤 | 操作 | 代码模式 |
+|------|------|----------|
+| 1 | 导入模块 | `import pymysql` |
+| 2 | 创建连接 | `conn = pymysql.connect(host, port, user, password, database, charset)` |
+| 3 | 获取游标 | `cursor = conn.cursor()` |
+| 4 | 定义 SQL | `sql = "SELECT/INSERT/UPDATE/DELETE ..."` |
+| 5 | 执行 SQL | `cursor.execute(sql)` 或 `cursor.executemany(sql, data_list)` |
+| 6 | 提交/回滚 | 增删改：`conn.commit()`；异常：`conn.rollback()`；查询无需此步 |
+| 7 | 关闭资源 | `cursor.close()` → `conn.close()` |
+
+### 3. 完整代码示例
+
+#### 3.1 查询操作（SELECT）
+
+```python
+import pymysql
+
+# 1-2. 创建连接
+conn = pymysql.connect(
+    host='localhost',
+    port=3306,
+    user='root',
+    password='123456',
+    database='school',
+    charset='utf8mb4'
+)
+
+try:
+    # 3. 获取游标
+    cursor = conn.cursor()
+
+    # 4. 定义 SQL
+    sql = "SELECT id, name, age, gender, score FROM students WHERE class_id = %s"
+
+    # 5. 执行 SQL（参数化查询防注入）
+    cursor.execute(sql, (3,))
+
+    # 取单条
+    row = cursor.fetchone()
+    print(row)  # (1, '赵云', 22, '男', 98.0)
+
+    # 取所有
+    all_rows = cursor.fetchall()
+    for row in all_rows:
+        print(row)
+
+except Exception as e:
+    print(f"查询失败: {e}")
+    conn.rollback()
+finally:
+    # 7. 关闭资源
+    cursor.close()
+    conn.close()
+```
+
+#### 3.2 增加操作（INSERT）
+
+```python
+import pymysql
+
+conn = pymysql.connect(
+    host='localhost', port=3306, user='root',
+    password='123456', database='school', charset='utf8mb4'
+)
+
+try:
+    cursor = conn.cursor()
+
+    # 单条插入
+    sql = "INSERT INTO students (name, age, gender, score, class_id) VALUES (%s, %s, %s, %s, %s)"
+    row_count = cursor.execute(sql, ('赵云', 22, '男', 98.0, 3))
+    print(f"受影响行数: {row_count}")  # 1
+
+    # ★ 关键：必须 commit，否则数据不会写入数据库
+    conn.commit()
+    print("插入成功")
+
+except Exception as e:
+    print(f"插入失败: {e}")
+    conn.rollback()  # 回滚，撤销未提交的更改
+finally:
+    cursor.close()
+    conn.close()
+```
+
+#### 3.3 修改操作（UPDATE）
+
+```python
+import pymysql
+
+conn = pymysql.connect(
+    host='localhost', port=3306, user='root',
+    password='123456', database='school', charset='utf8mb4'
+)
+
+try:
+    cursor = conn.cursor()
+
+    # 支持参数化，WHERE 条件也用 %s 占位
+    sql = "UPDATE students SET score = %s WHERE name = %s"
+    row_count = cursor.execute(sql, (95.0, '赵云'))
+    print(f"更新行数: {row_count}")
+
+    conn.commit()
+    print("更新成功")
+
+except Exception as e:
+    print(f"更新失败: {e}")
+    conn.rollback()
+finally:
+    cursor.close()
+    conn.close()
+```
+
+#### 3.4 删除操作（DELETE）
+
+```python
+import pymysql
+
+conn = pymysql.connect(
+    host='localhost', port=3306, user='root',
+    password='123456', database='school', charset='utf8mb4'
+)
+
+try:
+    cursor = conn.cursor()
+
+    sql = "DELETE FROM students WHERE name = %s"
+    row_count = cursor.execute(sql, ('赵云',))
+    print(f"删除行数: {row_count}")
+
+    conn.commit()
+    print("删除成功")
+
+except Exception as e:
+    print(f"删除失败: {e}")
+    conn.rollback()
+finally:
+    cursor.close()
+    conn.close()
+```
+
+#### 3.5 批量插入（executemany）
+
+当需要插入大量数据时，用 `executemany` 比循环 `execute` 高效得多：
+
+```python
+import pymysql
+
+conn = pymysql.connect(
+    host='localhost', port=3306, user='root',
+    password='123456', database='school', charset='utf8mb4'
+)
+
+# 准备批量数据
+students = [
+    ('张飞', 23, '男', 85.0, 1),
+    ('关羽', 24, '男', 92.0, 1),
+    ('黄忠', 60, '男', 78.0, 2),
+    ('马超', 21, '男', 88.0, 3),
+]
+
+try:
+    cursor = conn.cursor()
+    sql = "INSERT INTO students (name, age, gender, score, class_id) VALUES (%s, %s, %s, %s, %s)"
+    row_count = cursor.executemany(sql, students)
+    print(f"批量插入行数: {row_count}")  # 4
+
+    conn.commit()
+    print("批量插入成功")
+
+except Exception as e:
+    print(f"批量插入失败: {e}")
+    conn.rollback()
+finally:
+    cursor.close()
+    conn.close()
+```
+
+> **批量插入 10 万条数据**：将数据按 1000~5000 条分批次调用 `executemany` + `commit`，避免单次事务过大导致锁表或内存溢出。
+
+#### 3.6 使用上下文管理器（推荐写法）
+
+利用 `with` 语句自动管理资源释放，代码更简洁：
+
+```python
+import pymysql
+
+config = {
+    'host': 'localhost', 'port': 3306, 'user': 'root',
+    'password': '123456', 'database': 'school', 'charset': 'utf8mb4'
+}
+
+try:
+    with pymysql.connect(**config) as conn:
+        with conn.cursor() as cursor:
+            sql = "SELECT name, score FROM students WHERE score > %s"
+            cursor.execute(sql, (90,))
+            for row in cursor.fetchall():
+                print(f"姓名: {row[0]}, 成绩: {row[1]}")
+except Exception as e:
+    print(f"操作失败: {e}")
+```
+
+> `pymysql.connect()` 返回的连接对象支持上下文管理器，`with` 块结束时自动 `commit`（无异常）或 `rollback`（有异常），并自动关闭连接。
+
+### 4. 连接参数说明
+
+| 参数 | 类型 | 说明 | 示例 |
+|------|------|------|------|
+| `host` | str | 数据库主机地址 | `localhost` / `192.168.1.100` |
+| `port` | int | 端口号 | `3306`（默认） |
+| `user` | str | 用户名 | `root` |
+| `password` | str | 密码 | `123456` |
+| `database` | str | 要操作的数据库名 | `school` |
+| `charset` | str | 字符集 | `utf8mb4`（推荐，支持 emoji） |
+| `autocommit` | bool | 是否自动提交 | 默认 `False`（需手动 commit） |
+| `cursorclass` | class | 游标类型 | `pymysql.cursors.DictCursor`（返回字典） |
+
+#### 返回字典而非元组
+
+```python
+import pymysql.cursors
+
+conn = pymysql.connect(
+    host='localhost', user='root', password='123456',
+    database='school', charset='utf8mb4',
+    cursorclass=pymysql.cursors.DictCursor  # 返回 dict
+)
+
+with conn.cursor() as cursor:
+    cursor.execute("SELECT name, score FROM students LIMIT 1")
+    row = cursor.fetchone()
+    print(row['name'], row['score'])  # 按字段名访问，而非 row[0]
+```
+
+## 关键概念
+
+- **连接对象（Connection）**：代表与数据库的一个 TCP 连接，负责事务管理（commit/rollback/close）
+- **游标对象（Cursor）**：在连接之上执行 SQL 并遍历结果集，一个连接可创建多个游标
+- **参数化查询**：用 `%s` 占位符 + 元组传参，PyMySQL 自动转义，防止 SQL 注入
+- **事务**：增删改操作默认在事务中，commit 才持久化，rollback 则撤销
+
+## 适用场景
+
+- Python 脚本或后端应用中需要连接 MySQL/MariaDB
+- 批量数据处理、ETL、数据迁移脚本
+- 不想安装 `mysqlclient`（需 C 编译器和 MySQL 开发库）的环境
+- 与 PyMySQL 兼容的 MySQL 替代品（TiDB、OceanBase 等）
+
+## 最佳实践
+
+- **始终使用参数化查询**：永远不要用字符串拼接构造 SQL，用 `%s` 占位 + 元组传参
+- **字符集用 utf8mb4**：`utf8` 在 MySQL 中是 3 字节不完全 UTF-8，`utf8mb4` 才是完整实现
+- **游标和连接及时关闭**：或使用 `with` 语句自动管理
+- **批量操作用 executemany**：比循环 execute 快一个数量级
+- **异常处理务必含 rollback**：防止失败时残留脏数据
+
+## 反例与边界
+
+- **忘记 commit**：增删改后数据未落盘，这是最常见的坑——看似执行成功，查数据库却无变化
+- **字符串拼接 SQL**：`sql = f"SELECT * FROM users WHERE name='{name}'"` → SQL 注入风险
+- **超大结果集一次 fetchall**：若查询返回百万行，`fetchall()` 会撑爆内存，应分页或用 SSCursor
+- **PyMySQL vs mysqlclient**：PyMySQL 是纯 Python，性能约为 mysqlclient（C 扩展）的 1/3~1/2，高并发场景优先选 mysqlclient
+
+## 可行动建议
+
+- 将七步流程封装成一个通用工具函数，避免每次重复写连接/关闭样板代码
+- 开发环境配置 `autocommit=True` 方便调试，生产环境务必关闭并显式管理事务
+- 在项目中使用 `sqlalchemy` + `pymysql` 作为 dialect，兼顾开发效率与 ORM 能力
+
+## 延伸与关联
+
+- 相关笔记：[[mysql-connector-python对比]]
+- 可继续研究：SQLAlchemy ORM、aiomysql（异步 PyMySQL）、连接池（DBUtils / SQLAlchemy 内置池）

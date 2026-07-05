@@ -29,10 +29,10 @@ summary: "前端开发子域地图，覆盖 HTML/CSS/JS 基础、主流框架、
 ## 关键知识点
 
 ### HTML / CSS
-- 语义化标签与 SEO
-- Flexbox / Grid 布局模型
-- CSS 变量与 BEM 命名规范
-- 响应式设计（媒体查询/容器查询）
+- [[HTML-MOC|HTML 知识地图]] — 7 篇笔记
+- [[CSS-MOC|CSS 知识地图]] — 14 篇笔记（基础语法 → 选择器 → 盒模型 → Flex弹性布局 → 响应式 → 动画）
+- [[CSS 预处理器]] / [[SCSS_SASS_深度指南]] — SCSS/SASS 深度使用
+- [[UnoCSS基本使用详解]] — 原子化 CSS 方案
 
 ### JavaScript 核心
 - 原型链与继承（prototype / class）

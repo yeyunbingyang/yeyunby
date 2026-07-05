@@ -4,18 +4,20 @@ views:
     filters:
       and:
         - file.ext == "md"
+        - '!file.path.contains("node_modules")'
     groupBy:
       property: file.folder
       direction: ASC
     order:
       - file.name
-      - file.basename
-      - file.ext
+      - file.tags
+      - file.ctime
+      - file.mtime
     sort:
       - property: file.name
         direction: ASC
     columnSize:
-      file.basename: 374
+      file.name: 870
   - type: table
     name: 视图
     filters:

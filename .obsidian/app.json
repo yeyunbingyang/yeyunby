@@ -3,5 +3,8 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "./附件",
   "newFileFolderPath": "06-Archive(归档层)",
-  "promptDelete": false
+  "promptDelete": false,
+  "showLineNumber": false,
+  "readableLineLength": false,
+  "strictLineBreaks": false
 }

@@ -1,0 +1,133 @@
+---
+title: ORM模板代码
+domain: IT_Technology
+tags: [ORM, SQLAlchemy, FastAPI, Python, 模板]
+status: 稳定
+created: 2026-06-19
+updated: 2026-06-19
+source: "[[尚硅谷-FastAPI-基础到实战]]"
+related: [[02-FastAPI进阶]]
+summary: "SQLAlchemy ORM 标准模板代码三件套：安装配置、ORM 配置（引擎+会话+依赖项）、News 模型类定义（含字段映射与索引）。"
+---
+
+# ORM 模板代码
+
+> SQLAlchemy ORM 标准配置与模型类模板
+
+## 一、安装
+
+```bash
+pip install "sqlalchemy[asyncio]" aiomysql
+```
+
+---
+
+## 二、ORM 配置
+
+数据库连接 + 异步引擎 + 会话工厂 + 依赖项：
+
+```python
+from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession, create_async_engine
+
+# 数据库URL
+ASYNC_DATABASE_URL = "mysql+aiomysql://root:123456@localhost:3306/news_app?charset=utf8mb4"
+
+# 创建异步引擎
+async_engine = create_async_engine(
+    ASYNC_DATABASE_URL,
+    echo=True,       # 可选：输出SQL日志
+    pool_size=10,    # 设置连接池中保持的持久连接数
+    max_overflow=20  # 设置连接池允许创建的额外连接数
+)
+
+# 创建异步会话工厂
+AsyncSessionLocal = async_sessionmaker(
+    bind=async_engine,
+    class_=AsyncSession,
+    expire_on_commit=False
+)
+
+# 依赖项，用于获取数据库会话
+async def get_db():
+    async with AsyncSessionLocal() as session:
+        try:
+            yield session
+            await session.commit()
+        except Exception:
+            await session.rollback()
+            raise
+        finally:
+            await session.close()
+```
+
+---
+
+## 三、News 模型类
+
+完整的数据模型定义，含字段映射、索引和外键：
+
+```python
+from sqlalchemy import Integer, String, Text, DateTime, ForeignKey, Index
+from sqlalchemy.orm import Mapped, mapped_column, DeclarativeBase
+from datetime import datetime
+from typing import Optional
+from sqlalchemy.sql import func
+
+class Base(DeclarativeBase):
+    pass
+
+class News(Base):
+    __tablename__ = "news"
+
+    # 创建索引：提升查询速度
+    __table_args__ = (
+        Index('fk_news_category_idx', 'category_id'),
+        Index('idx_publish_time', 'publish_time')
+    )
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True, comment="新闻ID")
+    title: Mapped[str] = mapped_column(String(255), nullable=False, comment="新闻标题")
+    description: Mapped[Optional[str]] = mapped_column(String(500), comment="新闻简介")
+    content: Mapped[str] = mapped_column(Text, nullable=False, comment="新闻内容")
+    image: Mapped[Optional[str]] = mapped_column(String(255), comment="封面图片URL")
+    author: Mapped[Optional[str]] = mapped_column(String(50), comment="作者")
+    category_id: Mapped[int] = mapped_column(
+        Integer, ForeignKey('news_category.id'), nullable=False, comment="分类ID"
+    )
+    views: Mapped[int] = mapped_column(Integer, default=0, nullable=False, comment="浏览量")
+    publish_time: Mapped[datetime] = mapped_column(DateTime, default=datetime.now, comment="发布时间")
+
+    def __repr__(self):
+        return f"<News(id={self.id}, title='{self.title}', views={self.views})>"
+```
+
+### 字段说明
+
+| 字段 | 类型 | 约束 | 说明 |
+|------|------|------|------|
+| `id` | Integer | PK, 自增 | 新闻ID |
+| `title` | String(255) | NOT NULL | 新闻标题 |
+| `description` | String(500) | 可选 | 新闻简介 |
+| `content` | Text | NOT NULL | 新闻内容 |
+| `image` | String(255) | 可选 | 封面图片URL |
+| `author` | String(50) | 可选 | 作者 |
+| `category_id` | Integer | FK, NOT NULL | 分类ID |
+| `views` | Integer | 默认 0 | 浏览量 |
+| `publish_time` | DateTime | 默认 now | 发布时间 |
+
+---
+
+## 关键要点
+
+1. **`async_sessionmaker`** — 创建异步会话工厂，`expire_on_commit=False` 避免提交后对象过期
+2. **`get_db` 依赖项** — 使用 `yield` + `try/except/finally` 模式，确保事务提交/回滚和会话关闭
+3. **模型类索引** — 通过 `__table_args__` 中的 `Index` 为频繁查询的字段建立索引
+4. **`Mapped` 类型注解** — SQLAlchemy 2.0 新式声明式映射，提供类型安全
+
+---
+
+## 关联笔记
+
+- [[02-FastAPI进阶]] — ORM 使用详解与 CRUD 操作
+- [[04-AI掘金头条-新闻模块]] — 基于此模板的实战项目
+- [[Python-MOC]] — Python 知识总导航

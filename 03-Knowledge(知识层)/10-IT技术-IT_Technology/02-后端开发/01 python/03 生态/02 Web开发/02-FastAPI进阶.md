@@ -1,0 +1,430 @@
+---
+title: FastAPI进阶
+domain: IT_Technology
+tags: [FastAPI, 中间件, 依赖注入, ORM, Python]
+status: 稳定
+created: 2026-06-19
+updated: 2026-06-19
+source: "[[尚硅谷-FastAPI-基础到实战]]"
+related: [[01-FastAPI入门]]
+summary: "FastAPI 进阶涵盖中间件（统一请求处理）、依赖注入（代码复用与解耦）、SQLAlchemy ORM（异步数据库操作：查询/新增/更新/删除）。"
+---
+
+# FastAPI 进阶
+
+> 中间件、依赖注入、ORM 数据库操作
+
+## 一、中间件
+
+### 什么是中间件
+
+中间件（Middleware）是一个在每次请求进入 FastAPI 应用时都会被执行的**函数**。它在请求到达路由处理函数之前运行，并且在响应返回给客户端之前再运行一次。
+![[Pasted image 20260619154949.png]]
+
+### 常见用途
+
+- 性能监控
+- 日志记录
+- 身份认证
+- 响应头处理
+- 跨域处理
+
+### 定义中间件
+![[Pasted image 20260619155014.png]]
+
+```python
+@app.middleware("http")
+async def middleware(request, call_next):
+    print('中间件开始处理 -- start')
+    response = await call_next(request)  # 传递请求给路径处理函数
+    print('中间件处理完成 -- end')
+    return response
+```
+
+- 函数顶部使用装饰器 `@app.middleware("http")`
+- 多个中间件的执行顺序：**自下而上**
+
+### 中间件 vs 依赖注入
+
+| | 中间件 | 依赖注入 |
+|------|------|------|
+| 控制范围 | 所有请求（Everyone） | 指定路由（按需使用） |
+
+---
+
+## 二、依赖注入
+
+### 问题场景
+
+多个接口都有相同的参数和校验逻辑，导致代码重复：
+
+
+> [!NOTE] Title
+> 使用依赖注入系统来共享通用逻辑，减少代码重复
+
+
+```python
+@app.get('/news/news_list')
+async def get_news_list(skip: int = Query(0, ge=0), limit: int = Query(10, le=60)):
+    # 分页逻辑...
+
+@app.get("/users/user_list")
+async def get_user_list(skip: int = Query(0, ge=0), limit: int = Query(10, le=60)):
+    # 分页逻辑...
+
+@app.get("/news/category")
+async def get_category(skip: int = Query(0, ge=0), limit: int = Query(10, le=60)):
+    # 分页逻辑...
+```
+
+### 依赖注入的概念
+
+- **依赖项**：可重用的组件（函数/类），负责提供某种功能或数据
+- **注入**：FastAPI 自动调用依赖项，并将结果"注入"到路径操作函数中
+
+**优点：**
+- 代码复用：一次编写，多处使用
+- 解耦：业务逻辑与基础设施代码分离
+- 易于测试：轻松用模拟依赖替换真实依赖进行测试
+
+### 应用场景
+
+| 场景 | 说明 |
+|------|------|
+| 处理请求参数 | 从请求中提取和验证参数（路径、查询、请求体） |
+| 共享数据库连接 | 管理数据库会话的创建、使用、关闭 |
+| 共享业务逻辑 | 抽取封装多个路由公用的逻辑代码 |
+| 安全和认证 | 验证用户身份、检查权限和角色 |
+
+### 使用方式
+
+三步流程：
+
+```python
+# 1. 创建依赖项
+async def common_parameters(
+    skip: int = Query(0, ge=0),
+    limit: int = Query(10, le=60)
+):
+    return {"skip": skip, "limit": limit}
+
+# 2. 导入 Depends
+from fastapi import Depends
+
+# 3. 声明依赖项
+@app.get("/news/news_list")
+async def get_news_list(commons=Depends(common_parameters)):
+    return commons
+```
+
+---
+
+## 三、ORM（SQLAlchemy）
+
+### ORM 简介
+
+ORM（Object-Relational Mapping，对象关系映射）在面向对象编程语言和关系型数据库之间建立映射，允许通过操作对象的方式与数据库交互，无需直接编写 SQL 语句。
+
+**优势：**
+- 减少重复的 SQL 代码
+- 代码更简洁易读
+- 自动处理数据库连接和事务
+- 自动防止 SQL 注入攻击
+
+### ORM 工具对比
+
+| 排名 | 工具 | 特点 | 适用场景 |
+|------|------|------|----------|
+| 1 | SQLAlchemy ORM | 功能最强、最灵活、企业级 | 各类 API、微服务、数据应用 |
+| 2 | Django ORM | 封装好、上手快 | Django 项目、管理后台 |
+| 3 | Tortoise ORM | 全异步 | 异步 Web 服务、高并发 API |
+
+### 使用流程
+
+> 安装 → 建库建表 → 操作数据（CRUD）
+
+```bash
+pip install "sqlalchemy[asyncio]" aiomysql
+```
+
+---
+
+### 3.1 创建数据库引擎
+
+```python
+from sqlalchemy.ext.asyncio import create_async_engine
+
+ASYNC_DATABASE_URL = "mysql+aiomysql://root:123456@localhost:3306/fastapi_test?charset=utf8"
+
+# 创建异步引擎
+async_engine = create_async_engine(
+    ASYNC_DATABASE_URL,
+    echo=True,       # 可选：输出SQL日志
+    pool_size=10,    # 连接池中保持的持久连接数
+    max_overflow=20  # 连接池允许创建的额外连接数
+)
+```
+
+---
+
+### 3.2 定义模型类
+
+```python
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+from sqlalchemy import String
+from datetime import datetime
+from sqlalchemy.sql import func
+
+# 基类（包含通用字段）
+class Base(DeclarativeBase):
+    create_time: Mapped[datetime] = mapped_column(
+        DateTime, insert_default=func.now(), default=datetime.now, comment="创建时间")
+    update_time: Mapped[datetime] = mapped_column(
+        DateTime, insert_default=func.now(), onupdate=func.now(), default=datetime.now, comment="修改时间")
+
+# 模型类
+class Book(Base):
+    __tablename__ = "book"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    bookname: Mapped[str] = mapped_column(String(255))
+    author: Mapped[str] = mapped_column(String(255))
+    price: Mapped[float] = mapped_column()
+```
+
+---
+
+### 3.3 创建数据库表
+
+```python
+async def create_tables():
+    async with async_engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+
+@app.on_event("startup")
+async def startup_event():
+    await create_tables()
+```
+
+---
+
+### 3.4 数据库会话依赖项
+![[Pasted image 20260619162417.png]]
+
+```python
+from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession
+
+# 创建异步会话工厂
+AsyncSessionLocal = async_sessionmaker(
+    bind=async_engine,
+    class_=AsyncSession,
+    expire_on_commit=False
+)
+
+# 依赖项：获取数据库会话
+async def get_database():
+    async with AsyncSessionLocal() as session:
+        try:
+            yield session # 返回数据库会话给路由处理函数
+            await session.commit()  # 提交时事务
+        except Exception:
+            await session.rollback()
+            raise
+        finally:
+            await session.close()
+```
+
+---
+
+## 四、数据库操作（CRUD）
+
+### 4.1 查询
+
+```python
+from sqlalchemy import select
+
+# 获取所有数据
+@app.get("/book/get_books")
+async def get_book_list(db: AsyncSession = Depends(get_database)):
+    result = await db.execute(select(Book))
+    books = result.scalars().all()
+    return books
+
+# 获取单条数据
+@app.get("/book/get_book")
+async def get_book(db: AsyncSession = Depends(get_database)):
+    book = await db.get(Book, 1)  # 按主键获取
+    return book
+```
+
+**从 ORM 对象获取数据的方式：**
+
+| 方法 | 说明 |
+|------|------|
+| `scalars().all()` | 获取所有数据 |
+| `scalars().first()` | 提取第一个数据 |
+| `scalar_one_or_none()` | 提取一个或返回 null |
+| `scalar()` | 提取标量值（配合聚合查询） |
+
+---
+
+### 4.2 查询条件
+
+```python
+select(Book).where(条件1, 条件2, ...)
+```
+
+#### 比较判断
+
+```python
+result = await db.execute(select(Book).where(Book.id == book_id))
+book = result.scalar_one_or_none()
+```
+
+#### 模糊查询 `like()`
+
+- `%`：零个、一个或多个字符
+- `_`：一个单个字符
+
+```python
+result = await db.execute(select(Book).where(Book.author.like("曹%")))
+```
+
+#### 与非查询
+
+- `&`：与
+- `|`：或
+- `~`：非
+
+```python
+result = await db.execute(
+    select(Book).where((Book.author == "曹雪芹") & (Book.price == 200))
+)
+```
+
+#### 包含查询 `in_()`
+
+```python
+id_list = [1, 2, 3, 4, 5, 6]
+result = await db.execute(select(Book).where(Book.id.in_(id_list)))
+```
+
+---
+
+### 4.3 聚合查询
+
+```python
+from sqlalchemy import func
+
+# 统计行数量
+result = await db.execute(select(func.count(Book.id)))
+
+# 求平均值
+result = await db.execute(select(func.avg(Book.price)))
+
+# 求最大值 / 最小值
+result = await db.execute(select(func.max(Book.price)))
+
+# 求和
+result = await db.execute(select(func.sum(Book.price)))
+
+count = result.scalar()
+```
+
+---
+
+### 4.4 分页查询
+
+```python
+select(Book).offset(skip).limit(page_size)
+```
+
+```python
+@app.get("/book/get_books")
+async def get_book_list(
+    page: int = 1,
+    page_size: int = 3,
+    db: AsyncSession = Depends(get_database)
+):
+    skip = (page - 1) * page_size
+    stmt = select(Book).offset(skip).limit(page_size)
+    result = await db.execute(stmt)
+    books = result.scalars().all()
+    return {"books": books}
+```
+
+**分页公式：** `offset = (当前页码 - 1) × 每页数量`
+
+---
+
+### 4.5 新增数据
+
+核心步骤：定义 ORM 对象 → `add(对象)` → `commit`
+
+```python
+@app.post("/book/add_book")
+async def add_book(book: BookBase, db: AsyncSession = Depends(get_database)):
+    book_obj = Book(**book.__dict__)
+    db.add(book_obj)
+    await db.commit()
+    return book
+```
+
+---
+
+### 4.6 更新数据
+
+核心步骤：查询 `get` → 属性重新赋值 → `commit`
+
+```python
+@app.put("/book/update_book/{book_id}")
+async def update_book(book_id: int, data: BookUpdate, db: AsyncSession = Depends(get_database)):
+    # 1. 查询
+    book = await db.get(Book, book_id)
+    if book is None:
+        raise HTTPException(status_code=404, detail="Book not found")
+    # 2. 修改属性（重新赋值）
+    book.bookname = data.bookname
+    book.author = data.author
+    book.price = data.price
+    # 3. 提交
+    await db.commit()
+    return book
+```
+
+---
+
+### 4.7 删除数据
+
+核心步骤：查询 `get` → `delete` 删除 → `commit`
+
+```python
+@app.delete("/book/delete_book/{book_id}")
+async def delete_book(book_id: int, db: AsyncSession = Depends(get_database)):
+    db_book = await db.get(Book, book_id)
+    if db_book is None:
+        raise HTTPException(status_code=404, detail="Book not found")
+    await db.delete(db_book)
+    await db.commit()
+    return {"message": "Book deleted"}
+```
+
+---
+
+## 总结
+
+| 阶段 | 内容 |
+|------|------|
+| 安装 | `sqlalchemy[asyncio]` + `aiomysql`（异步数据库驱动） |
+| 建表 | `create_async_engine` → 定义基类和模型类 → `run_sync(metadata.create_all)` |
+| 操作数据 | 注入数据库会话 `Depends` → 查询 `select()` / 新增 `add()` / 更新（重新赋值） / 删除 `delete()` |
+
+---
+
+## 关联笔记
+
+- [[01-FastAPI入门]] — 基础路由、参数、响应类型
+- [[03-ORM模板代码]] — ORM 配置与模型类完整代码
+- [[04-AI掘金头条-新闻模块]] — 实战项目新闻模块
+- [[05-AI掘金头条-用户模块]] — 实战项目用户模块
+- [[Python-MOC]] — Python 知识总导航

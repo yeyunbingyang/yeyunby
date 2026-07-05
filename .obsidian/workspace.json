@@ -13,15 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.01-基础.md",
+                "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/01 HTML与CSS/02 CSS/09 CSS-CSS3新增特性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.02.01.01.01.01-基础"
+              "title": "09 CSS-CSS3新增特性"
+            }
+          },
+          {
+            "id": "09e390d35c3e6c59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/02-能力篇.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-能力篇"
+            }
+          },
+          {
+            "id": "2b4b499eb51b005e",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.modelscope.cn/skills"
+              },
+              "icon": "lucide-file",
+              "title": "Skills 中心 · 魔搭社区"
+            }
+          },
+          {
+            "id": "457fb767669caa7d",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/mcp#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B"
+              },
+              "icon": "lucide-file",
+              "title": "MCP（模型上下文协议） | Hermes Agent"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 467.51103591918945
   },
   "right": {
     "id": "8dd2eba7816261c4",
@@ -156,13 +195,43 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.01-基础.md",
+                "file": "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/02-能力篇.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "10.02.01.01.01.01-基础 的大纲"
+              "title": "02-能力篇 的大纲"
+            }
+          },
+          {
+            "id": "3daccee080892758",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "dac85162afe235fd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "a5b5237f0df3889a",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ],
@@ -170,7 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 558.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,57 +249,60 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "a357d8d8386e6449",
+  "active": "09e390d35c3e6c59",
   "lastOpenFiles": [
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/02-能力篇.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/03-进化篇.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/01-入门篇.md",
+    "04-Resources(资源层)/05-AI工具/Hermes-Agent/Hermes-Agent-技能工具手册.md",
+    "04-Resources(资源层)/README.md",
+    "04-Resources(资源层)/05-AI工具/Hermes-Agent",
+    "Hermes-Agent-技能工具手册.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/README.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/06-计算机应用/02-Windows系统使用/02 系统配置与优化/C盘空间管理解决方案.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/06-计算机应用/02-Windows系统使用/01 系统安装与部署/系统备份.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/06-计算机应用/02-Windows系统使用/02 系统配置与优化/C盘空间管理解决方案.md.tmp.43796.a269a5f76696",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/05-实战篇.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/01 Claude/02-快速入门.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/04-协作篇.md",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/images/hermes_kanban_architecture.png",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/images/hermes desktop模型配置.png",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/images/hermes desktop模型切换.png",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/04 hermes/images",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/01 Claude/01-安装选项.md",
     "CLAUDE.md",
     "AGENTS.md",
     "文件索引.base",
-    "MOC知识地图.md",
-    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/00 概念/20.00.00.03-提示词.md",
-    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/00 概念/20.00.00.02-AI相关概念.md",
-    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/00 概念/AI相关概念.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.01-基础.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/10.02.01.01.05.01.01-序列.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/10.02.01.01.05.01.05-range对象.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/10.02.01.01.05.01.04-字符串String.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/10.02.01.01.05.01.02-列表List.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/02-变量-数据类型及字面量/10.02.01.01.02.01-变量-数据类型及字面量.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.03-总结.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/01-基础/10.02.01.01.01.02-Python编码规范.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/03 文件处理及IO操作/10.02.01.02.03.06-5.python-docx-操作Word和PowerPoint文件.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/03 文件处理及IO操作/10.02.01.02.03.05-4.读写Excel文件.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/03 文件处理及IO操作/10.02.01.02.03.02-1.文件读写和异常处理.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/03 文件处理及IO操作/10.02.01.02.03.01-Pillow-图像处理.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/02 系统操作-os_sys/10.02.01.02.02.01-os.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/02 标准库/02 系统操作-os_sys/02 sys.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/09 高级语法/10.02.01.01.09.01-Python高级语法.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/08 面向对象/10.02.01.01.08.01-面向对象.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/06 异常处理/10.02.01.01.06.01-异常处理.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/03 字符串String.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/05 组合数据类型/01 序列/02 元组Tuple.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/01-语法核心/03-运算符与表达式/运算符与表达式.md",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/code03_ORM.py~",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/__pycache__/main.cpython-311.pyc",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/main.py",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/__init__.py",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/__init__.py",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/AI掘金头条/pyrightconfig.json",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/AI掘金头条/tests/behavior.http~",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/demos/pyrightconfig.json",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/00_Resource/PyLab/lab03-生态/02-Web开发/AI掘金头条/pyrightconfig.json.tmp.30064.a35a292dd6f2",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619162417.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619155014.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619154949.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619154240.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619153349.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619153218.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619153153.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619144441.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619144425.png",
-    "03-Knowledge(知识层)/10-IT技术-IT_Technology/02-后端开发/01 python/03 生态/02 Web开发/附件/Pasted image 20260619144235.png",
+    "Excalidraw/Drawing 2026-06-22 18.11.48.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-20 15.43.23.excalidraw.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/04-运维云原生/02 数据库运维DBA/MySQL/01-MySQL8安装与配置.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/04-运维云原生/01 Linux基础设施/01 运维基本导论与Linux系统部署/安装文档/3-Linux云计算运维安装文档之Ubuntu Server操作系统安装与配置.pdf",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/04-运维云原生/01 Linux基础设施/01 运维基本导论与Linux系统部署/安装文档/2-Linux云计算运维安装文档之Centos Stream 9 操作系统安装与配置.pdf",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/03 前端框架/01 vue2-选项式API/01 vue.js/08 自定义指令 $ 插槽.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/03 前端框架/01 vue2-选项式API/01 vue.js/07 进阶.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/03 前端框架/01 vue2-选项式API/01 vue.js/03 计算属性与侦听器.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/03 前端框架/01 vue2-选项式API/01 vue.js/01 vue 快速入门.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/03 前端框架/01 vue2-选项式API/01 vue.js/00 环境准备.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/03 TypeScript/02 TS快速参考手册.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/03 TypeScript/01 TypeScript 快速上手.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/03 TypeScript/TS总结.md",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/02  JavaScript/02 WebAPIS/09 综合实战.md.tmp.25964.d13cb7607390",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/02  JavaScript/02 WebAPIS/07 BOM与本地存储.md.tmp.25964.0a49e08fbbdd",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/02  JavaScript/02 WebAPIS/04 事件流和事件委托.md.tmp.25964.bf9bbafb26c2",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/02  JavaScript/03 ES6/ES6.md.tmp.25964.7f66a9d5c370",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/01 HTML与CSS/02 CSS/附件/Pasted image 20260630215030.png",
+    "03-Knowledge(知识层)/10-IT技术-IT_Technology/03-前端开发/01 前端基础/01 HTML与CSS/02 CSS/附件/Pasted image 20260630214440.png",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/00 基础设施/skills/附件/Pasted image 20260512000237.png",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/02 AIGC/AI短剧/attachments/05_对比表格.png",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/02 AIGC/AI短剧/attachments/03_宣传片案例.jpg",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/02 AIGC/AI短剧/attachments/02_广告案例.jpg",
+    "03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/02 AIGC/AI短剧/attachments/01_课程封面.png",
     "未命名.canvas"
   ]
 }

@@ -29,6 +29,8 @@ https://github.com/NousResearch/hermes-agent
 
 NousResearch 出品的**成长型 AI Agent**——核心理念是 Agent 应随使用逐步学习优化行为，而非静态配置。通过观察用户工作模式来自我改进，越用越懂你。
 
+> 📖 **完整使用手册** → [[04-Resources(资源层)/05-AI工具/Hermes-Agent/Hermes-Agent-技能工具手册.md|Hermes Agent 技能与工具完全手册]]（含 21 个内置工具、73 个技能、CLI 速查、故障排查）
+
 与 OpenHuman 的定位差异：OpenHuman 通过 Memory Tree 主动构建知识图谱，Hermes 通过观察行为被动学习。
 
 ## 适用场景
