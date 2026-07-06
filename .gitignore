@@ -1,10 +1,43 @@
-# 临时文件
-test_cf.py
+# ============================================================
+# Obsidian Vault .gitignore
+# ============================================================
+
+# ── 系统文件 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ── 临时/测试文件 ──
 *.tmp
 *.log
+*.bak
+*.swp
+*~
+test_cf.py
 
-# Hermes 临时目录
-.hermes/plans/
+# ── Hermes Agent 本地文件 ──
+.hermes/
 
-# Obsidian 工作区缓存（workspace.json 会频繁变化）
+# ── Claudian 会话缓存 ──
+.claudian/sessions/
+.claudian/claudian-settings.json
+
+# ── Obsidian 工作区状态（机器相关，频繁变化）──
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/types.json
+.obsidian/graph.json
+
+# ── Obsidian 插件二进制（14MB+，通过 Community Plugins 安装）──
+.obsidian/plugins/
+
+# ── Obsidian 其他缓存 ──
+.obsidian/snippets/
+.trash/
+
+# ── Obsidian 数据库文件（二进制，可重建）──
+*.base
+
+# ── Node.js（如果 vault 根目录有 package.json 但仅用于工具）──
+node_modules/
