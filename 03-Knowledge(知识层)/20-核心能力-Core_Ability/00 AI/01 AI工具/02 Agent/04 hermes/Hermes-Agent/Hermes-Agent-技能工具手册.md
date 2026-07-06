@@ -8,7 +8,7 @@ updated: 2026-07-04
 source: "https://hermes-agent.nousresearch.com/docs"
 related:
   - "[[04-Resources(资源层)/00 Github优质项目/01-Agent引擎/hermes-agent.md|Hermes Agent 项目]]"
-  - "[[04-Resources(资源层)/05-AI工具/Claude-Skills/Obsidian-Skills-索引.md|Obsidian Skills 索引]]"
+  - "[[03-Knowledge(知识层)/20-核心能力-Core_Ability/00 AI/01 AI工具/02 Agent/00 基础设施/skills/Claude-Skills/Obsidian-Skills-索引.md|Obsidian Skills 索引]]"
 summary: "Hermes Agent (Nous Research) 的 21 个内置工具、25 个工具集、73 个技能、20+ Provider 支持、15+ 消息平台的完整使用手册，含 CLI 命令速查和故障排查指南"
 ---
 
