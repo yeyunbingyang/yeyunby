@@ -15,7 +15,7 @@ summary: "知识库笔记数量与状态统计，用于评估知识资产健康�
 
 ```dataview
 TABLE length(rows) as "数量"
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 WHERE file.name != "IT_Technology-MOC" AND file.name != "Cognition-MOC" AND file.name != "Core_Ability-MOC"
 GROUP BY status
 ```
@@ -26,7 +26,7 @@ GROUP BY status
 
 ```dataview
 TABLE length(rows) as "笔记数"
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 GROUP BY domain
 ```
 
@@ -36,7 +36,7 @@ GROUP BY domain
 
 ```dataview
 TABLE summary, status, updated
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 WHERE file.name != "IT_Technology-MOC" AND file.name != "Cognition-MOC" AND file.name != "Core_Ability-MOC"
 SORT updated DESC
 LIMIT 10
@@ -48,7 +48,7 @@ LIMIT 10
 
 ```dataview
 TABLE summary, domain, updated
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 WHERE status = "改进"
 SORT updated ASC
 ```
@@ -59,6 +59,6 @@ SORT updated ASC
 
 ```dataview
 TABLE summary, domain
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 WHERE status = "计划"
 ```

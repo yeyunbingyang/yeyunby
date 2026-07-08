@@ -5,7 +5,7 @@
 ```yaml
 ---
 title: 笔记标题
-domain: IT_Technology      # 三大域之一，见下方说明
+domain: IT_Technology      # 两大域之一，见下方说明
 tags: []                   # 关键词，辅助检索（1-4个）
 status: 草稿               # 计划 | 草稿 | 稳定 | 改进 | 归档
 created: 2026-05-07
@@ -22,7 +22,7 @@ summary: ""                # 一句话核心内容（AI 检索用，必填）
 |----|----------|
 | `IT_Technology` | 运维、云原生、后端、前端、网络、AI工程、自动化 |
 | `Cognition` | 思维模型、认知科学、决策框架、心理学、人文社科、学习方法 |
-| `Core_Ability` | 职业能力、表达沟通、商业财经、创作方法、生活基础设施 |
+| `Core_Ability` | AI应用、职业能力、表达沟通、商业财经、创作方法、生活基础设施、计算机应用、思维模型、认知科学、学习方法、人文社科 |
 
 ## status 说明
 
@@ -32,7 +32,7 @@ summary: ""                # 一句话核心内容（AI 检索用，必填）
 | `草稿` | 正在写，内容片段不完整 | 补充完善 |
 | `稳定` | 内容完整，当前无需更新 | 定期回顾 |
 | `改进` | 已有内容，但需修订或补充 | 更新笔记 |
-| `归档` | 已过时或被替代，封存用 | 移入 06-Archive |
+| `归档` | 已过时或被替代，封存用 | 将 status 改为 `归档`，保留在原位置 |
 
 **工作流：** `计划 → 草稿 → 稳定`，知识更新时回退到 `改进 → 稳定`，过时时 `→ 归档`
 
@@ -47,20 +47,20 @@ summary: ""                # 一句话核心内容（AI 检索用，必填）
 
 ```dataview
 TABLE summary, status, updated
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 WHERE status = "改进"
 SORT updated ASC
 ```
 
 ```dataview
 TABLE summary, domain
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 WHERE status = "计划"
 ```
 
 ```dataview
 TASK
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 WHERE !completed
 GROUP BY file.link
 ```

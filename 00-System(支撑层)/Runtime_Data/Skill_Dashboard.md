@@ -4,7 +4,7 @@ tags: [仪表盘, 技能]
 status: 稳定
 created: 2026-05-07
 updated: 2026-05-07
-summary: "技能成长追踪仪表盘，按三大域记录当前学习进度与目标"
+summary: "技能成长追踪仪表盘，按两大域记录当前学习进度与目标"
 ---
 
 # 技能仪表盘
@@ -21,7 +21,7 @@ summary: "技能成长追踪仪表盘，按三大域记录当前学习进度与�
 
 ---
 
-## 20-认知层
+## 20-核心能力
 
 | 技能 | 当前水平 | 目标 | 关联笔记 | 状态 |
 |------|----------|------|----------|------|
@@ -41,7 +41,7 @@ summary: "技能成长追踪仪表盘，按三大域记录当前学习进度与�
 
 ```dataview
 TABLE summary, status, updated
-FROM "KnowledgeBase/03-Knowledge"
+FROM "02-Knowledge(知识层)"
 WHERE status = "草稿" OR status = "改进"
 SORT updated DESC
 ```

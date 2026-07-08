@@ -60,12 +60,10 @@ Core_Ability-MOC.md
 
 格式：`编号-中文名-English`（顶级目录）
 
-```
-03-Knowledge/
+```text
+02-Knowledge/
 10-IT技术-IT_Technology/
 20-核心能力-Core_Ability/
-30-认知层-Cognition/
-06-Archive/
 ```
 
 ## 禁止事项
