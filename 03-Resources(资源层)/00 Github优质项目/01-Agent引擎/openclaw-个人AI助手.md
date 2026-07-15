@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, 个人助手, 全平台]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/openclaw/openclaw
 related: [[openhuman-个人AI超级智能], [hermes-agent-成长型AI代理]]
 summary: "374k Stars 个人AI助手，自部署全平台运行，支持 WhatsApp/Telegram/Slack/微信等 20+ 消息渠道，TypeScript+MIT"

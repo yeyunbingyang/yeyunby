@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, 编程, CLI]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/anomalyco/opencode
 related: [[claude-code-Anthropic官方Agent], [codex-OpenAI官方CLI]]
 summary: "165k Stars 的开源编程 Agent，TypeScript+MIT，21 种语言 README，终端原生+Web UI"

@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, YC, ClaudeCode, 效率]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/garrytan/gstack
 related: [[ECC-Agent全套配置系统], [claude-code-Anthropic官方Agent]]
 summary: "103k Stars——YC CEO Garry Tan 的 Claude Code 配置，23 个角色化工具（CEO/设计师/工程经理等），810倍效率提升"

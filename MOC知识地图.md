@@ -47,7 +47,7 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 |------|------|
 | [[Project_Dashboard\|项目仪表盘]] | 待办管理，任务 ↔ 笔记联动 |
 | [[01-日常流(日常流层)/流入/README\|流入/ 收集箱]] | 新内容第一落点，每日整理 |
-| [[IT技术-MOC\|IT 技术]] | 运维云原生 · 后端 · 前端 · 网络 · AI · 自动化 |
+| [[IT技术-MOC\|IT 技术]] | 8 大子域：通用工具·AI工程·后端·前端·运维·自动化·嵌入·逆向 |
 | [[Cognition-MOC\|认知层]] | 思维模型 · 认知科学 · 学习方法 · 人文社科 |
 | [[Core_Ability-MOC\|核心能力]] | 职业 · 表达 · 商业 · 创作 · 生活 · 计算机 |
 | [[03-Resources(资源层)/README\|资源库]] | 工具、课程、网站、素材、AI 平台 |
@@ -60,13 +60,14 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 
 | 子域 | MOC | 笔数 | 关键内容 |
 |------|-----|------|----------|
-| 01 AI工程 | [[AI工程-MOC]] | 18 | Coze/Dify/RAG/企业大模型部署 |
-| 02 后端开发 | [[后端开发-MOC]] | 86 | Python全体系 |
-| 03 前端开发 | [[前端开发-MOC]] | 97 | HTML/CSS/JS/Vue |
-| 04 运维云原生 | [[运维云原生-MOC]] | 85 | Linux/Docker/K8s |
-| 05 网络与安全 | [[网络安全-MOC]] | 1 | 骨架 |
-| 06 自动化工具链 | [[自动化-MOC]] | 2 | 骨架 |
-| 07 通用技术工具 | [[通用技术工具-MOC]] | 8 | Git/IDE技巧 |
+| 00 通用技术工具 | [[通用技术工具-MOC]] | 7 | Git/数据库/IDE技巧 |
+| 01 AI工程 | [[AI工程-MOC]] | 17 | Coze/Dify/RAG/大模型部署 |
+| 02 后端开发 | [[后端开发-MOC]] | 78 | Python全体系/Java/JS/中间件 |
+| 03 前端开发 | [[前端开发-MOC]] | 93 | HTML/CSS/JS/Vue/工程化 |
+| 04 运维与交付 | [[运维云原生-MOC]] | 84 | Linux/Docker/K8s/Jenkins |
+| 05 自动化与平台 | [[自动化-MOC]] | 3 | 低代码/RPA/Python脚本 |
+| 06 嵌入式与物联网 | — | — | 骨架（含网络与安全概览） |
+| 07 逆向 | — | — | 骨架 |
 
 ### 20 核心能力 — [[Core_Ability-MOC]]（能力与认知）
 
@@ -104,18 +105,20 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 
 ## GitHub 优质项目
 
-已收录 31 个高质量 GitHub 开源项目，详见 [[Github优质项目-MOC]]（31个项目）：
+已收录 **105 个**高质量 GitHub 开源项目，详见 [[Github优质项目-MOC]]，十大分类：
 
-| 项目 | Stars | 定位 |
-|------|-------|------|
-| [[ECC-Agent全套配置系统]] | 193k | Agent 全套配置系统（技能/钩子/规则/MCP），Anthropic 黑客松冠军 |
-| [[agent-skills-生产级工程技能包]] | 45.9k | Addy Osmani 出品，23 个生产级工程技能，Google 工程文化融入 |
-| [[understand-anything-代码知识图谱]] | 33.8k | 代码→交互式知识图谱，Tree-sitter+LLM 混合分析 |
-| [[openhuman-个人AI超级智能]] | 28.1k | 个人 AI 超级智能，Obsidian 式 Memory Tree |
-| [[codegraph-预索引代码图谱MCP]] | 26.9k | 预索引代码知识图谱，MCP 即时查询，节省 35% 成本 |
-| [[ai-engineering-from-scratch-AI工程系统课程]] | 19.9k | 435 课 AI 工程系统课程（数学→Agent 集群） |
-| [[agentmemory-Agent持久记忆系统]] | 18.1k | #1 Agent 持久记忆系统，95.2% 检索率，Obsidian 导出 |
-| [[knowledge-work-plugins-知识工作角色插件]] | 16.3k | Anthropic 官方 11 个知识工作角色插件 |
+| 分类 | 数量 | 亮点项目 |
+|------|------|----------|
+| [[Github优质项目-MOC#01 Agent引擎\|01 Agent引擎]] | 10 | OpenClaw(374k)/claw-code(192k)/Claude Code(126k)/Codex Plugin(28k) |
+| [[Github优质项目-MOC#02 Agent配置与效率\|02 配置与效率]] | 6 | ECC(193k)/Superpowers(207k)/CC-Switch(81k) |
+| [[Github优质项目-MOC#03 Skills与工程规范\|03 Skills与规范]] | 13 | Anthropic Skills(141k)/Matt Pocock(170k)/Karpathy指南(156k) |
+| [[Github优质项目-MOC#04 代码与知识管理\|04 代码与知识管理]] | 17 | awesome-llm-apps(120k)/graphify(86k)/spec-kit(120k) |
+| [[Github优质项目-MOC#05 视频与创作设计\|05 视频与创作设计]] | 17 | MoneyPrinter(94k)/OpenCut(69k)/penpot(56k)/manim(88k) |
+| [[Github优质项目-MOC#06 浏览器与自动化\|06 浏览器与自动化]] | 6 | MediaCrawler(54k)/agent-browser(37k)/page-agent(26k) |
+| [[Github优质项目-MOC#07 量化与交易\|07 量化与交易]] | 3 | AI Hedge Fund(61k)/每日股票分析(52k) |
+| [[Github优质项目-MOC#08 安全隐私与系统工具\|08 安全工具]] | 10 | Win11Debloat(51k)/strix(41k)/spiderfoot(19k)/pentagi(20k) |
+| [[Github优质项目-MOC#09 开发者工具与基础设施\|09 开发者工具]] | 15 | Bun(94k)/PostHog(35k)/Prefect(23k)/ArgoCD(23k) |
+| [[Github优质项目-MOC#10 参考与收集\|10 参考与收集]] | 7 | free-programming-books(392k)/system-prompts(138k) |
 
 ## 使用流程
 

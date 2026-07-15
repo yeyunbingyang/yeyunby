@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, CLI, Rust]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/ultraworkers/claw-code
 related: [[openclaw-个人AI助手]]
 summary: "192k Stars 的 Rust CLI Agent 引擎，claw 命令行工具的公开 Rust 实现，史上最快突破 100k Stars"

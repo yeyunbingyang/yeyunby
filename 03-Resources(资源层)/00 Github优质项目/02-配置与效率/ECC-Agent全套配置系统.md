@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, Claude, MCP, 安全]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/affaan-m/ECC
 zh-CN: https://github.com/affaan-m/ECC/blob/main/README.zh-CN.md
 related: [[anthropics-skills-官方Skills仓库]]

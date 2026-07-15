@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, Skills, 工程规范, Google]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/addyosmani/agent-skills
 related: [[ECC-Agent全套配置系统], [knowledge-work-plugins-知识工作角色插件]]
 summary: "Addy Osmani（Google）出品的 23 个生产级 Agent 工程技能，覆盖 spec→plan→build→test→review→ship 全生命周期，融入 Google 工程文化，45.9k Stars"

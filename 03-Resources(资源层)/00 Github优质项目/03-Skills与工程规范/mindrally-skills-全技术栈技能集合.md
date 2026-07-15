@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Skills, 集合, CursorRules]
 type: 工具
 status: 待评估
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-16
 source: https://github.com/Mindrally/skills
 related: [[anthropics-skills-官方Skills仓库], [awesome-codex-skills-Codex技能精选]]
 summary: "240+ Claude Code 技能集合——从 Cursor Rules 转换而来，覆盖前端/后端/移动端/数据库/DevOps/测试/AI/UI 等全技术栈"

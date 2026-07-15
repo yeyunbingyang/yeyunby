@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, 多角色, 团队]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/msitarzewski/agency-agents
 related: [[knowledge-work-plugins-知识工作角色插件]]
 summary: "105k Stars——完整 AI 机构角色库，从前端到 Reddit 社区运营全覆盖，Shell+MIT"

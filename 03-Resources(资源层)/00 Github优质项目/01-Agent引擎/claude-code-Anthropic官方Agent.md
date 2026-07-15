@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Anthropic, Claude, 编程Agent]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/anthropics/claude-code
 related: [[codex-OpenAI官方CLI], [opencode-开源编程Agent], [gemini-cli-Google官方CLI]]
 summary: "126k Stars——Anthropic 官方 Claude Code 编程 Agent，终端原生，支持插件/子代理/MCP"

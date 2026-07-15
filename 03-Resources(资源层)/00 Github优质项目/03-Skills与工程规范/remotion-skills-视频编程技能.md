@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Skills, Remotion, 视频, React]
 type: 工具
 status: 待评估
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-16
 source: https://github.com/remotion-dev/skills
 related: []
 summary: "Remotion 官方 Skill——用 React/TypeScript 编程式生成视频的最佳实践，含动画/字幕/音频/3D/图表/动态时长等完整指南"

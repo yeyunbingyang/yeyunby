@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, 记忆, Obsidian, 个人助手]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-16
 source: https://github.com/tinyhumansai/openhuman
 zh-CN: https://github.com/tinyhumansai/openhuman/blob/main/README.zh-CN.md
 related: [[ai-engineering-from-scratch-AI工程系统课程]]

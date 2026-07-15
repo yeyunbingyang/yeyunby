@@ -4,7 +4,7 @@ tags: [GitHub, 开源, AI, Agent, 桌面应用, Claude, Codex, MCP, Tauri]
 type: 工具
 status: 待评估
 created: 2026-05-26
-updated: 2026-06-18
+updated: 2026-07-16
 source: https://github.com/farion1231/cc-switch
 zh-CN: https://github.com/farion1231/cc-switch/blob/main/README_ZH.md
 related: [[9router-免费AI路由网关], [ECC-Agent全套配置系统]]
