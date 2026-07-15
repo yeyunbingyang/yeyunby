@@ -6,10 +6,8 @@ status: 待评估
 created: 2026-07-16
 updated: 2026-07-16
 source: https://github.com/prometheus/prometheus
-related: [grafana]
+related: [grafana, thanos]
 summary: "60k+⭐——云原生监控系统与时间序列数据库，Kubernetes 生态的标准监控方案"
 ---
 
 # Prometheus 监控系统
-
-https://github.com/prometheus/prometheus
