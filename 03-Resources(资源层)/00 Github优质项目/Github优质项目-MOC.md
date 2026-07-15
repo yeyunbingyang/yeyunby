@@ -74,6 +74,7 @@ AI 编码代理 / CLI Agent —— 主流供应商官方实现及社区明星。
 | [[remotion-skills-视频编程技能]] | — | Remotion 视频编程 | ⭐⭐ |
 | [[agents-md-仓库上下文]] | 13k | 向 AI 代理传递仓库上下文的格式 | ⭐⭐⭐ |
 | [[skills-huggingface]] | 7k | HuggingFace 标准化 SKILL.md 包 | ⭐⭐ |
+| [[obsidian-skills-kepano]] | 50k | Obsidian Skills 合集，5 个高安装量技能 | ⭐⭐⭐ |
 | [[claude-skills-jeffallan]] | 3k | 66 项 Claude 对话式编程技能 | ⭐⭐ |
 
 ## 04 AI应用与知识管理
