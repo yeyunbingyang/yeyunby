@@ -105,20 +105,22 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 
 ## GitHub 优质项目
 
-已收录 **105 个**高质量 GitHub 开源项目，详见 [[Github优质项目-MOC]]，十大分类：
+已收录 **139 个**高质量 GitHub 开源项目，详见 [[Github优质项目-MOC]]，12 大分类：
 
 | 分类 | 数量 | 亮点项目 |
 |------|------|----------|
-| [[Github优质项目-MOC#01 Agent引擎\|01 Agent引擎]] | 10 | OpenClaw(374k)/claw-code(192k)/Claude Code(126k)/Codex Plugin(28k) |
-| [[Github优质项目-MOC#02 Agent配置与效率\|02 配置与效率]] | 6 | ECC(193k)/Superpowers(207k)/CC-Switch(81k) |
-| [[Github优质项目-MOC#03 Skills与工程规范\|03 Skills与规范]] | 13 | Anthropic Skills(141k)/Matt Pocock(170k)/Karpathy指南(156k) |
-| [[Github优质项目-MOC#04 代码与知识管理\|04 代码与知识管理]] | 17 | awesome-llm-apps(120k)/graphify(86k)/spec-kit(120k) |
-| [[Github优质项目-MOC#05 视频与创作设计\|05 视频与创作设计]] | 17 | MoneyPrinter(94k)/OpenCut(69k)/penpot(56k)/manim(88k) |
-| [[Github优质项目-MOC#06 浏览器与自动化\|06 浏览器与自动化]] | 6 | MediaCrawler(54k)/agent-browser(37k)/page-agent(26k) |
-| [[Github优质项目-MOC#07 量化与交易\|07 量化与交易]] | 3 | AI Hedge Fund(61k)/每日股票分析(52k) |
-| [[Github优质项目-MOC#08 安全隐私与系统工具\|08 安全工具]] | 10 | Win11Debloat(51k)/strix(41k)/spiderfoot(19k)/pentagi(20k) |
-| [[Github优质项目-MOC#09 开发者工具与基础设施\|09 开发者工具]] | 15 | Bun(94k)/PostHog(35k)/Prefect(23k)/ArgoCD(23k) |
-| [[Github优质项目-MOC#10 参考与收集\|10 参考与收集]] | 7 | free-programming-books(392k)/system-prompts(138k) |
+| [[Github优质项目-MOC#01 Agent引擎\|01 Agent引擎]] | 14 | OpenClaw(374k)/claw-code(192k)/ruflo(57k) |
+| [[Github优质项目-MOC#02 Agent配置与效率\|02 配置效率]] | 8 | Superpowers(207k)/ECC(193k)/CC-Switch(81k) |
+| [[Github优质项目-MOC#03 Skills与工程规范\|03 Skills规范]] | 16 | Matt Pocock(170k)/Karpathy指南(156k)/Anthropic Skills(141k) |
+| [[Github优质项目-MOC#04 AI应用与知识管理\|04 AI应用与知识]] | 7 | awesome-llm-apps(120k)/learn-claude-code(45k) |
+| [[Github优质项目-MOC#05 视频制作与媒体\|05 视频制作媒体]] | 23 | MoneyPrinter(94k)/manim(88k)/penpot(56k) |
+| [[Github优质项目-MOC#06 浏览器自动化\|06 浏览器自动化]] | 6 | MediaCrawler(54k)/agent-browser(37k) |
+| [[Github优质项目-MOC#07 量化与交易\|07 量化交易]] | 3 | AI Hedge Fund(61k)/每日股票分析(52k) |
+| [[Github优质项目-MOC#08 安全隐私与系统工具\|08 安全工具]] | 11 | hackingtool(69k)/Win11Debloat(51k)/pentagi(20k) |
+| [[Github优质项目-MOC#09 开发者工具\|09 开发者工具]] | 15 | Bun(94k)/imgui(74k)/exo(39k)/pi-mono(18k) |
+| [[Github优质项目-MOC#10 参考与收集\|10 参考收集]] | 14 | free-programming-books(392k)/system-prompts(138k) |
+| [[Github优质项目-MOC#11 数据工程与可视化\|11 数据工程可视化]] | 16 | spec-kit(120k)/graphify(86k)/claude-mem(70k) |
+| [[Github优质项目-MOC#12 DevOps与云原生\|12 DevOps云原生]] | 6 | apple-container(45k)/posthog(35k)/prefect(23k) |
 
 ## 使用流程
 
