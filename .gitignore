@@ -39,6 +39,8 @@ test_cf.py
 # ── Obsidian 数据库文件（二进制，可重建）──
 *.base
 
+*.svg
+
 # ── Node.js（如果 vault 根目录有 package.json 但仅用于工具）──
 node_modules/
 
