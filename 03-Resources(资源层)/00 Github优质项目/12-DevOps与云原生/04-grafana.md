@@ -12,4 +12,18 @@ summary: "70k+⭐——开源可观测性和数据分析平台，查询/可视�
 
 # Grafana 可观测性平台
 
-https://github.com/grafana/grafana
+## 基本信息
+
+**类型：** DevOps
+**链接：** https://github.com/grafana/grafana
+
+## 亮点
+
+- 70k+⭐——开源可观测性和数据分析平台
+- 查询/可视化/告警一体化的仪表板
+
+## 适用场景
+
+- 提高开发效率和工作流自动化
+- 数据处理和可视化分析
+

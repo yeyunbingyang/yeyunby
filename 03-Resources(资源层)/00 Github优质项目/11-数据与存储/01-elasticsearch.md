@@ -7,9 +7,24 @@ created: 2026-07-16
 updated: 2026-07-16
 source: https://github.com/elastic/elasticsearch
 related: [kibana, logstash]
-summary: "75k+⭐——分布式搜索和分析引擎，全文检索/日志分析/向量搜索的标准方案"
+summary: "77.5k⭐ · 75k+⭐——分布式搜索和分析引擎，全文检索/日志分析/向量搜索的标准方案"
 ---
 
 # Elasticsearch 搜索引擎
 
-https://github.com/elastic/elasticsearch
+## 基本信息
+
+**类型：** 数据工具
+**链接：** https://github.com/elastic/elasticsearch
+
+## 亮点
+
+- 75k+⭐——分布式搜索和分析引擎
+- 全文检索/日志分析/向量搜索的标准方案
+
+## 适用场景
+
+- 提高开发效率和工作流自动化
+- 数据处理和可视化分析
+
+

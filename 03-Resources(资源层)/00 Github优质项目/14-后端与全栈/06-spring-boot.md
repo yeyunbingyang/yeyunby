@@ -7,9 +7,24 @@ created: 2026-07-16
 updated: 2026-07-16
 source: https://github.com/spring-projects/spring-boot
 related: []
-summary: "80k+⭐——Java 企业级开发的标准框架，自动配置/起步依赖/生产就绪"
+summary: "81.1k⭐ · 80k+⭐——Java 企业级开发的标准框架，自动配置/起步依赖/生产就绪"
 ---
 
-# Spring Boot 框架
+# Spring Boot Java 后端框架
 
-https://github.com/spring-projects/spring-boot
+## 基本信息
+
+**类型：** 后端框架
+**链接：** https://github.com/spring-projects/spring-boot
+
+## 亮点
+
+- 80k+⭐——Java 企业级开发的标准框架
+- 自动配置/起步依赖/生产就绪
+
+## 适用场景
+
+- 提高开发效率和工作流自动化
+- 加速软件开发和构建流程
+
+

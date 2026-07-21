@@ -7,31 +7,23 @@ created: 2026-07-15
 updated: 2026-07-15
 source: https://github.com/NanmiCoder/MediaCrawler
 related: [agent-browser-浏览器自动化CLI]
-summary: "54k⭐——基于 Playwright 登录状态跨多平台抓取公开帖子和评论，Python 实现"
+summary: "56.8k⭐ · —基于 Playwright 登录状态跨多平台抓取公开帖子和评论，Python 实现"
 ---
 
 # MediaCrawler 多平台爬虫框架
 
-https://github.com/NanmiCoder/MediaCrawler
-
 ## 基本信息
 
-**类型：** 工具（爬虫）
+**类型：** 测试工具
 **链接：** https://github.com/NanmiCoder/MediaCrawler
-**推荐程度：** ★★★★★
-**Stars：** ~54.5k
-**语言：** Python
-**许可证：** MIT
 
-## 核心特点
+## 亮点
 
-- 支持微博、小红书、抖音、B站等多个平台
-- 基于 Playwright 登录状态采集
-- 采集公开帖子和评论数据
-- 结构化的数据输出
+- 基于 Playwright 登录状态跨多平台抓取公开帖子和评论
+- Python 实现
 
-## 入门友好度
+## 适用场景
 
-✅ Python 实现，学习门槛低
-✅ 文档完善，配置简单
-✅ 适合数据采集和网络爬虫入门学习
+- 提高开发效率和工作流自动化
+- 测试工具相关的日常使用
+

@@ -10,6 +10,20 @@ related: [terraform]
 summary: "60k+⭐——完全功能的本地 AWS 云栈模拟器，离线开发/测试 AWS 应用的首选"
 ---
 
-# LocalStack 本地 AWS
+# LocalStack 本地 AWS 模拟
 
-https://github.com/localstack/localstack
+## 基本信息
+
+**类型：** DevOps
+**链接：** https://github.com/localstack/localstack
+
+## 亮点
+
+- 60k+⭐——完全功能的本地 AWS 云栈模拟器
+- 离线开发/测试 AWS 应用的首选
+
+## 适用场景
+
+- 提高开发效率和工作流自动化
+- 代码质量保障和自动化测试
+

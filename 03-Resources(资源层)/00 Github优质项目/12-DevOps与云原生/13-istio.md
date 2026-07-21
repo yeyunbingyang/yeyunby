@@ -12,4 +12,18 @@ summary: "40k+⭐——连接/监控/保护微服务的服务网格，K8s 微服
 
 # Istio 服务网格
 
-https://github.com/istio/istio
+## 基本信息
+
+**类型：** DevOps
+**链接：** https://github.com/istio/istio
+
+## 亮点
+
+- 40k+⭐——连接/监控/保护微服务的服务网格
+- K8s 微服务治理的标准层
+
+## 适用场景
+
+- 提高开发效率和工作流自动化
+- 系统运维和基础设施管理
+

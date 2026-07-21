@@ -41,3 +41,5 @@ test_cf.py
 
 # ── Node.js（如果 vault 根目录有 package.json 但仅用于工具）──
 node_modules/
+
+/02-Knowledge(知识层)/10-IT技术-IT_Technology/05-自动化与平台/02-RPA与脚本-RPA_Scripts/01-Windows脚本/

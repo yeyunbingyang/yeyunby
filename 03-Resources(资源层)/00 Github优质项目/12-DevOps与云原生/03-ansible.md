@@ -12,4 +12,19 @@ summary: "70k+⭐——极简 IT 自动化平台，配置管理/应用部署/任
 
 # Ansible IT 自动化平台
 
-https://github.com/ansible/ansible
+## 基本信息
+
+**类型：** DevOps
+**链接：** https://github.com/ansible/ansible
+
+## 亮点
+
+- 70k+⭐——极简 IT 自动化平台
+- 配置管理/应用部署/任务编排
+- YAML 驱动
+
+## 适用场景
+
+- 提高开发效率和工作流自动化
+- 系统运维和基础设施管理
+

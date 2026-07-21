@@ -7,9 +7,24 @@ created: 2026-07-16
 updated: 2026-07-16
 source: https://github.com/open-telemetry/opentelemetry-collector
 related: [prometheus, grafana, jaeger]
-summary: "10k+⭐——云原生可观测性标准，统一采集/处理/导出 Traces/Metrics/Logs"
+summary: "7.3k⭐ · 10k+⭐——云原生可观测性标准，统一采集/处理/导出 Traces/Metrics/Logs"
 ---
 
 # OpenTelemetry 可观测性
 
-https://github.com/open-telemetry/opentelemetry-collector
+## 基本信息
+
+**类型：** DevOps
+**链接：** https://github.com/open-telemetry/opentelemetry-collector
+
+## 亮点
+
+- 10k+⭐——云原生可观测性标准
+- 统一采集/处理/导出 Traces/Metrics/Logs
+
+## 适用场景
+
+- 提高开发效率和工作流自动化
+- DevOps相关的日常使用
+
+

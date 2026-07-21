@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920,height=1080">
+<title>GitHub 今日热门项目</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700;900&display=swap");
+body { font-family: "Noto Sans SC", sans-serif; background: #0d1117; overflow: hidden; width: 1920px; height: 1080px; }
+.scene { position: absolute; width: 1920px; height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); opacity: 0; }
+h1 { font-size: 72px; font-weight: 900; color: #58a6ff; margin-bottom: 20px; }
+h2 { font-size: 36px; font-weight: 700; color: #f0f6fc; }
+h3 { font-size: 48px; font-weight: 700; color: #f0f6fc; margin-bottom: 10px; }
+.subtitle { font-size: 24px; color: #8b949e; font-weight: 300; }
+.stats { display: flex; gap: 40px; margin: 20px 0; font-size: 20px; }
+.badge { background: #21262d; border: 1px solid #30363d; border-radius: 6px; padding: 8px 16px; color: #8b949e; }
+.badge span { color: #f0f6fc; font-weight: 700; }
+.desc { font-size: 22px; color: #c9d1d9; max-width: 1200px; text-align: center; line-height: 1.6; }
+.tag { display: inline-block; background: rgba(88,166,255,0.15); color: #58a6ff; border-radius: 20px; padding: 6px 18px; font-size: 16px; }
+.icon { font-size: 64px; margin-bottom: 20px; }
+.footer { position: absolute; bottom: 60px; font-size: 18px; color: #30363d; letter-spacing: 2px; }
+.captions { position: absolute; bottom: 120px; left: 50%; transform: translateX(-50%); font-size: 28px; color: #f0f6fc; text-align: center; background: rgba(0,0,0,0.7); padding: 12px 30px; border-radius: 8px; opacity: 0; max-width: 1400px; }
+.progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, #58a6ff, #3fb950); z-index: 999; }
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<div class="scene" id="scene0">
+  <div class="icon" style="color:#58a6ff;">🐙</div>
+  <h1>GitHub 今日热门项目</h1>
+  <h2>2026年7月17日 · 精选 Top 5</h2>
+  <div class="subtitle" style="margin-top:40px;">带你了解开源社区的最新动态</div>
+  <div class="footer">Vibe Coding x hyperframes</div>
+</div>
+
+<div class="scene" id="scene1">
+  <div class="icon">📡</div>
+  <div class="tag">RSS 阅读器</div>
+  <h3>guanlan</h3>
+  <div class="subtitle">by 619dev</div>
+  <div class="stats">
+    <div class="badge">⭐ 星标 <span>25</span></div>
+    <div class="badge">🔤 语言 <span>TypeScript</span></div>
+  </div>
+  <div class="desc">"观澜"——网页版 RSS 阅读器，复刻 Google Reader。可部署在 Cloudflare Worker 上，轻量高效。</div>
+  <div class="footer">1 / 5 · GitHub 今日热门</div>
+  <div class="captions" id="cap1"></div>
+</div>
+
+<div class="scene" id="scene2">
+  <div class="icon">🔌</div>
+  <div class="tag">EDA 工具</div>
+  <h3>Pinscope</h3>
+  <div class="subtitle">by Faradworks</div>
+  <div class="stats">
+    <div class="badge">⭐ 星标 <span>23</span></div>
+    <div class="badge">🔤 语言 <span>Python</span></div>
+  </div>
+  <div class="desc">基于数据手册的电路原理图智能审查工具。用 AI 辅助硬件工程师检查电路设计中的问题。</div>
+  <div class="footer">2 / 5 · GitHub 今日热门</div>
+  <div class="captions" id="cap2"></div>
+</div>
+
+<div class="scene" id="scene3">
+  <div class="icon">🌐</div>
+  <div class="tag">3D 视觉</div>
+  <h3>Glob3R</h3>
+  <div class="subtitle">by aigc3d</div>
+  <div class="stats">
+    <div class="badge">⭐ 星标 <span>13</span></div>
+    <div class="badge">🔤 语言 <span>Python</span></div>
+  </div>
+  <div class="desc">全局 3D 结构重建——用 3D 基础模型实现从多视图图像到全局点云的端到端重建。</div>
+  <div class="footer">3 / 5 · GitHub 今日热门</div>
+  <div class="captions" id="cap3"></div>
+</div>
+
+<div class="scene" id="scene4">
+  <div class="icon">🤖</div>
+  <div class="tag">Agent 框架</div>
+  <h3>AgentCore AGUI</h3>
+  <div class="subtitle">by fahmidme</div>
+  <div class="stats">
+    <div class="badge">⭐ 星标 <span>10</span></div>
+    <div class="badge">🔤 语言 <span>TypeScript</span></div>
+  </div>
+  <div class="desc">Amazon Bedrock AgentCore + Next.js CopilotKit 流式输出框架。快速搭建 AI Agent 前端界面。</div>
+  <div class="footer">4 / 5 · GitHub 今日热门</div>
+  <div class="captions" id="cap4"></div>
+</div>
+
+<div class="scene" id="scene5">
+  <div class="icon">🎮</div>
+  <div class="tag">极客项目</div>
+  <h3>gba-hashcat</h3>
+  <div class="subtitle">by solst-ice</div>
+  <div class="stats">
+    <div class="badge">⭐ 星标 <span>9</span></div>
+    <div class="badge">🔤 语言 <span>C++</span></div>
+  </div>
+  <div class="desc">Game Boy Advance 上的密码破解器！支持 SHA256 哈希，在 GBA 实机上运行的 hashcat！</div>
+  <div class="footer">5 / 5 · GitHub 今日热门</div>
+  <div class="captions" id="cap5"></div>
+</div>
+
+<script>
+var captions = [
+  "",
+  "第一款是观澜，一个部署在 Cloudflare Worker 上的 RSS 阅读器，复刻了经典 Google Reader 的体验。",
+  "第二款 Pinscope，一个基于 AI 的电路原理图审查工具，能帮硬件工程师快速发现设计问题。",
+  "第三款 Glob3R，来自 aigc3d 团队，用 3D 基础模型实现从照片到三维模型的自动重建。",
+  "第四款 AgentCore AGUI Starter，是亚马逊 Bedrock AgentCore 和 CopilotKit 结合的 AI Agent 前端框架。",
+  "最后这个最有意思——在 Game Boy Advance 上跑密码破解，支持 SHA256，真正的极客玩具！"
+];
+
+var tl = gsap.timeline({paused:true});
+var sceneDuration = 10;
+
+document.querySelectorAll(".scene").forEach(function(s, i) {
+  // Fade in
+  tl.to(s, { opacity: 1, duration: 1, ease: "power2.out" }, i * sceneDuration);
+  
+  // Animate elements
+  var els = s.querySelectorAll(".icon, .tag, h3, .subtitle, .stats, .desc, .footer");
+  gsap.set(els, { opacity: 0, y: 30 });
+  els.forEach(function(el, j) {
+    tl.to(el, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, i * sceneDuration + 0.3 + j * 0.5);
+  });
+  
+  // Captions
+  var cap = s.querySelector(".captions");
+  if (cap && captions[i]) {
+    cap.textContent = captions[i];
+    tl.to(cap, { opacity: 1, duration: 0.5 }, i * sceneDuration + 3);
+    tl.to(cap, { opacity: 0, duration: 0.5 }, i * sceneDuration + 8);
+  }
+  
+  // Fade out
+  if (i < document.querySelectorAll(".scene").length - 1) {
+    tl.to(s, { opacity: 0, duration: 0.8, ease: "power2.in" }, (i + 1) * sceneDuration - 0.8);
+  } else {
+    // Last scene stays
+    tl.to(s, { opacity: 1, duration: 0.5 }, (i + 1) * sceneDuration - 0.5);
+  }
+});
+
+tl.eventCallback("onUpdate", function() {
+  var p = document.getElementById("progress");
+  if (p) p.style.width = (tl.progress() * 100) + "%";
+});
+
+tl.play();
+</script>
+</body>
+</html>
