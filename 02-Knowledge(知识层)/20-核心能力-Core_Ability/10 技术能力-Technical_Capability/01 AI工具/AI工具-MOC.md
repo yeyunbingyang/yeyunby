@@ -30,26 +30,38 @@ summary: "AI工具目录总入口——按模型层→工具链→实践层三�
 
 > 模型选型、代理路由、成本优化。
 
-导航：[[01 模型层/模型及代理-MOC]]
+导航：[[模型及代理-MOC|模型层 →]]
 
 ### 02 工具链
 
 > Agent引擎、CLI工具、Skills体系、数据获取。
 
-导航：[[02 工具链/工具链-MOC]]
+导航：[[工具链-MOC|工具链 →]]
 
 ### 03 实践层
 
 > Vibe Coding、AI视频创作、实战案例。
 
-导航：[[03 实践层/实践层-MOC]]
+导航：[[实践层-MOC|实践层 →]]
 
 ---
 
 ## 跨层资源
 
-- [[Agent学习与VibeCoding完全指南_2026年7月版.md|完全指南]] — 全书19章完整体系
-- [[../../../03-Resources(资源层)/00 Github优质项目/Github优质项目-MOC.md|Github优质项目-MOC]] — 282个精选开源项目推荐
+- [[Agent学习与VibeCoding完全指南_2026年7月版|完全指南]] — 全书19章完整体系
+- [[Github优质项目-MOC]] — 282个精选开源项目
+
+### Github 优质项目速览
+
+| AI 相关分类 | 项目数 | 精选 |
+|------------|--------|------|
+| [[Github优质项目-MOC#01-Agent引擎|01 Agent引擎]] | 15 | OpenClaw(383k) / claw-code(195k) / hermes(216k) |
+| [[Github优质项目-MOC#02-Agent配置与Skills|02 Agent配置与Skills]] | 26 | Superpowers(207k) / ECC(193k) |
+| [[Github优质项目-MOC#03-AI应用与学习|03 AI应用与学习]] | 13 | awesome-llm-apps(120k) |
+| [[Github优质项目-MOC#04-AI开发框架|04 AI开发框架]] | 18 | LangChain(170k) / Dify(100k) |
+| [[Github优质项目-MOC#05-ML引擎与模型|05 ML引擎与模型]] | 15 | Ollama(200k) / PyTorch(100k) |
+
+> 完整 14 分类 282 项目 → [[Github优质项目-MOC]]
 
 ---
 

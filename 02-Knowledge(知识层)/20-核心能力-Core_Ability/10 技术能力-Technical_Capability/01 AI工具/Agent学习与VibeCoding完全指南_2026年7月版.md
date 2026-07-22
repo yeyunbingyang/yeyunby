@@ -1,3 +1,13 @@
+---
+title: Agent学习与VibeCoding完全指南
+domain: Core_Ability
+tags: [AI, Agent, VibeCoding, 指南, 旗舰]
+status: 稳定
+created: 2026-07-22
+updated: 2026-07-22
+summary: "19章72KB完整体系——从零基础到Agent实战，覆盖Codex/Claude/Hermes/OmniRoute/MCP/本地部署/提示词工程，本库最大知识资产"
+---
+
 # Agent 学习与 Vibe Coding 完全指南（2026年7月版）
 
 > **整理日期**: 2026-07-22
@@ -265,7 +275,7 @@ services:
 
 Hermes 是本知识库中**最深入实践的 Agent**，拥有完整的项目实战体系：
 
-**Hermes 实战项目一览**（共9个项目，位于 02-Agent/04-Hermes-Agent/项目实战/）：
+**Hermes 实战项目一览**（共9个项目，位于 02 工具链/04 Hermes-Agent/项目实战/）：
 
 | 项目 | 核心流程 |
 |------|---------|
@@ -335,8 +345,8 @@ Hermes 是本知识库中**最深入实践的 Agent**，拥有完整的项目实
 
 ### 4.1 推理工具选择
 
-| 工具 | 定位 | 单用户速度 | 50用户并发 | 内存效率 | 设置复杂度 | 最佳场景 |
-|---
+> 详见 [[03-主流模型对比]] 和 [[Agent学习与VibeCoding完全指南_2026年7月版#四、本地模型部署指南|本地模型部署指南]] 完整矩阵。
+
 ## 五、联网搜索能力差异
 
 ### 5.1 搜索策略差异
@@ -1268,7 +1278,7 @@ Skills 是 Agent 的技能树，可插拔的功能模块。在 Codex、Claude Co
 | **Claude 官方 Skills** | Obsidian 系列（Bases/CLI/Markdown/Vault） | 02-Agent/skills/Claude-Skills |
 | **数据获取 Skills** | Python 爬虫、浏览器自动化、Agent 数据获取 | 02-Agent/skills/数据获取 |
 | **通用 Skills** | Karpathy 四大原则、Skills 生态全景、调用机制 | 02-Agent/skills |
-| **Hermes 实战 Skills** | 博客发布、智能客服、CI/CD、代码审查等 | 02-Agent/04-Hermes-Agent |
+| **Hermes 实战 Skills** | 博客发布、智能客服、CI/CD、代码审查等 | 02 工具链/04 Hermes-Agent |
 | **Codex Skills** | 插件与技能系统 | 02-Agent/02-codex |
 
 ### 13.3 常用 Skill 分类

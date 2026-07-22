@@ -22,21 +22,21 @@ updated: 2026-07-07
 
 | # | 项目名称 | 方向 | 状态 | 难度 |
 |---|---------|------|:----:|:----:|
-| 01 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/01-博客自动发布系统-Hermes实战/README\|博客自动发布系统]] | 内容创作 | ✅ 完成 | ⭐⭐⭐ |
-| 02 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/02-智能客服Agent系统/README\|智能客服 Agent 系统]] | 企业服务 | ✅ 完成 | ⭐⭐⭐ |
-| 03 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/03-CICD自动化运维Agent/README\|CI/CD 自动化运维 Agent]] | DevOps | ✅ 完成 | ⭐⭐⭐⭐ |
-| 04 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/04-代码审查Agent-CodeReview/README\|代码审查 Agent]] | 开发效能 | ✅ 完成 | ⭐⭐⭐ |
-| 05 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/05-社交媒体舆情监控Agent/README\|社交媒体舆情监控 Agent]] | 品牌公关 | ✅ 完成 | ⭐⭐ |
-| 06 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/06-个人知识库自动整理Agent/README\|个人知识库自动整理 Agent]] | 知识管理 | ✅ 完成 | ⭐⭐ |
-| 07 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/07-AI内容工厂-多平台自媒体矩阵/README\|AI 内容工厂 — 多平台自媒体矩阵]] | AIGC | ✅ 完成 | ⭐⭐⭐⭐ |
-| 08 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/08-AI电商商品图批量生成Agent/README\|AI 电商商品图批量生成 Agent]] | AIGC/电商 | ✅ 完成 | ⭐⭐⭐ |
-| 09 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战/09-AI短视频自动生成与发布Agent/README\|AI 短视频自动生成与发布 Agent]] | AIGC/短视频 | ✅ 完成 | ⭐⭐⭐⭐ |
+| 01 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/01-博客自动发布系统-Hermes实战/README\|博客自动发布系统]] | 内容创作 | ✅ 完成 | ⭐⭐⭐ |
+| 02 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/02-智能客服Agent系统/README\|智能客服 Agent 系统]] | 企业服务 | ✅ 完成 | ⭐⭐⭐ |
+| 03 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/03-CICD自动化运维Agent/README\|CI/CD 自动化运维 Agent]] | DevOps | ✅ 完成 | ⭐⭐⭐⭐ |
+| 04 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/04-代码审查Agent-CodeReview/README\|代码审查 Agent]] | 开发效能 | ✅ 完成 | ⭐⭐⭐ |
+| 05 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/05-社交媒体舆情监控Agent/README\|社交媒体舆情监控 Agent]] | 品牌公关 | ✅ 完成 | ⭐⭐ |
+| 06 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/06-个人知识库自动整理Agent/README\|个人知识库自动整理 Agent]] | 知识管理 | ✅ 完成 | ⭐⭐ |
+| 07 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/07-AI内容工厂-多平台自媒体矩阵/README\|AI 内容工厂 — 多平台自媒体矩阵]] | AIGC | ✅ 完成 | ⭐⭐⭐⭐ |
+| 08 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/08-AI电商商品图批量生成Agent/README\|AI 电商商品图批量生成 Agent]] | AIGC/电商 | ✅ 完成 | ⭐⭐⭐ |
+| 09 | [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战/09-AI短视频自动生成与发布Agent/README\|AI 短视频自动生成与发布 Agent]] | AIGC/短视频 | ✅ 完成 | ⭐⭐⭐⭐ |
 
 ### 项目速查
 
 ```dataview
 TABLE summary AS "简介", status AS "状态"
-FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/02 Agent/04 Hermes-Agent/项目实战"
+FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/02 工具链/04 Hermes-Agent/项目实战"
 WHERE file.name != "项目实战-MOC"
 SORT file.name ASC
 ```

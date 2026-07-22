@@ -1,3 +1,13 @@
+---
+title: Agent数据获取-可用Skills与开源项目
+domain: Core_Ability
+tags: [AI, Agent, 数据获取, Skills, 爬虫]
+status: 稳定
+created: 2026-06-19
+updated: 2026-07-22
+summary: "Agent 数据获取全景——可用 Skills / 开源项目清单，覆盖浏览器自动化、API 抓取、反爬对抗"
+---
+
 # Agent 数据获取 — 可用 Skills / 开源项目全景
 
 > 调研时间：2026-06-19

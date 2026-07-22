@@ -1,3 +1,13 @@
+---
+title: Python爬虫学习路径
+domain: Core_Ability
+tags: [Python, 爬虫, 学习路径, 经验映射]
+status: 稳定
+created: 2026-06-19
+updated: 2026-07-22
+summary: "Python 爬虫学习路径——从PowerShell/JS/CLI经验映射到Python等价写法的完整指南"
+---
+
 # Python 爬虫学习路径
 
 > 从 PowerShell/JS/CLI 经验映射到 Python 等价写法

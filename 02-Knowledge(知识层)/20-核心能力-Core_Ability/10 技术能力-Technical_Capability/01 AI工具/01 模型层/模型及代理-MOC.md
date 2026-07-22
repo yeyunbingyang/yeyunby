@@ -48,7 +48,7 @@ summary: "AI 模型选型与代理路由导航——覆盖主流模型对比、C
 
 ```dataview
 TABLE summary, status, updated
-FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/01 模型层"
+FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/01 模型层"
 WHERE file.name != "模型及代理-MOC"
 SORT updated DESC
 ```

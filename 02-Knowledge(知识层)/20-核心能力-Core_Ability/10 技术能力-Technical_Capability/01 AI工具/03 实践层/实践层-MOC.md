@@ -43,9 +43,9 @@ Vibe Coding（氛围编程）是凭借感觉和意图驱动的AI编程方式，�
 
 ## 本域笔记
 
-``dataview
+```dataview
 TABLE summary, status, updated
 FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01 AI工具/03 实践层"
 WHERE file.name != "实践层-MOC"
 SORT file.name ASC
-``
+```
