@@ -21,8 +21,12 @@ summary: "AI 模型选型与代理路由导航——覆盖主流模型对比、C
 - [[04-模型路由策略]] — 什么任务用什么模型，如何配置高/中/低三档
 
 ### 工具与配置
-- [[02-CC-Switch-模型管理器]] — Claude Code 的多模型切换中枢，一站式管理 API Key 与 Base URL
-- [[01-9router-快速入门手册]] — 免费 AI 路由器，自动 fallback 节省 20-40% Token
+
+| 工具 | 功能 |
+|------|------|
+| [[01 模型层/02-CC-Switch-模型管理器.md|CC Switch]] | Claude Code 多模型切换中枢 |
+| [[01 模型层/01-9router-快速入门手册.md|9Router]] | 免费AI路由器 |
+| [[01 模型层/03-omniRoute-使用指南.md|OmniRoute]] | 236供应商企业级AI网关 |
 
 ## 速查：模型与代理工具关系
 
@@ -44,7 +48,8 @@ summary: "AI 模型选型与代理路由导航——覆盖主流模型对比、C
 
 ```dataview
 TABLE summary, status, updated
-FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/01 模型及代理"
+FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/10 AI应用-AI_Application/01 AI工具/01 模型层"
 WHERE file.name != "模型及代理-MOC"
 SORT updated DESC
 ```
+

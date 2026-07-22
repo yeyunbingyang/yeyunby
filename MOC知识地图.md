@@ -31,7 +31,7 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 │   ├── 10-IT技术-IT_Technology/  # 技术工程（开发/运维/网络）
 │   └── 20-核心能力-Core_Ability/ # 能力与认知（AI应用/思维/人文）
 └── 03-Resources(资源层)/       # 外部资源收集
-    ├── [[Github优质项目-MOC|00 Github优质项目]]/  # 31个项目，8个子分类
+    ├── [[Github优质项目-MOC|00 Github优质项目]]/  # 282个项目，14个分类
     ├── 01-软件工具/            # 开发/效率/系统工具
     ├── 02-课程索引/            # 课程与学习路径
     ├── 03-网站导航/            # 常用网站与文档站
@@ -73,7 +73,7 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 
 | 大类 | 子域 | 笔数 | 关键内容 |
 |------|------|------|----------|
-| **10 AI应用** | [[模型及代理-MOC]] | 105 | AI概念/Agent/Hermes/AIGC |
+| **10 AI应用** | [[AI工具-MOC]] | 185 | Agent/CLI/Skills/VibeCoding/AIGC |
 | **20 职场技能** | [[职业能力-MOC]] / [[表达沟通-MOC]] / [[效率工具-MOC]] | 9 | 职业/面试/沟通/效率工具 |
 | **30 商业创作** | [[商业实践-MOC]] / [[内容创作-MOC]] / [[自媒体与个人IP-MOC]] | 9 | 商业模式/内容创作/IP |
 | **40 生活工具** | [[生活基础设施-MOC]] / [[计算机应用-MOC]] | 10 | 生活/Windows/硬件 |
@@ -104,24 +104,24 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 
 ## GitHub 优质项目
 
-已收录 **139 个**高质量 GitHub 开源项目，详见 [[Github优质项目-MOC]]，12 大分类：
+已收录 **282 个**高质量 GitHub 开源项目，详见 [[Github优质项目-MOC]]，14 大分类：
 
 | 分类 | 数量 | 亮点项目 |
 |------|------|----------|
-| [[Github优质项目-MOC#01 Agent引擎\|01 Agent引擎]] | 14 | OpenClaw(374k)/claw-code(192k)/ruflo(57k) |
-| [[Github优质项目-MOC#02 Agent配置与效率\|02 配置效率]] | 8 | Superpowers(207k)/ECC(193k)/CC-Switch(81k) |
-| [[Github优质项目-MOC#03 Skills与工程规范\|03 Skills规范]] | 16 | Matt Pocock(170k)/Karpathy指南(156k)/Anthropic Skills(141k) |
-| [[Github优质项目-MOC#04 AI应用与知识管理\|04 AI应用与知识]] | 7 | awesome-llm-apps(120k)/learn-claude-code(45k) |
-| [[Github优质项目-MOC#05 视频制作与媒体\|05 视频制作媒体]] | 23 | MoneyPrinter(94k)/manim(88k)/penpot(56k) |
-| [[Github优质项目-MOC#06 浏览器自动化\|06 浏览器自动化]] | 6 | MediaCrawler(54k)/agent-browser(37k) |
-| [[Github优质项目-MOC#07 量化与交易\|07 量化交易]] | 3 | AI Hedge Fund(61k)/每日股票分析(52k) |
-| [[Github优质项目-MOC#08 安全隐私与系统工具\|08 安全工具]] | 11 | hackingtool(69k)/Win11Debloat(51k)/pentagi(20k) |
-| [[Github优质项目-MOC#09 开发者工具\|09 开发者工具]] | 15 | Bun(94k)/imgui(74k)/exo(39k)/pi-mono(18k) |
-| [[Github优质项目-MOC#10 参考与收集\|10 参考收集]] | 14 | free-programming-books(392k)/system-prompts(138k) |
-| [[Github优质项目-MOC#11 数据工程与可视化\|11 数据工程可视化]] | 16 | spec-kit(120k)/graphify(86k)/claude-mem(70k) |
-| [[Github优质项目-MOC#12 DevOps与云原生\|12 DevOps云原生]] | 6 | apple-container(45k)/posthog(35k)/prefect(23k) |
-
-## 使用流程
+| [[Github优质项目-MOC#01-Agent引擎|01 Agent引擎]] | 15 | OpenClaw(383k)/claw-code(195k)/hermes(216k) |
+| [[Github优质项目-MOC#02-Agent配置与Skills|02 Agent配置与Skills]] | 26 | Superpowers(207k)/ECC(193k)/MattPocock(170k) |
+| [[Github优质项目-MOC#03-AI应用与学习|03 AI应用与学习]] | 13 | awesome-llm-apps(120k)/ai-hedge-fund(61k) |
+| [[Github优质项目-MOC#04-AI开发框架|04 AI开发框架]] | 18 | LangChain(170k)/Dify(100k)/AutoGen(60k) |
+| [[Github优质项目-MOC#05-ML引擎与模型|05 ML引擎与模型]] | 15 | Ollama(200k)/TensorFlow(190k)/PyTorch(100k) |
+| [[Github优质项目-MOC#06-视频创作与设计|06 视频创作与设计]] | 23 | MoneyPrinter(97k)/manim(88k)/penpot(56k) |
+| [[Github优质项目-MOC#07-浏览器自动化与测试|07 浏览器自动化与测试]] | 8 | Playwright(80k)/MediaCrawler(54k)/Cypress(50k) |
+| [[Github优质项目-MOC#08-安全与隐私|08 安全与隐私]] | 18 | hackingtool(69k)/Metasploit(40k)/SQLMap(40k) |
+| [[Github优质项目-MOC#09-终端工具|09 终端与效率工具]] | 37 | ohmyzsh(180k)/markitdown(165k)/Bun(94k) |
+| [[Github优质项目-MOC#10-构建工具与质量|10 代码质量与构建]] | 6 | Webpack(65k)/spec-kit(120k)/Prettier(50k) |
+| [[Github优质项目-MOC#11-数据与存储|11 数据与存储]] | 33 | Elasticsearch(75k)/Redis(70k)/Pandas(50k) |
+| [[Github优质项目-MOC#12-DevOps与云原生|12 DevOps与云原生]] | 32 | Kubernetes(120k)/Docker(100k)/Grafana(70k) |
+| [[Github优质项目-MOC#13-前端框架与UI|13 前端框架与UI]] | 27 | React(250k)/Vue(210k)/Bootstrap(175k) |
+| [[Github优质项目-MOC#14-后端与全栈|14 后端与全栈]] | 11 | Flutter(170k)/Django(90k)/FastAPI(90k) |
 
 1. 新内容先放入 [[01-日常流(日常流层)/流入/README\|流入/]]
 2. 每天整理流入，判断去向（Knowledge / Resources）
@@ -129,3 +129,4 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 4. 知识笔记内用 `- [ ] 下一步：...` 标记行动项，自动聚合到仪表盘
 5. 每周完成流入清空，更新 [[Skill_Dashboard\|技能仪表盘]]
 6. 过时笔记修改 `status: 归档`，保留在原位置
+
