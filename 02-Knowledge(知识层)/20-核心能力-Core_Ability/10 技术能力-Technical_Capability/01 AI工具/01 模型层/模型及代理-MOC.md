@@ -17,7 +17,7 @@ summary: "AI 模型选型与代理路由导航——覆盖主流模型对比、C
 ## 子主题
 
 ### 模型认知
-- [[03-主流模型对比]] — GPT-5 / Claude 4 / Gemini / DeepSeek / Qwen 等主流模型能力与定价速查
+- [[00-主流模型对比]] — GPT-5 / Claude 4 / Gemini / DeepSeek / Qwen 等主流模型能力与定价速查
 - [[04-模型路由策略]] — 什么任务用什么模型，如何配置高/中/低三档
 
 ### 工具与配置
@@ -26,7 +26,7 @@ summary: "AI 模型选型与代理路由导航——覆盖主流模型对比、C
 |------|------|
 | [[01 模型层/02-CC-Switch-模型管理器.md|CC Switch]] | Claude Code 多模型切换中枢 |
 | [[01 模型层/01-9router-快速入门手册.md|9Router]] | 免费AI路由器 |
-| [[01 模型层/03-omniRoute-使用指南.md|OmniRoute]] | 236供应商企业级AI网关 |
+| [[03-omniRoute-使用指南|OmniRoute]] | 278供应商企业级AI网关（v3.8.49） |
 
 ## 速查：模型与代理工具关系
 
