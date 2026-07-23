@@ -142,5 +142,5 @@ summary: "Codex 中 hyperframes（写 HTML 渲染视频）和 remotion（用 Rea
 
 ## 参考
 
-- [[02-插件与技能系统]] — 插件完整说明与市场全目录
-- [[01-Codex-使用指南]] — Codex 整体指南
+- [[Codex-插件与技能系统]] — 插件完整说明与市场全目录
+- [[Codex-使用指南]] — Codex 整体指南

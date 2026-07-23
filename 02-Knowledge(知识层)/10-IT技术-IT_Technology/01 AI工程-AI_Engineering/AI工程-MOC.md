@@ -69,7 +69,9 @@ summary: "AI工���子域地图，覆盖模型调用、Prompt工程、RAG�
 
 ```dataview
 TABLE summary, status, updated
-FROM "02-Knowledge(知识层)/10-IT技术-IT_Technology/05-AI工程"
+FROM "02-Knowledge(知识层)/10-IT技术-IT_Technology/01 AI工程-AI_Engineering"
 WHERE file.name != "AI工程-MOC"
 SORT updated DESC
 ```
+
+

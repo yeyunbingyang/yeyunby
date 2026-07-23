@@ -1,11 +1,11 @@
 ---
 title: AI工具 MOC
 domain: Core_Ability
-tags: [MOC, AI, Agent, VibeCoding, 工具链]
+tags: [MOC, AI, Agent, VibeCoding, Agent工具]
 status: 稳定
 created: 2026-07-22
-updated: 2026-07-22
-summary: "AI工具目录总入口——按模型层→工具链→实践层三层组织，覆盖Agent、CLI、Skills、VibeCoding、提示词工程全体系"
+updated: 2026-07-23
+summary: "AI工具目录总入口——按模型层→Agent工具层→实践层三层组织，覆盖Agent引擎、Skills、MCP、VibeCoding全体系"
 ---
 
 # AI工具 MOC
@@ -20,6 +20,7 @@ summary: "AI工具目录总入口——按模型层→工具链→实践层三�
 |---------|---------|
 | **完全零基础** | [[Agent学习与VibeCoding完全指南_2026年7月版.md|完全指南]] → 从第11章开始 |
 | **有编程基础** | [[Agent学习与VibeCoding完全指南_2026年7月版.md|完全指南（完整阅读）]] |
+| **快速概览** | [[AI知识体系速查大纲]] — 体系化速查：概念→模型→工具链→最佳实践 |
 | **经验开发者** | 直接进入工具链-MOC 按需查阅 |
 
 ---
@@ -32,11 +33,11 @@ summary: "AI工具目录总入口——按模型层→工具链→实践层三�
 
 导航：[[模型及代理-MOC|模型层 →]]
 
-### 02 工具链
+### 02 Agent工具
 
-> Agent引擎、CLI工具、Skills体系、数据获取。
+> Agent引擎、Skills体系、MCP协议。
 
-导航：[[工具链-MOC|工具链 →]]
+导航：[[02 Agent工具/Agent工具-MOC|Agent工具 →]]
 
 ### 03 实践层
 
@@ -49,6 +50,7 @@ summary: "AI工具目录总入口——按模型层→工具链→实践层三�
 ## 跨层资源
 
 - [[Agent学习与VibeCoding完全指南_2026年7月版|完全指南]] — 全书19章完整体系
+- [[AI知识体系速查大纲]] — 概念→模型→工具链→最佳实践，数据经联网核查
 - [[Github优质项目-MOC]] — 282个精选开源项目
 
 ### Github 优质项目速览

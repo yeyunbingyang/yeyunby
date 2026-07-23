@@ -13,7 +13,7 @@ summary: "Obsidian 知识管理工具的全方位使用指南，覆盖核心概�
 
 本域存放 **Obsidian 软件使用** 的全部知识——从零基础入门到插件配置、从备份策略到新设备恢复。这些内容面向**人类用户**，不是 AI Agent 的操作手册。
 
-> AI Agent 的 Obsidian 操作手册在 `[[Obsidian-Skills-索引]]`（Claude-Skills 目录），那是给 AI 看的。
+> AI Agent 的 Obsidian 操作手册在 `[[Obsidian-Agent操作指南]]` 和 `[[Obsidian-Markdown语法参考]]`（skills 目录），那是给 AI 看的。
 
 ## 学习路径
 

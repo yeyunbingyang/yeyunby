@@ -291,4 +291,4 @@ import music from "./assets/background.mp3";
 ## 参考
 
 - [[Vibe Coding 视频创作场景]] — 同目录下的 vibe coding 场景列表
-- [[02-插件与技能系统]] — Remotion 插件的完整说明
+- [[Codex-插件与技能系统]] — Remotion 插件的完整说明

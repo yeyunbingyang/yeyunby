@@ -22,7 +22,7 @@ summary: "实践层导航——AI编程零基础入门、Vibe Coding方法论、
 
 ## Vibe Coding
 
-Vibe Coding（氛围编程）是凭借感觉和意图驱动的AI编程方式，核心是用自然语言描述需求，让AI生成代码。详情见主指南第10章：[[Agent学习与VibeCoding完全指南_2026年7月版.md|完全指南]]
+Vibe Coding（氛围编程）是凭借感觉和意图驱动的AI编程方式，核心是用自然语言描述需求，让AI生成代码。详情见主指南第10章：[[Agent学习与VibeCoding完全指南_2026年7月版|完全指南]]
 
 ## 视频创作
 

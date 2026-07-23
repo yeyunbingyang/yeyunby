@@ -102,5 +102,5 @@ summary: "Obsidian 软件资源合集：官网下载、11 个插件完整清单�
 
 - [[Obsidian知识管理-MOC]] — 本知识库的 Obsidian 使用指南
 - [[11-obsidian-skills-Obsidian官方开发者kepano出品的AI|kepano/obsidian-skills]] — GitHub 资源（42.3k stars），Obsidian 官方开发者出品
-- [[Obsidian-Skills-索引]] — 6 个 AI Agent 技能的索引（给 AI 看的操作手册）
+- [[Obsidian-Agent操作指南]] — Agent 操作 Obsidian 的完整手册
 - [[Hermes-Agent-技能工具手册]] — 知识库自动整理 Agent 项目
