@@ -1,0 +1,19 @@
+# ── 软件安装包 / 压缩包（不进版本控制） ──
+*.exe
+*.msi
+*.7z
+*.zip
+*.rar
+*.iso
+*.dmg
+
+# ── AI 模型文件（体积巨大） ──
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# ── 系统文件 ──
+Thumbs.db
+.DS_Store
