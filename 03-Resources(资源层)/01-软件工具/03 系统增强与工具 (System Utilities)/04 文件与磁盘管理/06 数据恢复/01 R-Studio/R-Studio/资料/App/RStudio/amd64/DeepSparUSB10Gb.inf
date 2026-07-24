@@ -1,0 +1,87 @@
+;
+; DeepSparUSB10Gb.inf
+;
+
+[Version]
+Signature   =   "$WINDOWS NT$"
+Class       =   DeepSparUSB10Gb
+ClassGuid   =   {36208c4c-c229-480a-ad1e-c38575ca71f9}
+Provider    =   DeepSpar
+PnpLockdown	=	1 
+CatalogFile =   DeepSparUSB10Gb.cat
+DriverVer = 01/26/2025,7.42.21.260
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = DeepSparUSB10Gb
+
+[SourceDisksFiles]
+DeepSparUSB10Gb.sys = 1
+
+; ================= Uninstall Section  =================
+
+[DefaultUninstall.NTamd64]
+LegacyUninstall=1
+DelReg = DeepSparUSB10GbUninstall.Registry
+DelFiles = DeepSparUSB10GbUninstall.Files
+
+[DefaultUninstall.NTamd64.Services]
+DelService = DeepSparUSB10Gb, 0x200
+
+[DeepSparUSB10GbUninstall.Files]
+DeepSparUSB10Gb.sys
+
+[DeepSparUSB10GbUninstall.Registry]
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{36fc9e60-c465-11cf-8056-444553540000},"LowerFilters",0x00018002,DeepSparUSB10Gb
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e967-e325-11ce-bfc1-08002be10318},"LowerFilters",0x00018002,DeepSparUSB10Gb
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e967-e325-11ce-bfc1-08002be10318},"UpperFilters",0x00018002,DeepSparUSB10Gb
+;HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e97b-e325-11ce-bfc1-08002be10318},"UpperFilters",0x00018002,DeepSparUSB10Gb
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e97b-e325-11ce-bfc1-08002be10318},"LowerFilters",0x00018002,DeepSparUSB10Gb
+;HKLM,SYSTEM\CurrentControlSet\Control\Class\{88BAE032-5A81-49f0-BC3D-A4FF138216D6},"UpperFilters",0x00018002,DeepSparUSB10Gb
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{88BAE032-5A81-49f0-BC3D-A4FF138216D6},"LowerFilters",0x00018002,DeepSparUSB10Gb
+
+; ================= Install Section  =================
+
+[DefaultInstall.NTamd64]
+CopyFiles = DeepSparUSB10Gb.Files
+
+[DefaultInstall.NTamd64.Services]
+AddService = DeepSparUSB10Gb,,DeepSparUSB10Gb.Service
+
+[DeepSparUSB10Gb.Service]
+DisplayName    = "DeepSpar USB 10Gb Storage Driver"
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 0               ; 0=SERVICE_BOOT_START, 1=SERVICE_SYSTEM_START, 3=SERVICE_DEMAND_START 
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\DeepSparUSB10Gb.sys
+AddReg         = DeepSparUSB10Gb.Registry
+;LoadOrderGroup = Pnp Filter
+
+[DeepSparUSB10Gb.Files]
+DeepSparUSB10Gb.sys
+
+[DeepSparUSB10Gb.Registry]
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{36fc9e60-c465-11cf-8056-444553540000},"LowerFilters",0x00010008,DeepSparUSB10Gb	;UsbFilter
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e967-e325-11ce-bfc1-08002be10318},"LowerFilters",0x00010008,DeepSparUSB10Gb	;DiskDrive
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e967-e325-11ce-bfc1-08002be10318},"UpperFilters",0x00010008,DeepSparUSB10Gb	;DiskDrive
+;HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e97b-e325-11ce-bfc1-08002be10318},"UpperFilters",0x00010008,DeepSparUSB10Gb	;SCSIAdapter
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e97b-e325-11ce-bfc1-08002be10318},"LowerFilters",0x00010008,DeepSparUSB10Gb	;SCSIAdapter
+;HKLM,SYSTEM\CurrentControlSet\Control\Class\{88BAE032-5A81-49f0-BC3D-A4FF138216D6},"UpperFilters",0x00010008,DeepSparUSB10Gb	;USBDevice
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{88BAE032-5A81-49f0-BC3D-A4FF138216D6},"LowerFilters",0x00010008,DeepSparUSB10Gb	;USBDevice
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "TurnOffDriveIfInactiveTimeout", 0x00010001, 300 ;in seconds
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "ErrorOutEachSourceReadBlockTimeout", 0x00010001, 30 ;in ms
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "AutoRepowerToApplySettings", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "UsbfDispatchLevel", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "DbgSrc", 0x00010001, 0
+HKLM,SYSTEM\CurrentControlSet\services\DeepSparUSB10Gb, "DbgTgt", 0 , ""
+HKLM,SYSTEM\CurrentControlSet\services\DeepSparUSB10Gb, "DbgUa", 0 , ""
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "CfgA", 0x00010003, 0
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "CfgB", 0x00010003, 0
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "BNonStSPT", 0x00010001, 0
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "NVMeId", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "AtaReadLookAhead", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB10Gb, "DebugMode", 0x00010001, 0
+; ================= Strings =================
+[Strings]

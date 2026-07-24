@@ -1,0 +1,79 @@
+;
+; DeepSparUSB.inf
+;
+
+[Version]
+Signature   =   "$WINDOWS NT$"
+Class       =   DeepSparUSB
+ClassGuid   =   {07E6A08D-5828-4D05-9DA8-72EE0096DE7F}
+Provider    =   DeepSpar
+PnpLockdown	=	1 
+CatalogFile =   DeepSparUSB.cat
+DriverVer = 01/26/2025,7.40.40.683
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = DeepSparUSB
+
+[SourceDisksFiles]
+DeepSparUSB.sys = 1
+
+; ================= Uninstall Section  =================
+
+[DefaultUninstall.NTamd64]
+LegacyUninstall=1
+DelReg = DeepSparUSBUninstall.Registry
+DelFiles = DeepSparUSBUninstall.Files
+
+[DefaultUninstall.NTamd64.Services]
+DelService = DeepSparUSB, 0x200
+
+[DeepSparUSBUninstall.Files]
+DeepSparUSB.sys
+
+[DeepSparUSBUninstall.Registry]
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{36fc9e60-c465-11cf-8056-444553540000},"LowerFilters",0x00018002,DeepSparUSB
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e967-e325-11ce-bfc1-08002be10318},"UpperFilters",0x00018002,DeepSparUSB
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e97b-e325-11ce-bfc1-08002be10318},"LowerFilters",0x00018002,DeepSparUSB
+
+; ================= Install Section  =================
+
+[DefaultInstall.NTamd64]
+CopyFiles = DeepSparUSB.Files
+
+[DefaultInstall.NTamd64.Services]
+AddService = DeepSparUSB,,DeepSparUSB.Service
+
+[DeepSparUSB.Service]
+DisplayName    = "DeepSpar USB Storage Driver"
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 0               ; 0=SERVICE_BOOT_START, 1=SERVICE_SYSTEM_START, 3=SERVICE_DEMAND_START 
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\DeepSparUSB.sys
+AddReg         = DeepSparUSB.Registry
+;LoadOrderGroup = Pnp Filter
+
+[DeepSparUSB.Files]
+DeepSparUSB.sys
+
+[DeepSparUSB.Registry]
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{36fc9e60-c465-11cf-8056-444553540000},"LowerFilters",0x00010008,DeepSparUSB
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e967-e325-11ce-bfc1-08002be10318},"UpperFilters",0x00010008,DeepSparUSB
+HKLM,SYSTEM\CurrentControlSet\Control\Class\{4d36e97b-e325-11ce-bfc1-08002be10318},"LowerFilters",0x00010008,DeepSparUSB
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "TurnOffDriveIfInactiveTimeout", 0x00010001, 300 ;in seconds
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "ErrorOutEachSourceReadBlockTimeout", 0x00010001, 30 ;in ms
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "AutoRepowerToApplySettings", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "IgnoreSourceCapacityDifference", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "UsbfDispatchLevel", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "DbgSrc", 0x00010001, 0
+HKLM,SYSTEM\CurrentControlSet\services\DeepSparUSB, "DbgTgt", 0 ,""
+HKLM,SYSTEM\CurrentControlSet\services\DeepSparUSB, "DbgUa", 0 ,""
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "PSize", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "PNum", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "PType", 0x00010001, 1
+HKLM,SYSTEM\CurrentControlSet\Services\DeepSparUSB, "DebugMode", 0x00010001, 0
+
+; ================= Strings =================
+[Strings]

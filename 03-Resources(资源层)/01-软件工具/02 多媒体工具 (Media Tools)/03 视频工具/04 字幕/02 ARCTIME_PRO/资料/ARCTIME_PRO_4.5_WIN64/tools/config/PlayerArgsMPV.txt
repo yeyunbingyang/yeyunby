@@ -1,0 +1,10 @@
+#mpv player args by arctime
+--msg-level=all=v,statusline=fatal
+#use for debugging
+#--framedrop={no,vo,decoder}
+#--video-latency-hacks={yes,no}
+#--hwdec={no,auto,yes}
+#--no-taskbar-progress
+--screenshot-format=png
+--screenshot-high-bit-depth=no
+--screenshot-png-compression=5

@@ -1,0 +1,13 @@
+[core]
+fsmonitor = false
+longpaths = true
+[submodule]
+recurse = true
+fetchJobs = 0
+[fetch]
+parallel = 0
+[safe]
+directory = *
+[http]
+sslverify = true
+

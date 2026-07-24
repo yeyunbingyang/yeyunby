@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Glarysoft\DiskDefrag]
+
+[HKEY_CURRENT_USER\Software\Glarysoft\DiskDefrag\RunShedule]
+
+[HKEY_CURRENT_USER\Software\Glarysoft\DiskDefrag\Setting Option]
+
+[HKEY_CURRENT_USER\Software\Glarysoft\DiskDefrag\Setting Option\Gereral]

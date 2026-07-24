@@ -1,0 +1,7 @@
+#vlc player extra args by arctime
+--quiet-synchro
+--no-snapshot-preview
+#use for debugging
+#--avcodec-hw={any,d3d11va,dxva2,none} 
+#--avcodec-hw=none
+#--no-directx-hw-yuv

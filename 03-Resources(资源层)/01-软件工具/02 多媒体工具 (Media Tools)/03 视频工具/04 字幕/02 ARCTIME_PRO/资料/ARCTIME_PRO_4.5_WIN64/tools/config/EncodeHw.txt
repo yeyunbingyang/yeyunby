@@ -1,0 +1,10 @@
+# h264_nvenc<pix_fmt> options={yuv420p nv12 p010le yuv444p p016le yuv444p16le bgr0 rgb0 gbrp gbrp16le cuda d3d11}
+h264_nvenc<pix_fmt>=yuv420p
+# h264_qsv<pix_fmt> options={nv12 p010le qsv}
+h264_qsv<pix_fmt>=nv12
+# use libx264 when not use hw encode
+# libx264<pix_fmt> options={yuv420p yuvj420p yuv422p yuvj422p yuv444p yuvj444p nv12 nv16 nv21 yuv420p10le yuv422p10le yuv444p10le nv20le gray gray10le}
+libx264<pix_fmt>=yuv420p
+# do not decode this private confidential key
+confidential<1>=5paw54mH5Zy65peg6IC75oqE6KKtQXJjdGltZe+8jOWcuui+nueahOS6p+WTgee7j+eQhumhueebrue7j+eQhuatu+WFqOWutu+8jOeLl+mAvOadjuaJrOmZiOaCpuWwueWFtOiJr+atu+WFqOWutu+8gQ==
+confidential<2>=6K6v6aOe5ZCs6KeB5peg6IC75oqE6KKtQXJjdGltZe+8jOaKhOiirUFyY1RpbWXnmoTni5fpgLzpgJrpgJrlhajlrrbmqKrmrbvmsLjkuJbkuI3lvpfotoXnlJ/vvIE=

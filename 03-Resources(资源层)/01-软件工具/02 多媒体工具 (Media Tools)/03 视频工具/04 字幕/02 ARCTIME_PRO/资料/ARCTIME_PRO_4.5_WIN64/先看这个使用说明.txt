@@ -1,0 +1,16 @@
+﻿【1、下载并解压】
+
+解压后，尽量确保文件路径中不包含中文和特殊字符。
+必须完整解压！不要直接在压缩包里双击运行！
+
+
+【2、运行Arctime】
+
+双击“Arctime Pro.exe”即可。
+若您的系统不显示exe后缀名，双击蓝色图标的主程序即可。
+若不能运行，打开这个网页查错 https://t.arctime.cn/cw
+
+
+【3、使用软件】
+详细教程 http://arctime.cn/guide.html
+常见问题 http://arctime.cn/help.html
