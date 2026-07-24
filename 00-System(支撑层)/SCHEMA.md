@@ -10,6 +10,8 @@ tags: []                   # 关键词，辅助检索（1-4个）
 status: 草稿               # 计划 | 草稿 | 稳定 | 改进 | 归档
 created: 2026-05-07
 updated: 2026-05-07
+verified: 2026-05-07        # 可选：最近一次按可信来源核验日期
+review_after: 2026-08-07    # 可选：下次应复核日期
 source: ""                 # 来源（链接/书名/课程）
 related: []                # 关联笔记 [[笔记名]]
 summary: ""                # 一句话核心内容（AI 检索用，必填）
@@ -35,6 +37,17 @@ summary: ""                # 一句话核心内容（AI 检索用，必填）
 | `归档` | 已过时或被替代，封存用 | 将 status 改为 `归档`，保留在原位置 |
 
 **工作流：** `计划 → 草稿 → 稳定`，知识更新时回退到 `改进 → 稳定`，过时时 `→ 归档`
+
+## 时效性字段
+
+`verified` 和 `review_after` 仅用于会随外部产品变化的笔记，例如模型价格、软件版本、安装命令、API、插件目录和供应商能力。
+
+| 字段 | 含义 | 使用规则 |
+|------|------|----------|
+| `verified` | 最近一次按可信来源核验日期 | 核验事实后更新，不能仅因修改排版而更新 |
+| `review_after` | 下次应复核日期 | 模型、价格和版本通常设为 1 个月；工具配置设为 3 个月；稳定概念和案例最长 1 年 |
+
+优先使用官方文档、官方仓库和正式发布页。无法找到可信来源时，将笔记设为 `status: 改进` 并添加 `待验证` 标签，不把推测写成稳定事实。
 
 ## summary 写法
 
@@ -63,4 +76,11 @@ TASK
 FROM "02-Knowledge(知识层)"
 WHERE !completed
 GROUP BY file.link
+```
+
+```dataview
+TABLE verified, review_after, source, status
+FROM "02-Knowledge(知识层)"
+WHERE review_after AND date(review_after) <= date(today) AND status != "归档"
+SORT review_after ASC
 ```
