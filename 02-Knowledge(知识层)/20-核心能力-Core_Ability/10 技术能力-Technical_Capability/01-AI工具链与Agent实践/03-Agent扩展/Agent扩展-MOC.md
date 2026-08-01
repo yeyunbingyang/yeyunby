@@ -4,8 +4,8 @@ domain: Core_Ability
 tags: [MOC, AI, Agent, 工具]
 status: 稳定
 created: 2026-07-25
-updated: 2026-07-25
-verified: 2026-07-25
+updated: 2026-07-30
+verified: 2026-07-30
 review_after: 2026-10-25
 source: "内部实践整理；外部依据见正文链接"
 related: ["AI工具链与Agent实践-MOC", "Agent平台-MOC"]
@@ -29,6 +29,7 @@ summary: "Agent 扩展能力通过 Skills、MCP 和工具集成把通用 Agent �
 
 - [[MCP-概念与架构]] — 协议角色、通信流程与适用边界
 - [[MCP-企业级应用与本地部署]] — 企业集成和本地部署
+- [[Chrome-DevTools-MCP安装与操作指南]] — 在 Codex 中安装、配置并使用 Chrome 浏览器调试与自动化能力
 
 ## 集成场景
 

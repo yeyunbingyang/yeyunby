@@ -1,5 +1,0 @@
-//如果导入视频后，时间轴波形不全、不显示滚动条、时长错误，将视频文件名（需包含后缀名）添加到此文件，一行一个
-//After importing video file, if waveform is incomplete, or scrollbar not shown, or duration is wrong in the timeline area,
-//then add filename to this list, one per line.
-
-arctime-pro-video-demo-to-fix.mkv

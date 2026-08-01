@@ -1,0 +1,17 @@
+{
+  "skill_name": "workflow-designer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我设计一个每周清理 Obsidian 流入箱的 SOP。",
+      "expected_output": "先澄清关键完成标准，然后生成含输入、步骤、通过条件、异常处理和复盘指标的 SOP。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "把流程整理成简版：收到一篇文章后，判断是资源还是知识，处理后挂到 MOC。",
+      "expected_output": "按简版要求输出，但保留目标、步骤、输出、通过条件和异常处理。",
+      "files": []
+    }
+  ]
+}

@@ -4,7 +4,7 @@ domain: ""
 tags: [MOC, 导航]
 status: 稳定
 created: 2026-05-07
-updated: 2026-07-25
+updated: 2026-07-28
 summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域（493篇）、AI工具链、系统仪表盘和资源库"
 ---
 
@@ -31,7 +31,7 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 │   ├── 10-IT技术-IT_Technology/  # 技术工程（开发/运维/网络）
 │   └── 20-核心能力-Core_Ability/ # 能力与认知（AI应用/思维/人文）
 └── 03-Resources(资源层)/       # 外部资源收集
-    ├── [[Github优质项目-MOC|00 Github优质项目]]/  # 282个项目，14个分类
+    ├── [[Github优质项目-MOC|00 Github优质项目]]/  # 290个项目，14个分类
     ├── 01-软件工具/            # 开发/效率/系统工具
     ├── 02-课程索引/            # 课程与学习路径
     ├── 03-网站导航/            # 常用网站与文档站
@@ -104,21 +104,21 @@ summary: "知识库顶级导航入口，覆盖4层目录结构、三大知识域
 
 ## GitHub 优质项目
 
-已收录 **282 个**高质量 GitHub 开源项目，详见 [[Github优质项目-MOC]]，14 大分类：
+已收录 **290 个**高质量 GitHub 开源项目，详见 [[Github优质项目-MOC]]，14 大分类：
 
 | 分类 | 数量 | 亮点项目 |
 |------|------|----------|
-| [[Github优质项目-MOC#01-Agent引擎|01 Agent引擎]] | 15 | OpenClaw(383k)/claw-code(195k)/hermes(216k) |
-| [[Github优质项目-MOC#02-Agent配置与Skills|02 Agent配置与Skills]] | 26 | Superpowers(207k)/ECC(193k)/MattPocock(170k) |
-| [[Github优质项目-MOC#03-AI应用与学习|03 AI应用与学习]] | 13 | awesome-llm-apps(120k)/ai-hedge-fund(61k) |
-| [[Github优质项目-MOC#04-AI开发框架|04 AI开发框架]] | 18 | LangChain(170k)/Dify(100k)/AutoGen(60k) |
-| [[Github优质项目-MOC#05-ML引擎与模型|05 ML引擎与模型]] | 15 | Ollama(200k)/TensorFlow(190k)/PyTorch(100k) |
-| [[Github优质项目-MOC#06-视频创作与设计|06 视频创作与设计]] | 23 | MoneyPrinter(97k)/manim(88k)/penpot(56k) |
-| [[Github优质项目-MOC#07-浏览器自动化与测试|07 浏览器自动化与测试]] | 8 | Playwright(80k)/MediaCrawler(54k)/Cypress(50k) |
-| [[Github优质项目-MOC#08-安全与隐私|08 安全与隐私]] | 18 | hackingtool(69k)/Metasploit(40k)/SQLMap(40k) |
-| [[Github优质项目-MOC#09-终端工具|09 终端与效率工具]] | 37 | ohmyzsh(180k)/markitdown(165k)/Bun(94k) |
-| [[Github优质项目-MOC#10-构建工具与质量|10 代码质量与构建]] | 6 | Webpack(65k)/spec-kit(120k)/Prettier(50k) |
-| [[Github优质项目-MOC#11-数据与存储|11 数据与存储]] | 33 | Elasticsearch(75k)/Redis(70k)/Pandas(50k) |
+| [[Github优质项目-MOC#01-Agent引擎|01 Agent引擎]] | 16 | OpenClaw(383k)/claw-code(195k)/hermes(216k) |
+| [[Github优质项目-MOC#02-Agent配置与Skills|02 Agent配置与Skills]] | 28 | Superpowers(207k)/ECC(193k)/MattPocock(170k) |
+| [[Github优质项目-MOC#03-AI应用与学习|03 AI应用与学习]] | 21 | awesome-llm-apps(120k)/ai-hedge-fund(61k) |
+| [[Github优质项目-MOC#04-AI开发框架|04 AI开发框架]] | 19 | LangChain(170k)/Dify(100k)/AutoGen(60k) |
+| [[Github优质项目-MOC#05-ML引擎与模型|05 ML引擎与模型]] | 16 | Ollama(200k)/TensorFlow(190k)/PyTorch(100k) |
+| [[Github优质项目-MOC#06-视频创作与设计|06 视频创作与设计]] | 15 | MoneyPrinter(97k)/manim(88k)/penpot(56k) |
+| [[Github优质项目-MOC#07-浏览器自动化与测试|07 浏览器自动化与测试]] | 7 | Playwright(80k)/MediaCrawler(54k)/Cypress(50k) |
+| [[Github优质项目-MOC#08-安全与隐私|08 安全与隐私]] | 21 | hackingtool(69k)/Metasploit(40k)/SQLMap(40k) |
+| [[Github优质项目-MOC#09-终端工具|09 终端与效率工具]] | 29 | ohmyzsh(180k)/markitdown(165k)/Bun(94k) |
+| [[Github优质项目-MOC#10-构建工具与质量|10 代码质量与构建]] | 14 | Webpack(65k)/spec-kit(120k)/Prettier(50k) |
+| [[Github优质项目-MOC#11-数据与存储|11 数据与存储]] | 34 | Elasticsearch(75k)/Redis(70k)/Pandas(50k) |
 | [[Github优质项目-MOC#12-DevOps与云原生|12 DevOps与云原生]] | 32 | Kubernetes(120k)/Docker(100k)/Grafana(70k) |
 | [[Github优质项目-MOC#13-前端框架与UI|13 前端框架与UI]] | 27 | React(250k)/Vue(210k)/Bootstrap(175k) |
 | [[Github优质项目-MOC#14-后端与全栈|14 后端与全栈]] | 11 | Flutter(170k)/Django(90k)/FastAPI(90k) |

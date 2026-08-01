@@ -4,8 +4,8 @@ domain: Core_Ability
 tags: [MOC, 健康, 数字生活, 财务规划]
 status: 稳定
 created: 2026-05-07
-updated: 2026-05-07
-summary: "生活基础设施子域地图，覆盖健康体能、数字生活管理、个人财务规划与兴趣技能"
+updated: 2026-08-02
+summary: "生活基础设施子域地图，覆盖健康体能、数字生活、海外通信与支付等个人底层系统"
 ---
 
 # 生活基础设施
@@ -17,6 +17,12 @@ summary: "生活基础设施子域地图，覆盖健康体能、数字生活管�
 `健康基础（睡眠→运动→饮食）`
 
 ## 核心知识点
+
+### 数字生活与跨境服务
+
+- [[Telegram信息检索与账号安全]] — 搜索结果可信度判断、频道群组核验与账号安全基线
+- [[海外手机号选择与长期保号]] — 号码控制权、激活、KYC、漫游和保号决策框架
+- [[海外支付方案选择]] — 国际卡、PayPal、跨境收款和支付失败排查
 
 ### 健康与体能
 - **睡眠（最高优先级）**
@@ -41,7 +47,7 @@ summary: "生活基础设施子域地图，覆盖健康体能、数字生活管�
 
 ```dataview
 TABLE summary, status, updated
-FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/40 生活工具-Life_Tools/01-生活基础设施"
+FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/40 生活能力-Life_Capability/01 生活基础设施"
 WHERE file.name != "生活基础设施-MOC"
 SORT updated DESC
 ```

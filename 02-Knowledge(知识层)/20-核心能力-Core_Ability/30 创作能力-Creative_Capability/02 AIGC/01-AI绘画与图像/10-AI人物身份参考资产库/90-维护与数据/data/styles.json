@@ -1,0 +1,446 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-07-30",
+  "styles": [
+    {
+      "id": "CN01",
+      "country": "CN",
+      "medium": "2D",
+      "name_zh": "中国传统美术动画",
+      "visual_traits": [
+        "剪纸或皮影轮廓",
+        "工笔白描线性",
+        "传统设色"
+      ],
+      "prompt_module_en": "traditional Chinese art animation, controlled paper-cut and gongbi linework, restrained mineral colors",
+      "negative_prompt_en": "western comic styling, generic anime face, photoreal skin",
+      "representative_work_ids": [
+        "CN-W001",
+        "CN-W002",
+        "CN-W017"
+      ],
+      "production_fit": [
+        "文化题材",
+        "风格短片"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "CN02",
+      "country": "CN",
+      "medium": "3D",
+      "name_zh": "修仙写实3D",
+      "visual_traits": [
+        "写实材质",
+        "东方玄幻",
+        "电影灯光"
+      ],
+      "prompt_module_en": "cinematic realistic 3D Chinese cultivation animation, physically based materials, restrained adult facial design",
+      "negative_prompt_en": "plastic skin, oversized anime eyes, chibi proportions",
+      "representative_work_ids": [
+        "CN-W003",
+        "CN-W004",
+        "CN-W012",
+        "CN-W013",
+        "CN-W019"
+      ],
+      "production_fit": [
+        "修仙漫剧",
+        "动作视频"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "CN03",
+      "country": "CN",
+      "medium": "2D",
+      "name_zh": "国漫2D赛璐璐",
+      "visual_traits": [
+        "清晰线稿",
+        "平涂",
+        "块面阴影"
+      ],
+      "prompt_module_en": "Chinese 2D cel animation, clean line art, controlled flat colors, two-step shading",
+      "negative_prompt_en": "painterly blur, photoreal pores, 3D render look",
+      "representative_work_ids": [
+        "CN-W005",
+        "CN-W006",
+        "CN-W014",
+        "CN-W015",
+        "CN-W016",
+        "CN-W018"
+      ],
+      "production_fit": [
+        "连续剧情",
+        "表情资产"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "CN04",
+      "country": "CN",
+      "medium": "2.5D",
+      "name_zh": "水墨动势2.5D",
+      "visual_traits": [
+        "水墨边缘",
+        "纸本肌理",
+        "体积光"
+      ],
+      "prompt_module_en": "2.5D Chinese ink animation, expressive ink edges, subtle paper texture, dimensional cinematic light",
+      "negative_prompt_en": "muddy facial features, abstract face, random ink covering eyes",
+      "representative_work_ids": [
+        "CN-W002",
+        "CN-W006",
+        "CN-W007",
+        "CN-W014",
+        "CN-W017"
+      ],
+      "production_fit": [
+        "国风短片",
+        "修仙氛围"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "CN05",
+      "country": "CN",
+      "medium": "AI_drama",
+      "name_zh": "AI动画与仿真人3D漫剧",
+      "visual_traits": [
+        "竖屏适配",
+        "半写实角色",
+        "强钩子画面"
+      ],
+      "prompt_module_en": "vertical AI drama character, polished semi-real 3D appearance, clear mobile-readable facial features",
+      "negative_prompt_en": "uncanny eyes, wax skin, inconsistent identity, cluttered background",
+      "representative_work_ids": [
+        "CN-W008",
+        "CN-W009"
+      ],
+      "production_fit": [
+        "9:16漫剧",
+        "高频换装"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "CN06",
+      "country": "CN",
+      "medium": "3D",
+      "name_zh": "现代国潮电影级3D",
+      "visual_traits": [
+        "电影构图",
+        "国潮材质",
+        "精细灯光"
+      ],
+      "prompt_module_en": "cinematic modern guochao 3D animation, refined Chinese design language, premium material rendering",
+      "negative_prompt_en": "costume clutter, overdecorated face, generic fantasy",
+      "representative_work_ids": [
+        "CN-W007",
+        "CN-W010",
+        "CN-W011",
+        "CN-W013",
+        "CN-W020"
+      ],
+      "production_fit": [
+        "品牌短片",
+        "电影化漫剧"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "JP01",
+      "country": "JP",
+      "medium": "2D",
+      "name_zh": "成年电影感写实日漫",
+      "visual_traits": [
+        "成人比例",
+        "克制五官",
+        "电影光影"
+      ],
+      "prompt_module_en": "adult cinematic realistic anime, restrained facial simplification, natural proportions, film lighting",
+      "negative_prompt_en": "childlike face, giant eyes, chibi body",
+      "representative_work_ids": [
+        "JP-W001",
+        "JP-W002",
+        "JP-W011",
+        "JP-W013",
+        "JP-W014",
+        "JP-W018",
+        "JP-W019",
+        "JP-W020"
+      ],
+      "production_fit": [
+        "剧情漫剧",
+        "写实转绘"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "JP02",
+      "country": "JP",
+      "medium": "2D",
+      "name_zh": "少年战斗赛璐璐",
+      "visual_traits": [
+        "强轮廓",
+        "块面阴影",
+        "动作张力"
+      ],
+      "prompt_module_en": "shonen battle cel animation, assertive outlines, graphic shadow shapes, animation-ready design",
+      "negative_prompt_en": "soft painterly rendering, weak silhouette, photoreal skin",
+      "representative_work_ids": [
+        "JP-W003",
+        "JP-W004",
+        "JP-W012",
+        "JP-W013",
+        "JP-W017",
+        "JP-W020"
+      ],
+      "production_fit": [
+        "战斗分镜",
+        "动作视频"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "JP03",
+      "country": "JP",
+      "medium": "2D",
+      "name_zh": "少女漫画精致线稿",
+      "visual_traits": [
+        "精细线条",
+        "通透眼神",
+        "柔和色彩"
+      ],
+      "prompt_module_en": "refined shoujo manga line art, elegant adult facial design, luminous but controlled eyes, soft palette",
+      "negative_prompt_en": "child face, extreme eye enlargement, sharp masculine jaw",
+      "representative_work_ids": [
+        "JP-W005",
+        "JP-W006",
+        "JP-W011",
+        "JP-W019"
+      ],
+      "production_fit": [
+        "恋爱剧情",
+        "服装展示"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "JP04",
+      "country": "JP",
+      "medium": "2D",
+      "name_zh": "都市超自然霓虹2D",
+      "visual_traits": [
+        "都市夜色",
+        "互补霓虹",
+        "超自然氛围"
+      ],
+      "prompt_module_en": "urban supernatural 2D anime, complementary neon lighting, clean adult character design",
+      "negative_prompt_en": "neon obscuring face, cybernetic redesign, identity drift",
+      "representative_work_ids": [
+        "JP-W001",
+        "JP-W003",
+        "JP-W007",
+        "JP-W012",
+        "JP-W015",
+        "JP-W018"
+      ],
+      "production_fit": [
+        "都市奇幻",
+        "短视频首帧"
+      ],
+      "status": "selected"
+    },
+    {
+      "id": "JP05",
+      "country": "JP",
+      "medium": "2D",
+      "name_zh": "东方宫廷精细2D",
+      "visual_traits": [
+        "宫廷纹样",
+        "细密描线",
+        "雅致配色"
+      ],
+      "prompt_module_en": "refined East Asian court 2D animation, meticulous linework, elegant restrained palette",
+      "negative_prompt_en": "overloaded jewelry, childlike face, generic western palace",
+      "representative_work_ids": [
+        "JP-W006",
+        "JP-W008",
+        "JP-W016"
+      ],
+      "production_fit": [
+        "古装剧情",
+        "换装"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "JP06",
+      "country": "JP",
+      "medium": "2D",
+      "name_zh": "复古90年代赛璐璐",
+      "visual_traits": [
+        "手绘线条",
+        "有限色阶",
+        "胶片颗粒"
+      ],
+      "prompt_module_en": "1990s hand-painted cel animation, tactile linework, limited color steps, subtle film grain",
+      "negative_prompt_en": "modern glossy vector look, 3D render, excessive grain on face",
+      "representative_work_ids": [
+        "JP-W009",
+        "JP-W010",
+        "JP-W015"
+      ],
+      "production_fit": [
+        "复古短片",
+        "怀旧海报"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "KR01",
+      "country": "KR",
+      "medium": "webtoon",
+      "name_zh": "现代恋爱Webtoon",
+      "visual_traits": [
+        "干净线条",
+        "时尚妆发",
+        "柔光"
+      ],
+      "prompt_module_en": "modern Korean romance webtoon, clean elegant linework, fashionable adult makeup, soft studio light",
+      "negative_prompt_en": "childlike face, huge sparkling eyes, plastic 3D look",
+      "representative_work_ids": [
+        "KR-W001",
+        "KR-W002",
+        "KR-W012",
+        "KR-W014",
+        "KR-W015",
+        "KR-W018"
+      ],
+      "production_fit": [
+        "恋爱漫剧",
+        "换装"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "KR02",
+      "country": "KR",
+      "medium": "webtoon",
+      "name_zh": "动作升级流Webtoon",
+      "visual_traits": [
+        "高反差",
+        "冷色能量",
+        "动作轮廓"
+      ],
+      "prompt_module_en": "Korean action progression webtoon, high-contrast graphic lighting, crisp adult character design",
+      "negative_prompt_en": "energy effects covering face, identity redesign, childish proportions",
+      "representative_work_ids": [
+        "KR-W003",
+        "KR-W004",
+        "KR-W011",
+        "KR-W012",
+        "KR-W013",
+        "KR-W019"
+      ],
+      "production_fit": [
+        "动作漫剧",
+        "竖屏钩子"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "KR03",
+      "country": "KR",
+      "medium": "webtoon",
+      "name_zh": "宫廷转生Webtoon",
+      "visual_traits": [
+        "华丽服饰",
+        "宝石色",
+        "精细饰纹"
+      ],
+      "prompt_module_en": "Korean palace reincarnation webtoon, refined adult face, jewel-tone palette, detailed but controlled ornament",
+      "negative_prompt_en": "ornament covering face, child princess proportions, costume inconsistency",
+      "representative_work_ids": [
+        "KR-W005",
+        "KR-W006",
+        "KR-W020"
+      ],
+      "production_fit": [
+        "宫廷剧情",
+        "换装"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "KR04",
+      "country": "KR",
+      "medium": "2.5D",
+      "name_zh": "半写实韩系游戏插画",
+      "visual_traits": [
+        "半写实皮肤",
+        "理想化比例",
+        "材质光泽"
+      ],
+      "prompt_module_en": "semi-real Korean game character illustration, polished skin shading, elegant adult proportions, controlled material highlights",
+      "negative_prompt_en": "wax skin, extreme fantasy redesign, asymmetrical eyes",
+      "representative_work_ids": [
+        "KR-W007",
+        "KR-W008"
+      ],
+      "production_fit": [
+        "角色立绘",
+        "游戏感漫剧"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "KR05",
+      "country": "KR",
+      "medium": "webtoon",
+      "name_zh": "低饱和电影感韩漫",
+      "visual_traits": [
+        "低饱和",
+        "成人脸",
+        "克制光影"
+      ],
+      "prompt_module_en": "low-saturation cinematic Korean manhwa, mature facial proportions, understated film lighting",
+      "negative_prompt_en": "bright candy colors, giant eyes, flat childlike face",
+      "representative_work_ids": [
+        "KR-W009",
+        "KR-W010",
+        "KR-W015",
+        "KR-W017"
+      ],
+      "production_fit": [
+        "现实剧情",
+        "情绪短片"
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "KR06",
+      "country": "KR",
+      "medium": "game_3D",
+      "name_zh": "写实3D角色表现",
+      "visual_traits": [
+        "写实体积",
+        "动画可控结构",
+        "电影材质"
+      ],
+      "prompt_module_en": "realistic Korean 3D character animation, animation-ready anatomy, cinematic physically based rendering",
+      "negative_prompt_en": "uncanny eyes, wax figure, excessive pore smoothing",
+      "representative_work_ids": [
+        "KR-W007",
+        "KR-W008",
+        "KR-W016"
+      ],
+      "production_fit": [
+        "3D漫剧",
+        "微运动"
+      ],
+      "status": "tested"
+    }
+  ]
+}
