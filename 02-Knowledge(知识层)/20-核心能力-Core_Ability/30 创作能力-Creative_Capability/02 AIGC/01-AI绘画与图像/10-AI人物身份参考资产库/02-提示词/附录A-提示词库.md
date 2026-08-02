@@ -8,7 +8,7 @@ updated: 2026-07-30
 verified: 2026-07-30
 review_after: 2026-08-30
 source: "资产库既有七篇提示词笔记按生产任务合并"
-related: ["[[AI人物身份参考资产库-MOC]]", "[[AI人物身份参考资产-执行手册]]", "[[附录B-验收与失败修复]]"]
+related: ["[[AI人物身份参考资产库-MOC]]", "[[AI人物身份参考资产-执行手册]]", "[[验收与失败修复规范]]"]
 summary: "按身份母版、人脸角度、真人三视图、动漫化、动漫三视图、表情换装和四格场景七类任务提供GPT与即梦模板。"
 ---
 
@@ -96,7 +96,7 @@ summary: "按身份母版、人脸角度、真人三视图、动漫化、动漫�
 场景为{背景场景}，服装为{符合世界观、职业、天气与动作的服装}。背景必须有空间层次和叙事信息，不使用纯色证件照背景；人物轮廓需与背景有明度或色相分离。只输出正面0°独立全身图。
 ```
 
-风格模块应写可观察属性，例如“清晰赛璐璐分层、稳定外轮廓、有限高光、低饱和夜景与局部霓虹反射”，不要只写作品名或在世艺术家姓名。中日韩18类模块见[[附录C-风格与作品研究]]。
+风格模块应写可观察属性，例如“清晰赛璐璐分层、稳定外轮廓、有限高光、低饱和夜景与局部霓虹反射”，不要只写作品名或在世艺术家姓名。中日韩18类模块见[[风格与作品研究]]。
 
 ## 5. 动漫三视图
 
@@ -141,4 +141,4 @@ summary: "按身份母版、人脸角度、真人三视图、动漫化、动漫�
 different person, identity drift, asymmetrical eyes newly introduced, misaligned pupils, duplicated facial features, ghosting, extra eyes, deformed ears, mirrored profile, incorrect yaw, gaze-only pose change, pointed chin redesign, age shift, skin-tone shift, hair-part reversal, elongated torso, excessively long legs, tiny head, fused hands or feet, extra fingers, floating feet, inconsistent clothing, background mismatch, collage, split face, text, watermark
 ```
 
-出现具体失败时不要无限追加负面词，改用[[附录B-验收与失败修复#症状修复条目|单项修复提示词]]。
+出现具体失败时不要无限追加负面词，改用[[验收与失败修复规范#症状修复条目|单项修复提示词]]。
