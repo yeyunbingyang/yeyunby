@@ -33,6 +33,10 @@ related: ["[[Core_Ability-MOC]]"]
 - 平台与模型对比资料实际出现后再建立目录，并填写 `verified` 与 `review_after`，不预建空分类。
 - 媒体资产跟随所属项目保存，不使用领域顶层公共附件目录。
 
+## 维护入口
+
+- [[AI绘画与图像-目录重构规划]]：记录领域级目录审查、自问自答、迁移映射、风险与分批实施门禁；当前状态为计划。
+
 ```dataview
 TABLE summary, status, updated
 FROM "02-Knowledge(知识层)/20-核心能力-Core_Ability/30 创作能力-Creative_Capability/02 AIGC/01-AI绘画与图像"
