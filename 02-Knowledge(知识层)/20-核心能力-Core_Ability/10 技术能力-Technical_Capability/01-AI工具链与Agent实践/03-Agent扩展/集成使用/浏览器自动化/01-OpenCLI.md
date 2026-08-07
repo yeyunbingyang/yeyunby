@@ -170,7 +170,7 @@ API 返回结构化 JSON，无 DOM 漂移问题，比 scraping DOM 稳定省 Tok
 
 ## 关联笔记
 
-- [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01-AI工具链与Agent实践/03-Agent扩展/内容/集成使用/浏览器自动化/02-opencli-browser|OpenCLI 浏览器抓取操作参考]] — 浏览器自动化标准抓取流程
+- [[02-opencli-browser|OpenCLI 浏览器抓取操作参考]] — 浏览器自动化标准抓取流程
 - [[04-Skills生态全景#6.7 OpenCLI]] — 在 Skills 生态中的定位
 - [[03-通用skills最佳实践]] — Skills 使用心法
 - [[Claude-Code操作手册]] — Claude Code 中调用 OpenCLI 的上下文

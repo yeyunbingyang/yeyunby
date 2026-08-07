@@ -757,4 +757,4 @@ Hermes Agent：
 
 - [[03-通用skills最佳实践]] — Skills 使用心法与实战案例
 - [[04-Skills生态全景]] — 所有可用 Skills 的完整清单
-- [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01-AI工具链与Agent实践/03-Agent扩展/内容/skills/01-快速入门|Skills 快速入门]] — Agent Skills 概念入门
+- [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01-AI工具链与Agent实践/03-Agent扩展/skills/01-快速入门|Skills 快速入门]] — Agent Skills 概念入门

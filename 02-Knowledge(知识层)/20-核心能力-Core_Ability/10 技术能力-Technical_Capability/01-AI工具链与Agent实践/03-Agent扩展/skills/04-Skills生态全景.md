@@ -449,7 +449,7 @@ Skills 生态可按定位分为 6 层：
 
 ## 七、关联笔记
 
-- [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01-AI工具链与Agent实践/03-Agent扩展/内容/skills/01-快速入门|Skills 快速入门]] — Agent Skills 概念入门
+- [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01-AI工具链与Agent实践/03-Agent扩展/skills/01-快速入门|Skills 快速入门]] — Agent Skills 概念入门
 - [[02-我的skills蒸馏]] — 个人 skills 的持续记录与优化
 - [[03-通用skills最佳实践]] — Skills 使用心法与实战案例
 - [[03-Resources(资源层)/00 Github优质项目/Github优质项目-MOC]] — 项目索引总表

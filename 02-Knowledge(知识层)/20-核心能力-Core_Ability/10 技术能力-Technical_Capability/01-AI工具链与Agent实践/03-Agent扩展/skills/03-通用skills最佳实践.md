@@ -404,7 +404,7 @@ cp -r ~/.codex/skills/我的技能 ~/.claude/skills/
 
 ## 关联
 
-- [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01-AI工具链与Agent实践/03-Agent扩展/内容/skills/01-快速入门|Skills 快速入门]] — Agent Skills 概念入门
+- [[02-Knowledge(知识层)/20-核心能力-Core_Ability/10 技术能力-Technical_Capability/01-AI工具链与Agent实践/03-Agent扩展/skills/01-快速入门|Skills 快速入门]] — Agent Skills 概念入门
 - [[02-我的skills蒸馏]] — 个人 skills 的持续记录与优化
 - [[数据获取-可用Skills与开源项目]] — 数据获取 skill 全景
 - [[Codex-使用指南]] — Codex 端的 skills 与 plugins

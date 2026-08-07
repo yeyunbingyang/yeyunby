@@ -20,6 +20,7 @@ summary: "实践层保留完整教程和项目过程，通过真实工作流连�
 
 - [[尚硅谷AI-Coding教程]] — 从环境搭建到项目实践的完整教程
 - [[Agent学习与Vibe-Coding完全指南]] — Agent 与 Vibe Coding 学习路径
+- [[Agent对话与提示词诊断报告]] — 本人 105 条提示词数据分析 + 优化模板
 
 ## Hermes Agent 案例
 

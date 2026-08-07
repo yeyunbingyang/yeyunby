@@ -3,13 +3,13 @@ title: Github优质项目 MOC
 tags: [MOC, GitHub, 开源, 资源]
 status: 稳定
 created: 2026-05-26
-updated: 2026-07-28
-summary: "GitHub 优质开源项目汇总（290个），覆盖14个子域：Agent引擎(16)/Agent配置与Skills(28)/AI应用与学习(21)/AI开发框架(19)/ML引擎与模型(16)/视频创作与设计(15)/浏览器自动化与测试(7)/安全与隐私(21)/终端工具(29)/构建工具与质量(14)/数据与存储(34)/DevOps与云原生(32)/前端框架与UI(27)/后端与全栈(11)"
+updated: 2026-08-02
+summary: "GitHub 优质开源项目汇总（291个），覆盖14个子域：Agent引擎(16)/Agent配置与Skills(29)/AI应用与学习(21)/AI开发框架(19)/ML引擎与模型(16)/视频创作与设计(15)/浏览器自动化与测试(7)/安全与隐私(21)/终端工具(29)/构建工具与质量(14)/数据与存储(34)/DevOps与云原生(32)/前端框架与UI(27)/后端与全栈(11)"
 ---
 
 # Github优质项目 MOC
 
-收集 GitHub 上高质量开源项目，总收录 **290 个**，覆盖 14 个子域。
+收集 GitHub 上高质量开源项目，总收录 **291 个**，覆盖 14 个子域。
 
 > 📌 每个分类内部按 Star 数降序排列。2026-07-17 更新（格式标准化+文件名补充中文）：从 17 分类精简优化为 14 分类。
 
@@ -20,7 +20,7 @@ summary: "GitHub 优质开源项目汇总（290个），覆盖14个子域：Agen
 | # | 分类 | 数量 | 最亮项目 |
 |---|------|------|---------|
 | 01 | [[Github优质项目-MOC#01-Agent引擎\|Agent引擎]] | 16 | OpenClaw(383k)/claw-code(195k)/hermes(216k) |
-| 02 | [[Github优质项目-MOC#02-Agent配置与Skills\|Agent配置与Skills]] | 28 | Superpowers(207k)/ECC(193k)/MattPocock(170k) |
+| 02 | [[Github优质项目-MOC#02-Agent配置与Skills\|Agent配置与Skills]] | 29 | Superpowers(207k)/ECC(193k)/MattPocock(170k) |
 | 03 | [[Github优质项目-MOC#03-AI应用与学习\|AI应用与学习]] | 21 | awesome-llm-apps(120k)/ai-hedge-fund(61k)/streamlit(50k) |
 | 04 | [[Github优质项目-MOC#04-AI开发框架\|AI开发框架]] | 19 | LangChain(170k)/Dify(100k)/AutoGen(60k) |
 | 05 | [[Github优质项目-MOC#05-ML引擎与模型\|ML引擎与模型]] | 16 | Ollama(200k)/TensorFlow(190k)/PyTorch(100k) |

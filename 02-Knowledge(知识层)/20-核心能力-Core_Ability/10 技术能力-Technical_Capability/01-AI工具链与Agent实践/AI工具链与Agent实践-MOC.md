@@ -26,6 +26,7 @@ summary: "AI 工具链应按模型与路由、Agent 平台、扩展能力和工�
 | 使用 Claude Code、Codex 或 Hermes Agent | [[Agent平台-MOC]] |
 | 配置 Skills、MCP 与外部工具 | [[Agent扩展-MOC]] |
 | 学习 AI Coding 与完整案例 | [[工作流与实践-MOC]] |
+| 审视个人 AI 系统整体结构 | [[个人AI-OS结构分析]] |
 
 ## 四层结构
 
