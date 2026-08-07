@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "SPEC-XXXX",
+  "project_name": "待填写",
+  "status": "draft",
+  "maturity": "idea",
+  "owner": null,
+  "canonical_moc": "../00-专项项目模板.md",
+  "source_status": "unconfirmed",
+  "license_status": "unconfirmed",
+  "review_after": null
+}

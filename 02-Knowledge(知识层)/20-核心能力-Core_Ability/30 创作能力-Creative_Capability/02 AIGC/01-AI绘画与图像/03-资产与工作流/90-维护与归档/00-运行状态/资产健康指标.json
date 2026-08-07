@@ -1,0 +1,43 @@
+{
+  "generated": "2026-08-05",
+  "file_count": 575,
+  "extensions": {
+    "[none]": 1,
+    ".json": 18,
+    ".md": 190,
+    ".jpg": 6,
+    ".png": 356,
+    ".mp4": 1,
+    ".py": 3
+  },
+  "markdown_count": 190,
+  "missing_metadata_count": 0,
+  "wiki_broken_count": 0,
+  "wiki_ambiguous_count": 0,
+  "relative_broken_count": 0,
+  "image_error_count": 0,
+  "json_error_count": 0,
+  "python_error_count": 0,
+  "video_error_count": 0,
+  "status_distribution": {
+    "active": 136,
+    "archived": 48,
+    "draft": 6
+  },
+  "maturity_distribution": {
+    "usable": 19,
+    "stable": 143,
+    "testing": 21,
+    "idea": 7
+  },
+  "image_count": 362,
+  "dark_asset_count": 98,
+  "dark_assets_indexed": 98,
+  "duplicate_groups": 7,
+  "duplicate_files": 14,
+  "core_registry_count": 131,
+  "longest_windows_path": {
+    "length": 192,
+    "path": "02-角色资产库/02-过程资产/作品研究素材/作品四格研究卡/JP-W011-葬送的芙莉莲/JP-W011-葬送的芙莉莲-四格研究卡-v02-完整适配.png"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-08-05",
+  "projects": [
+    {
+      "project_id": "SPEC-HOSIERY",
+      "name": "丝袜效果图",
+      "status": "active",
+      "maturity": "stable",
+      "moc": "丝袜效果图/丝袜商品效果图-MOC.md",
+      "template": false,
+      "canonical_state": "SOP、参数、实测与交付链完整",
+      "next_action": "确认交付资产授权与 duplicate_of 关系"
+    },
+    {
+      "project_id": "SPEC-TEMPLATE",
+      "name": "专项项目模板",
+      "status": "active",
+      "maturity": "usable",
+      "moc": "00-专项项目模板/00-专项项目模板.md",
+      "template": true,
+      "canonical_state": "完整可复制骨架",
+      "next_action": "新项目复制后替换项目ID与授权字段"
+    }
+  ]
+}

@@ -1,0 +1,3798 @@
+{
+  "schema_version": "2.0",
+  "updated": "2026-07-30",
+  "works": [
+    {
+      "id": "CN-W001",
+      "title_zh": "大闹天宫",
+      "title_original": "大闹天宫",
+      "country": "CN",
+      "first_release_year": 1961,
+      "medium": "2D",
+      "style_ids": [
+        "CN01"
+      ],
+      "official_source_url": "https://www.shda.gov.cn/dawh/csjy/202512/t20251203_76389.html",
+      "representative_image_url": "https://www.shda.gov.cn/dawh/csjy/202512/W020251203177234088202.jpg",
+      "source_id": "SRC-CN-001",
+      "copyright_note": "引用上海市档案局作品资料页；页面图像仅作研究索引，不下载、不作图生图输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W002",
+      "title_zh": "小蝌蚪找妈妈",
+      "title_original": "小蝌蚪找妈妈",
+      "country": "CN",
+      "first_release_year": 1960,
+      "medium": "2D_ink",
+      "style_ids": [
+        "CN01",
+        "CN04"
+      ],
+      "official_source_url": "https://www.chinanews.com.cn/zxys/dyjigou/shmeishuch.htm",
+      "representative_image_url": "https://i.ytimg.com/vi/H9Ke9qzq8Os/hqdefault.jpg",
+      "source_id": "SRC-CN-002",
+      "copyright_note": "作品归属由中国新闻网机构资料页核验；代表视觉使用可追溯公开视频缩略图，仅作研究，不作图生图输入。",
+      "source_confidence": "B",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W003",
+      "title_zh": "仙逆",
+      "title_original": "Renegade Immortal",
+      "country": "CN",
+      "first_release_year": 2023,
+      "medium": "3D",
+      "style_ids": [
+        "CN02"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=AvrsnNTAcTc",
+      "representative_image_url": "https://i.ytimg.com/vi/AvrsnNTAcTc/hqdefault.jpg",
+      "source_id": "SRC-CN-003",
+      "copyright_note": "远程引用腾讯视频动漫官方频道缩略图，仅作风格研究，不作图生图输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W004",
+      "title_zh": "斗罗大陆",
+      "title_original": "Soul Land",
+      "country": "CN",
+      "first_release_year": 2018,
+      "medium": "3D",
+      "style_ids": [
+        "CN02"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=Cw2iU9KZqMY",
+      "representative_image_url": "https://i.ytimg.com/vi/Cw2iU9KZqMY/hqdefault.jpg",
+      "source_id": "SRC-CN-004",
+      "copyright_note": "远程引用腾讯视频动漫官方频道缩略图，仅作风格研究，不作图生图输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W005",
+      "title_zh": "一念永恒",
+      "title_original": "A Will Eternal",
+      "country": "CN",
+      "first_release_year": 2020,
+      "medium": "2D",
+      "style_ids": [
+        "CN03"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=vJIvKKYK4Zg",
+      "representative_image_url": "https://i.ytimg.com/vi/vJIvKKYK4Zg/hqdefault.jpg",
+      "source_id": "SRC-CN-005",
+      "copyright_note": "远程引用腾讯视频动漫官方频道缩略图，仅作风格研究，不作图生图输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W006",
+      "title_zh": "雾山五行",
+      "title_original": "Fog Hill of Five Elements",
+      "country": "CN",
+      "first_release_year": 2020,
+      "medium": "2D",
+      "style_ids": [
+        "CN03",
+        "CN04"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=9qBhG5GDZno",
+      "representative_image_url": "https://i.ytimg.com/vi/9qBhG5GDZno/hqdefault.jpg",
+      "source_id": "SRC-CN-006",
+      "copyright_note": "远程引用六道无鱼动画工作室发布视觉，仅作风格研究，不作图生图输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W007",
+      "title_zh": "沧元图",
+      "title_original": "The Demon Hunter",
+      "country": "CN",
+      "first_release_year": 2023,
+      "medium": "3D_2.5D",
+      "style_ids": [
+        "CN04",
+        "CN06"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=HD4aqk9C8S8",
+      "representative_image_url": "https://i.ytimg.com/vi/HD4aqk9C8S8/hqdefault.jpg",
+      "source_id": "SRC-CN-007",
+      "copyright_note": "远程引用优酷动漫官方频道缩略图，仅作风格研究，不作图生图输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W008",
+      "title_zh": "千秋诗颂",
+      "title_original": "千秋诗颂",
+      "country": "CN",
+      "first_release_year": 2024,
+      "medium": "AI_animation",
+      "style_ids": [
+        "CN05"
+      ],
+      "official_source_url": "https://news.cctv.com/2024/02/26/ARTIxQBqr2yFDGQ0jJkm1ygK240226.shtml",
+      "representative_image_url": "https://p3.img.cctvpic.com/photoworkspace/contentimg/2024/02/26/2024022614045965165.jpg",
+      "source_id": "SRC-CN-008",
+      "copyright_note": "远程引用央视网新闻页配图，仅作 AIGC 动画研究，不作图生图输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W009",
+      "title_zh": "京西剧谷首批AI动漫剧集",
+      "title_original": "京西剧谷首批AI动漫剧集",
+      "country": "CN",
+      "first_release_year": 2026,
+      "medium": "AI_drama",
+      "style_ids": [
+        "CN05"
+      ],
+      "official_source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202604/t20260401_4572056.html",
+      "representative_image_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202604/W020260401517282818304.png",
+      "source_id": "SRC-CN-009",
+      "copyright_note": "北京市政府页面列出3D漫剧、AI仿真人漫剧及具体剧目；页面展厅图仅作行业视觉索引。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W010",
+      "title_zh": "深海",
+      "title_original": "Deep Sea",
+      "country": "CN",
+      "first_release_year": 2023,
+      "medium": "3D",
+      "style_ids": [
+        "CN06"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=hjS2QmrAccY",
+      "representative_image_url": "https://i.ytimg.com/vi/hjS2QmrAccY/hqdefault.jpg",
+      "source_id": "SRC-CN-010",
+      "copyright_note": "远程引用电影官方预告缩略图；发布账号身份需保留复核标记，不作图生图输入。",
+      "source_confidence": "B",
+      "verification_status": "verified_with_caveat",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W001",
+      "title_zh": "链锯人",
+      "title_original": "Chainsaw Man",
+      "country": "JP",
+      "first_release_year": 2022,
+      "medium": "2D",
+      "style_ids": [
+        "JP01",
+        "JP04"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=s8cP1Vt5US8",
+      "representative_image_url": "https://i.ytimg.com/vi/s8cP1Vt5US8/hqdefault.jpg",
+      "source_id": "SRC-JP-001",
+      "copyright_note": "远程引用 MAPPA CHANNEL 官方预告缩略图，仅作风格研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W002",
+      "title_zh": "进击的巨人",
+      "title_original": "Attack on Titan",
+      "country": "JP",
+      "first_release_year": 2013,
+      "medium": "2D",
+      "style_ids": [
+        "JP01"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=3xNH23QkNpk",
+      "representative_image_url": "https://i.ytimg.com/vi/3xNH23QkNpk/hqdefault.jpg",
+      "source_id": "SRC-JP-002",
+      "copyright_note": "远程引用 Crunchyroll 官方发行预告缩略图，仅作风格研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W003",
+      "title_zh": "咒术回战",
+      "title_original": "JUJUTSU KAISEN",
+      "country": "JP",
+      "first_release_year": 2020,
+      "medium": "2D",
+      "style_ids": [
+        "JP02",
+        "JP04"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=HGCsAcFzaFw",
+      "representative_image_url": "https://i.ytimg.com/vi/HGCsAcFzaFw/hqdefault.jpg",
+      "source_id": "SRC-JP-003",
+      "copyright_note": "远程引用 TOHO animation 官方预告缩略图，仅作风格研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W004",
+      "title_zh": "鬼灭之刃",
+      "title_original": "Demon Slayer: Kimetsu no Yaiba",
+      "country": "JP",
+      "first_release_year": 2019,
+      "medium": "2D",
+      "style_ids": [
+        "JP02"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=EjYBQTt5vB0",
+      "representative_image_url": "https://i.ytimg.com/vi/EjYBQTt5vB0/hqdefault.jpg",
+      "source_id": "SRC-JP-004",
+      "copyright_note": "远程引用 Aniplex USA 官方预告缩略图，仅作风格研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W005",
+      "title_zh": "水果篮子",
+      "title_original": "Fruits Basket",
+      "country": "JP",
+      "first_release_year": 2019,
+      "medium": "2D",
+      "style_ids": [
+        "JP03"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=DaknWGK7M_E",
+      "representative_image_url": "https://i.ytimg.com/vi/DaknWGK7M_E/hqdefault.jpg",
+      "source_id": "SRC-JP-005",
+      "copyright_note": "远程引用 Crunchyroll Dubs 官方预告缩略图，仅作风格研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W006",
+      "title_zh": "我的幸福婚约",
+      "title_original": "My Happy Marriage",
+      "country": "JP",
+      "first_release_year": 2023,
+      "medium": "2D",
+      "style_ids": [
+        "JP03",
+        "JP05"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=dURh9kVzcw8",
+      "representative_image_url": "https://i.ytimg.com/vi/dURh9kVzcw8/hqdefault.jpg",
+      "source_id": "SRC-JP-006",
+      "copyright_note": "远程引用 Netflix Anime 官方预告缩略图，仅作风格研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W007",
+      "title_zh": "赛博朋克：边缘行者",
+      "title_original": "Cyberpunk: Edgerunners",
+      "country": "JP",
+      "first_release_year": 2022,
+      "medium": "2D",
+      "style_ids": [
+        "JP04"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=ax5YUmkWf_Y",
+      "representative_image_url": "https://i.ytimg.com/vi/ax5YUmkWf_Y/hqdefault.jpg",
+      "source_id": "SRC-JP-007",
+      "copyright_note": "远程引用 Netflix 官方 Studio Trigger 版预告缩略图，仅作风格研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W008",
+      "title_zh": "药屋少女的呢喃",
+      "title_original": "The Apothecary Diaries",
+      "country": "JP",
+      "first_release_year": 2023,
+      "medium": "2D",
+      "style_ids": [
+        "JP05"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=g1pKfngmcAM",
+      "representative_image_url": "https://i.ytimg.com/vi/g1pKfngmcAM/hqdefault.jpg",
+      "source_id": "SRC-JP-008",
+      "copyright_note": "远程引用 TOHO animation 官方纪念预告缩略图，仅作风格研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W009",
+      "title_zh": "星际牛仔",
+      "title_original": "Cowboy Bebop",
+      "country": "JP",
+      "first_release_year": 1998,
+      "medium": "2D",
+      "style_ids": [
+        "JP06"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=Ty5hDHekq80",
+      "representative_image_url": "https://i.ytimg.com/vi/Ty5hDHekq80/hqdefault.jpg",
+      "source_id": "SRC-JP-009",
+      "copyright_note": "远程引用 Netflix Anime 官方预告缩略图，仅作复古赛璐璐研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W010",
+      "title_zh": "美少女战士",
+      "title_original": "Sailor Moon",
+      "country": "JP",
+      "first_release_year": 1992,
+      "medium": "2D",
+      "style_ids": [
+        "JP06"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=UL_F6L1tSAM",
+      "representative_image_url": "https://i.ytimg.com/vi/UL_F6L1tSAM/hqdefault.jpg",
+      "source_id": "SRC-JP-010",
+      "copyright_note": "远程引用 VIZ 官方发行预告缩略图，仅作复古赛璐璐研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W001",
+      "title_zh": "女神降临",
+      "title_original": "True Beauty",
+      "country": "KR",
+      "first_release_year": 2014,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR01"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=4ith-yFEcEk",
+      "representative_image_url": "https://i.ytimg.com/vi/4ith-yFEcEk/hqdefault.jpg",
+      "source_id": "SRC-KR-001",
+      "copyright_note": "远程引用 WEBTOON 官方预告缩略图，仅作视觉研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W002",
+      "title_zh": "不可触碰的她",
+      "title_original": "Untouchable",
+      "country": "KR",
+      "first_release_year": 2014,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR01"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=GEq78PULeSE",
+      "representative_image_url": "https://i.ytimg.com/vi/GEq78PULeSE/hqdefault.jpg",
+      "source_id": "SRC-KR-002",
+      "copyright_note": "远程引用 WEBTOON 官方预告缩略图，仅作视觉研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W003",
+      "title_zh": "我独自升级",
+      "title_original": "Solo Leveling",
+      "country": "KR",
+      "first_release_year": 2018,
+      "medium": "webtoon_animation",
+      "style_ids": [
+        "KR02"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=YvGSK8mIlt8",
+      "representative_image_url": "https://i.ytimg.com/vi/YvGSK8mIlt8/hqdefault.jpg",
+      "source_id": "SRC-KR-003",
+      "copyright_note": "远程引用 Crunchyroll 官方动画预告缩略图，仅作韩漫视觉转动画研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W004",
+      "title_zh": "全知读者视角",
+      "title_original": "Omniscient Reader",
+      "country": "KR",
+      "first_release_year": 2020,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR02"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=8OHzcTtoLo4",
+      "representative_image_url": "https://i.ytimg.com/vi/8OHzcTtoLo4/hqdefault.jpg",
+      "source_id": "SRC-KR-004",
+      "copyright_note": "远程引用 WEBTOON 官方预告缩略图，仅作视觉研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W005",
+      "title_zh": "再婚皇后",
+      "title_original": "The Remarried Empress",
+      "country": "KR",
+      "first_release_year": 2019,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR03"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=mjUBWKSIGlU",
+      "representative_image_url": "https://i.ytimg.com/vi/mjUBWKSIGlU/hqdefault.jpg",
+      "source_id": "SRC-KR-005",
+      "copyright_note": "远程引用 WEBTOON 官方预告缩略图，仅作视觉研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W006",
+      "title_zh": "某天成为公主",
+      "title_original": "Who Made Me a Princess",
+      "country": "KR",
+      "first_release_year": 2017,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR03"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=MgrEZTLdQzs",
+      "representative_image_url": "https://i.ytimg.com/vi/MgrEZTLdQzs/hqdefault.jpg",
+      "source_id": "SRC-KR-006",
+      "copyright_note": "远程引用 Tappytoon Comics 官方宣传视频缩略图，仅作视觉研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W007",
+      "title_zh": "剑星",
+      "title_original": "Stellar Blade",
+      "country": "KR",
+      "first_release_year": 2024,
+      "medium": "game_3D",
+      "style_ids": [
+        "KR04",
+        "KR06"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=DSznLWimMlU",
+      "representative_image_url": "https://i.ytimg.com/vi/DSznLWimMlU/hqdefault.jpg",
+      "source_id": "SRC-KR-007",
+      "copyright_note": "远程引用 PlayStation 官方发布预告缩略图，仅作韩国游戏角色与3D表现研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W008",
+      "title_zh": "失落的方舟",
+      "title_original": "Lost Ark",
+      "country": "KR",
+      "first_release_year": 2018,
+      "medium": "game_3D",
+      "style_ids": [
+        "KR04",
+        "KR06"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=Dhc30WRb0n0",
+      "representative_image_url": "https://i.ytimg.com/vi/Dhc30WRb0n0/hqdefault.jpg",
+      "source_id": "SRC-KR-008",
+      "copyright_note": "远程引用 Lost Ark 官方频道预告缩略图，仅作韩国游戏角色与3D表现研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W009",
+      "title_zh": "拳击手",
+      "title_original": "The Boxer",
+      "country": "KR",
+      "first_release_year": 2019,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR05"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=6rAQCLUmwuI",
+      "representative_image_url": "https://i.ytimg.com/vi/6rAQCLUmwuI/hqdefault.jpg",
+      "source_id": "SRC-KR-009",
+      "copyright_note": "远程引用 WEBTOON 官方预告缩略图，仅作低饱和叙事视觉研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W010",
+      "title_zh": "杀人魔的儿子",
+      "title_original": "Bastard",
+      "country": "KR",
+      "first_release_year": 2014,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR05"
+      ],
+      "official_source_url": "https://www.youtube.com/watch?v=mt50y78VoqM",
+      "representative_image_url": "https://i.ytimg.com/vi/mt50y78VoqM/hqdefault.jpg",
+      "source_id": "SRC-KR-010",
+      "copyright_note": "远程引用 WEBTOON 官方预告缩略图，仅作低饱和悬疑视觉研究。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "existing_v1"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W011",
+      "title_zh": "哪吒之魔童闹海",
+      "title_original": "哪吒之魔童闹海",
+      "country": "CN",
+      "first_release_year": 2025,
+      "medium": "3D",
+      "style_ids": [
+        "CN06"
+      ],
+      "official_source_url": "https://www.nezha2.com/",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-011",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W012",
+      "title_zh": "牧神记",
+      "title_original": "牧神记",
+      "country": "CN",
+      "first_release_year": 2024,
+      "medium": "3D",
+      "style_ids": [
+        "CN02"
+      ],
+      "official_source_url": "https://www.bilibili.com/bangumi/play/ep1113651",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-012",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "production_fit"
+      ],
+      "card_status": "pilot_complete",
+      "visual_card": {
+        "closeup": {
+          "image_url": "https://www.youtube.com/watch?v=Xk4F4ViQpiE#t=13",
+          "source_id": "SRC-CARD-CN-012",
+          "observations": [
+            "面部比例、五官简化和局部光色"
+          ],
+          "status": "complete",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": "https://www.youtube.com/watch?v=Xk4F4ViQpiE#t=20",
+          "source_id": "SRC-CARD-CN-012",
+          "observations": [
+            "角色轮廓、服装层级和身体关系"
+          ],
+          "status": "complete",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": "https://www.youtube.com/watch?v=Xk4F4ViQpiE#t=28",
+          "source_id": "SRC-CARD-CN-012",
+          "observations": [
+            "空间层次、材质、色彩与光源"
+          ],
+          "status": "complete",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": "https://www.youtube.com/watch?v=Xk4F4ViQpiE#t=36",
+          "source_id": "SRC-CARD-CN-012",
+          "observations": [
+            "动作方向、镜头动势与特效组织"
+          ],
+          "status": "complete",
+          "slot": "action"
+        },
+        "local_card_path": "02-过程资产/作品研究素材/作品四格研究卡/CN-W012-牧神记/CN-W012-牧神记-四格研究卡-v02-完整适配.png"
+      }
+    },
+    {
+      "id": "CN-W013",
+      "title_zh": "剑来",
+      "title_original": "剑来",
+      "country": "CN",
+      "first_release_year": 2024,
+      "medium": "3D",
+      "style_ids": [
+        "CN02",
+        "CN06"
+      ],
+      "official_source_url": "https://v.qq.com/x/cover/mzc00200p29kcne.html",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-013",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W014",
+      "title_zh": "斩神之凡尘神域",
+      "title_original": "斩神之凡尘神域",
+      "country": "CN",
+      "first_release_year": 2024,
+      "medium": "2D_3D_hybrid",
+      "style_ids": [
+        "CN03",
+        "CN04"
+      ],
+      "official_source_url": "https://www.bilibili.com/video/BV18Z421N7mb/",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-014",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W015",
+      "title_zh": "罗小黑战记",
+      "title_original": "罗小黑战记",
+      "country": "CN",
+      "first_release_year": 2011,
+      "medium": "2D",
+      "style_ids": [
+        "CN03"
+      ],
+      "official_source_url": "https://www.bilibili.com/bangumi/play/ss1733",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-015",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "classic"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W016",
+      "title_zh": "伍六七",
+      "title_original": "刺客伍六七",
+      "country": "CN",
+      "first_release_year": 2018,
+      "medium": "2D",
+      "style_ids": [
+        "CN03"
+      ],
+      "official_source_url": "https://www.bilibili.com/bangumi/play/ep203922",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-016",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "classic",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W017",
+      "title_zh": "中国奇谭",
+      "title_original": "中国奇谭",
+      "country": "CN",
+      "first_release_year": 2023,
+      "medium": "2D_anthology",
+      "style_ids": [
+        "CN01",
+        "CN04"
+      ],
+      "official_source_url": "https://www.bilibili.com/bangumi/play/ss41310",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-017",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W018",
+      "title_zh": "时光代理人",
+      "title_original": "时光代理人",
+      "country": "CN",
+      "first_release_year": 2021,
+      "medium": "2D",
+      "style_ids": [
+        "CN03"
+      ],
+      "official_source_url": "https://www.bilibili.com/bangumi/play/ss34430",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-018",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W019",
+      "title_zh": "凡人修仙传",
+      "title_original": "凡人修仙传",
+      "country": "CN",
+      "first_release_year": 2020,
+      "medium": "3D",
+      "style_ids": [
+        "CN02"
+      ],
+      "official_source_url": "https://www.bilibili.com/bangumi/play/ss28747",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-019",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "CN-W020",
+      "title_zh": "灵笼",
+      "title_original": "灵笼",
+      "country": "CN",
+      "first_release_year": 2019,
+      "medium": "3D",
+      "style_ids": [
+        "CN06"
+      ],
+      "official_source_url": "https://www.bilibili.com/bangumi/play/ss23432",
+      "representative_image_url": null,
+      "source_id": "SRC-CN-020",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "visual_innovation",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W011",
+      "title_zh": "葬送的芙莉莲",
+      "title_original": "葬送のフリーレン",
+      "country": "JP",
+      "first_release_year": 2023,
+      "medium": "2D",
+      "style_ids": [
+        "JP01",
+        "JP03"
+      ],
+      "official_source_url": "https://frieren-anime.jp/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-011",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "production_fit"
+      ],
+      "card_status": "pilot_complete",
+      "visual_card": {
+        "closeup": {
+          "image_url": "https://www.youtube.com/watch?v=tR8YH0G67Rk#t=30",
+          "source_id": "SRC-CARD-JP-011",
+          "observations": [
+            "面部比例、五官简化和局部光色"
+          ],
+          "status": "complete",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": "https://www.youtube.com/watch?v=tR8YH0G67Rk#t=10",
+          "source_id": "SRC-CARD-JP-011",
+          "observations": [
+            "角色轮廓、服装层级和身体关系"
+          ],
+          "status": "complete",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": "https://www.youtube.com/watch?v=tR8YH0G67Rk#t=20",
+          "source_id": "SRC-CARD-JP-011",
+          "observations": [
+            "空间层次、材质、色彩与光源"
+          ],
+          "status": "complete",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": "https://www.youtube.com/watch?v=tR8YH0G67Rk#t=90",
+          "source_id": "SRC-CARD-JP-011",
+          "observations": [
+            "动作方向、镜头动势与特效组织"
+          ],
+          "status": "complete",
+          "slot": "action"
+        },
+        "local_card_path": "02-过程资产/作品研究素材/作品四格研究卡/JP-W011-葬送的芙莉莲/JP-W011-葬送的芙莉莲-四格研究卡-v02-完整适配.png"
+      }
+    },
+    {
+      "id": "JP-W012",
+      "title_zh": "胆大党",
+      "title_original": "ダンダダン",
+      "country": "JP",
+      "first_release_year": 2024,
+      "medium": "2D",
+      "style_ids": [
+        "JP02",
+        "JP04"
+      ],
+      "official_source_url": "https://anime-dandadan.com/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-012",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W013",
+      "title_zh": "迷宫饭",
+      "title_original": "ダンジョン飯",
+      "country": "JP",
+      "first_release_year": 2024,
+      "medium": "2D",
+      "style_ids": [
+        "JP01",
+        "JP02"
+      ],
+      "official_source_url": "https://delicious-in-dungeon.com/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-013",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W014",
+      "title_zh": "蓦然回首",
+      "title_original": "ルックバック",
+      "country": "JP",
+      "first_release_year": 2024,
+      "medium": "2D_film",
+      "style_ids": [
+        "JP01"
+      ],
+      "official_source_url": "https://lookback-anime.com/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-014",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W015",
+      "title_zh": "阿基拉",
+      "title_original": "AKIRA",
+      "country": "JP",
+      "first_release_year": 1988,
+      "medium": "2D_film",
+      "style_ids": [
+        "JP06",
+        "JP04"
+      ],
+      "official_source_url": "https://www.katsuhiro.jp/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-015",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "classic",
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W016",
+      "title_zh": "千与千寻",
+      "title_original": "千と千尋の神隠し",
+      "country": "JP",
+      "first_release_year": 2001,
+      "medium": "2D_film",
+      "style_ids": [
+        "JP05"
+      ],
+      "official_source_url": "https://www.ghibli.jp/works/chihiro/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-016",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "classic"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W017",
+      "title_zh": "灵能百分百",
+      "title_original": "モブサイコ100",
+      "country": "JP",
+      "first_release_year": 2016,
+      "medium": "2D",
+      "style_ids": [
+        "JP02"
+      ],
+      "official_source_url": "https://mobpsycho100.com/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-017",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W018",
+      "title_zh": "宝石之国",
+      "title_original": "宝石の国",
+      "country": "JP",
+      "first_release_year": 2017,
+      "medium": "3D_2D_hybrid",
+      "style_ids": [
+        "JP01",
+        "JP04"
+      ],
+      "official_source_url": "https://land-of-the-lustrous.com/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-018",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W019",
+      "title_zh": "紫罗兰永恒花园",
+      "title_original": "ヴァイオレット・エヴァーガーデン",
+      "country": "JP",
+      "first_release_year": 2018,
+      "medium": "2D",
+      "style_ids": [
+        "JP01",
+        "JP03"
+      ],
+      "official_source_url": "https://tv.violet-evergarden.jp/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-019",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "JP-W020",
+      "title_zh": "冰海战记",
+      "title_original": "ヴィンランド・サガ",
+      "country": "JP",
+      "first_release_year": 2019,
+      "medium": "2D",
+      "style_ids": [
+        "JP01",
+        "JP02"
+      ],
+      "official_source_url": "https://vinlandsaga.jp/",
+      "representative_image_url": null,
+      "source_id": "SRC-JP-020",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W011",
+      "title_zh": "神之塔",
+      "title_original": "신의 탑",
+      "country": "KR",
+      "first_release_year": 2010,
+      "medium": "webtoon_animation",
+      "style_ids": [
+        "KR02"
+      ],
+      "official_source_url": "https://www.webtoons.com/en/fantasy/tower-of-god/list?title_no=95",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-011",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "classic",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W012",
+      "title_zh": "外貌至上主义",
+      "title_original": "외모지상주의",
+      "country": "KR",
+      "first_release_year": 2014,
+      "medium": "webtoon_animation",
+      "style_ids": [
+        "KR01",
+        "KR02"
+      ],
+      "official_source_url": "https://www.netflix.com/title/81177634",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-012",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W013",
+      "title_zh": "高校之神",
+      "title_original": "갓 오브 하이스쿨",
+      "country": "KR",
+      "first_release_year": 2011,
+      "medium": "webtoon_animation",
+      "style_ids": [
+        "KR02"
+      ],
+      "official_source_url": "https://www.webtoons.com/en/action/the-god-of-high-school/list?title_no=66",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-013",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "classic",
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W014",
+      "title_zh": "柔美的细胞小将",
+      "title_original": "유미의 세포들",
+      "country": "KR",
+      "first_release_year": 2015,
+      "medium": "webtoon_animation",
+      "style_ids": [
+        "KR01"
+      ],
+      "official_source_url": "https://www.webtoons.com/en/romance/yumi-cell/list?title_no=478",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-014",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W015",
+      "title_zh": "迷失星光",
+      "title_original": "이 별에 필요한",
+      "country": "KR",
+      "first_release_year": 2025,
+      "medium": "2D_film",
+      "style_ids": [
+        "KR01",
+        "KR05"
+      ],
+      "official_source_url": "https://about.netflix.com/en/news/lost-in-starlight-trailer",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-015",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "visual_innovation"
+      ],
+      "card_status": "pilot_complete",
+      "visual_card": {
+        "closeup": {
+          "image_url": "https://www.youtube.com/watch?v=VvMbyw_vIcA#t=40",
+          "source_id": "SRC-CARD-KR-015",
+          "observations": [
+            "面部比例、五官简化和局部光色"
+          ],
+          "status": "complete",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": "https://www.youtube.com/watch?v=VvMbyw_vIcA#t=30",
+          "source_id": "SRC-CARD-KR-015",
+          "observations": [
+            "角色轮廓、服装层级和身体关系"
+          ],
+          "status": "complete",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": "https://www.youtube.com/watch?v=VvMbyw_vIcA#t=20",
+          "source_id": "SRC-CARD-KR-015",
+          "observations": [
+            "空间层次、材质、色彩与光源"
+          ],
+          "status": "complete",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": "https://www.youtube.com/watch?v=VvMbyw_vIcA#t=100",
+          "source_id": "SRC-CARD-KR-015",
+          "observations": [
+            "动作方向、镜头动势与特效组织"
+          ],
+          "status": "complete",
+          "slot": "action"
+        },
+        "local_card_path": "02-过程资产/作品研究素材/作品四格研究卡/KR-W015-迷失星光/KR-W015-迷失星光-四格研究卡-v02-完整适配.png"
+      }
+    },
+    {
+      "id": "KR-W016",
+      "title_zh": "驱魔录：开端",
+      "title_original": "퇴마록",
+      "country": "KR",
+      "first_release_year": 2025,
+      "medium": "3D_film",
+      "style_ids": [
+        "KR06"
+      ],
+      "official_source_url": "https://www.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20240614",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-016",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "visual_innovation"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W017",
+      "title_zh": "猪猡之王",
+      "title_original": "돼지의 왕",
+      "country": "KR",
+      "first_release_year": 2011,
+      "medium": "2D_film",
+      "style_ids": [
+        "KR05"
+      ],
+      "official_source_url": "https://www.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20111031",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-017",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "classic"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W018",
+      "title_zh": "Pucca",
+      "title_original": "뿌까",
+      "country": "KR",
+      "first_release_year": 2000,
+      "medium": "2D",
+      "style_ids": [
+        "KR01"
+      ],
+      "official_source_url": "https://www.vooz.co.kr/",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-018",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "classic",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W019",
+      "title_zh": "华山归还",
+      "title_original": "화산귀환",
+      "country": "KR",
+      "first_release_year": 2021,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR02"
+      ],
+      "official_source_url": "https://www.webtoons.com/en/action/return-of-the-blossoming-blade/list?title_no=2849",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-019",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "KR-W020",
+      "title_zh": "恶役只有死亡结局",
+      "title_original": "악역의 엔딩은 죽음뿐",
+      "country": "KR",
+      "first_release_year": 2020,
+      "medium": "webtoon",
+      "style_ids": [
+        "KR03"
+      ],
+      "official_source_url": "https://www.tappytoon.com/en/comics/villains-are-destined-to-die",
+      "representative_image_url": null,
+      "source_id": "SRC-KR-020",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "formal",
+      "selection_tags": [
+        "recent_mainstream",
+        "production_fit"
+      ],
+      "card_status": "card_pending",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W001",
+      "title_zh": "英雄联盟：双城之战",
+      "title_original": "Arcane",
+      "country": "NA",
+      "first_release_year": 2021,
+      "medium": "3D_2D_hybrid",
+      "style_ids": [],
+      "official_source_url": "https://www.netflix.com/title/81435684",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-001",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation",
+        "visual_innovation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W002",
+      "title_zh": "蜘蛛侠：平行宇宙",
+      "title_original": "Spider-Man: Into the Spider-Verse",
+      "country": "NA",
+      "first_release_year": 2018,
+      "medium": "3D_2D_hybrid",
+      "style_ids": [],
+      "official_source_url": "https://www.sonypictures.com/movies/spidermanintothespiderverse",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-002",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation",
+        "visual_innovation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W003",
+      "title_zh": "蓝眼武士",
+      "title_original": "Blue Eye Samurai",
+      "country": "NA",
+      "first_release_year": 2023,
+      "medium": "3D_2D_hybrid",
+      "style_ids": [],
+      "official_source_url": "https://www.netflix.com/title/81144203",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-003",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W004",
+      "title_zh": "荒野机器人",
+      "title_original": "The Wild Robot",
+      "country": "NA",
+      "first_release_year": 2024,
+      "medium": "3D",
+      "style_ids": [],
+      "official_source_url": "https://www.dreamworks.com/movies/the-wild-robot",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-004",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W005",
+      "title_zh": "猫猫的奇幻漂流",
+      "title_original": "Flow",
+      "country": "EU",
+      "first_release_year": 2024,
+      "medium": "3D",
+      "style_ids": [],
+      "official_source_url": "https://flowthemovie.com/",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-005",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation",
+        "visual_innovation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W006",
+      "title_zh": "疯狂约会美丽都",
+      "title_original": "The Triplets of Belleville",
+      "country": "EU",
+      "first_release_year": 2003,
+      "medium": "2D_film",
+      "style_ids": [],
+      "official_source_url": "https://www.sonyclassics.com/triplets/",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-006",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation",
+        "classic"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W007",
+      "title_zh": "众神之巅",
+      "title_original": "The Summit of the Gods",
+      "country": "EU",
+      "first_release_year": 2021,
+      "medium": "2D_film",
+      "style_ids": [],
+      "official_source_url": "https://www.netflix.com/title/81424906",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-007",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W008",
+      "title_zh": "火星特快",
+      "title_original": "Mars Express",
+      "country": "EU",
+      "first_release_year": 2023,
+      "medium": "2D_film",
+      "style_ids": [],
+      "official_source_url": "https://gkids.com/films/mars-express/",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-008",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W009",
+      "title_zh": "玻璃工人",
+      "title_original": "The Glassworker",
+      "country": "OT",
+      "first_release_year": 2024,
+      "medium": "2D_film",
+      "style_ids": [],
+      "official_source_url": "https://manoanimationstudios.com/the-glassworker/",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-009",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation",
+        "visual_innovation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W010",
+      "title_zh": "特蕾莎",
+      "title_original": "Trese",
+      "country": "OT",
+      "first_release_year": 2021,
+      "medium": "2D",
+      "style_ids": [],
+      "official_source_url": "https://www.netflix.com/title/81012541",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-010",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W011",
+      "title_zh": "你个混账！",
+      "title_original": "Hayop Ka!",
+      "country": "OT",
+      "first_release_year": 2020,
+      "medium": "2D_film",
+      "style_ids": [],
+      "official_source_url": "https://www.netflix.com/title/81343127",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-011",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    },
+    {
+      "id": "GL-W012",
+      "title_zh": "九神战甲",
+      "title_original": "๙ ศาสตรา",
+      "country": "OT",
+      "first_release_year": 2018,
+      "medium": "3D_film",
+      "style_ids": [],
+      "official_source_url": "https://www.facebook.com/9Satra/",
+      "representative_image_url": null,
+      "source_id": "SRC-GL-012",
+      "copyright_note": "官方来源仅作研究索引；不作为生成模型输入。",
+      "source_confidence": "A",
+      "verification_status": "verified",
+      "pool": "global_observation",
+      "selection_tags": [
+        "global_observation"
+      ],
+      "card_status": "observation_only",
+      "visual_card": {
+        "closeup": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "closeup"
+        },
+        "fullbody": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "fullbody"
+        },
+        "environment": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "environment"
+        },
+        "action": {
+          "image_url": null,
+          "source_id": null,
+          "observations": [],
+          "status": "pending",
+          "slot": "action"
+        }
+      }
+    }
+  ],
+  "usage_policy": "正式作品池60部（中日韩各20）+全球观察池12部；官方视觉只作研究证据，不作图生图输入。"
+}
