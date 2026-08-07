@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "project_id": "SPEC-XXXX",
+  "variables": [
+    {
+      "id": "VAR-01",
+      "name": "示例变量",
+      "type": "enum",
+      "values": [
+        "A",
+        "B"
+      ],
+      "default": "A",
+      "status": "testing"
+    }
+  ]
+}

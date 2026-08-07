@@ -1,0 +1,23 @@
+---
+title: 提示词模板示意图
+domain: Core_Ability
+tags:
+- AIGC
+- 示意图
+- README
+status: 归档
+created: 2026-08-05
+updated: 2026-08-05
+summary: 提示词模板示意图目录说明：存放提示词模板、平台差异、参考图职责、负面词和特殊形态模板对应的图文说明。
+status_cn: 已归档
+maturity: usable
+maturity_cn: 可用
+content_type: readme
+scope: domain
+---
+
+# 提示词模板示意图
+
+本目录存放提示词模板、平台差异、参考图职责、负面词和特殊形态模板对应的图文说明。
+
+图片主要用于学习与理解。图中小字、平台能力和参数必须结合对应 Markdown 正文与当前平台界面复核，不应单独作为唯一依据。

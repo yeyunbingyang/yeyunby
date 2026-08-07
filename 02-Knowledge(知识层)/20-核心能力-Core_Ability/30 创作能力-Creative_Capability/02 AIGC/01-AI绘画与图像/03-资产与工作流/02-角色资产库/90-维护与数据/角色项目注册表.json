@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-08-05",
+  "projects": [
+    {
+      "role_id": "CHAR-JULIA",
+      "name": "JULIA",
+      "status": "active",
+      "maturity": "stable",
+      "moc": "01-角色项目/JULIA/JULIA-角色MOC.md",
+      "asset_card": "01-角色项目/JULIA/JULIA完整生产案例.md",
+      "process_root": "02-过程资产/正式角色/JULIA",
+      "failure_root": "03-失败与版本/JULIA",
+      "delivery_root": "04-最终交付物/JULIA",
+      "canonical_state": "已建立完整交付链",
+      "next_action": "人工确认来源、授权与核心 canonical 文件",
+      "data_gaps": []
+    },
+    {
+      "role_id": "CHAR-MOYI",
+      "name": "墨衣少年",
+      "status": "active",
+      "maturity": "usable",
+      "moc": "01-角色项目/墨衣少年/墨衣少年-角色MOC.md",
+      "asset_card": "01-角色项目/墨衣少年/墨衣少年资产卡.md",
+      "process_root": null,
+      "failure_root": "03-失败与版本/墨衣少年",
+      "delivery_root": "04-最终交付物/墨衣少年",
+      "canonical_state": "静态关键帧可用",
+      "next_action": "继续验证视频阶段与身份恢复",
+      "data_gaps": [
+        "process_root"
+      ]
+    },
+    {
+      "role_id": "CHAR-XIANXIA-REAL",
+      "name": "真人仙侠角色",
+      "status": "active",
+      "maturity": "usable",
+      "moc": "01-角色项目/真人仙侠角色/真人仙侠角色-角色MOC.md",
+      "asset_card": null,
+      "process_root": "02-过程资产/正式角色/真人仙侠角色",
+      "failure_root": null,
+      "delivery_root": null,
+      "canonical_state": "设定板与过程链已建立",
+      "next_action": "补角色资产卡与权威交付",
+      "data_gaps": [
+        "failure_root",
+        "delivery_root"
+      ]
+    },
+    {
+      "role_id": "RESEARCH-S01",
+      "name": "研究角色-S01",
+      "status": "active",
+      "maturity": "testing",
+      "moc": "01-角色项目/研究角色-S01/研究角色-S01-角色MOC.md",
+      "asset_card": null,
+      "process_root": "02-过程资产/研究角色/研究角色-S01",
+      "failure_root": "03-失败与版本/研究角色-S01",
+      "delivery_root": null,
+      "canonical_state": "多风格实验中",
+      "next_action": "确定是否晋升正式角色或归档",
+      "data_gaps": [
+        "delivery_root"
+      ]
+    },
+    {
+      "role_id": "LAB-GENERAL",
+      "name": "通用实验",
+      "status": "active",
+      "maturity": "testing",
+      "moc": "01-角色项目/通用实验/通用实验-MOC.md",
+      "asset_card": null,
+      "process_root": "02-过程资产/通用参考",
+      "failure_root": null,
+      "delivery_root": null,
+      "canonical_state": "未绑定正式角色",
+      "next_action": "实验成熟后迁入正式角色或公共库",
+      "data_gaps": [
+        "failure_root"
+      ]
+    }
+  ]
+}

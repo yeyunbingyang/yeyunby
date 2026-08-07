@@ -1,0 +1,26 @@
+{
+  "version": "2026.08.08-simplified-structure-v1",
+  "generated": "2026-08-08",
+  "base": "2026.08.06-five-part-canonical-v1",
+  "changes": [
+    "根 MOC 作为唯一总入口",
+    "提示词活动正文收敛为七篇",
+    "资产与工作流入口和规范并入 MOC",
+    "实验方法与模板收敛为单篇权威正文",
+    "历史拆分版集中归档",
+    "Frontmatter、标题、链接和附件完成全量校验",
+    "CURRENT、目录清单、版本清单和健康检查同步更新"
+  ],
+  "canonical_template": "01-提示词/01-通用提示词模板.md",
+  "standard": "01-提示词/06-提示词设计与失败排查.md",
+  "health_file": "当前健康检查.json",
+  "change_log": "../03-发布与变更记录/2026/2026-08-08-目录简化实施与验证记录.md",
+  "counts": {
+    "file_count": 756,
+    "markdown_count": 283,
+    "image_count": 444,
+    "json_count": 23,
+    "python_count": 4,
+    "video_count": 1
+  }
+}

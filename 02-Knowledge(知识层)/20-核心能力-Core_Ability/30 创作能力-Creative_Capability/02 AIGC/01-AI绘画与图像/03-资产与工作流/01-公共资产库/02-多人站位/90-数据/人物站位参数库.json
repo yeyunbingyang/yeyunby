@@ -1,0 +1,466 @@
+{
+  "version": "1.0",
+  "updated": "2026-08-05",
+  "cards": [
+    {
+      "code": "P2-01",
+      "title": "双人并列",
+      "count": 2,
+      "pos": [
+        [
+          0.4,
+          0.52
+        ],
+        [
+          0.6,
+          0.52
+        ]
+      ],
+      "angles": [
+        90,
+        90
+      ],
+      "protagonist": 0,
+      "main": "画面左或右三分位",
+      "direction": "共同朝向镜头",
+      "spacing": "约 0.8–1.2 个肩宽",
+      "camera": "平视中景 / 全身",
+      "mood": "平等、搭档、亲和",
+      "prompt": "two people standing side by side, balanced spacing, both facing camera",
+      "fail": "肩膀粘连、完全镜像、头高不一致"
+    },
+    {
+      "code": "P2-02",
+      "title": "前后错位",
+      "count": 2,
+      "pos": [
+        [
+          0.44,
+          0.63
+        ],
+        [
+          0.61,
+          0.38
+        ]
+      ],
+      "angles": [
+        90,
+        90
+      ],
+      "protagonist": 0,
+      "main": "前景三分位",
+      "direction": "同向或微侧向",
+      "spacing": "前后 1–1.5 个身位",
+      "camera": "轻微俯拍 / 中长焦",
+      "mood": "主次、伙伴、叙事纵深",
+      "prompt": "foreground lead, second person behind and offset, clear depth separation",
+      "fail": "后排脸被挡、人物像叠在一起、透视比例失衡"
+    },
+    {
+      "code": "P2-03",
+      "title": "相对交流",
+      "count": 2,
+      "pos": [
+        [
+          0.38,
+          0.51
+        ],
+        [
+          0.62,
+          0.51
+        ]
+      ],
+      "angles": [
+        0,
+        180
+      ],
+      "protagonist": 0,
+      "main": "左右对开",
+      "direction": "彼此相向",
+      "spacing": "1–1.5 个手臂长度",
+      "camera": "侧向双人中景",
+      "mood": "对话、协商、亲密",
+      "prompt": "two people facing each other, conversational distance, open body language",
+      "fail": "视线不相交、距离过近、手臂穿插"
+    },
+    {
+      "code": "P2-04",
+      "title": "背对张力",
+      "count": 2,
+      "pos": [
+        [
+          0.45,
+          0.51
+        ],
+        [
+          0.55,
+          0.51
+        ]
+      ],
+      "angles": [
+        180,
+        0
+      ],
+      "protagonist": 0,
+      "main": "中心偏置",
+      "direction": "背向相反方向",
+      "spacing": "背部留 0.3–0.6 肩宽",
+      "camera": "平视中景 / 广角",
+      "mood": "冲突、决裂、双主角",
+      "prompt": "two characters back to back, facing opposite directions, dramatic separation",
+      "fail": "身体融合、背部重叠、双方主次不清"
+    },
+    {
+      "code": "P2-05",
+      "title": "主次高低",
+      "count": 2,
+      "pos": [
+        [
+          0.56,
+          0.47
+        ],
+        [
+          0.35,
+          0.62
+        ]
+      ],
+      "angles": [
+        90,
+        45
+      ],
+      "scales": [
+        1.12,
+        0.82
+      ],
+      "protagonist": 0,
+      "main": "主角站立居中",
+      "direction": "主角面向镜头，配角侧向",
+      "spacing": "水平 1–1.5 身位",
+      "camera": "略低机位 / 中景",
+      "mood": "权威、照顾、层级",
+      "prompt": "standing lead with seated supporting person, clear height hierarchy",
+      "fail": "坐姿高度不明、配角抢脸、比例变成巨人"
+    },
+    {
+      "code": "P3-01",
+      "title": "稳定三角",
+      "count": 3,
+      "pos": [
+        [
+          0.5,
+          0.63
+        ],
+        [
+          0.34,
+          0.37
+        ],
+        [
+          0.66,
+          0.37
+        ]
+      ],
+      "angles": [
+        90,
+        90,
+        90
+      ],
+      "protagonist": 0,
+      "main": "前景顶点",
+      "direction": "整体朝向镜头",
+      "spacing": "横向 1–1.5 肩宽",
+      "camera": "正面中景 / 全身",
+      "mood": "团队、稳定、海报感",
+      "prompt": "three-person triangular formation, lead in front, two behind",
+      "fail": "三人同一水平线、后排遮脸、三角过窄"
+    },
+    {
+      "code": "P3-02",
+      "title": "中心主角",
+      "count": 3,
+      "pos": [
+        [
+          0.5,
+          0.51
+        ],
+        [
+          0.3,
+          0.58
+        ],
+        [
+          0.7,
+          0.58
+        ]
+      ],
+      "angles": [
+        90,
+        75,
+        105
+      ],
+      "protagonist": 0,
+      "main": "画面中心",
+      "direction": "配角微向主角",
+      "spacing": "两侧各 1–1.5 身位",
+      "camera": "正面平视 / 中景",
+      "mood": "领袖、明星、介绍页",
+      "prompt": "central lead with two supporting characters flanking, focus on center",
+      "fail": "左右配角抢主角、完全对称僵硬、脸部同尺寸"
+    },
+    {
+      "code": "P3-03",
+      "title": "左右护卫",
+      "count": 3,
+      "pos": [
+        [
+          0.5,
+          0.6
+        ],
+        [
+          0.28,
+          0.42
+        ],
+        [
+          0.72,
+          0.42
+        ]
+      ],
+      "angles": [
+        90,
+        70,
+        110
+      ],
+      "protagonist": 0,
+      "main": "前中景中心",
+      "direction": "护卫外开或半侧",
+      "spacing": "护卫距主角 1.5 身位",
+      "camera": "轻微低机位 / 广角",
+      "mood": "保护、权力、战队",
+      "prompt": "lead in front center, two guards behind left and right, protective formation",
+      "fail": "护卫比主角更近镜头、肩线重叠、阵型过散"
+    },
+    {
+      "code": "P3-04",
+      "title": "纵深队列",
+      "count": 3,
+      "pos": [
+        [
+          0.38,
+          0.66
+        ],
+        [
+          0.51,
+          0.5
+        ],
+        [
+          0.64,
+          0.34
+        ]
+      ],
+      "angles": [
+        75,
+        90,
+        105
+      ],
+      "protagonist": 0,
+      "main": "前景起点",
+      "direction": "沿对角线同向",
+      "spacing": "每人间隔 1 个身位",
+      "camera": "斜侧中长焦",
+      "mood": "行进、时装、秩序",
+      "prompt": "three people arranged in a diagonal depth line, staggered spacing",
+      "fail": "人物完全遮挡、远近比例反转、队列贴边"
+    },
+    {
+      "code": "PG-01",
+      "title": "群像弧形",
+      "count": 6,
+      "pos": [
+        [
+          0.2,
+          0.52
+        ],
+        [
+          0.31,
+          0.4
+        ],
+        [
+          0.44,
+          0.34
+        ],
+        [
+          0.56,
+          0.34
+        ],
+        [
+          0.69,
+          0.4
+        ],
+        [
+          0.8,
+          0.52
+        ]
+      ],
+      "angles": [
+        75,
+        80,
+        90,
+        90,
+        100,
+        105
+      ],
+      "protagonist": 2,
+      "main": "弧线中央",
+      "direction": "整体朝中心或镜头",
+      "spacing": "相邻 0.8–1.2 肩宽",
+      "camera": "正面广角 / 全身",
+      "mood": "庆典、团队、合照",
+      "prompt": "group arranged in a gentle arc, central lead, faces clearly visible",
+      "fail": "弧线变直线、边缘人物被裁、头部互相遮挡"
+    },
+    {
+      "code": "PG-02",
+      "title": "对称阵列",
+      "count": 7,
+      "pos": [
+        [
+          0.5,
+          0.62
+        ],
+        [
+          0.35,
+          0.52
+        ],
+        [
+          0.65,
+          0.52
+        ],
+        [
+          0.22,
+          0.4
+        ],
+        [
+          0.78,
+          0.4
+        ],
+        [
+          0.39,
+          0.3
+        ],
+        [
+          0.61,
+          0.3
+        ]
+      ],
+      "angles": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "protagonist": 0,
+      "main": "中轴前景",
+      "direction": "统一正向",
+      "spacing": "沿中轴对称展开",
+      "camera": "正面低机位 / 广角",
+      "mood": "仪式、组织、史诗",
+      "prompt": "symmetrical group formation, central lead on axis, ordered rows",
+      "fail": "中轴偏移、两侧人数不平衡、完全复制脸"
+    },
+    {
+      "code": "PG-03",
+      "title": "前中后景层次",
+      "count": 6,
+      "pos": [
+        [
+          0.38,
+          0.69
+        ],
+        [
+          0.62,
+          0.69
+        ],
+        [
+          0.27,
+          0.48
+        ],
+        [
+          0.5,
+          0.48
+        ],
+        [
+          0.73,
+          0.48
+        ],
+        [
+          0.5,
+          0.28
+        ]
+      ],
+      "angles": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "protagonist": 0,
+      "main": "前景双主位之一",
+      "direction": "统一或轻微内收",
+      "spacing": "三层深度清晰",
+      "camera": "中长焦 / 轻俯拍",
+      "mood": "剧情群像、复杂关系",
+      "prompt": "group in foreground midground background layers, clear depth hierarchy",
+      "fail": "后排过小、层级挤成一团、焦点平均"
+    },
+    {
+      "code": "PG-04",
+      "title": "疏密节奏",
+      "count": 6,
+      "pos": [
+        [
+          0.24,
+          0.4
+        ],
+        [
+          0.33,
+          0.46
+        ],
+        [
+          0.26,
+          0.58
+        ],
+        [
+          0.39,
+          0.6
+        ],
+        [
+          0.66,
+          0.42
+        ],
+        [
+          0.79,
+          0.6
+        ]
+      ],
+      "angles": [
+        90,
+        80,
+        95,
+        90,
+        100,
+        90
+      ],
+      "protagonist": 1,
+      "main": "密集组核心",
+      "direction": "密集组内聚，疏组外开",
+      "spacing": "一侧紧密、一侧留白",
+      "camera": "横向广角 / 环境人像",
+      "mood": "街拍、社交、叙事留白",
+      "prompt": "asymmetrical group spacing, clustered figures balanced by isolated figures and negative space",
+      "fail": "随机散点、留白无意义、主角落在边缘"
+    }
+  ]
+}

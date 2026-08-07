@@ -1,0 +1,4033 @@
+{
+  "schema_version": "2.0",
+  "generated": "2026-08-05",
+  "excluded_self": "90-维护与数据/01-资产注册表/资产清单.json",
+  "count": 575,
+  "files": [
+    {
+      "path": ".gitignore",
+      "extension": "",
+      "size": 49,
+      "sha256": "80047a43d02e26b0ef396d68723a0951b60af23a987afc5c073d065a0b0e0644",
+      "duplicate_of": null
+    },
+    {
+      "path": "00-入口与规范/任务路由与层级边界.md",
+      "extension": ".md",
+      "size": 1455,
+      "sha256": "91ef5dfffc4e51e7f9bd7632a2ffd6df09fe2054a73ce7dcd3cb49a3216225a2",
+      "duplicate_of": null
+    },
+    {
+      "path": "00-入口与规范/01-快速开始-从任务到交付.md",
+      "extension": ".md",
+      "size": 1440,
+      "sha256": "4e347787a4926fbf5fa48b9926a3fd24fdf53dcbeeccbab41102e1056be2c091",
+      "duplicate_of": null
+    },
+    {
+      "path": "00-入口与规范/资产与工作流层-MOC.md",
+      "extension": ".md",
+      "size": 2552,
+      "sha256": "738bdecb6a9af4a829b4bb415646e02b24d7f1fd690f61c84f33279a2c8cd0d9",
+      "duplicate_of": null
+    },
+    {
+      "path": "00-入口与规范/资产入库与命名规范.md",
+      "extension": ".md",
+      "size": 1905,
+      "sha256": "9543282d309844c47c5a5492edb891c9ffd1054b4a90e75425eec73eeed4a114",
+      "duplicate_of": null
+    },
+    {
+      "path": "00-入口与规范/附件/丝袜专项生产库-INDEX-v01.png",
+      "extension": ".png",
+      "size": 1792942,
+      "sha256": "0cf7472c625fb1927b0a4fe89ec2fdf11f2c296e2aff8b60e3771825fca9727c",
+      "duplicate_of": null
+    },
+    {
+      "path": "00-入口与规范/附件/公共资产库-INDEX-v01.png",
+      "extension": ".png",
+      "size": 1694331,
+      "sha256": "9a45bf87e7787ccec91cbf61754c0d3ffc1264f1e5b61633404b16909f59a8be",
+      "duplicate_of": null
+    },
+    {
+      "path": "00-入口与规范/附件/角色资产库-INDEX-v01.png",
+      "extension": ".png",
+      "size": 2091912,
+      "sha256": "ca30c6dd1a0785efec057363cc4bf584c458441247db980998ea00459e04232c",
+      "duplicate_of": null
+    },
+    {
+      "path": "00-入口与规范/附件/资产与工作流层-OVERVIEW-v01.png",
+      "extension": ".png",
+      "size": 1853150,
+      "sha256": "5b8d4bb4da124c151968ef00310e153496948086221c28cf5b3dde64e1c9ff89",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/01-人物姿势/人物姿势-MOC.md",
+      "extension": ".md",
+      "size": 1431,
+      "sha256": "6e3eaa8a670191941a08eafe74ce42a0ffe6766973292334113a68e62807cbf3",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P2-01-双人并列.png",
+      "extension": ".png",
+      "size": 109687,
+      "sha256": "f5d0ff60995be4bcfd6047a60755e68c16f583e9d1ce4b70ace0a77831ea906e",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P2-02-前后错位.png",
+      "extension": ".png",
+      "size": 113126,
+      "sha256": "5fcc8ef70826eb0ee6d98e785f57fb37813f9ee9291020b54a12253ca3752be4",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P2-03-相对交流.png",
+      "extension": ".png",
+      "size": 108502,
+      "sha256": "3f83c79f3891eb250fc95b993af587626a14c6c00dacd4661328de5c7d2d02a8",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P2-04-背对张力.png",
+      "extension": ".png",
+      "size": 108822,
+      "sha256": "432304ceb638e2fb094d42a38a29f86973019ee0efba37cf77eff919207bb521",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P2-05-主次高低.png",
+      "extension": ".png",
+      "size": 110781,
+      "sha256": "dd2b0a5532b78dd15f4cb6570b2eb9cdb8cf09ba9abd0cf44162bbbb2f4430f0",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P3-01-稳定三角.png",
+      "extension": ".png",
+      "size": 106543,
+      "sha256": "d11941e1384835e20d87f29eb1e502e2d838cf1ef746c641f80bdf090cbe7dd1",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P3-02-中心主角.png",
+      "extension": ".png",
+      "size": 107388,
+      "sha256": "7f762867aeb3ace674122e35b51aadccd92242af4f723c77614481a58d697634",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P3-03-左右护卫.png",
+      "extension": ".png",
+      "size": 110679,
+      "sha256": "2d73b8a1f9444335cdd0b581ba7a6860091103969216fe01b3ddc9d8f1feca93",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/P3-04-纵深队列.png",
+      "extension": ".png",
+      "size": 113647,
+      "sha256": "6e70f830732d9dd495a25f9c6dfefd340935c7560ca895972a7deee67d5f7c89",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/PG-01-群像弧形.png",
+      "extension": ".png",
+      "size": 118871,
+      "sha256": "cbe6e9d361618c9d1567a497311191af93f948b20b4cb3f995ab9ba6b895f284",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/PG-02-对称阵列.png",
+      "extension": ".png",
+      "size": 113972,
+      "sha256": "34de629ffec26069a4409b2b0ccb719f2277d2b8579d58990d21654e8888c7cd",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/PG-03-前中后景层次.png",
+      "extension": ".png",
+      "size": 118715,
+      "sha256": "123ce007ae46df9f6b0d68c99b9281f06e400e9cb38f85778dc83bbfcc82bbd2",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/01-词图卡/PG-04-疏密节奏.png",
+      "extension": ".png",
+      "size": 124044,
+      "sha256": "d6c0a58324405e3d47ace50c1dac3a6deac34288ffe2bde2cf835b95e84372ce",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/90-数据/人物站位参数库.json",
+      "extension": ".json",
+      "size": 9926,
+      "sha256": "e769807c3fa3ebbe871b0082101d4311e02bb3539b7834e43488c64ee89716b7",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/多人物站位提示词模板.md",
+      "extension": ".md",
+      "size": 2123,
+      "sha256": "2cc64bcfde39a6aa0a95310ee71dab1d49c240bc200f340927fafc91f59f3912",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/多人站位-MOC.md",
+      "extension": ".md",
+      "size": 5385,
+      "sha256": "7e0974cd27c5e7347819be8f51f35715679930dc58d43aab8808f3bfd1a20b09",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/02-多人站位/多人站位-视觉索引-v01.jpg",
+      "extension": ".jpg",
+      "size": 307244,
+      "sha256": "038190c80360e8ca23a03920fca78a760f91d2a2491eb5b25129e46f66f018ea",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/03-构图与镜头/构图与镜头-MOC.md",
+      "extension": ".md",
+      "size": 1109,
+      "sha256": "88af8b2879e7a78c3f5bf3b8dabb3d6dd4a4774c7d44bde8332bb0b11fbfa0f1",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/03-构图与镜头/构图镜头变量库.json",
+      "extension": ".json",
+      "size": 609,
+      "sha256": "fc0fe257b6d7311fa0843f3f7b7647b58c80f02dc3031194234b4565d7927437",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/04-场景与氛围/场景与氛围-MOC.md",
+      "extension": ".md",
+      "size": 1077,
+      "sha256": "f54fd5b0f40a3205c3e4ab2dcbb45d32547be931979735df5b14f9e0c04e3f5e",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/05-道具与交互/01-道具选择器/办公场景-道具选择器.png",
+      "extension": ".png",
+      "size": 194101,
+      "sha256": "2c022ad3d83915c5a931d3dd0d5765972472ee405a8de290388253627dba5913",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/05-道具与交互/01-道具选择器/咖啡店场景-道具选择器.png",
+      "extension": ".png",
+      "size": 176961,
+      "sha256": "4c5b415f1b86ce275cb6c91ce017aed7a04532335ef634eca34384e432f2fc2e",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/05-道具与交互/01-道具选择器/居家场景-道具选择器.png",
+      "extension": ".png",
+      "size": 190283,
+      "sha256": "bfde5e183dcc04632321548a1022c2b96eebaef7183e381aca7f1ab8bb4e8136",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/05-道具与交互/01-道具选择器/街道场景-道具选择器.png",
+      "extension": ".png",
+      "size": 185476,
+      "sha256": "41d7012318ea49749771c87e2c09953d4775418448c44a64f27055b7bfddb02f",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/05-道具与交互/90-数据/场景道具选择器.json",
+      "extension": ".json",
+      "size": 7597,
+      "sha256": "4c48d07e0831b285a7ff55d6c9016888a1ce21d9c2e849db2bec0687d532f389",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/05-道具与交互/场景道具选择器-使用说明.md",
+      "extension": ".md",
+      "size": 1853,
+      "sha256": "ebe3dca95c8f8150e1e8819c6616e58d9f592a19b314f356493bd1b6579cd6ec",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/05-道具与交互/道具与交互-MOC.md",
+      "extension": ".md",
+      "size": 4402,
+      "sha256": "627d8b4a5a4cfc2fce4cd9f92dadc489079f20c90c254b7b938d3b8a1eb2a956",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/05-道具与交互/道具与交互-视觉索引-v01.jpg",
+      "extension": ".jpg",
+      "size": 403660,
+      "sha256": "011de7bced0a3f6456779e364ec13eb6d01dcf87d5f65efe90a04afb862c2acc",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/06-服装与材质/服装与材质-MOC.md",
+      "extension": ".md",
+      "size": 1051,
+      "sha256": "0a2e6986cb8d674fd1d6e94ad00815ee31641b9fef57700962b0d3e4ecf3db95",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/06-服装与材质/服装材质变量库.json",
+      "extension": ".json",
+      "size": 655,
+      "sha256": "03e4b02c9030ee2257fec636f78a5ec1c2a0bb9895641d0ffa01f5a118b7dac3",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/90-索引与数据/公共媒体索引.md",
+      "extension": ".md",
+      "size": 3578,
+      "sha256": "9bf856bb234bd400c1150fa077b64698124a11b7e39955e7d189dc163cda3b77",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/90-索引与数据/公共资产库索引.md",
+      "extension": ".md",
+      "size": 729,
+      "sha256": "4b2c471b3a3743a04a179298c10cd4e7a0210d4d480c5d1d06538f8b0459e74b",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/90-索引与数据/公共资产清单.md",
+      "extension": ".md",
+      "size": 2174,
+      "sha256": "82b8285e86830a7cb519a62d01965d788d99635dde7e4cb96d66238685af8955",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/99-归档/素材图库-视觉索引-v01.jpg",
+      "extension": ".jpg",
+      "size": 265535,
+      "sha256": "b8dd5e4a19045fd5fee987626ead069ecba931f41972a7ebeb1739dcaf6b6f6d",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/公共资产库-MOC.md",
+      "extension": ".md",
+      "size": 1606,
+      "sha256": "8a866eb82b0a37caad210e41901dffeefc2275c36c80c73cecb248bf2d01c37a",
+      "duplicate_of": null
+    },
+    {
+      "path": "01-公共资产库/公共资产库-视觉索引-v01.jpg",
+      "extension": ".jpg",
+      "size": 383848,
+      "sha256": "63f30b7b22887034897ae9cb7ebbe2f831421d71936303830c58ad83773790f4",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/提示词/动漫化与风格提示词.md",
+      "extension": ".md",
+      "size": 2013,
+      "sha256": "babcb7156063bfc866211d82f75284411dc729b0e4f0ce2f72ffdffa71ae6e4d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/提示词/四格场景效果板提示词.md",
+      "extension": ".md",
+      "size": 1077,
+      "sha256": "adc8e8f07a437669fd453bd173bc1130609cbf1621a8b8cb7d9ad9700bc4ad3b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/提示词/男性身体比例提示词假设.md",
+      "extension": ".md",
+      "size": 1211,
+      "sha256": "4222f3cf9a9681b8d3cf45e16b78a6a1835a14c881815752d25cc5340db0100b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/提示词/真人身体与三视图提示词.md",
+      "extension": ".md",
+      "size": 1766,
+      "sha256": "1f8d1f70fc4b55aa07655f02046bc469c73b822085dd8152db0bae0df79d8152",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/提示词/表情与换装提示词.md",
+      "extension": ".md",
+      "size": 989,
+      "sha256": "0301eb317520333829e830baa655b42831a7afae2c809fcef2fd3f1f582ac12d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/提示词/角色设定板提示词.md",
+      "extension": ".md",
+      "size": 21158,
+      "sha256": "2ea654a286467f5f70fb89057f28880a791899b07425c05cefa3aad0b64ed479",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/提示词/身份与角度提示词.md",
+      "extension": ".md",
+      "size": 2888,
+      "sha256": "e6bac5cc10e33d2c6356a9285dbd40beedfb5bba65d4a95cf07d9965a31e786d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/生产方法/AI人物跨图像与视频一致性控制.md",
+      "extension": ".md",
+      "size": 11397,
+      "sha256": "1093d84dd94a81c1e11879afeb98617a5a33436576fa179e6863ed0f64eb35a0",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/生产方法/AI人物身份参考资产-执行手册.md",
+      "extension": ".md",
+      "size": 9478,
+      "sha256": "7e59ba6d8f3ecfb4bef78787cb31d90cccc4109fdf371ee6db7a0874977595cf",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/生产方法/古风角色工作流.md",
+      "extension": ".md",
+      "size": 18270,
+      "sha256": "118198ec408520baba4569f6a6d33a596dc3f0998e72b0c44b73f2ec9685f3f6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/生产方法/角色设定规范页.md",
+      "extension": ".md",
+      "size": 24142,
+      "sha256": "28073f68f65afbbe4160257a5223d7c8e19956c3fd2df00cb2d5123049f56fa3",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/角色生产方法-MOC.md",
+      "extension": ".md",
+      "size": 1134,
+      "sha256": "3d9a5275630cf2f040d06b145c431b9ee009583879db470a26e828a754d39302",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/风格与作品研究/风格与作品研究-MOC.md",
+      "extension": ".md",
+      "size": 1745,
+      "sha256": "90d2ebfc93283f47aa6f89cb3fb21b450885bf059fe18d80b1ad1033880d2e80",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/00-角色生产方法/验收与修复/验收与失败修复规范.md",
+      "extension": ".md",
+      "size": 7546,
+      "sha256": "35d7f70214e60cfa23aa02a6a7df9ab1caa21799fd26132fa941439a0c3a2a29",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/JULIA/JULIA-角色MOC.md",
+      "extension": ".md",
+      "size": 5509,
+      "sha256": "dd6eb802fd8e0d5efb772db62190412e2bb872c2356227437d2cdfa13d3dd227",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/JULIA/JULIA完整生产案例.md",
+      "extension": ".md",
+      "size": 9714,
+      "sha256": "a8062269dee88e9c54f02e2fbca1a8fa03baedd98beead8bacb4e90bf8860222",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/墨衣少年/墨衣少年-角色MOC.md",
+      "extension": ".md",
+      "size": 1400,
+      "sha256": "72fae9fecfc5b78ce4e78cfcca436eb6adde642da29c23b198f0d2538f659a1d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/墨衣少年/墨衣少年测试记录.md",
+      "extension": ".md",
+      "size": 5756,
+      "sha256": "c1c26964c8a5a1fb9ed00d6d3b395cf8893ef578b28ad75208e58dc5280b094d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/墨衣少年/墨衣少年资产卡.md",
+      "extension": ".md",
+      "size": 3336,
+      "sha256": "7fd5d98cd9fdeccd6aa179551fdc003fd953ba58f720b3286e3de3d711abf041",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/真人仙侠角色/真人仙侠角色-角色MOC.md",
+      "extension": ".md",
+      "size": 1984,
+      "sha256": "de8b1e326394591549f5b7bb451a96cf9c5dd614f540d80fb1679a67748f64dc",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/真人仙侠角色/真人仙侠角色设定板提示词调教实验.md",
+      "extension": ".md",
+      "size": 13151,
+      "sha256": "ed119153efa709a1e0e104610ce23f4d89cf28df3388fd689670de2290836c1b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/研究角色-S01/四格效果板案例.md",
+      "extension": ".md",
+      "size": 5672,
+      "sha256": "83ac660937ebff5e3e9de27d83ced0a3d858e3561c9571608d88278c0d09df19",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/研究角色-S01/研究角色-S01-角色MOC.md",
+      "extension": ".md",
+      "size": 3132,
+      "sha256": "3bd042816351a2b345f5666e52ce3d7e128570711c960a1b8167b8c706964524",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/角色项目-MOC.md",
+      "extension": ".md",
+      "size": 1110,
+      "sha256": "70df2bfc59ddcca8b96af76c4bcae96ec3752c51037b58c62078fc320c46cdbb",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/通用实验/角色设定规范板-提示词案例.md",
+      "extension": ".md",
+      "size": 12697,
+      "sha256": "518bf51827c2f3efa74c34411b0a10f25c167e7c61b13519d7803bed5d0fc8f9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/01-角色项目/通用实验/通用实验-MOC.md",
+      "extension": ".md",
+      "size": 472,
+      "sha256": "4bc6c440952fb113067c00e09ec0d5086021dc16674717814d22fb596630eed5",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/作品研究素材/作品四格研究卡/CN-W012-牧神记/CN-W012-牧神记-四格研究卡-v02-完整适配.png",
+      "extension": ".png",
+      "size": 1899767,
+      "sha256": "a72d411e9c38265f45ec776370122f0f255288c0287efa8c5c58464c45e6d4db",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/作品研究素材/作品四格研究卡/JP-W011-葬送的芙莉莲/JP-W011-葬送的芙莉莲-四格研究卡-v02-完整适配.png",
+      "extension": ".png",
+      "size": 1478672,
+      "sha256": "ad7df68349d0b51d1cfb98061d9f2ea9dca5c843d4bf3ab00cfbfeca14a078b9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/作品研究素材/作品四格研究卡/KR-W015-迷失星光/KR-W015-迷失星光-四格研究卡-v02-完整适配.png",
+      "extension": ".png",
+      "size": 1222924,
+      "sha256": "a543c50766240d6983b8c7957eebadd84fc124ce239828ed61974c310cf6595d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/01-输入与身份/JULIA-真人脸部身份母版.png",
+      "extension": ".png",
+      "size": 1767493,
+      "sha256": "594d4b07ef25b6601bca2e4fe5beec674ea303f3523524df61a0db7c2c9a75d9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/02-真人三视图/JULIA-合成身体母版-左侧90度-v01.png",
+      "extension": ".png",
+      "size": 1495789,
+      "sha256": "134cf87393488e160d05e5f7d86e011dd9a96a1023e9d0d257143e2dc433ca5f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/02-真人三视图/JULIA-合成身体母版-正面0度-v01.png",
+      "extension": ".png",
+      "size": 1643822,
+      "sha256": "46c3b24d88afe09d0f0a123630ac0a35c29222ca3ac9f18e6e224a05d6799cea",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/02-真人三视图/JULIA-合成身体母版-真人三视图板-v01.png",
+      "extension": ".png",
+      "size": 2415722,
+      "sha256": "d028c8755aaf847f1cde703b16c56df4284e063aaf6062d190991f602de1316a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/02-真人三视图/JULIA-合成身体母版-背面180度-v01.png",
+      "extension": ".png",
+      "size": 1620161,
+      "sha256": "d50aae0790a94c8f9517565db08c90468c4bb709f54377e20603ece949da042d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-7.5-8.0-8.2头身对比板.png",
+      "extension": ".png",
+      "size": 2975856,
+      "sha256": "a140a8090f80c8dba996b91fe69933719d994e509b7ab88ea34674c7368ba326",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-7.5头身-v01-眼睛修复.png",
+      "extension": ".png",
+      "size": 1558073,
+      "sha256": "85f90f5b4a232e175dea94458ed5032d5c905952a8060b6879f935ce0781c017",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-7.5头身-v02-脸部两级锚定.png",
+      "extension": ".png",
+      "size": 1595654,
+      "sha256": "a6011fcd16624dad338fd597ea2f9869af21ed6800a2d7ec8613f9660abe31dd",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-7.5头身-v02-量测网格.png",
+      "extension": ".png",
+      "size": 1579917,
+      "sha256": "c853f4fadb9b177258f6b8f6119ab45de4a1734b14d69abdb95373441b61e1a4",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-7.5头身-确定性控制版.png",
+      "extension": ".png",
+      "size": 1633081,
+      "sha256": "8d1c69ef2f9b768aebd4db8f5b0c5ea239b79fc4eeffc65c5305226b8b004ddc",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-7.5头身-量测网格.png",
+      "extension": ".png",
+      "size": 1644678,
+      "sha256": "a53889691512676fc30087b1a9f8d048eba4131dfc6dc6e7a4fe9d19afc7fe3c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-8.0头身-确定性控制版.png",
+      "extension": ".png",
+      "size": 1695054,
+      "sha256": "54e0544b2bf146a70cc4913be8188db15d94df5b755eab07b6927d697ed0408b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-8.0头身-量测网格.png",
+      "extension": ".png",
+      "size": 1707442,
+      "sha256": "788b927b20feaeae8f53b2ab5f66afc3ae02da878f27bd728619b8977072065f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-8.2头身-确定性控制版.png",
+      "extension": ".png",
+      "size": 1719038,
+      "sha256": "e4f5658530b90162c8ec7f131228b3e9be10a317ca6fd1c0632f58185df1f122",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-8.2头身-量测网格.png",
+      "extension": ".png",
+      "size": 1731973,
+      "sha256": "0bcb9221b034bbcf12d4e95e200782121e92d2b5505cbdde44fb3d7e87644717",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-中性2.5D动漫脸母版-v01.png",
+      "extension": ".png",
+      "size": 1886290,
+      "sha256": "e39f60d319910b88c3962fa6d1408d2fe3ef5f66a90599417207ccc2ea59ac82",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/03-身体比例/JULIA-自然7.3至7.5头身-身体母版-v02.png",
+      "extension": ".png",
+      "size": 1591939,
+      "sha256": "da6c613d701068cea2e843011c075cb41ee4cc1235a5687e6eeb548b7fb46b9f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/CN01-中国传统美术动画-正面-v01.png",
+      "extension": ".png",
+      "size": 2097435,
+      "sha256": "9f9cf8664d55310904948d999b4f111d5a5199266d0caacafb0ac6ca91cfa042",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/CN01-中国传统美术动画-正面-v02-自然比例.png",
+      "extension": ".png",
+      "size": 1886199,
+      "sha256": "9a491cb9fe0da977b8706bf5a863ed69dd2c2c787b83597ccab9ff33f0f44685",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/CN02-修仙写实3D-正面-v01.png",
+      "extension": ".png",
+      "size": 1543807,
+      "sha256": "a13c7744238ebd8d87075f671994ef8d5402bf835e79612d65fe8c48b71d5269",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/CN02-修仙写实3D-正面-v02-自然比例.png",
+      "extension": ".png",
+      "size": 1614853,
+      "sha256": "86d9a656bc08fa2fa3ce886e0b6fea6300d729353d3391044f3372d5c5e8b3c7",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/CN03-国漫2D赛璐璐-正面-v02-自然比例.png",
+      "extension": ".png",
+      "size": 1633427,
+      "sha256": "8e0e125947e6f5df9420f857f80652452b7f1063864974845e6a5584c75092a3",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/CN04-水墨动势2.5D-正面-v01.png",
+      "extension": ".png",
+      "size": 2137340,
+      "sha256": "89361341a66ed636e14fa73067da03454ba634f0ecca7cabad05d7b955ed7dbb",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/CN05-AI仿真人3D漫剧-正面-v01.png",
+      "extension": ".png",
+      "size": 1687872,
+      "sha256": "728b883a76d2450f64b3da46c7b8a72472f3bae88c529b6473e741115c9dae8b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/CN06-现代国潮电影级3D-正面-v02-背景修复.png",
+      "extension": ".png",
+      "size": 1544319,
+      "sha256": "be086d4df9ba52c1870d4d207402d1a04245ebf3edaf117e2848600511e05905",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JP01-成年电影感写实日漫-正面-v01.png",
+      "extension": ".png",
+      "size": 1556631,
+      "sha256": "32ba2210a51feb9a2bfd425cc5e8dca630e684df5082f473fbf1a8d6fcb6c41c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JP02-少年战斗赛璐璐-正面-v01.png",
+      "extension": ".png",
+      "size": 1598454,
+      "sha256": "c1e96eefa3f7776c86f8703eae8c78ed748a52ba3462b9d41cdb53db073adfa7",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JP03-少女漫画精致线稿-正面-v02-背景修复.png",
+      "extension": ".png",
+      "size": 1221128,
+      "sha256": "b56d9a89f5dea5b715db69d0a69fd6bb5b37f0263a89f79494b525070c156171",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JP04-都市超自然霓虹2D-正面-v01.png",
+      "extension": ".png",
+      "size": 1246294,
+      "sha256": "9c343297a2d90d9a4b4695301ba1e0685890969fc4122b2a31deddeda9c53703",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JP05-东方宫廷精细2D-正面-v01.png",
+      "extension": ".png",
+      "size": 1688427,
+      "sha256": "ab0b0364475e79065c73975b1493ea5b4e5131638218831cf2e383d1581a33ae",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JP06-复古90年代赛璐璐-正面-v01.png",
+      "extension": ".png",
+      "size": 2197995,
+      "sha256": "6538ff902d96d622f434ab1faa2d0284906f21bf1b87dea2cf9091a1ed1c552a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JULIA-中国6类动漫正面对比板-v01.png",
+      "extension": ".png",
+      "size": 4795800,
+      "sha256": "f883464a1055db39163a2b85915cb0053e514f8bbc71f09f0bac93ab8520d26d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JULIA-中日韩18类动漫正面对比总览-v01.png",
+      "extension": ".png",
+      "size": 5009627,
+      "sha256": "0d43ea9724a099b07683dd1054176dd181e20d4b88093dc444a535ae3bfe3ba1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JULIA-日本6类动漫正面对比板-v01.png",
+      "extension": ".png",
+      "size": 4435084,
+      "sha256": "c5fee8edea72b76a87073935b60f2fea3d2fc9a435cc39bf4f2804d58839f050",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/JULIA-韩国6类动漫正面对比板-v01.png",
+      "extension": ".png",
+      "size": 4312973,
+      "sha256": "4c1e8829aed973d5c387d7800c9654960c4814edc8ab72030e51b0a7bb412d9e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/KR01-现代恋爱Webtoon-正面-v01.png",
+      "extension": ".png",
+      "size": 1580222,
+      "sha256": "1a0048e9c5e6d6dc83756f90cf263cf04fe956c2d15ec73b6f322421698d7f3d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/KR02-动作升级流Webtoon-正面-v01.png",
+      "extension": ".png",
+      "size": 1307021,
+      "sha256": "cb5c7e75a11092c2bcb17abab20981aff5e93372e674380f04010ac198d188d1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/KR03-宫廷转生Webtoon-正面-v01.png",
+      "extension": ".png",
+      "size": 1659381,
+      "sha256": "cded27b2650db415dcd19a7198e856efb596787a7a4e96da9e97c2cf0dcae941",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/KR04-半写实韩系游戏插画-正面-v01.png",
+      "extension": ".png",
+      "size": 1571250,
+      "sha256": "219d3b5b5c426563ac0f234b233c43be83eed633a8c3c5273b8a961b5528dd51",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/KR05-低饱和电影感韩漫-正面-v01.png",
+      "extension": ".png",
+      "size": 1585027,
+      "sha256": "c49400e32fc9b22ebfbddd6fb5b12cc112861629a9ec940fd0195cc6c82b4e85",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/04-18类正面对比/KR06-写实3D角色动画-正面-v01.png",
+      "extension": ".png",
+      "size": 1620680,
+      "sha256": "37d9029e9397d245e023043b74c34b5ec7ba70bc68a67f6ce7ca9bb46c18bcb2",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/CN02-修仙写实3D-三视图板-v01.png",
+      "extension": ".png",
+      "size": 3441199,
+      "sha256": "b4725fab4c375f52c66726f9a6fb9b0bfab7335b232992004883146725aef5d8",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/CN02-左侧90度-v01.png",
+      "extension": ".png",
+      "size": 1524024,
+      "sha256": "1afb5c99e592a825315bcb2f328ec883ab3d295decd0a10751ffd01513b53d57",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/CN02-背面180度-v01.png",
+      "extension": ".png",
+      "size": 1635405,
+      "sha256": "cb58fdf51548c4d91571f1661640ec1694d12775a96fba31208d1bb83ee99231",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/CN06-左侧90度-v01.png",
+      "extension": ".png",
+      "size": 1468170,
+      "sha256": "96d9ae2a9b3078e34c28e8776b1c1245667e54077a755cde47f08424a6a04e6d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/CN06-正面0度-v03-体型对齐.png",
+      "extension": ".png",
+      "size": 1633715,
+      "sha256": "f9aa8cb7f7bc2a5b0ea1682283bd4ded80930ef317f453da11c948b499baff9a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/CN06-现代国潮电影级3D-三视图板-v02-体型对齐.png",
+      "extension": ".png",
+      "size": 2657574,
+      "sha256": "f85b897f7d30215e5d7d76c82781d2253f4590fe128b96bd917ca78547a301d6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/CN06-背面180度-v01.png",
+      "extension": ".png",
+      "size": 1578675,
+      "sha256": "9ca2d624f38e59e9f6157ce6fe396cb79bdb871692175a4e943f94d788d1fb34",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JP01-左侧90度-v01.png",
+      "extension": ".png",
+      "size": 1520306,
+      "sha256": "13b600ddab392da66fbc728e321f76da5a8dfa7d4277c5d3fc1f3e26e94f7fcb",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JP01-左侧90度-v02-风格修复.png",
+      "extension": ".png",
+      "size": 1512484,
+      "sha256": "9693226a172491fae076d67be9d6f8510e75cbbbd55915cb3e3c7fb2833f1130",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JP01-成年电影感写实日漫-三视图板-v02-风格修复.png",
+      "extension": ".png",
+      "size": 2454993,
+      "sha256": "f838de850767bf381e0e26abf0b02130cb6bbc4113ae5f84cb386bb4811933cc",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JP01-背面180度-v01.png",
+      "extension": ".png",
+      "size": 1617300,
+      "sha256": "95562bf38454b096a3665d47f89b0a4ef68e46cfad265f4ebcaaf3e721b89974",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JP01-背面180度-v02-风格修复.png",
+      "extension": ".png",
+      "size": 1670806,
+      "sha256": "6541c5d3f76aceb12e2527732e30daacec1ffba65d3f413f29438cd0f3ae7427",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JP04-左侧90度-v01.png",
+      "extension": ".png",
+      "size": 1100861,
+      "sha256": "bcd534dd3dccaae5676f2848b70eb9358f9dd5c67ca7e6733dbc21ab4955622c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JP04-背面180度-v01.png",
+      "extension": ".png",
+      "size": 1353319,
+      "sha256": "d437b86153ea55a462dcf08d21c7b655683b43db502072bc35b7781def0a3f72",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JP04-都市超自然霓虹2D-三视图板-v01.png",
+      "extension": ".png",
+      "size": 2195626,
+      "sha256": "67b19e7d9cb749baabc8e888d440190b3980ce944000b702d1d45002a422ec4f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/JULIA-六类入围动漫三视图总览-v01.png",
+      "extension": ".png",
+      "size": 1585563,
+      "sha256": "0ca765cfa201b920090cfdfdc3367b127bb2781f8720da80f068250b2f020a34",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/KR04-半写实韩系游戏插画-三视图板-v01.png",
+      "extension": ".png",
+      "size": 2412599,
+      "sha256": "bc14c80ce630fdd935636de1edb60d282d456cd80d99198f062188e32f74903e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/KR04-左侧90度-v01.png",
+      "extension": ".png",
+      "size": 1378903,
+      "sha256": "b9130121d80d0ff70b285a3cdf46fefebefd2f5b3566384230ec12cef12ccb94",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/KR04-背面180度-v01.png",
+      "extension": ".png",
+      "size": 1500439,
+      "sha256": "0a254c9a71d07983258f474c892b92d71448648a8a5bb11be625bbe9bc407603",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/KR06-写实3D角色动画-三视图板-v01.png",
+      "extension": ".png",
+      "size": 2515198,
+      "sha256": "03e833825a03fb8a994ba635883ffe1029afecf157c3d06e7904130d0013ff3a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/KR06-左侧90度-v01.png",
+      "extension": ".png",
+      "size": 1572393,
+      "sha256": "df12261f2ef250518643b8ba699120a22032064fa5ee9e2f3f084923b7c7c993",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/JULIA/05-入围动漫三视图/KR06-背面180度-v01.png",
+      "extension": ".png",
+      "size": 1558779,
+      "sha256": "6b99a876cf9f1df595080e6032c6711ae5df74ca0b07867595e3c3541b09c841",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/真人仙侠角色/01-结构化长提示词.png",
+      "extension": ".png",
+      "size": 2703180,
+      "sha256": "247d140ced219a3e0ddc4c2a376d726ecfc0060ab1a3d232ae6b22c86ff8d651",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/真人仙侠角色/02-精简提示词.png",
+      "extension": ".png",
+      "size": 2642729,
+      "sha256": "f42c3327304ae2c216cc810fe00b6e507aed009e350d74a8692db1c5df6a588b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/真人仙侠角色/03-自然姿态修正版.png",
+      "extension": ".png",
+      "size": 2459930,
+      "sha256": "77be7a140457e5782d167c6102f3cd3eef635d8d3956a2b1d2ba5bb20621181d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/真人仙侠角色/第二阶段母资产/01-头肩身份母版.png",
+      "extension": ".png",
+      "size": 2134440,
+      "sha256": "85bfcb184afb643adf870f9ddd67d652f38d25c41de91629bb017e6394b2e0bd",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/真人仙侠角色/第二阶段母资产/02-正面角色母资产.png",
+      "extension": ".png",
+      "size": 1875507,
+      "sha256": "f55543eeeaa80e439c2cc2f649aed8945dde5e45551a8fd15a88645c14d75bd3",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/真人仙侠角色/第二阶段母资产/03-左45度角色母资产.png",
+      "extension": ".png",
+      "size": 1795941,
+      "sha256": "9c440262370e1e0623748c13fe8bbd7783ed85a0677df99915e651efb03e8ce1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/真人仙侠角色/第二阶段母资产/04-背面角色母资产.png",
+      "extension": ".png",
+      "size": 1769450,
+      "sha256": "247a0514dfbfaafd84b5c664f3c4a83fc0953a8e90a023e1346a18c3b716a12b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/正式角色/真人仙侠角色/第二阶段母资产/05-最终角色设定板.png",
+      "extension": ".png",
+      "size": 1997570,
+      "sha256": "c69df2f0cac28bc40516123af1af0bfa6de9a5c0649ce2a7ac43b83a94dd1907",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-01-近景-v02-服装修复.png",
+      "extension": ".png",
+      "size": 2258596,
+      "sha256": "bfbe7fbfcbb0584cd84c617f1c4a1195826199e81868c43efecd8dc35126995c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-01-近景-v03-场景服装.png",
+      "extension": ".png",
+      "size": 2229471,
+      "sha256": "b7f3152cc80879c10e9c9a60c03befccf39a227a5755aeb41e4207047cc65b69",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-02-全身-v01.png",
+      "extension": ".png",
+      "size": 2353347,
+      "sha256": "fd55200cd9da0870daa6701c14c4cf3be2c1f2b518c708095d920ce8fb1902fd",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-02-全身-v02-场景服装.png",
+      "extension": ".png",
+      "size": 2378695,
+      "sha256": "8c14f8a7934049600b831f0d701f334923419f88f75f4653bdf52f9b0eadf850",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-03-环境-v02-服装比例修复.png",
+      "extension": ".png",
+      "size": 2373709,
+      "sha256": "417aa6e621687b4d40700614e45ad8efc208874c24a1e7d374ef9650e5609f4e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-03-环境-v03-场景服装.png",
+      "extension": ".png",
+      "size": 2642547,
+      "sha256": "907cca6dc304f68f67a283d4a38ac936f3274a6d1fd2bab6819eafbb70e1c5e9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-04-动作-v02-服装比例修复.png",
+      "extension": ".png",
+      "size": 2672793,
+      "sha256": "3f7ca7ce421e6456bacb8e512326b9e1f6ee96a07cc3eda8e299cbbe119e4aa4",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-04-动作-v04-单图修复.png",
+      "extension": ".png",
+      "size": 2353526,
+      "sha256": "233faee37af023fd7ed9a8d4fe91942e2046cd95c114dc04e332138122af5cfa",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-原创四格效果板-v01.png",
+      "extension": ".png",
+      "size": 5337562,
+      "sha256": "ccd8165e966a7a9c5fde65033dc1232d63bd3fd40d2400b88befc9a410c99ca1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/CN02/CN02-原创四格效果板-v02-适配.png",
+      "extension": ".png",
+      "size": 3858612,
+      "sha256": "1cd1af65e11d16861e0e1816d82b54f8f055d7e044634e7ebe70359dbec3e566",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/JP04/JP04-01-近景-v02-场景服装.png",
+      "extension": ".png",
+      "size": 2461288,
+      "sha256": "318cac6b50b0df85e09e91536ca655f53f5424655d3e00dc48accd7bb893e8b4",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/JP04/JP04-02-全身-v02-场景服装.png",
+      "extension": ".png",
+      "size": 2244608,
+      "sha256": "90f475f216662fa51e91d6fe14e95abb7d4814fb8593ffd2b991c7b47120a7c7",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/JP04/JP04-03-环境-v02-场景服装.png",
+      "extension": ".png",
+      "size": 2630725,
+      "sha256": "8f807d56485820a7c49d4506a74eb2f9b38b8fe42dac6523eb9347702b7c3395",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/JP04/JP04-04-动作-v02-场景服装.png",
+      "extension": ".png",
+      "size": 2587210,
+      "sha256": "f278b7f33895afdf75a2eb5c12823c881901c1f01d4c163d3a26f2a4c6efa15e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/JP04/JP04-原创四格效果板-v01.png",
+      "extension": ".png",
+      "size": 5629349,
+      "sha256": "0612326dc3369d3feb2bbdddc549e85f5330bf92248b81cdb9de350ee9f2f597",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/JP04/JP04-原创四格效果板-v02-适配.png",
+      "extension": ".png",
+      "size": 3817515,
+      "sha256": "fcf703a12cc335480f88e3c1a87c585be39b9d42d67dedde13ca7ec7e786f6c4",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/KR01/KR01-01-近景-v01.png",
+      "extension": ".png",
+      "size": 2405283,
+      "sha256": "d9bf2e80368318f13dd783ba84c417caf9436cfab4f9309be37645769eb6e858",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/KR01/KR01-02-全身-v01.png",
+      "extension": ".png",
+      "size": 2325251,
+      "sha256": "6b1f46727af348d8dd45fe0538945a1dbc8a86cc3573ab2a662b68d308a7fe3f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/KR01/KR01-03-环境-v02-单图修复.png",
+      "extension": ".png",
+      "size": 2832807,
+      "sha256": "598402c8429eee084880a65741c472ef6a2fa54e1549533fd246d50ed4d1790f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/KR01/KR01-04-动作-v01.png",
+      "extension": ".png",
+      "size": 2477479,
+      "sha256": "471d56bdd76464395128277631408581ef9a81a86b79de54e626588be4d8af65",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/KR01/KR01-原创四格效果板-v01.png",
+      "extension": ".png",
+      "size": 5598564,
+      "sha256": "826e7fbf6c94ec0aae3e76ad83edf907edd90ebc3d095cc57f9805fb29803910",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/研究角色/研究角色-S01/KR01/KR01-原创四格效果板-v02-适配.png",
+      "extension": ".png",
+      "size": 3796526,
+      "sha256": "33989bef873a5e9623d76c1fef59b5fab111aa175616befb388a65ffe37f2e6c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/过程资产索引.md",
+      "extension": ".md",
+      "size": 1214,
+      "sha256": "8726faaccdb10cfe771dba0766b53bc74deb736a84d6ef6f4300716ba84fdfdf",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-01.png",
+      "extension": ".png",
+      "size": 2850181,
+      "sha256": "74baddc226f0ebfd4f73b7ee49b9ac308f9ace285ccdb482297f6e9983aeddc6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-02.png",
+      "extension": ".png",
+      "size": 2746871,
+      "sha256": "a47d960aa0c5356ce126e471af953e28829d9dfbb8f473d40b4fcaaae39e2af9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-03.png",
+      "extension": ".png",
+      "size": 2757323,
+      "sha256": "a4583649ce60ac8fbe558872970b48848225baadbfba98510c5ffe9022fcbe52",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-04.png",
+      "extension": ".png",
+      "size": 2995613,
+      "sha256": "f1f2d436df934fc1d2195dcdb1ad55cd32686524e856f97f1b17495c797f9347",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-05.png",
+      "extension": ".png",
+      "size": 3083281,
+      "sha256": "5ad012da06775b0c4165a4f73ba9337f4c94b4e1188a22f4a07bf008d1250f97",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-06.png",
+      "extension": ".png",
+      "size": 2766849,
+      "sha256": "46f7a7c5c67a7bc0294784b77af3a1ee91927e3264ad8a5a6fb258b47eaae281",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-07.png",
+      "extension": ".png",
+      "size": 2804625,
+      "sha256": "2efecf829f12f203217c0d61a91d8565b58ec0f087997c22cd95dfb18f43f739",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-08.png",
+      "extension": ".png",
+      "size": 2522748,
+      "sha256": "a565bee1d175c39b8f075340ae666e3ff96ecb4f145080fb3bf7d56c91838a5c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-09.png",
+      "extension": ".png",
+      "size": 2570280,
+      "sha256": "9be85b42d7158bc1b8debefbbd08eed9414789c5bca3ae3dbed0394f7243724f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-10.png",
+      "extension": ".png",
+      "size": 2802453,
+      "sha256": "2a90861b10b7b2c9d410ca1ecbff36b0f12306dd32c9270ba4ae7d728c6c25f6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-11.png",
+      "extension": ".png",
+      "size": 2702199,
+      "sha256": "e67790d4c163c28fd38a0e9769f52892daffd824b4c7d240d01a921703a46335",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-12.png",
+      "extension": ".png",
+      "size": 2485507,
+      "sha256": "28010c483eccf4f28adcbcb40da8d1feca6929fb619d31afb043ea9ca6a9f6a6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/古风角色/提示词示例/古风提示词示例-13.png",
+      "extension": ".png",
+      "size": 2741761,
+      "sha256": "a77208be798894123e288511b6c01717580091bbe484fd53ebb88e73a822f504",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/版式参考/人物身份参考板-版式示例.png",
+      "extension": ".png",
+      "size": 1471792,
+      "sha256": "bcf0fb404488c57df4145616456c22f39e8d3b596693081ad811d90fac954606",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-01.png",
+      "extension": ".png",
+      "size": 1907251,
+      "sha256": "a5ae0c183d7d7e4b6c0a08f30f53117df51164558d7ed0526da4fa87c651736d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-02.png",
+      "extension": ".png",
+      "size": 2775829,
+      "sha256": "125b3663d92fcf54668aef2c73253165ee82690085f733c82df63b6c3735afc9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-03.png",
+      "extension": ".png",
+      "size": 2258056,
+      "sha256": "c9840d556e3fc082b11d58c6676b25ae0f986ae281941c1d40a3a55fd8d099e4",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-04.png",
+      "extension": ".png",
+      "size": 2495941,
+      "sha256": "5bcb3853fc8da3104aaa3a587ca3a51467d41d3af685c4b7f78eba32fcba1e59",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-05.png",
+      "extension": ".png",
+      "size": 2748075,
+      "sha256": "4891a63de4365d8fea8694a8a5fc602a5d264d4b580b6c1a673c4b6f1996b862",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-06.png",
+      "extension": ".png",
+      "size": 2568106,
+      "sha256": "c5d5c408fdd4d6b9b627a8755326909b2e11821644a43af3990b4df53fc2a46b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-07.png",
+      "extension": ".png",
+      "size": 3080849,
+      "sha256": "bdb74abf8c7ab48e7955fdb3b1c2ddbe34d2839c58567fb29d342931b3fba87f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-08.png",
+      "extension": ".png",
+      "size": 2184581,
+      "sha256": "bcd957d80a97b9ad2c7993a39f8f1377633e9e5c9d1ea3cfdc92781224f579a8",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-09.png",
+      "extension": ".png",
+      "size": 2701277,
+      "sha256": "b8ea81f122d0b35d292b473966d34aff55709c815a2e63a4a99ca2b9b2b12b3e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-10.png",
+      "extension": ".png",
+      "size": 2491160,
+      "sha256": "d979be2459f02d97a5373d4db1be485eed216757eeb12e50ed925d4ad6a0709f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/02-过程资产/通用参考/角色设定案例/角色设定案例-11.png",
+      "extension": ".png",
+      "size": 2658966,
+      "sha256": "95a1ea8a0a3ed2626d9d7f1d73b2ec47f9303a125a19a7929af5f33694d54bc7",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/CN03-v01-身体比例过长.png",
+      "extension": ".png",
+      "size": 1032034,
+      "sha256": "e8c682eab3f1f137c3800f7245fe369c7609c4682eb583fc43793d167dd0d9fb",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/CN03-身体比例修复前后对照.png",
+      "extension": ".png",
+      "size": 2042527,
+      "sha256": "787d3576ff9f6304676a395f9b6cf2c242e831ae395b47302540ce04f64e283b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/CN06-v01-背景偏离控制变量.png",
+      "extension": ".png",
+      "size": 1686733,
+      "sha256": "f343d2e0b3bd06c1087570dc6684548b5de438f92c2af0282bccc5a731988020",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/CN06-三视图板-v01-正面体型漂移.png",
+      "extension": ".png",
+      "size": 2595479,
+      "sha256": "44765b7f4da18bc19e6102feb955dd18d7ffb36f4374e697d70c73a9d6f7b49f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JP01-三视图板-v01-侧背渲染风格漂移.png",
+      "extension": ".png",
+      "size": 2415444,
+      "sha256": "37c9ccea7667547829dd633533113e9f587af5d62222ca76e529ed29fd8ad804",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JP03-v01-花瓣背景偏离控制变量.png",
+      "extension": ".png",
+      "size": 1729327,
+      "sha256": "fdff10647cdd1728654b6f0da70bde3a3ad97087fb3f3f2556fc5a25924a0252",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JP04-微运动验收板-v01-快速定位误取帧.png",
+      "extension": ".png",
+      "size": 805825,
+      "sha256": "ddb201d18ae90a1092bd74ff54604ac6972ffd58ab1546b105df16684aff4253",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JP04-脸部右45度-v01-实际约35度.png",
+      "extension": ".png",
+      "size": 2159740,
+      "sha256": "9af528d4614926040754e4aac7dff27ba46eda109c63b62fffb2a5d03d67da1a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JP04-脸部左45度-v01-实际约30度.png",
+      "extension": ".png",
+      "size": 1983741,
+      "sha256": "46764b146ec4d796b4bc911d8db87f80480b4ca784356fa16d297dfeacd0f10e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JP04-表情-惊讶-v01-露齿失败.png",
+      "extension": ".png",
+      "size": 1987302,
+      "sha256": "49cdb07981dafd2048035407374d07c9b9d0e188ae76f20875157a80f3310f4d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JULIA-7.5头身-v02-面部放大检查.png",
+      "extension": ".png",
+      "size": 699952,
+      "sha256": "ad4dd108c3aecc6a773374f40a9bfd3a89c02d49f0cbd5e16bed9fdc63e8984b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JULIA-7.5头身-眼睛修复前后对照.png",
+      "extension": ".png",
+      "size": 841951,
+      "sha256": "ddcb340e1e3d44e1bda62be28b59470a88c392e7c98be3d40fb5f6567b411f4a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JULIA-7.5头身-首轮失败-眼睛结构漂移.png",
+      "extension": ".png",
+      "size": 1543809,
+      "sha256": "c198d438878d849338a4b2911d03bd15423bca0042cead13a6cbb63532593529",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JULIA-7.5头身-首轮失败-面部放大检查.png",
+      "extension": ".png",
+      "size": 608212,
+      "sha256": "654e11d12906f7b6854a708333e54060948c68fc41b19788a8a82a5548a1a109",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JULIA-8.0头身-v01-修复后待修.png",
+      "extension": ".png",
+      "size": 1598783,
+      "sha256": "b1799b960c846372dc6407e1a772f6336eef64a3e5fcd17ed9ded52ca77291a5",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JULIA-8.0头身-v01-量测网格-未通过.png",
+      "extension": ".png",
+      "size": 1583605,
+      "sha256": "855366eaf492e0881e7c9d7568a37e493e8e44955f98ddfe482f0e805599b3ae",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JULIA-8.0头身-首轮失败-写实且比例不足.png",
+      "extension": ".png",
+      "size": 1640733,
+      "sha256": "cf14881a5c8f47286914dc6c193c92935934ef15ec903a0490915c1437a8bc74",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/JULIA/JULIA-真人正面-v01-量测辅助图.png",
+      "extension": ".png",
+      "size": 1627788,
+      "sha256": "f42416e10effadaa6003ed5e1f7ad6a3d894842cd1b0675a130dca5a1fa33d46",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/墨衣少年/墨衣少年-关键帧-v01-发辫不可验证.png",
+      "extension": ".png",
+      "size": 2135658,
+      "sha256": "55257befe6a63e969eef38826d240b0fc5e969642d5581d92650eb9d0ee65e90",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/墨衣少年/墨衣少年-关键帧-v02-候选通过.png",
+      "extension": ".png",
+      "size": 2168457,
+      "sha256": "09114539f0cbcb4bb6af99bf1cb8b0a01d9acc29893f3c5a6486649c9d149159",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/失败分析模板.md",
+      "extension": ".md",
+      "size": 1006,
+      "sha256": "cad8ac2884818086d5d82f75fed556bb985c8eb00915e26073eb7d050d1752f1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/失败资产索引.md",
+      "extension": ".md",
+      "size": 1305,
+      "sha256": "0554c5b1db0a44b6e4a746513f82bbfc57050d2039eb7ee5fff759ec6f9e91ec",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/研究角色-S01/CN02/CN02-01-近景-v01-服装偏移.png",
+      "extension": ".png",
+      "size": 2478975,
+      "sha256": "7d438d0ef10a90056c44b5db44062b29aa00b6b313908c1f0f53d4da0a949292",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/研究角色-S01/CN02/CN02-03-环境-v01-服装偏移.png",
+      "extension": ".png",
+      "size": 2446384,
+      "sha256": "3a411822169bb0065d6244c7bdcc83ec6381735ae9d54d5e57a2ebb318edf0ec",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/研究角色-S01/CN02/CN02-04-动作-v01-服装偏移.png",
+      "extension": ".png",
+      "size": 2504124,
+      "sha256": "fee25da2de2934ff5acd6f6bef9705934c523f29d9dde247aa76708a0e204741",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/研究角色-S01/CN02/CN02-04-动作-v03-误生成四格.png",
+      "extension": ".png",
+      "size": 2307217,
+      "sha256": "22b2d4129589a9c565736492b62c3ad909d787d86862f0dbd025a5c1b7652a9b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/03-失败与版本/研究角色-S01/KR01/KR01-03-环境-v01-误生成拼图.png",
+      "extension": ".png",
+      "size": 2771432,
+      "sha256": "53f717f0004beff066f6549937a3da439210787fd489adabf617a96478784331",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-9x16首帧-1080x1920-v01.png",
+      "extension": ".png",
+      "size": 2544050,
+      "sha256": "601140b3cffb3557a8cda7e96dab4bfda0145ce637d865178cd047e2551b7b94",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-9x16首帧-原图-v01.png",
+      "extension": ".png",
+      "size": 2057497,
+      "sha256": "ca35810bb379463ac42bae433f7a6af8fa8938604a1f419023a38c85e44eca01",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-五表情展示板-v01.png",
+      "extension": ".png",
+      "size": 2097689,
+      "sha256": "ecdca0709b0b28d152596e40187ca1ee1f90e82e0b4c53256bed65d8f6599e06",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-动漫脸部身份母版-正面0度-v01.png",
+      "extension": ".png",
+      "size": 2038459,
+      "sha256": "8da9e04bfc22a1735ded7dbd25d1e881c7ecdfddba09d32878bf4316bd9d6734",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-后脑180度-v01.png",
+      "extension": ".png",
+      "size": 1769151,
+      "sha256": "b6a8e70337b92d37ed1a755accf17e619db98930488fe66124ddd7cc1d3a42bd",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-微运动-半眨眼-1080x1920-v01.png",
+      "extension": ".png",
+      "size": 2502580,
+      "sha256": "3bc8be25af187858803d0a51f0680a5ceafa382a8f63db29c4e791b354cba8f1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-微运动-半眨眼原图-v01.png",
+      "extension": ".png",
+      "size": 2022077,
+      "sha256": "fa39167cda484bed1f6b341277bd84f453bb4daef09b4deca645126bf894a93d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-微运动-验收帧-恢复后-精确.png",
+      "extension": ".png",
+      "size": 2023627,
+      "sha256": "c9aa33f608660abc155600ac273b0e339f453a9d53a0259b1f6356163593bc24",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-微运动-验收帧-眨眼中-精确.png",
+      "extension": ".png",
+      "size": 2016870,
+      "sha256": "78ba376e7b7dd41ce91b2761f0d316abc2e370e470cbcb976d43eb1aae1661b1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-微运动-验收帧-睁眼前.png",
+      "extension": ".png",
+      "size": 2020676,
+      "sha256": "69b10bbf28e306ee057458cd15fa23965b99c5cf4b3cbdeec48c5af5895fb399",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-微运动三帧验收板-v02-精确抽帧.png",
+      "extension": ".png",
+      "size": 1624434,
+      "sha256": "03c3502f1e048920b05c83adf8d57176446d957eb07419f41885ccdde19b9c2f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-微运动眨眼测试-4秒-v01.mp4",
+      "extension": ".mp4",
+      "size": 647686,
+      "sha256": "090a3dcb2efa1f319ac7d6ef0bd141420aa4662beacfd227412d65803f8e048e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-换装AB展示板-v01.png",
+      "extension": ".png",
+      "size": 1663710,
+      "sha256": "b80db0e6ad8eafd69e171f29d1f5d0b44442979769d9485a3f1bc1cf946ae04f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-换装B-白色西装-v01.png",
+      "extension": ".png",
+      "size": 1376499,
+      "sha256": "20a322af5395094b21d092b1bb0fb94eb31183080cc6e9fa3068681afdf851ee",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-最小八角度人脸展示板-v01.png",
+      "extension": ".png",
+      "size": 3775469,
+      "sha256": "7c41a6c1db1e0349e383ea8eb2d5b826200f88f0fc22ae1eefd0f102fa00068d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-脸部仰视15度-v01.png",
+      "extension": ".png",
+      "size": 1993349,
+      "sha256": "86b2ff769cffa03193c5399048a87ba0b4eca71707bed2c45392ec4935753253",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-脸部俯视15度-v01.png",
+      "extension": ".png",
+      "size": 2012684,
+      "sha256": "af1be33f135bdf465ecba710b0c2380e2f1fb5461015777e2cd61cdbb3c15273",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-脸部右侧90度-v01.png",
+      "extension": ".png",
+      "size": 2103016,
+      "sha256": "f796228d4d2e0c7e6d56805b6e3bb9988a54cd557fd585eade0cea4d35ad937f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-脸部右前45度-v02.png",
+      "extension": ".png",
+      "size": 2167688,
+      "sha256": "53039672315acfdee7faa28bccc2c015d2569cb9a3de318469a0444815296013",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-脸部左侧90度-v01.png",
+      "extension": ".png",
+      "size": 1873622,
+      "sha256": "9f3b37298bfc2b7fee3b1abbe899fe0163a4e75298a448b888c22ba9e290a114",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-脸部左前45度-v02.png",
+      "extension": ".png",
+      "size": 1988919,
+      "sha256": "290a438997b6d935b43f7da706afab27d341f83752eef3ede9e938a9370f4bda",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-表情-喜悦-v01.png",
+      "extension": ".png",
+      "size": 1988187,
+      "sha256": "48b72d27f8b8771351dadb366971e8760ab73b7a4b7eb30737fa1541ea94b446",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-表情-悲伤-v01.png",
+      "extension": ".png",
+      "size": 1962686,
+      "sha256": "85309ed5a7f58c9865fd636e19a06db82b0b53eb0f29ed371edd9e354e36ec96",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-表情-惊讶-v02-无露齿.png",
+      "extension": ".png",
+      "size": 1969326,
+      "sha256": "1bf9f5cf2b41cae0be4ac3373c0739df66432c0065a093a28a9f481746628301",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/JULIA/JP04-表情-愤怒-v01.png",
+      "extension": ".png",
+      "size": 1998660,
+      "sha256": "5c838b427810a0ad90f66b668511750a5dd8f9b0cb40d895cf9c8b9474f8c3f0",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/墨衣少年/墨衣少年-关键帧-v06-比例修正通过.png",
+      "extension": ".png",
+      "size": 2157987,
+      "sha256": "83aa548939505fdf1ab1c417cca047af5609d4f562f1717d1e1e9fde56439569",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/04-最终交付物/最终交付物索引.md",
+      "extension": ".md",
+      "size": 878,
+      "sha256": "9a8dc6f0d92a690561fd234eea294f204fb685fb50e1efd53a8837ecfe512ffa",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0001-目录职责与生产导航分离.md",
+      "extension": ".md",
+      "size": 1196,
+      "sha256": "7301203f7909fae5ae355dfe81f6c814ba3c466bd0000c518d5feaa7d688c8a8",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0002-每类内容设置唯一权威正文.md",
+      "extension": ".md",
+      "size": 1026,
+      "sha256": "eb8962ccef0c35d11f70dddb2c66190883ae0b0aa2f60b360a6acb05785eb806",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0003-长文档保留原名并拆分为专题子笔记.md",
+      "extension": ".md",
+      "size": 1048,
+      "sha256": "1d6bebd6df1ac1e19f84c0d0bf9e5454081c6e9ccd4df5658e0fa6ee370fc795",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0004-媒体附件集中管理.md",
+      "extension": ".md",
+      "size": 1184,
+      "sha256": "a8ffdaf96ca093f96f15c62753f819229cbf7e098e2aa654954d1aad8a21e7fc",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0005-作品研究与原创生成分层.md",
+      "extension": ".md",
+      "size": 1137,
+      "sha256": "d630b800c244312a191bc2f627619aeaab95b178f7915dcbe8f01e621bf26fab",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0006-四格研究卡内聚于works数据.md",
+      "extension": ".md",
+      "size": 973,
+      "sha256": "704d8258df6b4650fdf533d6aaaed42817980a71f96b0efeb08d7c37b8834b1e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0007-轻量MOC与五篇核心正文取代多层索引.md",
+      "extension": ".md",
+      "size": 2486,
+      "sha256": "74f8b34b30786ca5524ff0cb342856e906d3c5d2e2a528e8ce3516348f76a94d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0008-角色设定与古风提示词按项目边界拆分.md",
+      "extension": ".md",
+      "size": 2140,
+      "sha256": "c47fd99d339aa2160dd80e2d8d742d333e1af35157cc43aa311512a75e5c14f6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0009-结构审查与二次收敛决策.md",
+      "extension": ".md",
+      "size": 6848,
+      "sha256": "ca4ac6be82369d5a9f09e1447c69712472f4561b2c2e14a2fd70b66f33ee7ef8",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0010-30与40并入人物资产库.md",
+      "extension": ".md",
+      "size": 1915,
+      "sha256": "80c183d40b22321fd239bac5d7e22cf0a90fffae79c5d7ebcc4bdaf5e076528a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0011-导航与内容摘要二次收敛.md",
+      "extension": ".md",
+      "size": 6192,
+      "sha256": "4ba53f3c57600d9368d554367885c8722e412c6956d4ffb0347d4ea017e92e5f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/ADR/0012-简化分类目录实施.md",
+      "extension": ".md",
+      "size": 4852,
+      "sha256": "341e7cff5dd3d87ed7f0673cd5970ceee064f830e9fed783142965dd0014f4df",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/JSON数据/experiments.json",
+      "extension": ".json",
+      "size": 46689,
+      "sha256": "3e89f6d5e2080efbef25c220f4c08c0ca3501da2b57db1f94bf88f90f0b2bb36",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/JSON数据/sources.json",
+      "extension": ".json",
+      "size": 33065,
+      "sha256": "c1c552ed0bb1fd85726f2ff60b077b835a48be2cb497cb4a79f435d8d643b451",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/JSON数据/styles.json",
+      "extension": ".json",
+      "size": 12732,
+      "sha256": "9c33776af448520323acc19eb8a250443053d0f4d1df1abff6bd1c8c4b316042",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/JSON数据/works.json",
+      "extension": ".json",
+      "size": 108501,
+      "sha256": "fc5a6947c2107ef0c7aa6e869c4a286d9d140b158c3026bf51ceb50b3e728c76",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/角色媒体索引.md",
+      "extension": ".md",
+      "size": 44858,
+      "sha256": "72dec8a690ae9054cd56830c5dc50d0831868a79577adc411486805daaf34dc0",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/角色资产-CONTEXT.md",
+      "extension": ".md",
+      "size": 9744,
+      "sha256": "9935869fafa0e027319014595e856d0c1c37a3447e3792e2791a834a1f20372b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/角色资产维护与数据-MOC.md",
+      "extension": ".md",
+      "size": 747,
+      "sha256": "8d3a13ce853156ccd5f011b5fbf6b75ac568802768300d1e383a49c09e7ab3d3",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/角色项目注册表.json",
+      "extension": ".json",
+      "size": 2868,
+      "sha256": "1919b39ecb6ea2147329ba6c8f519e25c58311cb5508dd53123c0f29222e64b6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/角色项目状态看板.md",
+      "extension": ".md",
+      "size": 1672,
+      "sha256": "5d928c7322051838498b2550b97dade467f56c1cd709bb302de3a30eeeba3451",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/验证报告/数据说明与验证报告.md",
+      "extension": ".md",
+      "size": 4121,
+      "sha256": "c7f0808a712f06b202b9ba4bcdee9408c36eef0332b334c9c96c16534d07c721",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/90-维护与数据/验证报告/目录内容审查报告.md",
+      "extension": ".md",
+      "size": 2716,
+      "sha256": "1e8e0d09959f422a04c9aa214d235c7cc69d635ad3763d0fa338c1112c21b5ab",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/AI人物身份参考资产-实验记录.md",
+      "extension": ".md",
+      "size": 1322,
+      "sha256": "7eaa3eb56d40f443ff0f8add0e8006006c9b68bfbc5e35dd7df035f0f0aa060d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/JULIA-资产与实验记录.md",
+      "extension": ".md",
+      "size": 1456,
+      "sha256": "533670d205842f94753c40ef77455528d927d88cc48595186004fd7111d4c3fb",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/JULIA/JULIA-六类入围动漫三视图.md",
+      "extension": ".md",
+      "size": 5877,
+      "sha256": "c546de932ba22e6db74c4a8811f0d27e620ba3749aaaae492c7a8f51fc2cf594",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/JULIA/JULIA-十八类风格测试.md",
+      "extension": ".md",
+      "size": 8327,
+      "sha256": "12c8fc0a90a4d0d280af10fa3c60ea162cdcfddad9c90f5b9704c38c106a687c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/JULIA/JULIA-最终动漫资产与视频验证.md",
+      "extension": ".md",
+      "size": 12449,
+      "sha256": "7929be5c747d6f6b3c6e1a17bbaded0073269897e11c3ac923f906527ab10e37",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/JULIA/JULIA-真人身份与三视图.md",
+      "extension": ".md",
+      "size": 3764,
+      "sha256": "28855dda5804e4d6b2876765ae135b34272d1e5e3217ccc3757b5c2fa0dfe58e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/JULIA/JULIA-身体比例实验.md",
+      "extension": ".md",
+      "size": 4102,
+      "sha256": "c74112f327272c7f7d8a669a7530add87c8c88ec8796e215978b2ef616145efc",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/历史实验/历史版本保留清单.md",
+      "extension": ".md",
+      "size": 2728,
+      "sha256": "f96a3662c8b43262a859630c7cd4a1cd7ea49f6677351657e55d0358e026475d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/历史实验/实验001-单图身份与真人三视图.md",
+      "extension": ".md",
+      "size": 5579,
+      "sha256": "8d95bd17264340b09a93da5b0a992b7a2c6f3e6b9b70ac08cdd9863710f5f2ce",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/历史实验/实验002-多角度人脸补全.md",
+      "extension": ".md",
+      "size": 5410,
+      "sha256": "6c405a56463de547fc74b889a0c69e8c56b73dad0ab34295c19b153b56e92fa4",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/历史实验/实验003-动漫化一致性强度.md",
+      "extension": ".md",
+      "size": 5977,
+      "sha256": "52849bf4ab726b25b0bda2a7ce10a4c7c826fd2e0bae981a5ce4ef8196eb1b35",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/历史实验/实验004至006-风格路线对比.md",
+      "extension": ".md",
+      "size": 18041,
+      "sha256": "4c199218158319c09561a0f43debba2c755233bd2553728872f3da12d6309338",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/历史实验/白色蕾丝礼服三视图案例.md",
+      "extension": ".md",
+      "size": 3233,
+      "sha256": "8f6d458e133f8aa4c4e11528778c50e9a3175185ca79e1b9d84b05b39bfe6130",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/历史实验/04-实验记录/研究角色-S01-原创四格效果板实验.md",
+      "extension": ".md",
+      "size": 3678,
+      "sha256": "1e7b577edcd13d5416b75ff9404d373be694ad12e8ca5ae1a314ff472564c74e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/01-工作流与规范/AI人物身份参考资产-验收规范.md",
+      "extension": ".md",
+      "size": 9658,
+      "sha256": "fb3ecd439b0fb76f362664d559dda8cd4071d34afd163a7c0b0c8f30c154addc",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/01-工作流与规范/AI漫剧人物身份锁定与多角度参考图工作流.md",
+      "extension": ".md",
+      "size": 18148,
+      "sha256": "74f116390e50a10d198f0f6cb75514feee26c51d81daee9b61b8d14b9b372221",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/01-工作流与规范/真人到动漫三视图-SOP.md",
+      "extension": ".md",
+      "size": 6421,
+      "sha256": "a71f67f0d8c1d0ae84f17830b1bb1db71c314395e04dd2d854fda1d3d841b958",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/02-提示词库/AI人物身份参考资产-提示词库.md",
+      "extension": ".md",
+      "size": 1559,
+      "sha256": "d50ad48d950ccaaf231eb32f560bbae2870b0bd88a5306de2914476b4045e0a7",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/02-提示词库/AI动漫提示词与失败修复库.md",
+      "extension": ".md",
+      "size": 1279,
+      "sha256": "a61129f9b45435fc3918fc52ceb83c083969188ba1b6ee3914ea7be09fe19da9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/02-提示词库/动漫化与风格转换提示词.md",
+      "extension": ".md",
+      "size": 12668,
+      "sha256": "a56b2e7a3de11185a6364bc97793c20e28ee4c29fec8b3ecbdac4a3b17ac7542",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/02-提示词库/原创四格风格效果板提示词与操作.md",
+      "extension": ".md",
+      "size": 5411,
+      "sha256": "838c4d608da97e14ed3d6a70a884acdb4310a6ac175b20d84f80b78ff2dd9450",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/02-提示词库/真人全身三视图与身体比例提示词.md",
+      "extension": ".md",
+      "size": 7220,
+      "sha256": "0163540c0cc1ca0498a672ab433c8a119e5ecf58112e9fce148dee42268b43cf",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/02-提示词库/真人身份锁定与人脸角度提示词.md",
+      "extension": ".md",
+      "size": 6691,
+      "sha256": "83bd25a90e9293ab23c50ef0286678aa00723d0ddaf62b2a65f9092541c72cd3",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/02-提示词库/表情换装与场景提示词-拆分重定向.md",
+      "extension": ".md",
+      "size": 352,
+      "sha256": "ea7f4816bff768df46d0b275b6ca307348ad8f25f605ea0fc680e73620828d30",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/02-提示词库/负面提示词与失败修复.md",
+      "extension": ".md",
+      "size": 8509,
+      "sha256": "7b35412b6706514d7b7504a3d6c4dc095b2700d26f064c01c1d4e41a67be4dbe",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/03-风格研究/中国动漫风格资产库.md",
+      "extension": ".md",
+      "size": 8992,
+      "sha256": "52c563c877d29bd2db42911fe6c93762ef1e9d00dde90a422e851a026c2c4f88",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/03-风格研究/中日韩60部与全球观察池.md",
+      "extension": ".md",
+      "size": 5215,
+      "sha256": "a61d20e2b1dcbd7377fc26f0d37b5eb5616f0590d12f0fd297ba25f9910319a6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/03-风格研究/作品四格视觉研究卡-首批.md",
+      "extension": ".md",
+      "size": 3434,
+      "sha256": "ab84418498c02672c06751a36e638f4d76ae8017d3d7b97f2f49d3278bd1a89c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/03-风格研究/日本动漫风格资产库.md",
+      "extension": ".md",
+      "size": 4121,
+      "sha256": "6771d494ca374a4583c0c219e2fb7ec45043244f636b752c446b35040a02baf9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/03-风格研究/跨国动漫与AI漫剧研究补录.md",
+      "extension": ".md",
+      "size": 21155,
+      "sha256": "0b34414f530f66f3c5d8ab6644fee80e83fa2fbd3aca090ddcf0b13c43a3d9de",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/03-风格研究/韩国动漫与韩漫风格资产库.md",
+      "extension": ".md",
+      "size": 4486,
+      "sha256": "945e12f4d9812fa89bdc14302e9ed5c864956428d1e055e90e02135a6fdf4513",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/导航与边界/角色设定规范页生成-MOC.md",
+      "extension": ".md",
+      "size": 1919,
+      "sha256": "ffaa1d8903ac4aba910ee96299dd30b091e6680f5361d02e3c66a73abfd96a7b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/旧目录导航/JSON数据-MOC说明及导航.md",
+      "extension": ".md",
+      "size": 954,
+      "sha256": "54219ea2af49de4f3fa85050ac824475e25e29fdaf0499573c3ad386c0796752",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/旧目录导航/图片与视频资产-MOC说明及导航.md",
+      "extension": ".md",
+      "size": 1705,
+      "sha256": "ba4baedc02b6beb516f8b018ba7fcfbcdc2c2ad491dcd3d025eef93fee11bff5",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/旧目录导航/实验记录-MOC说明及导航.md",
+      "extension": ".md",
+      "size": 1794,
+      "sha256": "da65fa7d5b3588ad93188ca1f6e95c36dece9e95f612b52c6a324556e3d8fd24",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/旧目录导航/提示词-MOC说明及导航.md",
+      "extension": ".md",
+      "size": 1865,
+      "sha256": "069b37aadf0d33dbba70cf6994cd16f1e40a726cb9b285985c1c4e3f34a8b5c8",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/旧目录导航/操作规范-MOC说明及导航.md",
+      "extension": ".md",
+      "size": 1576,
+      "sha256": "288f708669e20a95f2b399b908fa1d471741e7ab6040a7f1c4748a099ea09c64",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/旧目录导航/最终交付物-MOC说明及导航.md",
+      "extension": ".md",
+      "size": 1029,
+      "sha256": "2e641999d68c2db71ce5e76eb2acb56c46691285e362bc12938305795d646936",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/旧目录导航/版本与失败记录-MOC说明及导航.md",
+      "extension": ".md",
+      "size": 1342,
+      "sha256": "4cbde0d6760db09886d57d00ed4cf0ab80c00de74c28403ca259624dcda20d4b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/模板骨架/视图.md",
+      "extension": ".md",
+      "size": 733,
+      "sha256": "81a467f36e055fb57739f15f0f5a2ea94edec5aaf5506c298d289a421f3416ce",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/模板骨架/角色设定板说明.md",
+      "extension": ".md",
+      "size": 731,
+      "sha256": "d183c631065e539e2cef846b7510df834b64caaa9ad91be414b0cbf037f9d2da",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧规范与提示词/资产库内容摘要-已并入MOC.md",
+      "extension": ".md",
+      "size": 5055,
+      "sha256": "329f00df30bbe0497b713187baaf1c1af30cedde7e70870fd6d0a016dd07798a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B1-水墨写意-正面.png",
+      "extension": ".png",
+      "size": 2503004,
+      "sha256": "b9f5a52c9bf75657cd39ff8bd4ae1672268e143d077b590a3659313c0bb4587a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B10-国潮3D-正面.png",
+      "extension": ".png",
+      "size": 2042523,
+      "sha256": "da9fd3f26cfd2bfaa969b236770194c765041600039c004fc78bc99a0d0b4696",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B2-工笔重彩-正面.png",
+      "extension": ".png",
+      "size": 2442982,
+      "sha256": "6d4f81a0fc43dc7040519cee1b62ce5e96d6661fd3dcdd47e9c121494a8efa24",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B3-敦煌壁画-正面.png",
+      "extension": ".png",
+      "size": 2944336,
+      "sha256": "ee9faa6d6580cbd901869121f0f08d776d6131f511b37ac446345d7c0bc00f63",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B4-剪纸-正面.png",
+      "extension": ".png",
+      "size": 2555612,
+      "sha256": "6ba59b4fd65b9315cb71b36157de8baf6c7c3f95846a3eb97ebb77576b912905",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B5-皮影-正面.png",
+      "extension": ".png",
+      "size": 2395694,
+      "sha256": "98ceb2b75381cb2db74a4faf971edc4b31315fbbc2a8ea516cae7b69785aad78",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B6-木版年画-正面.png",
+      "extension": ".png",
+      "size": 2980035,
+      "sha256": "307f906a2357f394e7ae2b1cc7836634ec0ab9709121b21b64ebf80a027c956d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B7-京剧装饰-正面.png",
+      "extension": ".png",
+      "size": 1890669,
+      "sha256": "01b547accfa7e1ac9bf432ecf58159b24d01c4aff2419fcab4124010928d8671",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B8-白描-正面.png",
+      "extension": ".png",
+      "size": 1897171,
+      "sha256": "019557e7bb48766b34dc7160a5ed362bdbdfd78e453fe18b04956f3bfb2eba41",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B9-青绿山水-正面.png",
+      "extension": ".png",
+      "size": 2915648,
+      "sha256": "3497d03bbd5626df2683e40f1f9a95d5d94337150d05ab92bf27d07e460745ac",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B板-传统与国潮十路线对比.png",
+      "extension": ".png",
+      "size": 2451205,
+      "sha256": "979784f9c6b113abb9b009100e72cd19aa2ef143b0456b1344eeaac84550e333",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B板-传统美术六路线对比.png",
+      "extension": ".png",
+      "size": 4274525,
+      "sha256": "c8bcd9f1c8a848dc476f2477148421c8264b3eed088592f6d0369c7dfb212810",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/中国动画风格-B板-传统美术首批对比.png",
+      "extension": ".png",
+      "size": 2516692,
+      "sha256": "546190b26e7e8866afcf88a7c61cac821e8957a1a2b9f1b969a7ca0028b29b87",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫主风格-C4-三张身份锚点板.png",
+      "extension": ".png",
+      "size": 1514620,
+      "sha256": "2fc2b3e2b0a5225c2078dcfc61762932c46d3c94543f5e33cf8aeb0fa8d280b5",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫主风格-C4-右45度-v02.png",
+      "extension": ".png",
+      "size": 1961844,
+      "sha256": "6a0297123bcc1409677370c2065569a5b913e4c691fe6f53b182fcbcef7f9a03",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫主风格-C4-右45度-初版.png",
+      "extension": ".png",
+      "size": 1940239,
+      "sha256": "9b83c825e27111e37d50047a1d1bba19ba411422ff4737a211430322ad551ac1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫主风格-C4-左45度-v02.png",
+      "extension": ".png",
+      "size": 1849013,
+      "sha256": "56e120ad5d7bc60bcef9972544ab8ef7e6d6a6889bdd43470b60dcd596a6864a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫主风格-C4-左45度-初版.png",
+      "extension": ".png",
+      "size": 1883151,
+      "sha256": "1f4b0171f61353caf83d1f3a75e3ee1dca6715cec2f3f23a26142a2ad867ef7b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫主风格-C4-正面身份母版.png",
+      "extension": ".png",
+      "size": 1859902,
+      "sha256": "9e76bf813f0d6a49dd4dbc7d494da1a6e23119c0ca60d9c875430b848cc19b81",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫实验-001-L1高一致性.png",
+      "extension": ".png",
+      "size": 2070052,
+      "sha256": "78a6592e8e6a871ba79505d214021a2df35eeb9fb5b0148daf52debcb60c6850",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫实验-001-L3强风格.png",
+      "extension": ".png",
+      "size": 2017700,
+      "sha256": "13dde2fa69627242f51a19926b5dc506b10b33389ac165c0d0acdba829dea997",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫实验-001-一致性三档对比板.png",
+      "extension": ".png",
+      "size": 2692034,
+      "sha256": "4be7d554b438aab17efb820ffc0f8423d1423c6d79b7b062691376cd6ee15d55",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-01-国漫2.3D-正面.png",
+      "extension": ".png",
+      "size": 1843222,
+      "sha256": "b0067734f0d1daf32e313e8390ea92f30a281cd032f2db09e9f56d613a15afce",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-02-国漫2D厚涂-正面.png",
+      "extension": ".png",
+      "size": 2210136,
+      "sha256": "967d2b5677caf1d4480ef57bf171a5ed215306806d5e47029962244fe547154c",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-03-日漫赛璐璐-正面.png",
+      "extension": ".png",
+      "size": 2053653,
+      "sha256": "0b7e0f4db6329abe49647b40c6750da79bf104ef60f159a2d3662772b4cbeb93",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-04-韩漫精致插画-正面.png",
+      "extension": ".png",
+      "size": 2202392,
+      "sha256": "0a94acdf4172c5802dbb060b6cb435925ad3326f4cd2edca3e75eb7e5dd71830",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-05-写实二次元-正面.png",
+      "extension": ".png",
+      "size": 2110450,
+      "sha256": "b76ef1a4aeafa1e46937c90083a78656f8645e895983fa14cde14adebee5057f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-06-3D动画电影-正面.png",
+      "extension": ".png",
+      "size": 2013709,
+      "sha256": "96cd34a9dcd273f1b2e3577166f1a66c0a8e27cf5e6fed68e261497e17b8aea9",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-07-美式漫画-正面.png",
+      "extension": ".png",
+      "size": 2401977,
+      "sha256": "fd3da6c3f8c1cdd49d10bdbe595711885ffdc3ad43bb3a84ff7c70a84e3e8efd",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-08-Q版Chibi-正面.png",
+      "extension": ".png",
+      "size": 1798807,
+      "sha256": "d38d0a7fdfad4c96e023584175a5be36ea85f1cbf368c5e57e2283ad52239f19",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/动漫风格-A板-现代生产风格正面对比.png",
+      "extension": ".png",
+      "size": 3903538,
+      "sha256": "a52f5959b01843a8b6d7013aff5d8e2454484b47577d29dd57091b5c5b5cf62b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-C1-成熟写实仙侠3D-正面.png",
+      "extension": ".png",
+      "size": 2105733,
+      "sha256": "e02e444284b4d772fd281d7445e76523b12afab446ca5cffcb9f5d849b4b223a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-C2-华丽玄幻3D-正面.png",
+      "extension": ".png",
+      "size": 2230397,
+      "sha256": "747884d0fffe98cee70691efd7f1cb55c46a67cca56f159eedbc7cb7bf6f6c3e",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-C3-水墨动势2.5D-正面.png",
+      "extension": ".png",
+      "size": 2545422,
+      "sha256": "c79f30cdb255bbb683303fe7f9839a3a28fa4441a2703891cc9dba4f3f9a100b",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-C4-少年修仙2D-正面.png",
+      "extension": ".png",
+      "size": 2419210,
+      "sha256": "938d0f22fd5f139d967710348fc1942fa7e041194082dc019339182a2bafb154",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-J1-和风战斗赛璐璐-正面.png",
+      "extension": ".png",
+      "size": 2148803,
+      "sha256": "9dc190a010ee9eb57f733c8fa655674fdc471891ffbdc511f83b851d474281f0",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-J2-霓虹超自然2D-正面.png",
+      "extension": ".png",
+      "size": 2562584,
+      "sha256": "0cfd83a609855dc42fdfa43fef14b027f58f2d1f211fd843d8912a9013cf4088",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-J4-电影感写实日漫-正面.png",
+      "extension": ".png",
+      "size": 1924180,
+      "sha256": "36e4b89bfdd2830ef837c8f0a6009b06f1659e123c4d03d95d283af4bf89f9e1",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-J5-东方宫廷精细2D-正面.png",
+      "extension": ".png",
+      "size": 2064398,
+      "sha256": "3099f023ea9694637b43b0fbd6ab5531c0e7b9b8d8e28d10db3d001f28824c26",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/动漫风格实验/热门工业风格-中日路线正面对比板.png",
+      "extension": ".png",
+      "size": 4235808,
+      "sha256": "e20f0e485d870f4a99ba728c357cf918eb15658dec17b79851200be6b02046ad",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/Gemini多角度实验-全身三视图板-v02.png",
+      "extension": ".png",
+      "size": 900204,
+      "sha256": "18922f40cb6449c9405f106db1c966d08c4ba89675288f032765fce28f0c3a63",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/Gemini多角度实验-全身左侧90-v01.png",
+      "extension": ".png",
+      "size": 264235,
+      "sha256": "8e97f87e24d00d741636414699f49035e81fa0abebbcdf762bfe8ebc550e8471",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/Gemini多角度实验-全身正面0-v01.png",
+      "extension": ".png",
+      "size": 284876,
+      "sha256": "23e1e5b5eceec864a9cbff10a62531e9a8763a45b17b41fa52fd2538cbda92ff",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/Gemini多角度实验-全身背面180-v01.png",
+      "extension": ".png",
+      "size": 309527,
+      "sha256": "afe57466d275bc74aa5b128ec61605e2e9c0090e50b96c6d4df605f9106456fd",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/Gemini实验-白色长裙全身三视图-v01.png",
+      "extension": ".png",
+      "size": 946065,
+      "sha256": "9c3fd6e3a39d5aeb48cfb09afd077d118a92c7547ee2349cd0e5aee89697f4b3",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-001-全身三视图板.png",
+      "extension": ".png",
+      "size": 3801092,
+      "sha256": "dfb27b2d53e8a52bc823487db3595533614cc5603494350f81faf5cef739ddec",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-001-全身右侧面.png",
+      "extension": ".png",
+      "size": 1784430,
+      "sha256": "49ea8cdaf68e0e98a9ad0d7620bec9fb78d01560e5341f4374db5d0a7377f722",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-001-全身正面.png",
+      "extension": ".png",
+      "size": 1526168,
+      "sha256": "b3cd01b3166bcc1580327cf2d2ebd9229ad38dc6735433336b36a3896b805629",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-001-全身背面.png",
+      "extension": ".png",
+      "size": 1493097,
+      "sha256": "aa9ba5fc35c5d89d971d071049970e2a502f14dee13b66f8a999af45dfcd1e06",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-001-右45度.png",
+      "extension": ".png",
+      "size": 1818029,
+      "sha256": "e1a25e1a1bdf03a24d143dba769a6ff66045b3766fbc5673274da530e70235c7",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-001-左45度.png",
+      "extension": ".png",
+      "size": 1807872,
+      "sha256": "1be90f722ddb2d5735a25622f1c45e1fa3a76863d2ea3b01d0c71e7845cc1c61",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-001-输入正面.png",
+      "extension": ".png",
+      "size": 217563,
+      "sha256": "77eb26fb7de7c0856aeb12c742ba9c6f38aad7ef8a4daa33d5d3e6d49f28703a",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-俯视15度隐藏对照板.png",
+      "extension": ".png",
+      "size": 790694,
+      "sha256": "4f2c274cd0f5da1bff1f45ff38767c3c8e11ed49368ca477ce261b45458402f5",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-原始多角度参考板.png",
+      "extension": ".png",
+      "size": 2391942,
+      "sha256": "aeb12af786d6ea74691e11cd95d3cd09bda019f39fba4579c64c8872f2ff36bb",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-四张输入角度板.png",
+      "extension": ".png",
+      "size": 508680,
+      "sha256": "2b3d7f046a4b3a5ccfdce786a5d16598a0d652fe3b9710bb0db8cc7698a471a7",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-多参考补全流程板.png",
+      "extension": ".png",
+      "size": 1439679,
+      "sha256": "1c2796b9dc1048b6d52cfe910788ad040a14ac634f9e77bbcd6562cce3863c9d",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-生成-俯视15度.png",
+      "extension": ".png",
+      "size": 1591619,
+      "sha256": "cf111220b5c2af396534af9c9b6e1090f8ac1f55dd5f7397911b9f61020c2ec3",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-生成-相反侧90度.png",
+      "extension": ".png",
+      "size": 1755206,
+      "sha256": "dbb999556529d5b37880f937588e03f940ec7c553b03b9e6b935d1e791431d52",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-输入-右前45度.png",
+      "extension": ".png",
+      "size": 129154,
+      "sha256": "1acb926a6b23599fb1a4a449c1c3ed16cf32fef98c305eb9ce6f8cea96ef341f",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-输入-左侧90度.png",
+      "extension": ".png",
+      "size": 132884,
+      "sha256": "2911b774346c0b01cf422e973863b3f2c7b9a97efe391ab19a1d808d285c7ed7",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-输入-左前45度.png",
+      "extension": ".png",
+      "size": 140971,
+      "sha256": "5c6d1b052467144d06dbcdb085ab4d9fed6f0c2a8215270a21c2888d8152c428",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-输入-正面0度.png",
+      "extension": ".png",
+      "size": 151917,
+      "sha256": "e9eb016b2e9483ba4e77fe686e80f6ee979540f90294e5517bdaebabac38f3ff",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/99-归档/旧资产与版本/05-历史媒体资产/身份实验/角色实验-002-隐藏验收-俯视15度.png",
+      "extension": ".png",
+      "size": 141128,
+      "sha256": "bf8b751566d6d7a493863cccebfbae48cb5b014f72b731bfce4cc53912e07161",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/角色资产库-MOC.md",
+      "extension": ".md",
+      "size": 1483,
+      "sha256": "21fe07ad02da88435b963a03baa5114fe34e5d942118e67860e99ed7578e37e6",
+      "duplicate_of": null
+    },
+    {
+      "path": "02-角色资产库/角色资产库-视觉索引-v01.jpg",
+      "extension": ".jpg",
+      "size": 409876,
+      "sha256": "d21ed456710cf673779e2666136f56d3977b2efcc042cdb6578f3ce56317973f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/00-专项项目模板.md",
+      "extension": ".md",
+      "size": 1171,
+      "sha256": "3afb829793448977977295e7189893a208c4649ff0f9ed39c3a434c4c80e9ade",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/01-需求与生产SOP/专项项目生产SOP.md",
+      "extension": ".md",
+      "size": 551,
+      "sha256": "c587caa2db2dd2240a63af6bd815de35e8416bfc299612ceff49f5d4c1efb2f4",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/01-需求与生产SOP/需求定义模板.md",
+      "extension": ".md",
+      "size": 807,
+      "sha256": "2fca33b9e2ddd0da9a8ebf37561eff88f6df0404b6da3ce7ed4f823e4e50d3a0",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/02-参数与变量库/参数字典.json",
+      "extension": ".json",
+      "size": 267,
+      "sha256": "76ceb32fd0beda9c10e7978403d06bfa49adfe1654e263f08058a65e9487fab0",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/02-参数与变量库/变量表模板.md",
+      "extension": ".md",
+      "size": 663,
+      "sha256": "d2447a9e4b53541d92a29865478353904ec3d05dae007a54d5080e5c4bee5325",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/03-生成模板与验收/提示词组装模板.md",
+      "extension": ".md",
+      "size": 1003,
+      "sha256": "9e94ffd79bfb18f0d3a9c8015fad5c6fc292387c334b5fa4833f160795c1695e",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/03-生成模板与验收/验收清单模板.md",
+      "extension": ".md",
+      "size": 978,
+      "sha256": "67d55b06e513f3477d4a426bde47386ae00ffb0ef0887b3297ec4007db451c31",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/04-生产资产/README.md",
+      "extension": ".md",
+      "size": 356,
+      "sha256": "2667aeae5b2f156658bfa44d5a0407d104a6bc82f80e89966cab7cb8f01e5252",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/05-实测与失败/失败记录模板.md",
+      "extension": ".md",
+      "size": 451,
+      "sha256": "08803642372244f575789a48390d995b4ee42bb0812de8c9896ff447093b8366",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/05-实测与失败/实测与失败记录模板.md",
+      "extension": ".md",
+      "size": 586,
+      "sha256": "59f5e13ba8648ed0f3e579674b268ee69ef5cf4e4118bbbbd90ebd32405c8783",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/06-最终交付/专项项目交付物清单模板.md",
+      "extension": ".md",
+      "size": 717,
+      "sha256": "c612ad301669cdc04dc60e6758a2287832bf08b44fb6319c9921f5e2ebd7e5ea",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/90-维护与数据/ADR模板.md",
+      "extension": ".md",
+      "size": 386,
+      "sha256": "cdb1075474ca451389ba85ea2b9ddf67bcf5e8fef7c62c5609b9c03b18dd1292",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/90-维护与数据/专项项目变更记录.md",
+      "extension": ".md",
+      "size": 431,
+      "sha256": "3d13d52506a8ea2a3021c914ba5a92835b091bce9949f3c39f889865be5819a5",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/90-维护与数据/项目注册信息.json",
+      "extension": ".json",
+      "size": 293,
+      "sha256": "eb9b1a9346920b878bb40de488742eccc1d268686815ffc8a47fecfe688ceffd",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/90-维护与数据/项目资产注册表模板.json",
+      "extension": ".json",
+      "size": 90,
+      "sha256": "afc2d8681e377a64e1dff0cd14d1c62cdd2221054cb39a9415a451b9abad70a2",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/00-专项项目模板/99-归档/README.md",
+      "extension": ".md",
+      "size": 352,
+      "sha256": "0d065dcb0b923ae3d4b9820a879e9f82968fe2e0eaf2fbf324a5c5767975cdb4",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/专项生产库-MOC.md",
+      "extension": ".md",
+      "size": 891,
+      "sha256": "f612d10da9af1e1e1109b4f71bc516d1b64011d1d744305219a51ec758f1e2e3",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/专项项目注册表.json",
+      "extension": ".json",
+      "size": 786,
+      "sha256": "78e1c1d81ef55f0725f712e75999f7d973798d0a35071761e9b40b2751d4c54d",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/专项项目状态看板.md",
+      "extension": ".md",
+      "size": 764,
+      "sha256": "e6ed4ec6fbef8c89093de4574806f41a3d678965d462c1fb76e03ee8beffb57d",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/01-生产SOP/丝袜商品效果图-使用手册-SOP.md",
+      "extension": ".md",
+      "size": 24743,
+      "sha256": "3edc124734dafd6255a36cac50b85483f9477f5e8f4764e4758abcb4f2e83047",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/01-生产SOP/分类批量丝袜格子图-SOP.md",
+      "extension": ".md",
+      "size": 18493,
+      "sha256": "5ab9a9c38306df7a3cdfa1b51cb1ed74768751819bd204e5976abdd81988d539",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/01-生产SOP/质检返修与交付-SOP.md",
+      "extension": ".md",
+      "size": 3160,
+      "sha256": "de8adafdf699d0b4f3e25436591cd24e816f5ed48e7ef8f5cd5d11da6214f0a6",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/01-生产SOP/锁商品丝袜格子图-SOP.md",
+      "extension": ".md",
+      "size": 6832,
+      "sha256": "5a97752466357f943e522f3802b6682e49a13beda63099d7ad72aca16c00e367",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/01-生产SOP/附件/单产品SOP-生成工作流-v07.png",
+      "extension": ".png",
+      "size": 2000990,
+      "sha256": "e94ee52cfb3a3c9b422dfd02974a16d8414366fb3296abf214104743032877d5",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/01-生产SOP/附件/单产品SOP-黑色薄款丝袜-沙发坐姿示例-v01.png",
+      "extension": ".png",
+      "size": 2286302,
+      "sha256": "ba0f56be50698521dddf008a07868d2540f9fb3cbff706c185127186d935e760",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/01-生产SOP/需求决策记录.md",
+      "extension": ".md",
+      "size": 10872,
+      "sha256": "235f3678fed9eed83b1a54ec142d17fc9e4fcc5c8b026699407f5b37095a7328",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/参数组合规则.md",
+      "extension": ".md",
+      "size": 3268,
+      "sha256": "4bcb87d1736e0da0f1c445360e727a869f4a818685129b00a08341d76621e313",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/参考效果库/E-01-纹理与织造.md",
+      "extension": ".md",
+      "size": 3033,
+      "sha256": "db3fad8b6ae1801c8ead3818615b2a7667afc8da02a209f080a1116209f152d8",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/参考效果库/E-02-图案与纹样.md",
+      "extension": ".md",
+      "size": 4453,
+      "sha256": "cefeee871d3e43710bbdfaadf7b5c8e0513924b39b0dc68f48384f5d476df8ac",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/参考效果库/E-03-材质与表面.md",
+      "extension": ".md",
+      "size": 2094,
+      "sha256": "a75f50d035da86a8c6e5162fed62510a9ff8ea23b8004784a4ef01db745a1ba5",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/参考效果库/E-04-商品结构与款式.md",
+      "extension": ".md",
+      "size": 3767,
+      "sha256": "87d00cf490e51b8a62e944d7a8e22abaaaca0820d7c293e2dc4d836feb07cbba",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/参考效果库/E-05-染色与显色工艺.md",
+      "extension": ".md",
+      "size": 2795,
+      "sha256": "b996fff03e5c3933717a1e397482ee4b0d47668d33210e1f9ae1d3182998cfd8",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/参考效果库/E-06-视觉构造.md",
+      "extension": ".md",
+      "size": 2884,
+      "sha256": "fd92ec8c0b6282c71a3802072ba68280e0a9429b1372ee9c8a48129277ddcdfa",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/参考效果库/参考效果库-MOC.md",
+      "extension": ".md",
+      "size": 1732,
+      "sha256": "f3171274fc11005e241ff4c3368bf83a41db11019c886db7b6af71e6e84ba5c8",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/基础商品参数.md",
+      "extension": ".md",
+      "size": 3545,
+      "sha256": "0b1024b6cac8c4e945d79ea6f97b9d873795e0aa06b0609d78004cc55535e243",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/姿势动作参数.md",
+      "extension": ".md",
+      "size": 3081,
+      "sha256": "18eb342206a85abb1a3a83f4ea47494e43e9ce46002e66c6d300314f9f5b37a0",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/构图场景参数.md",
+      "extension": ".md",
+      "size": 6077,
+      "sha256": "bbea99b310e0284cb2684e743de730b41de32019c70b472147a50f165470a173",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/格子图版式参数.md",
+      "extension": ".md",
+      "size": 7376,
+      "sha256": "fb7eb5b50df57e3c9eb733fd0c5ca34dfcc8b3d1cee049bd5c8e445056418d49",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/模特身份参数.md",
+      "extension": ".md",
+      "size": 3733,
+      "sha256": "55c130eef888596a151563016173e7562b30195721a896b6dc0b4c11bf0ba83c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/生成参数库.md",
+      "extension": ".md",
+      "size": 4436,
+      "sha256": "8aa9a341aaa46485da8215ccd45119fa657e0b838c4f60434e5b9a1172a074ee",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/02-参数库/造型搭配参数.md",
+      "extension": ".md",
+      "size": 2530,
+      "sha256": "eb57dda61c612100f43c7a2c8eb3d10faa9d1ef341053f4ad2cedaebf4772bbb",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/03-提示词与验收/交付物生成契约.md",
+      "extension": ".md",
+      "size": 3148,
+      "sha256": "362fbb188a51ac28cc9bea58b5fe0ae52c4a7af55c99f999a569ce60f0024680",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/03-提示词与验收/提示词库-MOC.md",
+      "extension": ".md",
+      "size": 1352,
+      "sha256": "b3f06170ad5d3a5df8bbbb744db85baa9396c68f4bb4302552d818cb44f5ab3f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/03-提示词与验收/生成提示词组装.md",
+      "extension": ".md",
+      "size": 7130,
+      "sha256": "109cd82bbd5ce639dfd5d3280f9c6d072cd3fb042294a2a9b1c9c4723f79f6d7",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/03-提示词与验收/生成验收规则.md",
+      "extension": ".md",
+      "size": 5030,
+      "sha256": "80fb8ef1108650a6ada2b1af177a8524d9f3e90ec9ef9a2ec212a21857c90124",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/03-提示词与验收/附件/多效果商品图SOP-分类格子图-v08.png",
+      "extension": ".png",
+      "size": 2549879,
+      "sha256": "c76ef105ba9426e8d1de550e43c2a6536cbbd90a95685c98e61206592e87c091",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/丝袜生产资产索引.md",
+      "extension": ".md",
+      "size": 717,
+      "sha256": "929868d3109feb852ba6f5d0a163df450f50f8be4bd4a524468495d453fadf9f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P01-基础色系与肤感.png",
+      "extension": ".png",
+      "size": 1677883,
+      "sha256": "32f03d7761fb35eb766766887107cd5e191f6689a4aee2be7035fbdd48634b42",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P02-透明度与厚度.png",
+      "extension": ".png",
+      "size": 1658474,
+      "sha256": "afef67ec74a8cb951d9a41013ab07c333c5c5c70abadf03bd636c4b8a687b79b",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P03-纹理与编织结构.png",
+      "extension": ".png",
+      "size": 1279930,
+      "sha256": "ac03b357c00c580252bc8f85ce7a3ed971d6c3dd3246f45969b13234757d77f0",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P04-图案与艺术设计.png",
+      "extension": ".png",
+      "size": 1201560,
+      "sha256": "add9dc63be9723b8a6bc3871293dc1ea8ba490614444ba712708db5850f37ff0",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P05-材质表面与光泽.png",
+      "extension": ".png",
+      "size": 1355914,
+      "sha256": "e7e43b0dc19b629a79313239d2658d07df720896cee8361793d0653f756b3b1d",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P06-袜口脚尖与拼接结构.png",
+      "extension": ".png",
+      "size": 1914288,
+      "sha256": "10743827a6aeb37690e77dd1cc084a9b4d961a565f8b60c85a65f44d54a8be2f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P07-染色渐变与色彩工艺.png",
+      "extension": ".png",
+      "size": 1187866,
+      "sha256": "224280f291b4b6f3c74edd1b047c064db755752a496839566990d137238d93c6",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P08-文化纹样与装饰艺术.png",
+      "extension": ".png",
+      "size": 2029166,
+      "sha256": "be46adc451e883423e04c97d417217f2d117fdf572200bb27688a5a57d1f59b8",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P09-视觉错觉与空间图形-v02-扩展版.png",
+      "extension": ".png",
+      "size": 1946423,
+      "sha256": "e9fe918684b9b8e6fb0e47711c4825359d243f412d4852e64eca3331d9cc1a60",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P09-视觉错觉与空间图形-v03-扩展精修版.png",
+      "extension": ".png",
+      "size": 2012508,
+      "sha256": "d91c2d85a38759826b93cdf8349dd169a09ec3ec3f2031f9b65f52fdb853c16d",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P09-视觉错觉与空间图形.png",
+      "extension": ".png",
+      "size": 1175898,
+      "sha256": "904382eb12aa20f89d14be4e8d4097388da71ae339e9199df6613f54868e5e35",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/P10-专业功能与应用场景.png",
+      "extension": ".png",
+      "size": 1318931,
+      "sha256": "c5e2ec6f302ee2d5930bf242709e30db37e6fc5f0fed8a39b39724752554ca09",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/首轮演示-黑色半透细闪-6格.png",
+      "extension": ".png",
+      "size": 2186906,
+      "sha256": "8fab445c5be0dbbedd7edb2ff22e4452aede6d2ef745f46f01674cf26ce09c13",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/商品效果/首轮演示-黑色半透细闪-完整目录页.png",
+      "extension": ".png",
+      "size": 4566673,
+      "sha256": "ca9ed6dbc21d643e406c7ad7f9e4fc84e3960e1d0fa72256496b16c9c9db6331",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/展示方式/D01-技术目录构图-v02.png",
+      "extension": ".png",
+      "size": 1251496,
+      "sha256": "d7e38254c3cfcac2e290ccd05b5ca2bfab846f49c9346a7654bf851b4a51ddeb",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/展示方式/D02-生活方式构图-v02.png",
+      "extension": ".png",
+      "size": 1407653,
+      "sha256": "c43c37228b1d14c2147abcbc1261f9870383450fb7373f7a91567049b957adc5",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/展示方式/D03-时装编辑构图-v02.png",
+      "extension": ".png",
+      "size": 1136728,
+      "sha256": "8919fa6ed724ed9e32929e91a4b79bc89c4b811e3728768d863b8c072629d063",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/展示方式/D04-电商社媒构图-v02.png",
+      "extension": ".png",
+      "size": 1100882,
+      "sha256": "fbd57b37cbe47d861fdfac3f9fca4066a9bffdb7f780707af5925f75a4d0710a",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/展示方式/D05-服装风格-v02.png",
+      "extension": ".png",
+      "size": 1318875,
+      "sha256": "42619b9fb5a243dc6d853672076b0c62bb68713c39381ae30de532aafe0818fb",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/展示方式/D06-姿势与动作-v02.png",
+      "extension": ".png",
+      "size": 1477300,
+      "sha256": "e9b9953bdb61908e368baba877161aee19bd75423a20ceb8e28188123d4f81d9",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/腿部服饰姿势素材库-01-站立与行走.png",
+      "extension": ".png",
+      "size": 1771624,
+      "sha256": "629769f000e6869c830accae42b392d771b8ddf1f5f0e1c498486a841b8a7647",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/腿部服饰姿势素材库-02-椅凳与台阶坐姿.png",
+      "extension": ".png",
+      "size": 2104741,
+      "sha256": "a98cc932c72322ac5497063fe678e7228755be0b1a15de3028ff2e870a02d7b0",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/腿部服饰姿势素材库-03-沙发与地面构图.png",
+      "extension": ".png",
+      "size": 2409243,
+      "sha256": "67f70fb41c3868447e45e47f01b8fb67132b37fe0bd17e4cba515a47ea82cb7c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/腿部服饰姿势素材库-04-广告与道具互动.png",
+      "extension": ".png",
+      "size": 1857013,
+      "sha256": "2882b34ced5695266fa6ed41635e173874c8b73bb43fcbd0fa23debe892ea4ec",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/服装速查-个性时装-O09-O12.png",
+      "extension": ".png",
+      "size": 1932431,
+      "sha256": "eecbe6ce8c6273c7a5165490a16cf9478025d8645a899aa102fbe0fdc04de2c8",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/服装速查-场景主题-O13-O16.png",
+      "extension": ".png",
+      "size": 1774297,
+      "sha256": "e8d39d70a5ddba2e20a7cca1e6e740dbea69d58aa2cdb2e12214109deaae8b1e",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特总览-M01-M08-东亚欧美.png",
+      "extension": ".png",
+      "size": 1926858,
+      "sha256": "0f8b7d1590ab273ac47eb16ade1cf7b4aa017996f141aed653e61f868d0b580d",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特身份卡-M01-冷调极简.png",
+      "extension": ".png",
+      "size": 1841291,
+      "sha256": "7c50b7ed944e7a92cd06ba6f68820a1289d494de514a7ad9e6474dbd0d064d5a",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特身份卡-M02-暖调通勤.png",
+      "extension": ".png",
+      "size": 1768399,
+      "sha256": "a9024ee4255d0da44fbe432bef3488bbd5d4dae7500665fa8da14ce26f6fbfd3",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特身份卡-M03-清雅知性.png",
+      "extension": ".png",
+      "size": 1650888,
+      "sha256": "32bf8b5448c8ec6bce754bdbd92acea490b0b8fb42737a2b7c58692b8f4f2004",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特身份卡-M04-高挑编辑.png",
+      "extension": ".png",
+      "size": 1948280,
+      "sha256": "02d21042e42c860872b3c607a0e269f01872450c6260ef59efe301ca51422821",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特身份卡-M05-欧美曲线优雅.png",
+      "extension": ".png",
+      "size": 1885909,
+      "sha256": "9cfe0dd4d004343424111353a90c688dcfbd39cf69290043ddafc1092308a779",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特身份卡-M06-欧美都市匀称.png",
+      "extension": ".png",
+      "size": 2052958,
+      "sha256": "33dd2999f81ff8885373d27da512e706b9c96929ef02da41dad2a2955fd9f00b",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特身份卡-M07-轻盈甜美.png",
+      "extension": ".png",
+      "size": 1844284,
+      "sha256": "52bc665832558ff337d7210ebb36ac65348b2ea2b5ce8797243611439fb50cc3",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/模特身份卡-M08-成熟商务.png",
+      "extension": ".png",
+      "size": 1737178,
+      "sha256": "dad9ee46dff80c0a554b010cba3ec4a42c0b9f57cce3e0063b2f8b0df6d1b3f4",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/选择器实测-小红书腿部拼贴-混合纹理.png",
+      "extension": ".png",
+      "size": 2374981,
+      "sha256": "dfa618dcca06bceaa4e3ca62cc00696a5d8f33553393fa6a07b277eb14d24a02",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/选择器实测-技术目录-6格.png",
+      "extension": ".png",
+      "size": 1697190,
+      "sha256": "c8d1b0ae0591591b459ce81ac2f26156171a6368107ffc24d34fd8dbf7072350",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/04-生产资产/模特服装与姿势/选择器素材库/选择器实测-生活方式-6格.png",
+      "extension": ".png",
+      "size": 2108288,
+      "sha256": "c3b434ec94f7579f4b254a911d80cbc43174e997a1afe88a2ae77371c9722986",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/Agent完整测试-分类批量分组-SOP.md",
+      "extension": ".md",
+      "size": 12810,
+      "sha256": "94d7609a227fda8d8ac8364c9caf885fbeb7d6854402c5b90ef697774292f85c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/Agent完整测试-锁商品单图-SOP.md",
+      "extension": ".md",
+      "size": 7290,
+      "sha256": "207f9c299ba9fe973c2adef69dcf8d5195deec7058264310bb239a2a3f5e0f5f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/Agent实测-分类批量九主类-12格母图.md",
+      "extension": ".md",
+      "size": 7724,
+      "sha256": "b4b5a2d51af20f0e6a562c761dea7c3221f5a877b183bc9a47cba1c248b7fd8a",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/Agent逐格实测-E-02-09-放射阶梯几何-v01.png",
+      "extension": ".png",
+      "size": 1626443,
+      "sha256": "afe84529a5221c1d90b4b8bb65cb6f7d14e39b7a52f04307c0b3b4cf81b7939e",
+      "duplicate_of": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/09-放射阶梯几何.png"
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/Agent逐格实测-E-02-10-街头涂鸦-v01.png",
+      "extension": ".png",
+      "size": 2080908,
+      "sha256": "9a599a29e2fc436e1b3c9204a128eb5947b8ee5a879c9b5c55df65ba10416bfb",
+      "duplicate_of": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/10-街头涂鸦.png"
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/Agent逐格实测-E-02-11-云锦云纹-v01.png",
+      "extension": ".png",
+      "size": 2423197,
+      "sha256": "39220ea55455bd92fa2c54d42b9ccb91478f851508e8af84d2d6717ea5efee2c",
+      "duplicate_of": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/11-云锦云纹.png"
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/Agent逐格实测-E-02-12-青花花草-v01.png",
+      "extension": ".png",
+      "size": 1445568,
+      "sha256": "546026c2d64643ca52fca687f8b5246c87e274dfe4c6ecc90df7b06eee7a4ced",
+      "duplicate_of": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/12-青花花草.png"
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/E041-E060-v02-统一场景失败.png",
+      "extension": ".png",
+      "size": 2120886,
+      "sha256": "e54eb53a7f4caf5f8dbc8425ca6817f30beab8b5ae5bbb6c82953b1befb124e3",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/LOCK-001-电商主图-失败-E细闪弱-v01.png",
+      "extension": ".png",
+      "size": 1575231,
+      "sha256": "d531168c360a125330587fa684c3cd7dcd55ae8db2f5be0bb14579897c4c0cab",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/丝袜实测与失败索引.md",
+      "extension": ".md",
+      "size": 970,
+      "sha256": "6b0aa8ca9f5f686125ae6135695ff0fb76212a8c23bd779c92435154f8034054",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/分类批量实测-04-E-01纹理织造-概念回退-v01.png",
+      "extension": ".png",
+      "size": 2161292,
+      "sha256": "302bf27ad811b0a9c8c55d2f2cf9cac0e61e04f8d29fad1958ad93d368749dcc",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/分类批量实测-05-E-02图案纹样-概念回退-v01.png",
+      "extension": ".png",
+      "size": 2096240,
+      "sha256": "ec254882a4a0f287b6170e1af662d051e03897da753a118e67c0256f6aa9f732",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/分类批量实测-06-E-03材质表面-12格-v01.png",
+      "extension": ".png",
+      "size": 2071173,
+      "sha256": "064c2f1f23629facab211517d52b85c6f1961dd8599b7892b09dd83b28f7bf8e",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/分类批量实测-07-E-04商品结构-概念-v01.png",
+      "extension": ".png",
+      "size": 2445913,
+      "sha256": "3e7e6f7d6a065d7a5226d75c4db6c62415683da92386aab88034abbbbe840b18",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/分类批量实测-08-E-05染色显色-12格-v01.png",
+      "extension": ".png",
+      "size": 1772522,
+      "sha256": "6c1a2d1860a6092bad8cec600bb4bed4fa0cd1c1ad0a55f9a4e63e221991a1c1",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/分类批量实测-09-E-06视觉构造-概念回退-v01.png",
+      "extension": ".png",
+      "size": 2029430,
+      "sha256": "d37be6deac8c886061e65b6e1a1e3e6061f6d9e118d0b7919f81f4098ff9a130",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/分类批量实测-B-C色系-12格-v01.png",
+      "extension": ".png",
+      "size": 1576336,
+      "sha256": "42d45ad2f4bb3f9578622ccf211d8fc3a311f2d8b9ae78d8fe226e2ef2c442b7",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/实测-分类批量E-02逐格生成与PL-01成板.md",
+      "extension": ".md",
+      "size": 2851,
+      "sha256": "8da806fd6e8d9a575a7e8a34a473dd31a146a516c52a24f61612d928a821638b",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/实测-分类批量九主类-12格全量.md",
+      "extension": ".md",
+      "size": 5439,
+      "sha256": "211f0e9c7a1100851c9c6195ffd14b03478744521b86d2323e48cf7a33649781",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/实测-批量生成参考效果库.md",
+      "extension": ".md",
+      "size": 2739,
+      "sha256": "a7cfc6d95bd729a8339b2d5724665df0d0ab570d2ec31d4bd35d2172233f82aa",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/生成-E-02-分类批量测试板.py",
+      "extension": ".py",
+      "size": 4232,
+      "sha256": "efc9cb8016b973ca86b62187dd77123cb911f5ba9f01513c07aeb75650ee6468",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/05-实测与失败/目录重构与验证记录.md",
+      "extension": ".md",
+      "size": 3727,
+      "sha256": "533eb6dba9fe4926ef34dfb560986d7a8d9767b9bd987b3cb9fe09e05b85ca92",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-01-B-C色系-12格-v01.png",
+      "extension": ".png",
+      "size": 2032670,
+      "sha256": "5e4115c7316308b761d997a7fb2bd0f20ee03269dba43c3b300d5f74aa177dec",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-02-B-D厚度-12格-v01.png",
+      "extension": ".png",
+      "size": 2136831,
+      "sha256": "a302911ae937a4f017f32fe33b657d6573cf8f8fbf6d83abeaba2654cc2c079f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-03-B-T透明度-12格-v01.png",
+      "extension": ".png",
+      "size": 2135380,
+      "sha256": "5c4b5c825acca929b12145c79e153884e7e895a9c8a7b3b270534217f9c5d185",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-04-E-01纹理织造-12格-v01.png",
+      "extension": ".png",
+      "size": 2117250,
+      "sha256": "4b40f7c8e8d715743849ad6e2484e9b6d5830177e828415cd70045c3dbf9af14",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-05-E-02图案纹样-12格-v01.png",
+      "extension": ".png",
+      "size": 2373838,
+      "sha256": "ae40fc0bebab4ae977be0f3cf01fcaca814bb27c477ea537d9e5a31f3c73f4d0",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-06-E-03材质表面-12格-v01.png",
+      "extension": ".png",
+      "size": 2293002,
+      "sha256": "5df09609ae08cb525c05a3e1d7b95bad9465ad89d045cbf45e8d771c408070e2",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-07-E-04商品结构-12格-v01.png",
+      "extension": ".png",
+      "size": 2098999,
+      "sha256": "50826e397be16b17b5edb529c9941cbd75642d7f96e540e035a90d81620d72b1",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-08-E-05染色显色-12格-v01.png",
+      "extension": ".png",
+      "size": 2274432,
+      "sha256": "65fe3cb05a71ad2d68a5d7c7705cade28e3e8896d03cc2f0499efcf09ee2857d",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent分类批量实测-09-E-06视觉构造-12格-v01.png",
+      "extension": ".png",
+      "size": 2164407,
+      "sha256": "52419e2bd8f5c596542a59735051e65ed4462931cd2e0fb126162014e6f65709",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent正式逐格-E-02-05-星点节奏-v01.png",
+      "extension": ".png",
+      "size": 1614851,
+      "sha256": "63c24b3cc045c036aba851e691d28628cb8ae87a7bb595ce28f3c6ba5baae488",
+      "duplicate_of": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/05-星点节奏.png"
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent正式逐格-E-02-06-规则波点-v01.png",
+      "extension": ".png",
+      "size": 1834258,
+      "sha256": "b5ae050382b59c26fc0d87df40907a76efd683312c49d5bf523768ee7c381695",
+      "duplicate_of": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/06-规则波点.png"
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/Agent正式逐格-E-02-07-重复心形-v01.png",
+      "extension": ".png",
+      "size": 1783187,
+      "sha256": "23131b9cb35ab392e549d4c7859e1e6b3c666fe068ba1d1440060ad16b08f253",
+      "duplicate_of": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/07-重复心形.png"
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/E001-E020-基础色系与肤感.png",
+      "extension": ".png",
+      "size": 2169432,
+      "sha256": "e2925444930a6376d1c6569b201b3d9662ea10f9adf44b015e11164e17f8e53c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/E021-E040-透明度与厚度.png",
+      "extension": ".png",
+      "size": 2038896,
+      "sha256": "49ba7c4f89278d19f8645bf422f84d101e9ac38f85eaa66f7b48fb75f6d284a4",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/E041-E060-纹理与编织结构.png",
+      "extension": ".png",
+      "size": 2162909,
+      "sha256": "2dcbdbf498d7b6b2d867c066b3d466253bf0d859af388d322268ee6bfbce84b8",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/E061-E080-图案与艺术设计.png",
+      "extension": ".png",
+      "size": 2207761,
+      "sha256": "a79a808132a706db8ed6d7d40e21c6cc15fbc422f54bc5b4ced1fb37533ca8bc",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/E081-E100-材质功能与场景.png",
+      "extension": ".png",
+      "size": 2084469,
+      "sha256": "379b23a1459d54d4c66074f56ce1053f9eaafc4e21ef65485e2e1741f79e302e",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/LOCK-自主规划-黑色60D/LOCK-自主规划-黑色60D-Look图-v01.png",
+      "extension": ".png",
+      "size": 1927532,
+      "sha256": "36ae5de75105ef75361292de92f4318ff91290aa44cb8b9b9453c5f428930309",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/LOCK-自主规划-黑色60D/LOCK-自主规划-黑色60D-主图-v01.png",
+      "extension": ".png",
+      "size": 1494108,
+      "sha256": "53e55855811d2bfeca28a129fc723bb21d0fed141fb14a7f68b9270b01d1ff00",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/LOCK-自主规划-黑色60D/LOCK-自主规划-黑色60D-详情图-v01.png",
+      "extension": ".png",
+      "size": 2042633,
+      "sha256": "6e21cdd06003e1cb050bbb0c04d4f5aca1456b76fae392f5c35b3720645c5e5e",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/丝袜上腿效果图鉴-第1页-001-020-v02-美化版.png",
+      "extension": ".png",
+      "size": 1463569,
+      "sha256": "914ed444efbd9b01fdf3da1e76c4c7bc2718f9274296164320fa921950913ea1",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/丝袜交付样张索引.md",
+      "extension": ".md",
+      "size": 784,
+      "sha256": "498e652ee4db9f7d71b1c57057c900a869bd6fe67c61b087354afdc0e2e1b25f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量实测-01-B-C色系-12格-v02.png",
+      "extension": ".png",
+      "size": 1816606,
+      "sha256": "f13ac00b2426f090665ce02e0d344cea05d92ce3139cafb40373f4e20943cb5f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量实测-02-B-D厚度-12格-v01.png",
+      "extension": ".png",
+      "size": 1850036,
+      "sha256": "cadf0b8743c59b27604cd55c3b8da9565e5bd9bf92372e301aa22f528cab1c96",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量实测-03-B-T透明度-12格-v01.png",
+      "extension": ".png",
+      "size": 1920245,
+      "sha256": "bff827deed32d361b643e8522ccbd0f902e4c103d52463022cb2b3cc410b54e0",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样-PL-01-v01.png",
+      "extension": ".png",
+      "size": 5649835,
+      "sha256": "945e54b6ae6018defd296c36872d8b9954f5ac1a4cf2a42f87ec93c03c02a018",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/01-黑玫瑰.png",
+      "extension": ".png",
+      "size": 1645616,
+      "sha256": "bf199ab6b159f908ed424a8f9bb6ac521559c26a2be5af236e4f67c507d8406c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/02-白色枝叶花.png",
+      "extension": ".png",
+      "size": 1846620,
+      "sha256": "d551b208aa814fcecb36f136635dc66f42c743847b1bcba3daf762f53d3adb28",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/03-蝴蝶错落.png",
+      "extension": ".png",
+      "size": 2373221,
+      "sha256": "06ee76b0fe06a95e82b93de56cb401f99a1d8d21a0f7342d78c4650a9fbb1a21",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/04-单一动物纹.png",
+      "extension": ".png",
+      "size": 2313938,
+      "sha256": "14e8d55563e7cfa64e2bccc75607fe366abea0dba77c1fa36744980a4783642c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/05-星点节奏.png",
+      "extension": ".png",
+      "size": 1614851,
+      "sha256": "63c24b3cc045c036aba851e691d28628cb8ae87a7bb595ce28f3c6ba5baae488",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/06-规则波点.png",
+      "extension": ".png",
+      "size": 1834258,
+      "sha256": "b5ae050382b59c26fc0d87df40907a76efd683312c49d5bf523768ee7c381695",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/07-重复心形.png",
+      "extension": ".png",
+      "size": 1783187,
+      "sha256": "23131b9cb35ab392e549d4c7859e1e6b3c666fe068ba1d1440060ad16b08f253",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/09-放射阶梯几何.png",
+      "extension": ".png",
+      "size": 1626443,
+      "sha256": "afe84529a5221c1d90b4b8bb65cb6f7d14e39b7a52f04307c0b3b4cf81b7939e",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/10-街头涂鸦.png",
+      "extension": ".png",
+      "size": 2080908,
+      "sha256": "9a599a29e2fc436e1b3c9204a128eb5947b8ee5a879c9b5c55df65ba10416bfb",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/11-云锦云纹.png",
+      "extension": ".png",
+      "size": 2423197,
+      "sha256": "39220ea55455bd92fa2c54d42b9ccb91478f851508e8af84d2d6717ea5efee2c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/06-交付样张/分类批量正式测试-E-02图案纹样/12-青花花草.png",
+      "extension": ".png",
+      "size": 1445568,
+      "sha256": "546026c2d64643ca52fca687f8b5246c87e274dfe4c6ecc90df7b06eee7a4ced",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/docs/adr/0001-双生产线分离.md",
+      "extension": ".md",
+      "size": 1670,
+      "sha256": "a92b66fe8c01c6c85cd6cf671534d93f73a5fb6e5400af40f018bcca6afd0f2c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/docs/adr/0002-商品与展示变量分离-联动随机.md",
+      "extension": ".md",
+      "size": 1734,
+      "sha256": "d13d3513748de817795cc50711a296788135ba3a982cf98f53a82f4fed4d9511",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/docs/adr/0003-图片与文字分工.md",
+      "extension": ".md",
+      "size": 1481,
+      "sha256": "87cdcfe165e16d72def804b0268d8c7b8b3067c7df61856a2a5b427f8122bf66",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/docs/adr/0004-编号按库上下文解析.md",
+      "extension": ".md",
+      "size": 1811,
+      "sha256": "1a2dd442aeb894af822639d9ff61ebf30a7f8b3a6de8cd2b76098d57941d9431",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/docs/adr/0005-格间姿势强制四大类与站坐主导.md",
+      "extension": ".md",
+      "size": 5474,
+      "sha256": "d557d31b36b2dd255fad9a129a1ab10951b06dc6badf2552681121ecf439cdd7",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/docs/adr/0006-商品变量基础拓展分层与效果库按常见度分布.md",
+      "extension": ".md",
+      "size": 4041,
+      "sha256": "5bc9ba97cd8c0bb2474a59c94915f11873180aac30180e65051b515f9064057b",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/docs/adr/0007-参数提示词分离与效果主子类重构.md",
+      "extension": ".md",
+      "size": 2256,
+      "sha256": "8c43d3006ac4204bb7d0c1558c2b6bf5e781f3fa1d1694b9f78f9b4f771ad629",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/专项媒体索引.md",
+      "extension": ".md",
+      "size": 17864,
+      "sha256": "52ee027544e02f061c968b0bf6e5f833a327becce60ef41002cbd990d0e7fbae",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/丝袜项目-CONTEXT.md",
+      "extension": ".md",
+      "size": 4612,
+      "sha256": "125f89891f937f1452ef3ba74a0153892d6729b05953a1d3934ae99a51aab6b3",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/丝袜项目维护与数据-MOC.md",
+      "extension": ".md",
+      "size": 712,
+      "sha256": "a5cc291de48792f3ed3c69e01237fc806b4c86f9749cc5f7cf597a73dad7bc22",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/效果编号迁移表.md",
+      "extension": ".md",
+      "size": 2750,
+      "sha256": "598c3a339b0d5df87baa211b65022e965890d33e3877c2602b5a4b82af377ec3",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/90-维护与数据/缺口审计与标签库设计.md",
+      "extension": ".md",
+      "size": 1715,
+      "sha256": "8952fc71a5f3405ae935144d547eb2cee485c077c52aece3a78bda6cd1a2811a",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/README.md",
+      "extension": ".md",
+      "size": 418,
+      "sha256": "f1b2c6e7aaef7158b736a416bee5b3a2fd1bdede7c9c1112c401462a7da8259c",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/丝袜上腿效果图鉴-第1页-001-020-v01.png",
+      "extension": ".png",
+      "size": 1641622,
+      "sha256": "9fdd77b9ea8729ea9810c9107481416f18c4ff2b43c21fa5666b38f3edac1098",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E001-E020-经典颜色.png",
+      "extension": ".png",
+      "size": 2173099,
+      "sha256": "313d68f2f5509930d8949e5d36ac05d9151b91517fc0115e2ba1caf8d4e5cd00",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E021-E040-透明度等级.png",
+      "extension": ".png",
+      "size": 2196993,
+      "sha256": "35603b3ae36cf64ab4e109ff00c281aee2eda4dacc464858421e7653c5f7336a",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E041-E060-花纹针织.png",
+      "extension": ".png",
+      "size": 2299127,
+      "sha256": "bfd28e2b8ba5f1aefe821c6ea103a320e00e5215ea75d28eed60941506cf73b6",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E061-E080-光泽质感.png",
+      "extension": ".png",
+      "size": 2192878,
+      "sha256": "09f7a62ba3293590bfef3d2bfe216ec0f6c09037f920541272661a1b50ace589",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E081-E100-设计套装.png",
+      "extension": ".png",
+      "size": 2176805,
+      "sha256": "5d1735c819768bdb307a204d0e4a81c3ebb96f9d1ba657b429baa0f210f263fa",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E101-E120-工艺细节.png",
+      "extension": ".png",
+      "size": 2070816,
+      "sha256": "41b83d3a64c0595155b19d1a79d005dd4a31d51b08aad251e0b4c8582441a672",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E121-E140-功能款式.png",
+      "extension": ".png",
+      "size": 2190285,
+      "sha256": "85b647916db2a6d1a0a9d4d0c9e41fa09a90548a3bfb695ed1fec0ba45cd9c9e",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E141-E160-特殊视觉.png",
+      "extension": ".png",
+      "size": 2056400,
+      "sha256": "6fb3219f55e77a5d7eed43a43e7a4df3985227ed39cf67be2b9b9acf29f334fc",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E161-E180-生活场景.png",
+      "extension": ".png",
+      "size": 2181724,
+      "sha256": "d937eedac1d7afc68ea134bd97376e988591513a4e458b7fa0771c1b4090218f",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/99-归档/效果库旧版/旧版-E181-E200-高级典藏.png",
+      "extension": ".png",
+      "size": 2214825,
+      "sha256": "cf8b2bb5c097958b7de57ec3d6d2240b58e204470914daf60cbfe0ef47744ebb",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/丝袜商品效果图-MOC.md",
+      "extension": ".md",
+      "size": 1811,
+      "sha256": "8db333bce390222f56fc1abb15a88283298cdc0cf725405cb77eaddb3ca023b8",
+      "duplicate_of": null
+    },
+    {
+      "path": "03-专项生产库/丝袜效果图/丝袜效果图-视觉索引.jpg",
+      "extension": ".jpg",
+      "size": 368896,
+      "sha256": "c15ddccdb6161cae834e3315e13232a2c953321467ab4dfec8da347c4e76e3f6",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/01-任务模板/AI图像任务定义模板.md",
+      "extension": ".md",
+      "size": 587,
+      "sha256": "366c85908bf324afa680b6c832b412d0ea1916d1e2be237b4d53e21bab7ca23f",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/01-任务模板/角色资产卡模板.md",
+      "extension": ".md",
+      "size": 947,
+      "sha256": "4892c283eae0f50252fcabb5c6005efab4f7a68fbd1de651a3be8017ebf97f75",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/01-任务模板/角色项目初始化清单.md",
+      "extension": ".md",
+      "size": 656,
+      "sha256": "4439e6f209e3c88cd80c304bc3979f35d859da9cd42eafd685c570e3f85264d4",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/02-验收清单/通用图像验收清单.md",
+      "extension": ".md",
+      "size": 860,
+      "sha256": "1301d1ace6ecae92d5e4a8cf5f7b089ba891405252ef95755539ca273b918fbb",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/03-生成与检查脚本/README.md",
+      "extension": ".md",
+      "size": 698,
+      "sha256": "c390516a9f21f4bed416b724234309647bbae559e5b367045e69343078f46bc0",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/03-生成与检查脚本/生成站位与道具教学图.py",
+      "extension": ".py",
+      "size": 24168,
+      "sha256": "68dcb82a19b9e0c1f3b3b5bdff4ea15e22a60674abb6c06ac943ca3b923e7f92",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/03-生成与检查脚本/资产层健康检查.py",
+      "extension": ".py",
+      "size": 2657,
+      "sha256": "2d8864b5e79e02792e48a9775f9ed7b4603f3e207ef953dc5ececebd1411edd5",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/04-导出与交付模板/交付物清单模板.md",
+      "extension": ".md",
+      "size": 396,
+      "sha256": "ba490b987cdadf9d6b50a9fff8c2dcb0ca953cb8a069ba3075e0e80f88faf3dd",
+      "duplicate_of": null
+    },
+    {
+      "path": "04-工作流模板与自动化/工作流模板与自动化-MOC.md",
+      "extension": ".md",
+      "size": 721,
+      "sha256": "c29dcf92a11d90d12e7b3466f0b3a530cab3e9a158b07e2143698bd5c800f642",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/00-运行状态/CHANGELOG.md",
+      "extension": ".md",
+      "size": 796,
+      "sha256": "433277585774895aaa975aa848d5fd3f16c9222c56f486205ee2f2677704cef8",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/00-运行状态/资产健康仪表盘.md",
+      "extension": ".md",
+      "size": 1441,
+      "sha256": "c7ca88ee17439b1a330056139c7a65f700b23cc924c1223527282262279eb9ae",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/00-运行状态/资产健康指标.json",
+      "extension": ".json",
+      "size": 1011,
+      "sha256": "a32286c6a829626ea79327b6a3933fcbe635a7093c7e2fd9293bdc3a844321ad",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/01-资产注册表/99-归档/资产注册表-全量自动推断-v01.json",
+      "extension": ".json",
+      "size": 517490,
+      "sha256": "28aa946f123e426e54a0e9074fc4ed1380aea43a667cd123f258822a5fee5926",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/01-资产注册表/核心资产注册表.md",
+      "extension": ".md",
+      "size": 915,
+      "sha256": "c4edfd05d2049fa91e226fda92469b49df2a9721ca4a0ca82f1c0186e1703298",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/01-资产注册表/资产注册表.json",
+      "extension": ".json",
+      "size": 100921,
+      "sha256": "413f6dd2117a22b487ac3952cc9f94a935280002fb0c7dc09601cceebf427294",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/01-资产注册表/资产注册表字段说明.md",
+      "extension": ".md",
+      "size": 1293,
+      "sha256": "4b9083018efe1867f0ec4b500a6f5d845b840bcdf940dce07852dbefb2165b86",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/02-审计报告/2026/2026-08-05-资产层检查与优化报告.md",
+      "extension": ".md",
+      "size": 3349,
+      "sha256": "abb45322f7d48988000f33bd5805c4d54aefe4ee84c85964eb4058e27b514617",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/02-审计报告/2026/2026-08-05-资产层第二轮优化报告.md",
+      "extension": ".md",
+      "size": 2034,
+      "sha256": "1c9028b72b7583c850e7953d33befbd5ec33a4eb14147f808b278d5a808fedca",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/02-审计报告/2026/2026-08-05-资产层结构实施报告.md",
+      "extension": ".md",
+      "size": 2103,
+      "sha256": "78368abfd9f786244af3a96ae1d587af947eb7dca6742376c8c7bdfb081c2f61",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/02-审计报告/2026/2026-08-05-资产层缺口建设报告.md",
+      "extension": ".md",
+      "size": 2406,
+      "sha256": "0573c235de75b483392213149a006c06fb67c94e0bbebe070c0f9d034b6686aa",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/04-迁移记录/2026-08-05-目录与命名迁移表.md",
+      "extension": ".md",
+      "size": 1087,
+      "sha256": "2152a548d250d75d0e5bc7f0279f98ca653b45c63b425154ee3f5fa4ad424473",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/05-重复与校验/暗资产检查.md",
+      "extension": ".md",
+      "size": 25400,
+      "sha256": "7fe62cbbad17a2245eadefa89310ec66343ab5ff6d2bbf1c19de1df568f32085",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/05-重复与校验/第二轮最终校验结果.json",
+      "extension": ".json",
+      "size": 329,
+      "sha256": "40121a3a9db9e9677ed7dd9501186de88543aa59ec793e816f39984186b0d44e",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/05-重复与校验/结构实施校验结果.json",
+      "extension": ".json",
+      "size": 547,
+      "sha256": "f727eb45394c6e7944337d4ae65322fb764a6734da0cf5c4a1551ca009e18e58",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/05-重复与校验/重复资产记录.md",
+      "extension": ".md",
+      "size": 3964,
+      "sha256": "4b81a782eef3b43f1996a9b38ae06722ab58e431fd598ad34a1eb3da784b91f9",
+      "duplicate_of": null
+    },
+    {
+      "path": "90-维护与数据/资产维护与数据-MOC.md",
+      "extension": ".md",
+      "size": 1012,
+      "sha256": "1d65d66846368bb16fc85e0d5e327c9c6cf4d82aa0c9f06f34698e84e5d17920",
+      "duplicate_of": null
+    },
+    {
+      "path": "99-整层归档/README.md",
+      "extension": ".md",
+      "size": 442,
+      "sha256": "a122392c35705b5bc01144e8fd2fb447e6d676446edbe141d54aec5abf9d4f95",
+      "duplicate_of": null
+    }
+  ]
+}

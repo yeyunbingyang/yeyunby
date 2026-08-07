@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "updated": "2026-08-05",
+  "categories": {
+    "办公": [
+      {
+        "name": "办公桌",
+        "prompt": "office desk",
+        "effect": "建立工作界面",
+        "placement": "主体前方或侧前方"
+      },
+      {
+        "name": "人体工学椅",
+        "prompt": "ergonomic chair",
+        "effect": "专业、现代",
+        "placement": "桌后，避免遮腿"
+      },
+      {
+        "name": "笔记本电脑",
+        "prompt": "open laptop",
+        "effect": "数字工作感",
+        "placement": "桌面主道具"
+      },
+      {
+        "name": "显示器",
+        "prompt": "desktop monitor",
+        "effect": "技术/设计岗位",
+        "placement": "背景侧后方"
+      },
+      {
+        "name": "记事本",
+        "prompt": "notebook",
+        "effect": "记录与计划",
+        "placement": "手边或桌角"
+      },
+      {
+        "name": "签字笔",
+        "prompt": "pen",
+        "effect": "细节动作",
+        "placement": "与记事本配对"
+      },
+      {
+        "name": "咖啡杯",
+        "prompt": "ceramic mug",
+        "effect": "松弛、日常",
+        "placement": "远离键盘核心区"
+      },
+      {
+        "name": "台灯",
+        "prompt": "desk lamp",
+        "effect": "局部光源",
+        "placement": "桌面边缘"
+      },
+      {
+        "name": "绿植",
+        "prompt": "small potted plant",
+        "effect": "柔化硬朗空间",
+        "placement": "背景或桌角"
+      },
+      {
+        "name": "文件架",
+        "prompt": "file organizer",
+        "effect": "秩序、行政感",
+        "placement": "背景层"
+      },
+      {
+        "name": "玻璃隔断",
+        "prompt": "glass partition",
+        "effect": "开放办公",
+        "placement": "后景结构"
+      },
+      {
+        "name": "百叶窗",
+        "prompt": "window blinds",
+        "effect": "商务光影",
+        "placement": "后景窗面"
+      }
+    ],
+    "居家": [
+      {
+        "name": "沙发",
+        "prompt": "fabric sofa",
+        "effect": "舒适、亲和",
+        "placement": "人物后方或坐姿载体"
+      },
+      {
+        "name": "单椅",
+        "prompt": "accent chair",
+        "effect": "独立、精致",
+        "placement": "侧后方"
+      },
+      {
+        "name": "圆形边桌",
+        "prompt": "round side table",
+        "effect": "柔和构图",
+        "placement": "沙发或椅侧"
+      },
+      {
+        "name": "地毯",
+        "prompt": "textured rug",
+        "effect": "稳定地面层次",
+        "placement": "人物脚下"
+      },
+      {
+        "name": "落地灯",
+        "prompt": "floor lamp",
+        "effect": "温暖生活感",
+        "placement": "画面边缘"
+      },
+      {
+        "name": "靠垫",
+        "prompt": "soft cushion",
+        "effect": "丰富质感",
+        "placement": "沙发上，数量 1–3"
+      },
+      {
+        "name": "盖毯",
+        "prompt": "throw blanket",
+        "effect": "松弛、季节感",
+        "placement": "沙发扶手"
+      },
+      {
+        "name": "书籍",
+        "prompt": "stack of books",
+        "effect": "文化、生活痕迹",
+        "placement": "桌面或边柜"
+      },
+      {
+        "name": "花瓶",
+        "prompt": "ceramic vase",
+        "effect": "精致点缀",
+        "placement": "边桌或后景"
+      },
+      {
+        "name": "装饰画",
+        "prompt": "framed wall art",
+        "effect": "完善背景",
+        "placement": "人物头部避开画框线"
+      },
+      {
+        "name": "窗帘",
+        "prompt": "soft curtains",
+        "effect": "柔化窗光",
+        "placement": "背景窗面"
+      },
+      {
+        "name": "边柜",
+        "prompt": "low sideboard",
+        "effect": "承载小道具",
+        "placement": "后景横向"
+      }
+    ],
+    "咖啡店": [
+      {
+        "name": "咖啡桌",
+        "prompt": "small cafe table",
+        "effect": "轻社交",
+        "placement": "人物前方"
+      },
+      {
+        "name": "木椅",
+        "prompt": "wooden cafe chair",
+        "effect": "自然、温和",
+        "placement": "桌边"
+      },
+      {
+        "name": "咖啡杯",
+        "prompt": "coffee cup and saucer",
+        "effect": "明确场景",
+        "placement": "手边或桌面"
+      },
+      {
+        "name": "甜点盘",
+        "prompt": "dessert plate",
+        "effect": "生活方式细节",
+        "placement": "与杯子错位"
+      },
+      {
+        "name": "菜单",
+        "prompt": "printed menu",
+        "effect": "叙事与动作",
+        "placement": "手持或桌边"
+      },
+      {
+        "name": "笔记本电脑",
+        "prompt": "laptop in cafe",
+        "effect": "远程工作",
+        "placement": "桌面主道具"
+      },
+      {
+        "name": "报纸",
+        "prompt": "folded newspaper",
+        "effect": "慢生活、复古",
+        "placement": "桌角"
+      },
+      {
+        "name": "小花束",
+        "prompt": "small flower vase",
+        "effect": "柔化桌面",
+        "placement": "不遮脸"
+      },
+      {
+        "name": "吊灯",
+        "prompt": "pendant light",
+        "effect": "空间识别",
+        "placement": "上方背景"
+      },
+      {
+        "name": "临窗座位",
+        "prompt": "window seat",
+        "effect": "自然侧光",
+        "placement": "人物侧后方"
+      },
+      {
+        "name": "吧台",
+        "prompt": "coffee counter",
+        "effect": "行业氛围",
+        "placement": "远景"
+      },
+      {
+        "name": "室内绿植",
+        "prompt": "indoor plant",
+        "effect": "层次与生机",
+        "placement": "边缘/后景"
+      }
+    ],
+    "街道": [
+      {
+        "name": "长椅",
+        "prompt": "street bench",
+        "effect": "停留、等待",
+        "placement": "人行道边"
+      },
+      {
+        "name": "路灯",
+        "prompt": "street lamp",
+        "effect": "城市识别",
+        "placement": "后景竖向"
+      },
+      {
+        "name": "隔离柱",
+        "prompt": "street bollard",
+        "effect": "透视节奏",
+        "placement": "道路边缘"
+      },
+      {
+        "name": "店铺招牌",
+        "prompt": "storefront sign",
+        "effect": "地点信息",
+        "placement": "人物头部侧上方"
+      },
+      {
+        "name": "公交站牌",
+        "prompt": "bus stop sign",
+        "effect": "通勤叙事",
+        "placement": "侧后方"
+      },
+      {
+        "name": "自行车",
+        "prompt": "parked bicycle",
+        "effect": "生活化、动势",
+        "placement": "边缘半入画"
+      },
+      {
+        "name": "雨伞",
+        "prompt": "umbrella",
+        "effect": "天气与动作",
+        "placement": "手持或路边"
+      },
+      {
+        "name": "橱窗",
+        "prompt": "shop window",
+        "effect": "反射与城市感",
+        "placement": "背景平面"
+      },
+      {
+        "name": "道路标线",
+        "prompt": "street markings",
+        "effect": "引导线",
+        "placement": "地面透视"
+      },
+      {
+        "name": "花箱",
+        "prompt": "street planter",
+        "effect": "软化街景",
+        "placement": "边缘/中景"
+      },
+      {
+        "name": "报刊亭",
+        "prompt": "newsstand",
+        "effect": "复古城市叙事",
+        "placement": "后景"
+      },
+      {
+        "name": "积水反光",
+        "prompt": "rain puddle reflections",
+        "effect": "电影感",
+        "placement": "地面前景"
+      }
+    ]
+  }
+}
