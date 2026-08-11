@@ -16,6 +16,25 @@ $RECYCLE.BIN/
 *~
 test_cf.py
 
+# ── 本地工具、安装包与模型（体积大，可重新获取）──
+.codex/work/
+.tmp-anime-research/
+tmp/realesrgan-ncnn-vulkan-*/
+*.exe
+*.msi
+*.dll
+*.so
+*.dylib
+*.7z
+*.rar
+*.iso
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.gguf
+
 # ── Hermes Agent 本地文件 ──
 .hermes/
 
