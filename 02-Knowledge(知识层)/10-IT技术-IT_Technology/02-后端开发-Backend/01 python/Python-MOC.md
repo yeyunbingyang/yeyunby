@@ -4,7 +4,7 @@ status: 稳定
 summary: Python 知识体系导航，按语法核心/标准库/生态/实战四域组织，覆盖 70+ 知识笔记与 PyLab 练习库，含 FastAPI 全栈实战项目
 tags: [MOC, Python]
 created: 2026-06-12
-updated: 2026-07-25
+updated: 2026-08-10
 ---
 
 # Python-MOC
@@ -67,7 +67,7 @@ updated: 2026-07-25
 | 01 基础知识 | [[01-爬虫基础]]、[[03-高性能爬虫]]、[[04 selenium]]、[[06 MongoDB数据库]] |
 | 02 静态抓取 | [[01-核心请求与响应]]、[[02-POST-请求与数据来源]]、[[03-Cookie与Session]] (requests)、[[01-BeautifulSoup]] |
 | 03 数据解析 | [[01-数据提取基础]]、[[02-jsonpath]]、[[03-lxml模块与XPath]] |
-| 04 自动化 | DrissionPage（[[02-快速入门]]、[[使用技巧]]）、Selenium（[[01-概念、原理与基本使用]]、[[02-元素定位与数据提取]]、[[03-Selenium交互]]、[[04-案例斗鱼]]）、playwright（待建设） |
+| 04 自动化 | DrissionPage（[[02-快速入门]]、[[使用技巧]]）、Selenium（[[01-概念、原理与基本使用]]、[[02-元素定位与数据提取]]、[[03-Selenium交互]]、[[04-案例斗鱼]]）、Playwright（[[01-Playwright快速入门]]、[[01-Playwright最小练习.py\|最小练习]]） |
 | 05 反爬与反反爬 | [[01-反爬手段与应对策略]]、[[02-JS逆向分析与模拟]]、[[01-验证码处理]]、[[01-IP代理池搭建]] |
 | 06 框架scrapy | 待建设 |
 
@@ -149,7 +149,6 @@ SORT file.name ASC
 - [[后端开发-MOC]] — 上级 MOC，后端开发总导航
 - [[自动化-MOC]] — Python 自动化工具链
 - [[IT技术-MOC]] — IT 技术总导航
-
 
 
 

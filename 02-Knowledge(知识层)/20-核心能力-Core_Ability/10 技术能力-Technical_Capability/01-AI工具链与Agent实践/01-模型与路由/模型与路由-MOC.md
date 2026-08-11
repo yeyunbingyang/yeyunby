@@ -4,10 +4,10 @@ domain: Core_Ability
 tags: [MOC, AI, 模型, 工具]
 status: 稳定
 created: 2026-06-16
-updated: 2026-07-25
-verified: 2026-07-25
-review_after: 2026-08-25
-source: ""
+updated: 2026-08-11
+verified: 2026-08-11
+review_after: 2026-09-11
+source: "https://developers.openai.com/api/docs/models; https://platform.claude.com/docs/en/about-claude/models/overview; https://artificialanalysis.ai/models; https://arena.ai/leaderboard"
 related: ["AI工具链与Agent实践-MOC", "Agent平台-MOC"]
 summary: "模型与路由决策应以任务质量、成本、上下文和官方兼容性为依据，而不是长期绑定某个版本排名"
 ---
@@ -18,16 +18,21 @@ summary: "模型与路由决策应以任务质量、成本、上下文和官方�
 
 ## 核心笔记
 
-- [[00-主流模型对比]] — 模型能力、价格和场景对比
-- [[04-模型路由策略]] — 按任务复杂度分配模型
-- [[01-9router-快速入门手册]] — 轻量路由与自动回退
-- [[02-CC-Switch-模型管理器]] — Claude Code、Codex 等客户端配置管理
-- [[03-omniRoute-使用指南]] — 多供应商网关和路由策略
+- [[00-主流模型对比]]：模型能力、价格和场景对比
+- [[05-模型评测与榜单指南]]：榜单网站、测试口径和交叉验证方法
+- [[04-模型路由策略]]：按任务复杂度分配模型
+- [[01-9router-快速入门手册]]：轻量路由与自动回退
+- [[02-CC-Switch-模型管理器]]：Claude Code、Codex 等客户端配置管理
+- [[03-omniRoute-使用指南]]：多供应商网关和路由策略
 
 ## 官方核验入口
 
 - [OpenAI Models](https://developers.openai.com/api/docs/models)
 - [Anthropic Models](https://platform.claude.com/docs/en/about-claude/models/overview)
+- [Artificial Analysis](https://artificialanalysis.ai/models)
+- [LiveBench](https://livebench.ai/)
+- [Arena Leaderboard](https://arena.ai/leaderboard)
+- [SWE-rebench](https://swe-rebench.com/)
 - [9Router](https://github.com/decolua/9router)
 - [CC Switch](https://github.com/farion1231/cc-switch)
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute)
