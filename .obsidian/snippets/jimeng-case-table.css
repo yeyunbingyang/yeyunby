@@ -1,0 +1,60 @@
+/* 仅作用于即梦案例集：突出完整提示词列，并保留窄屏横向滚动。 */
+.jimeng-case-table .markdown-rendered {
+  overflow-x: auto;
+}
+
+.jimeng-case-table .markdown-rendered table {
+  table-layout: fixed;
+  width: max-content;
+  min-width: 1560px;
+}
+
+.jimeng-case-table .markdown-rendered th:nth-child(1),
+.jimeng-case-table .markdown-rendered td:nth-child(1) {
+  width: 58px;
+}
+
+.jimeng-case-table .markdown-rendered th:nth-child(2),
+.jimeng-case-table .markdown-rendered td:nth-child(2) {
+  width: 200px;
+  background: var(--background-secondary);
+  overflow: visible;
+}
+
+.jimeng-case-table .markdown-rendered th:nth-child(3),
+.jimeng-case-table .markdown-rendered td:nth-child(3) {
+  width: 260px;
+}
+
+.jimeng-case-table .markdown-rendered th:nth-child(4),
+.jimeng-case-table .markdown-rendered td:nth-child(4) {
+  width: 220px;
+}
+
+.jimeng-case-table .markdown-rendered th:nth-child(5),
+.jimeng-case-table .markdown-rendered td:nth-child(5) {
+  width: clamp(360px, 32vw, 620px);
+  overflow-wrap: anywhere;
+}
+
+.jimeng-case-table .markdown-rendered th:nth-child(6),
+.jimeng-case-table .markdown-rendered td:nth-child(6) {
+  width: 300px;
+}
+
+.jimeng-case-table .markdown-rendered td:nth-child(2) img {
+  width: 180px;
+  max-width: none;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  cursor: zoom-in;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.jimeng-case-table .markdown-rendered td:nth-child(2) img:hover {
+  position: relative;
+  z-index: 2;
+  transform: scale(1.5);
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.26);
+}
