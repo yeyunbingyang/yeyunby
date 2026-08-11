@@ -34,6 +34,20 @@ tmp/realesrgan-ncnn-vulkan-*/
 *.pt
 *.onnx
 *.gguf
+*.pyd
+*.apk
+*.asar
+*.qch
+*.ncm
+*.otf
+*.db
+*.bin
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+软件包/
 
 # ── Hermes Agent 本地文件 ──
 .hermes/
