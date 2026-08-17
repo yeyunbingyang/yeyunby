@@ -40,6 +40,8 @@ summary: "AI音乐与音频知识域已完成 01–06 第一版：基础知识�
 
 - [[Web-Speech-API与浏览器TTS]]
 - [[本地TTS路线图-2026]]
+- [[IndexTTS-2.5-项目笔记]]
+- [[GPT-SoVITS-项目笔记]]
 - [[在线TTS能力与选型]]
 - [[声音克隆基础与参考音频规范]]
 - [[角色语音一致性设计]]
@@ -88,7 +90,7 @@ summary: "AI音乐与音频知识域已完成 01–06 第一版：基础知识�
 ## 2026-08 当前主线
 
 - 音乐：ACE-Step v1.5 / Stable Audio 3；AudioCraft 用作控制研究；Magenta RealTime 用作实时路线参考。
-- TTS：IndexTTS2 / Fun-CosyVoice3 / GPT-SoVITS；Kokoro 负责轻量预览。
+- TTS：**IndexTTS-2.5** / Fun-CosyVoice3 / GPT-SoVITS；Kokoro 负责轻量预览。
 - SFX：Stable Audio 3 Small-SFX / TangoFlux / AudioGen；在线可对照 ElevenLabs Sound Effects。
 - 音频处理：Demucs 固定版本、DeepFilterNet、Whisper/FunASR、RVC/VC、FFmpeg。
 
