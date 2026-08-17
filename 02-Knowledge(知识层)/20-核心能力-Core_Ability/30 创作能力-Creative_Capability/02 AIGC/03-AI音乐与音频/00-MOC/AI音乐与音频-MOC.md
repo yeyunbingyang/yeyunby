@@ -41,7 +41,10 @@ summary: "AI音乐与音频知识域已完成 01–06 第一版：基础知识�
 - [[Web-Speech-API与浏览器TTS]]
 - [[本地TTS路线图-2026]]
 - [[IndexTTS-2.5-项目笔记]]
+- [[Fun-CosyVoice3-项目笔记]]
 - [[GPT-SoVITS-项目笔记]]
+- [[Kokoro-82M-项目笔记]]
+- [[IndexTTS-2.5-vs-GPT-SoVITS]]
 - [[在线TTS能力与选型]]
 - [[声音克隆基础与参考音频规范]]
 - [[角色语音一致性设计]]
@@ -71,6 +74,7 @@ summary: "AI音乐与音频知识域已完成 01–06 第一版：基础知识�
 - [[AI音乐与音频在线平台索引-2026]]
 - [[本地模型部署分层-2026]]
 - [[AI音乐音频任务选型矩阵-2026]]
+- [[开源配音引擎全景]]
 
 ## 一条生产链看懂 01–06
 
@@ -90,7 +94,7 @@ summary: "AI音乐与音频知识域已完成 01–06 第一版：基础知识�
 ## 2026-08 当前主线
 
 - 音乐：ACE-Step v1.5 / Stable Audio 3；AudioCraft 用作控制研究；Magenta RealTime 用作实时路线参考。
-- TTS：**IndexTTS-2.5** / Fun-CosyVoice3 / GPT-SoVITS；Kokoro 负责轻量预览。
+- TTS：**IndexTTS-2.5 / Fun-CosyVoice3 / GPT-SoVITS / Kokoro-82M**，分别承担强可控零样本、实时多语言平台、固定角色训练、轻量预览。
 - SFX：Stable Audio 3 Small-SFX / TangoFlux / AudioGen；在线可对照 ElevenLabs Sound Effects。
 - 音频处理：Demucs 固定版本、DeepFilterNet、Whisper/FunASR、RVC/VC、FFmpeg。
 
